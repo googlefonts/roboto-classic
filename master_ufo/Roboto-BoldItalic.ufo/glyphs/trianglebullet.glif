@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trianglebullet" format="1">
+  <advance width="1071.85"/>
+  <unicode hex="2023"/>
+  <outline>
+    <contour>
+      <point x="217.45169482016615" y="1174.3482841279322" type="curve"/>
+      <point x="229.09047812114468" y="825.60425137811262"/>
+      <point x="39.297860435943555" y="477.33535315946642"/>
+      <point x="56.123894625205608" y="128.84979383812751" type="curve"/>
+      <point x="354.88539960457598" y="328.63180353420364"/>
+      <point x="700.92642929388285" y="456.17828365632448"/>
+      <point x="1002.9289739285321" y="651.27531441310964" type="curve"/>
+      <point x="860.02657023062045" y="703.96332853407625"/>
+      <point x="247.67132731799344" y="1033.2800730488759"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>651.0</real>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

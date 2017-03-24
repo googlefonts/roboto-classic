@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis.smcp" format="1">
+  <advance width="1068.94"/>
+  <outline>
+    <contour>
+      <point x="648.20308573178181" y="1320" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="435.5325699862218" y="33" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1241.722063516364" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="894.94846203902171" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1193.3430857317819" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="696.80192988006218" y="1632" type="move" name="top"/>
+    </contour>
+    <component base="Y.smcp"/>
+    <component base="dieresis" xOffset="78.010858568864705" yOffset="30"/>
+  </outline>
+</glyph>

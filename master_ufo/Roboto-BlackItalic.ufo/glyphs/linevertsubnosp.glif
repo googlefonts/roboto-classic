@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="linevertsubnosp" format="1">
+  <advance width="0.0"/>
+  <unicode hex="0329"/>
+  <outline>
+    <contour>
+      <point x="-753.13921875722917" y="-514" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="-664.32923810981822" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-575.24321034304319" y="-69.067695113752507" type="line"/>
+      <point x="-776.18149527532933" y="-69.053513361149498" type="line"/>
+      <point x="-853.84062238109505" y="-513.93331371668501" type="line"/>
+      <point x="-652.90233744880925" y="-513.94749546929188" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

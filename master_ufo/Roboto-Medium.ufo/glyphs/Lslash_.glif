@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash" format="1">
+  <advance width="1124"/>
+  <unicode hex="0141"/>
+  <outline>
+    <contour>
+      <point x="287" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="611" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1124" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="652" y="943" type="line"/>
+      <point x="34" y="756" type="line"/>
+      <point x="34" y="609" type="line"/>
+      <point x="652" y="796" type="line"/>
+    </contour>
+    <contour>
+      <point x="1078" y="202" type="line"/>
+      <point x="351" y="202" type="line"/>
+      <point x="351" y="0" type="line"/>
+      <point x="1078" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="417" y="1456" type="line"/>
+      <point x="165" y="1456" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="417" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

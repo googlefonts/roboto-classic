@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni048A" format="1">
+  <advance width="1414"/>
+  <unicode hex="048A"/>
+  <outline>
+    <contour>
+      <point x="616" y="1910" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1222" y="1603" type="move" name="top0315"/>
+    </contour>
+    <component base="uni0418"/>
+    <component base="breve" xOffset="213" yOffset="313"/>
+    <component base="comma" xOffset="972" yOffset="-44"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

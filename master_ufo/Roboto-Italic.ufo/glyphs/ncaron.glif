@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ncaron" format="1">
+  <advance width="1097.07"/>
+  <unicode hex="0148"/>
+  <outline>
+    <contour>
+      <point x="675.02962382629096" y="1290" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="444.16858252534541" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1269.8520635163636" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="923.07846203902159" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1216.2896238262911" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="732.94717923130565" y="1627" type="move" name="top"/>
+    </contour>
+    <component base="n"/>
+    <component base="caron" xOffset="119.30999999999995"/>
+  </outline>
+</glyph>

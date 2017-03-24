@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="scircumflex" format="1">
+  <advance width="1022.38"/>
+  <unicode hex="015D"/>
+  <outline>
+    <contour>
+      <point x="620.63222716291705" y="1290" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="418.09179917481242" y="-10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1178.1803292216191" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="865.48906847382966" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1129.8822271629169" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="680.60334605701837" y="1640" type="move" name="top"/>
+    </contour>
+    <component base="s"/>
+    <component base="circumflex" xOffset="13.502603336626066"/>
+  </outline>
+</glyph>

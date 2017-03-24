@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="1">
+  <advance width="496.64"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="423.17544827856011" y="1612" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="146.20580046182903" y="9" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="150.98422843352375" y="1457" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="230.01076189018175" y="0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="201.88076189018176" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="650.0220635163638" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="303.24846203902172" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="652.09544827856007" y="1612" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="488.05144439615333" y="1455.9403679620179" type="line"/>
+      <point x="308.23931517342254" y="1455.9490709486049" type="line"/>
+      <point x="55.445202043231419" y="0.0" type="line"/>
+      <point x="235.25733126596151" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>901.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>555.0</real>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

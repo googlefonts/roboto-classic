@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rturnascend" format="1">
+  <advance width="669.3"/>
+  <unicode hex="027A"/>
+  <outline>
+    <contour>
+      <point x="409.46206351636374" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="133.01076189018175" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="842.08206351636375" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="328.21062935761677" y="182.26247310681791" type="line"/>
+      <point x="298.09132340524366" y="0.0" type="line"/>
+      <point x="414.38940523723954" y="0.0" type="line"/>
+      <point x="681.2876086560193" y="1535.9274559162707" type="line"/>
+      <point x="562.99788471736304" y="1535.9326100842857" type="line"/>
+    </contour>
+    <contour>
+      <point x="-74.802561282002713" y="-8.4381523790148538" type="line"/>
+      <point x="-47.451621087019817" y="-16.278323304723511"/>
+      <point x="-20.209961919448215" y="-21.634621383813563"/>
+      <point x="8.3637816019488156" y="-22.4948224590009" type="curve" smooth="yes"/>
+      <point x="292.66973960405312" y="-31.053739164207574"/>
+      <point x="407.02257706260411" y="242.54529350307632"/>
+      <point x="444.77017175894093" y="480.71588624312244" type="curve"/>
+      <point x="398.55645888906639" y="465.01339527946902" type="line"/>
+      <point x="352.49398356043582" y="272.62163090341471"/>
+      <point x="240.7592471474303" y="89.605719581299155"/>
+      <point x="19.573486856180622" y="91.953733923268572" type="curve" smooth="yes"/>
+      <point x="-6.6747245397282455" y="92.232373817299205"/>
+      <point x="-32.59032163358038" y="96.002356128493759"/>
+      <point x="-58.459099837108575" y="100.05783022915074" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.939</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

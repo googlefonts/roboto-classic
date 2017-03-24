@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tonefive" format="1">
+  <advance width="1199"/>
+  <unicode hex="01BC"/>
+  <outline>
+    <contour>
+      <point x="381" y="1456" type="line" name="hr00"/>
+      <point x="63" y="1456" type="line"/>
+      <point x="63" y="1247" type="line"/>
+      <point x="381" y="1247" type="line"/>
+    </contour>
+    <contour>
+      <point x="406" y="674" type="line"/>
+      <point x="458" y="723"/>
+      <point x="505" y="760"/>
+      <point x="618" y="760" type="curve"/>
+      <point x="789" y="760"/>
+      <point x="877" y="639"/>
+      <point x="877" y="473" type="curve" smooth="yes"/>
+      <point x="877" y="298"/>
+      <point x="798" y="175"/>
+      <point x="640" y="175" type="curve" smooth="yes"/>
+      <point x="507" y="175"/>
+      <point x="420" y="253"/>
+      <point x="402" y="394" type="curve"/>
+      <point x="167" y="394" type="line"/>
+      <point x="184" y="123"/>
+      <point x="398" y="-20"/>
+      <point x="641" y="-20" type="curve" smooth="yes"/>
+      <point x="964" y="-20"/>
+      <point x="1120" y="197"/>
+      <point x="1120" y="466" type="curve" smooth="yes"/>
+      <point x="1120" y="769"/>
+      <point x="957" y="956"/>
+      <point x="681" y="956" type="curve"/>
+      <point x="580" y="956"/>
+      <point x="500" y="925"/>
+      <point x="453" y="899" type="curve"/>
+      <point x="493" y="1247" type="line"/>
+      <point x="1073" y="1247" type="line"/>
+      <point x="1073" y="1456" type="line"/>
+      <point x="291" y="1456" type="line"/>
+      <point x="212" y="722" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      </data>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.939</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

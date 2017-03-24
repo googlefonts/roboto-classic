@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L" format="1">
+  <advance width="1110"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="297" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="592" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="682" y="1456" type="move" name="caron"/>
+    </contour>
+    <contour>
+      <point x="599" y="848" type="move" name="dot"/>
+    </contour>
+    <contour>
+      <point x="1110" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1110" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1110" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="1073" y="270" type="line"/>
+      <point x="337" y="270" type="line"/>
+      <point x="337" y="0" type="line"/>
+      <point x="1073" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="462" y="1456" type="line"/>
+      <point x="111" y="1456" type="line"/>
+      <point x="111" y="0" type="line"/>
+      <point x="462" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

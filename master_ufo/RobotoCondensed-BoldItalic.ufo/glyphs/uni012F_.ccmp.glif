@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni012F.ccmp" format="1">
+  <advance width="530.89"/>
+  <outline>
+    <contour>
+      <point x="376.4151108100292" y="1274" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="617.94511081002918" y="1274" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="67.283794736170748" y="-459" type="move" name="bottom"/>
+    </contour>
+    <component base="dotlessi"/>
+    <component base="ogonek" xOffset="-23.49217936483636" yOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.779</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

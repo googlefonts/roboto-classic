@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20AE" format="1">
+  <advance width="1067"/>
+  <unicode hex="20AE"/>
+  <outline>
+    <contour>
+      <point x="808" y="1082" type="line"/>
+      <point x="258" y="831" type="line"/>
+      <point x="258" y="715" type="line"/>
+      <point x="808" y="967" type="line"/>
+    </contour>
+    <contour>
+      <point x="808" y="817" type="line"/>
+      <point x="258" y="565" type="line"/>
+      <point x="258" y="449" type="line"/>
+      <point x="808" y="701" type="line"/>
+    </contour>
+    <contour>
+      <point x="591" y="1456" type="line"/>
+      <point x="477" y="1456" type="line"/>
+      <point x="477" y="0" type="line"/>
+      <point x="591" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1005" y="1456" type="line"/>
+      <point x="63" y="1456" type="line"/>
+      <point x="63" y="1349" type="line"/>
+      <point x="1005" y="1349" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>611.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.939</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

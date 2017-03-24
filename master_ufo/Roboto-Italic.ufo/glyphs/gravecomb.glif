@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="1">
+  <advance width="0.0"/>
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-394.88037617370901" y="1290" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-394.88037617370901" y="1290" type="move" name="_marktop"/>
+    </contour>
+    <contour>
+      <point x="-334.23387187946531" y="1641" type="move" name="mkmktop"/>
+    </contour>
+    <contour>
+      <point x="-493.20495188558891" y="1389" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="-458.38792516850634" y="1535.9931183235167" type="line"/>
+      <point x="-661.91747051035657" y="1535.9312051547538" type="line"/>
+      <point x="-462.28219889456204" y="1242.1728796340021" type="line"/>
+      <point x="-321.91027639421839" y="1241.9824094428604" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

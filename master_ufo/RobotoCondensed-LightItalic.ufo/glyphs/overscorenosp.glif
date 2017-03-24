@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="overscorenosp" format="1">
+  <advance width="0.0"/>
+  <unicode hex="0305"/>
+  <outline>
+    <contour>
+      <point x="-291.37207823110168" y="1541" type="move" name="_marktop"/>
+    </contour>
+    <contour>
+      <point x="-267.10379473617076" y="1659" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="-245.54543409794525" y="1795" type="move" name="mkmktop"/>
+    </contour>
+    <component base="underscore" xOffset="-537.59988932350166" yOffset="1711"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

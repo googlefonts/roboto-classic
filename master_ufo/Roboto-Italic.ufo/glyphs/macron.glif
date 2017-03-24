@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="1">
+  <advance width="910.8299999999999"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="565.06582452914415" y="1282" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="611.0269216495218" y="1577" type="move" name="mkmktop_acc"/>
+    </contour>
+    <contour>
+      <point x="922.72982636543088" y="1444.9256638756287" type="line"/>
+      <point x="270.50790805580698" y="1444.9315992624959" type="line"/>
+      <point x="247.68152270134351" y="1303.0741351226568" type="line"/>
+      <point x="899.90344101096559" y="1303.0681997357819" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

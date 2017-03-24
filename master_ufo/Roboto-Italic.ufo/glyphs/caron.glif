@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron" format="1">
+  <advance width="882.6999999999999"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="555.71962382629101" y="1290" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="613.94717923130565" y="1627" type="move" name="mkmktop_acc"/>
+    </contour>
+    <contour>
+      <point x="445.45889632770809" y="1535.092253549647" type="line"/>
+      <point x="296.2036935412599" y="1537.3470042692231" type="line"/>
+      <point x="295.97437945011518" y="1522.9438435586476" type="line"/>
+      <point x="501.0674671476097" y="1251.2432856819955" type="line"/>
+      <point x="612.29652646429486" y="1251.2564200683453" type="line"/>
+      <point x="897.58464469190801" y="1523.5342836365814" type="line"/>
+      <point x="897.3288989109983" y="1537.1458704745839" type="line"/>
+      <point x="737.4438227945476" y="1534.104696363903" type="line"/>
+      <point x="560.31673732373793" y="1365.836040366157" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

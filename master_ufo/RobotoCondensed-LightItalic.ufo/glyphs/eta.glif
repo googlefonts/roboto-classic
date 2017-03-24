@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eta" format="1">
+  <advance width="970.97"/>
+  <unicode hex="03B7"/>
+  <outline>
+    <contour>
+      <point x="610.03962382629106" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="98.84858252534535" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1070.7896238262911" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="298.12688990864069" y="844.68898620577147" type="line"/>
+      <point x="330.73322039707762" y="1081.9505952463924" type="line"/>
+      <point x="229.20123316250539" y="1081.931771583812" type="line"/>
+      <point x="40.971884581352342" y="0.0" type="line"/>
+      <point x="151.50292407622692" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="227.88718689265096" y="565.22989651654757" type="line"/>
+      <point x="261.0722801961208" y="746.72563173293952"/>
+      <point x="336.2431468553284" y="1006.2830466471703"/>
+      <point x="566.35624651879039" y="999.69061063926199" type="curve" smooth="yes"/>
+      <point x="738.73016106471334" y="994.75232593170483"/>
+      <point x="739.48604113266799" y="819.74330172344901"/>
+      <point x="724.6258842505456" y="686.15918584279655" type="curve"/>
+      <point x="538.30747448612135" y="-415.92901469106931" type="line"/>
+      <point x="648.81518941980221" y="-415.93413950210919" type="line"/>
+      <point x="835.67184950361684" y="686.31129291362356" type="line"/>
+      <point x="856.47206703875929" y="875.41240632703762"/>
+      <point x="833.16134320434492" y="1096.8021902692503"/>
+      <point x="599.96255735871455" y="1102.9871748169578" type="curve" smooth="yes"/>
+      <point x="313.33961595814776" y="1110.5890946003415"/>
+      <point x="210.93216917876703" y="794.53270626157268"/>
+      <point x="178.26545431032935" y="563.65107561058403" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>901.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>555.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

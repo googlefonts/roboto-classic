@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0423" format="1">
+  <advance width="1251.3"/>
+  <unicode hex="0423"/>
+  <outline>
+    <contour>
+      <point x="811.45432002449468" y="1608" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1425.4643200244946" y="1608" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="566.55199542814842" y="518.97929621630806" type="line"/>
+      <point x="457.68653119106818" y="323.21696515141468" type="line" smooth="yes"/>
+      <point x="412.83791663028927" y="239.50929509773641"/>
+      <point x="362.57060978884311" y="177.82298157423978"/>
+      <point x="259.84477407147148" y="178.01154043882369" type="curve" smooth="yes"/>
+      <point x="232.81946601927811" y="178.06114686320336"/>
+      <point x="205.45834170474606" y="181.14146792471732"/>
+      <point x="178.64270228499441" y="184.23230226660189" type="curve"/>
+      <point x="156.49054751945761" y="-16.090108489204709" type="line"/>
+      <point x="193.15234463409686" y="-20.128287586294935"/>
+      <point x="230.16459151020749" y="-23.258434235717406"/>
+      <point x="267.07854895840984" y="-23.467150445720929" type="curve" smooth="yes"/>
+      <point x="471.2592316252418" y="-24.621613992523017"/>
+      <point x="580.85175596160275" y="93.841774898561937"/>
+      <point x="672.39255780046392" y="261.70088037568905" type="curve" smooth="yes"/>
+      <point x="1363.7760883061005" y="1455.6851584082513" type="line"/>
+      <point x="1078.9938472514632" y="1455.7709153536334" type="line"/>
+    </contour>
+    <contour>
+      <point x="467.51314196653448" y="1456.0146623465403" type="line"/>
+      <point x="210.19543209487341" y="1456.0164651634655" type="line"/>
+      <point x="514.46400699188951" y="378.69002788680484" type="line"/>
+      <point x="700.36517058916149" y="385.34032025968065" type="line"/>
+      <point x="679.65462018005189" y="638.69154827895329" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>901.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>555.0</real>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

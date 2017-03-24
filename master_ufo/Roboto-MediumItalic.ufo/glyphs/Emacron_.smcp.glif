@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacron.smcp" format="1">
+  <advance width="963.2099999999999"/>
+  <outline>
+    <contour>
+      <point x="653.05308573178195" y="1320" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="427.33301839831267" y="8" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1135.9920635163637" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="789.21846203902157" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1087.6130857317819" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="699.54812625862439" y="1624" type="move" name="top"/>
+    </contour>
+    <component base="E.smcp"/>
+    <component base="macron" xOffset="65.868259556529779" yOffset="33"/>
+  </outline>
+</glyph>

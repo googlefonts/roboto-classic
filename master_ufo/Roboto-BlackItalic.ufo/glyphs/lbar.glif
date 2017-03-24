@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lbar" format="1">
+  <advance width="757.87"/>
+  <unicode hex="019A"/>
+  <outline>
+    <contour>
+      <point x="560.50628240712376" y="1677" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="933.95628240712381" y="1677" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="272.47858252534542" y="10" type="move" name="bottom"/>
+    </contour>
+    <component base="l" xOffset="100.88"/>
+    <component base="crossbar" xOffset="-100.63743491869091" yOffset="80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

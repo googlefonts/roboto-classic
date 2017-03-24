@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="1">
+  <advance width="1272.29"/>
+  <unicode hex="010F"/>
+  <outline>
+    <contour>
+      <point x="483.18076189018177" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="683.24153796097835" y="1607" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="1445.0720635163639" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1098.2984620390216" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1446.2815379609783" y="1607" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="683.24153796097835" y="1607" type="move" name="top"/>
+    </contour>
+    <component base="d"/>
+    <component base="commaaccent" xOffset="1214.5471309833638" yOffset="1275"/>
+  </outline>
+</glyph>

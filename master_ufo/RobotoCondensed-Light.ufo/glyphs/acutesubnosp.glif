@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutesubnosp" format="1">
+  <advance width="0"/>
+  <unicode hex="0317"/>
+  <outline>
+    <contour>
+      <point x="-470" y="-380" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="-471" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-615.0" y="-369.0" type="line"/>
+      <point x="-511.0" y="-369.0" type="line"/>
+      <point x="-279.0" y="-89.0" type="line"/>
+      <point x="-424.0" y="-89.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

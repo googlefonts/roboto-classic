@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogoneknosp" format="1">
+  <advance width="0"/>
+  <unicode hex="0328"/>
+  <outline>
+    <contour>
+      <point x="-462" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-447" y="57" type="line"/>
+      <point x="-613" y="-27"/>
+      <point x="-678" y="-136"/>
+      <point x="-678" y="-243" type="curve" smooth="yes"/>
+      <point x="-678" y="-368"/>
+      <point x="-603" y="-434"/>
+      <point x="-510" y="-434" type="curve" smooth="yes"/>
+      <point x="-441" y="-434"/>
+      <point x="-398" y="-410"/>
+      <point x="-370" y="-390" type="curve"/>
+      <point x="-380" y="-268" type="line"/>
+      <point x="-397" y="-279"/>
+      <point x="-427" y="-295"/>
+      <point x="-463" y="-295" type="curve" smooth="yes"/>
+      <point x="-509" y="-295"/>
+      <point x="-526" y="-266"/>
+      <point x="-526" y="-222" type="curve" smooth="yes"/>
+      <point x="-526" y="-135"/>
+      <point x="-456" y="-64"/>
+      <point x="-385" y="0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

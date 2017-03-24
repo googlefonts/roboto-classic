@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccedilla" format="1">
+  <advance width="1033.05"/>
+  <unicode hex="00E7"/>
+  <outline>
+    <contour>
+      <point x="628.39222716291704" y="1290" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="1188.8503292216187" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="876.15906847382962" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1140.552227162917" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="628.39222716291704" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="374.487627910458" y="-472" type="move" name="bottom"/>
+    </contour>
+    <component base="c"/>
+    <component base="cedilla" xOffset="324.46904057684691"/>
+  </outline>
+</glyph>

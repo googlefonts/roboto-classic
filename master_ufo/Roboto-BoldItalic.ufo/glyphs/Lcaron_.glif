@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron" format="1">
+  <advance width="1075.73"/>
+  <unicode hex="013D"/>
+  <outline>
+    <contour>
+      <point x="451.17206351636378" y="1600" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="481.02858252534543" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1248.5120635163639" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="901.73846203902167" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1248.5120635163639" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="451.17206351636378" y="1600" type="move" name="top"/>
+    </contour>
+    <component base="L"/>
+    <component base="commaaccent" xOffset="754.21839907634194" yOffset="1182"/>
+  </outline>
+</glyph>

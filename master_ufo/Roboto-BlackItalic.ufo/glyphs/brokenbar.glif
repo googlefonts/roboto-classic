@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brokenbar" format="1">
+  <advance width="509.25"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="249.05654167961796" y="-269.94824221880634" type="line"/>
+      <point x="387.21109678051744" y="524.93200287955722" type="line"/>
+      <point x="101.88420157045995" y="524.94794276477865" type="line"/>
+      <point x="-36.270353530439365" y="-269.93230233358486" type="line"/>
+    </contour>
+    <contour>
+      <point x="548.5060064373846" y="1455.9314040152876" type="line"/>
+      <point x="263.17656095843898" y="1455.947361631245" type="line"/>
+      <point x="131.44049840666514" y="698.06606647895228" type="line"/>
+      <point x="416.76994388562071" y="698.05010886304478" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>901.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>555.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

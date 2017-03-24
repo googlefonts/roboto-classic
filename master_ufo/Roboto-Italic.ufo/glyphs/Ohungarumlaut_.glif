@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohungarumlaut" format="1">
+  <advance width="1366.73"/>
+  <unicode hex="0150"/>
+  <outline>
+    <contour>
+      <point x="859.09040970691285" y="1603" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="582.12076189018171" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1539.5120635163639" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1192.7384620390217" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1540.0304097069129" y="1603" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="914.88101240559286" y="1927" type="move" name="top"/>
+    </contour>
+    <component base="O"/>
+    <component base="hungarumlaut" xOffset="406.19078588062189" yOffset="313"/>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ucaron" format="1">
+  <advance width="1320.17"/>
+  <unicode hex="01D3"/>
+  <outline>
+    <contour>
+      <point x="826.56206351636376" y="1600" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="550.11076189018172" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1492.952063516364" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1146.1784620390217" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1492.952063516364" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="888.66116669218195" y="1960" type="move" name="top"/>
+    </contour>
+    <component base="U"/>
+    <component base="caron" xOffset="230.10243969007274" yOffset="310"/>
+  </outline>
+</glyph>

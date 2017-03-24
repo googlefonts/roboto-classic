@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rcaron" format="1">
+  <advance width="1054.3899999999999"/>
+  <unicode hex="0158"/>
+  <outline>
+    <contour>
+      <point x="689.96484557988015" y="1601" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="416.03858252534542" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1207.7720635163637" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="860.99846203902166" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1207.9448455798802" y="1601" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="747.23717923130562" y="1938" type="move" name="top"/>
+    </contour>
+    <component base="R"/>
+    <component base="caron" xOffset="175.95522175358917" yOffset="311"/>
+  </outline>
+</glyph>

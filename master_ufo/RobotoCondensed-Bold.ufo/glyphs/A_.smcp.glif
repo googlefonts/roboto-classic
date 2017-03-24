@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A.smcp" format="1">
+  <advance width="1068"/>
+  <outline>
+    <contour>
+      <point x="536" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="535" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="946" y="0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="207" y="1163" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="989" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="1048" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1048" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1048" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="542" y="847" type="line"/>
+      <point x="591" y="1165" type="line"/>
+      <point x="400" y="1165" type="line"/>
+      <point x="14" y="0" type="line"/>
+      <point x="298" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="769" y="0" type="line"/>
+      <point x="1054" y="0" type="line"/>
+      <point x="665" y="1165" type="line"/>
+      <point x="470" y="1165" type="line"/>
+      <point x="520" y="846" type="line"/>
+    </contour>
+    <contour>
+      <point x="788" y="434" type="line"/>
+      <point x="240" y="434" type="line"/>
+      <point x="240" y="222" type="line"/>
+      <point x="788" y="222" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>721.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>444.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

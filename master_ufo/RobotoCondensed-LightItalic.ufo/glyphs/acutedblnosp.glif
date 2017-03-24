@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutedblnosp" format="1">
+  <advance width="0.0"/>
+  <unicode hex="030B"/>
+  <outline>
+    <contour>
+      <point x="-388.09037617370899" y="1290" type="move" name="_marktop"/>
+    </contour>
+    <contour>
+      <point x="-316.38608013965444" y="1385" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="-332.97289791198892" y="1609" type="move" name="mkmktop"/>
+    </contour>
+    <component base="acute" xOffset="-840.99000000000001"/>
+    <component base="acute" xOffset="-590.73000000000002"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

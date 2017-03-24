@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gamma.smcp" format="1">
+  <advance width="945"/>
+  <outline>
+    <contour>
+      <point x="521" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="945" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="274" y="1165" type="line"/>
+      <point x="154" y="1165" type="line"/>
+      <point x="154" y="0" type="line"/>
+      <point x="274" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="894" y="1165" type="line"/>
+      <point x="235" y="1165" type="line"/>
+      <point x="235" y="1062" type="line"/>
+      <point x="894" y="1062" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.939</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

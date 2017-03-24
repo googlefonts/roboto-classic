@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Scommaaccent.smcp" format="1">
+  <advance width="1044.69"/>
+  <outline>
+    <contour>
+      <point x="663.72308573178179" y="1320" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="1217.472063516364" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="870.69846203902171" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1169.0930857317819" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="663.72308573178179" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="350.3723241086617" y="-521" type="move" name="bottom"/>
+    </contour>
+    <component base="S.smcp"/>
+    <component base="commaaccent" xOffset="243.10898268949444" yOffset="-367"/>
+  </outline>
+</glyph>

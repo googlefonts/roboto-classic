@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslashacute.smcp" format="1">
+  <advance width="1158.18"/>
+  <outline>
+    <contour>
+      <point x="701.55308573178195" y="1320" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="487.85797982666531" y="-1" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1330.9620635163637" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="984.18846203902172" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1282.5830857317819" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="747.51812625862442" y="1619" type="move" name="top"/>
+    </contour>
+    <component base="Oslash.smcp"/>
+    <component base="acute" xOffset="403.61925791042165" yOffset="28"/>
+  </outline>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringrighthalfsubnosp" format="1">
+  <advance width="0.0"/>
+  <unicode hex="0339"/>
+  <outline>
+    <contour>
+      <point x="-771.76620526382919" y="-459" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="-693.42923810981824" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-841.97934231455929" y="-458.15388088731333" type="line"/>
+      <point x="-724.45535396285823" y="-450.63443971069114"/>
+      <point x="-611.32682732795161" y="-390.73337157521314"/>
+      <point x="-609.91952017426797" y="-258.24342203650917" type="curve" smooth="yes"/>
+      <point x="-608.80806130713836" y="-153.60590290296273"/>
+      <point x="-687.55559927500872" y="-78.230743857217703"/>
+      <point x="-788.37010936212903" y="-69.755985536188291" type="curve"/>
+      <point x="-795.38985801872161" y="-167.86402371210465" type="line"/>
+      <point x="-742.84186742037082" y="-175.59923095622935"/>
+      <point x="-712.44858679563981" y="-197.49608804490094"/>
+      <point x="-721.35807957976169" y="-256.56505738855253" type="curve" smooth="yes"/>
+      <point x="-730.49155406388536" y="-317.11900107266524"/>
+      <point x="-776.3811958140991" y="-354.6781008923615"/>
+      <point x="-834.21249811458733" y="-362.87062548527888" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

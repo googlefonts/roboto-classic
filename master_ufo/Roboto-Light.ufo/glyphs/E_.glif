@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E" format="1">
+  <advance width="1165"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="619" y="1612" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="619" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="-56" y="1456" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="1024" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="1165" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1165" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1165" y="1612" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="1090" y="104" type="line"/>
+      <point x="271" y="104" type="line"/>
+      <point x="271" y="0" type="line"/>
+      <point x="1090" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="308" y="1456" type="line"/>
+      <point x="185" y="1456" type="line"/>
+      <point x="185" y="0" type="line"/>
+      <point x="308" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="988" y="803" type="line"/>
+      <point x="271" y="803" type="line"/>
+      <point x="271" y="698" type="line"/>
+      <point x="988" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="1085" y="1456" type="line"/>
+      <point x="271" y="1456" type="line"/>
+      <point x="271" y="1351" type="line"/>
+      <point x="1085" y="1351" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

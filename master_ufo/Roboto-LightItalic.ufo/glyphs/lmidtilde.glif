@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lmidtilde" format="1">
+  <advance width="714.22"/>
+  <unicode hex="026B"/>
+  <outline>
+    <contour>
+      <point x="524.89206351636381" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="383.2774638140437" y="786" type="move" name="parenthesses.w2"/>
+    </contour>
+    <contour>
+      <point x="877.00206351636382" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="248.44076189018176" y="0" type="move" name="bottom"/>
+    </contour>
+    <component base="l" xOffset="127.06999999999999"/>
+    <component base="tilde" xOffset="-181.41472509355646" yOffset="-584"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

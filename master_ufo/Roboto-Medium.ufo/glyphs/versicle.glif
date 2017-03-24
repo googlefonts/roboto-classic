@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="versicle" format="1">
+  <advance width="1325"/>
+  <unicode hex="2123"/>
+  <outline>
+    <contour>
+      <point x="980" y="1626" type="line"/>
+      <point x="645" y="1780" type="line"/>
+      <point x="572" y="1612" type="line"/>
+      <point x="767" y="1531" type="line"/>
+      <point x="126" y="-360" type="line"/>
+      <point x="296" y="-360" type="line"/>
+    </contour>
+    <contour>
+      <point x="646" y="268" type="line"/>
+      <point x="596" y="0" type="line"/>
+      <point x="785" y="0" type="line"/>
+      <point x="1309" y="1456" type="line"/>
+      <point x="1031" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="295" y="1456" type="line"/>
+      <point x="18" y="1456" type="line"/>
+      <point x="540" y="0" type="line"/>
+      <point x="731" y="0" type="line"/>
+      <point x="678" y="268" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.939</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

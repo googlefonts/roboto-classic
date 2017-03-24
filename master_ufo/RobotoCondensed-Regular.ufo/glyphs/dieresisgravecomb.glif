@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresisgravecomb" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-475" y="1271" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-519" y="1621" type="line"/>
+      <point x="-680" y="1621" type="line"/>
+      <point x="-526" y="1395" type="line"/>
+      <point x="-415" y="1395" type="line"/>
+    </contour>
+    <contour>
+      <point x="-774" y="1352" type="curve" smooth="yes"/>
+      <point x="-774" y="1293"/>
+      <point x="-740" y="1247"/>
+      <point x="-674" y="1247" type="curve" smooth="yes"/>
+      <point x="-607" y="1247"/>
+      <point x="-573" y="1293"/>
+      <point x="-573" y="1352" type="curve" smooth="yes"/>
+      <point x="-573" y="1411"/>
+      <point x="-607" y="1458"/>
+      <point x="-674" y="1458" type="curve" smooth="yes"/>
+      <point x="-740" y="1458"/>
+      <point x="-774" y="1411"/>
+    </contour>
+    <contour>
+      <point x="-376" y="1350" type="curve" smooth="yes"/>
+      <point x="-376" y="1291"/>
+      <point x="-343" y="1245"/>
+      <point x="-276" y="1245" type="curve" smooth="yes"/>
+      <point x="-210" y="1245"/>
+      <point x="-175" y="1291"/>
+      <point x="-175" y="1350" type="curve" smooth="yes"/>
+      <point x="-175" y="1409"/>
+      <point x="-210" y="1456"/>
+      <point x="-276" y="1456" type="curve" smooth="yes"/>
+      <point x="-343" y="1456"/>
+      <point x="-376" y="1409"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

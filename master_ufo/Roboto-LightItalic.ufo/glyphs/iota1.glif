@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iota1" format="1">
+  <advance width="545.14"/>
+  <unicode hex="0269"/>
+  <outline>
+    <contour>
+      <point x="325.82962382629103" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="102.94076189018172" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="664.359623826291" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="222.76962873120362" y="643" type="move" name="rhotichook"/>
+    </contour>
+    <contour>
+      <point x="230.19749936691215" y="1081.930639071566" type="line"/>
+      <point x="99.704164010327318" y="305.80985891736015" type="line"/>
+      <point x="83.271673545937361" y="148.13321812384098"/>
+      <point x="134.13940433614798" y="-15.030042510608805"/>
+      <point x="317.01183015850052" y="-18.245369636581952" type="curve" smooth="yes"/>
+      <point x="350.53239949332874" y="-18.834740042621391"/>
+      <point x="382.93122306424516" y="-13.024210171546644"/>
+      <point x="415.14504963671152" y="-4.354775928971554" type="curve"/>
+      <point x="415.91651470941156" y="85.947625791819249" type="line"/>
+      <point x="390.97759970849665" y="80.432756678539931"/>
+      <point x="365.70101654420216" y="75.500933696665683"/>
+      <point x="340.00744518035344" y="75.928515456879865" type="curve" smooth="yes"/>
+      <point x="210.56033133752047" y="78.082720647266186"/>
+      <point x="207.27407799129583" y="202.90192189979922"/>
+      <point x="218.76755558523075" y="304.31759394186537" type="curve"/>
+      <point x="349.43275766934391" y="1081.9236163090561" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.939</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

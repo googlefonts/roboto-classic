@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kcommaaccent" format="1">
+  <advance width="1253.24"/>
+  <unicode hex="0136"/>
+  <outline>
+    <contour>
+      <point x="750.6079989121929" y="1559" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="1426.0220635163637" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1079.2484620390217" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1418.9379989121928" y="1559" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="750.6079989121929" y="1559" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="454.18164426668716" y="-366" type="move" name="bottom"/>
+    </contour>
+    <component base="K"/>
+    <component base="commaaccent" xOffset="346.68088237650545" yOffset="-183"/>
+  </outline>
+</glyph>

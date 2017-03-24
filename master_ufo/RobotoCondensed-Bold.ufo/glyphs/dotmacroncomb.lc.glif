@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotmacroncomb.lc" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-469" y="1273" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-470" y="1938" type="move" name="mkmktop_acc"/>
+    </contour>
+    <contour>
+      <point x="-610" y="1375" type="curve" smooth="yes"/>
+      <point x="-610" y="1296"/>
+      <point x="-556" y="1238"/>
+      <point x="-470" y="1238" type="curve" smooth="yes"/>
+      <point x="-384" y="1238"/>
+      <point x="-330" y="1296"/>
+      <point x="-330" y="1375" type="curve" smooth="yes"/>
+      <point x="-330" y="1455"/>
+      <point x="-384" y="1513"/>
+      <point x="-470" y="1513" type="curve" smooth="yes"/>
+      <point x="-556" y="1513"/>
+      <point x="-610" y="1455"/>
+    </contour>
+    <contour>
+      <point x="-168" y="1791" type="line"/>
+      <point x="-768" y="1791" type="line"/>
+      <point x="-768" y="1623" type="line"/>
+      <point x="-168" y="1623" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

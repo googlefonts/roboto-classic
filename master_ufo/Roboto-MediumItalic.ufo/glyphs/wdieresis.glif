@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdieresis" format="1">
+  <advance width="1476.34"/>
+  <unicode hex="1E85"/>
+  <outline>
+    <contour>
+      <point x="853.50962382629098" y="1290" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="635.25858252534533" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1649.1220635163636" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1302.3484620390216" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1595.559623826291" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="899.98812625862433" y="1591" type="move" name="top"/>
+    </contour>
+    <component base="w"/>
+    <component base="dieresis" xOffset="312.41739666337389"/>
+  </outline>
+</glyph>

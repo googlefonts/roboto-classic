@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I.smcp" format="1">
+  <advance width="459.78"/>
+  <outline>
+    <contour>
+      <point x="354.2930857317819" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="126.56632601721445" y="2" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="149.65630175971279" y="1163" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="184.42076189018172" y="0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="165.02076189018175" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="632.56206351636376" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="285.78846203902168" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="584.18308573178183" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="388.0952645975629" y="1164.9274243640032" type="line"/>
+      <point x="268.81481289942673" y="1164.9311299327326" type="line"/>
+      <point x="66.184625257446996" y="0.0" type="line"/>
+      <point x="185.46507695558114" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>721.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>444.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

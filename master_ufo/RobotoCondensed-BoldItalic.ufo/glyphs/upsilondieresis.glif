@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilondieresis" format="1">
+  <advance width="957.39"/>
+  <unicode hex="03CB"/>
+  <outline>
+    <contour>
+      <point x="606.26571350870915" y="1285" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="1056.3457135087092" y="1285" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="654.89773020928385" y="1598" type="move" name="top"/>
+    </contour>
+    <component base="upsilon"/>
+    <component base="dieresis" xOffset="34.133486345792107" yOffset="-5"/>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowup" format="1">
+  <advance width="623"/>
+  <unicode hex="2191"/>
+  <outline>
+    <contour>
+      <point x="96" y="1172" type="line"/>
+      <point x="374" y="1451" type="line"/>
+      <point x="320" y="1606" type="line"/>
+      <point x="96" y="1398" type="line"/>
+    </contour>
+    <contour>
+      <point x="540" y="1396" type="line"/>
+      <point x="320" y="1606" type="line"/>
+      <point x="263" y="1453" type="line"/>
+      <point x="540" y="1169" type="line"/>
+    </contour>
+    <contour>
+      <point x="221" y="-436" type="line"/>
+      <point x="416" y="-436" type="line"/>
+      <point x="416" y="1448" type="line"/>
+      <point x="221" y="1448" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

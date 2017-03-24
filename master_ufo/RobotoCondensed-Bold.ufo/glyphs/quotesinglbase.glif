@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesinglbase" format="1">
+  <advance width="503"/>
+  <unicode hex="201A"/>
+  <outline>
+    <contour>
+      <point x="377" y="231" type="line"/>
+      <point x="146" y="231" type="line"/>
+      <point x="146" y="66" type="line"/>
+      <point x="146" y="-59"/>
+      <point x="119" y="-147"/>
+      <point x="80" y="-227" type="curve"/>
+      <point x="210" y="-306" type="line"/>
+      <point x="300" y="-219"/>
+      <point x="376" y="-65"/>
+      <point x="376" y="66" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>901.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>555.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

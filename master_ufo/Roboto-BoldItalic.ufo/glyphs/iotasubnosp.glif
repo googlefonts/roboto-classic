@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotasubnosp" format="1">
+  <advance width="0.0"/>
+  <unicode hex="0345"/>
+  <outline>
+    <contour>
+      <point x="-675.96923810981821" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-767.02538558294191" y="-527" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="-772.69016106796835" y="-69.848086074034569" type="line"/>
+      <point x="-811.19679326782784" y="-337.26558839298451" type="line"/>
+      <point x="-817.37740652919661" y="-443.80679047276072"/>
+      <point x="-762.77093466287033" y="-524.13505120816842"/>
+      <point x="-650.66067388241254" y="-524.64566265018732" type="curve" smooth="yes"/>
+      <point x="-624.21275500391494" y="-524.76612093743893"/>
+      <point x="-598.85950814036721" y="-520.58105741567158"/>
+      <point x="-573.80134828035932" y="-512.53617511061316" type="curve"/>
+      <point x="-566.96969820534741" y="-392.38246765572705" type="line"/>
+      <point x="-581.78950916373537" y="-394.02092020602333"/>
+      <point x="-597.66684873456154" y="-396.99258376699282"/>
+      <point x="-612.63721157394832" y="-395.59143862430932" type="curve" smooth="yes"/>
+      <point x="-647.95187551822028" y="-392.28617672906432"/>
+      <point x="-648.29175978303022" y="-369.91747103824582"/>
+      <point x="-645.53552572267074" y="-338.34101322043529" type="curve"/>
+      <point x="-599.59806637036479" y="-70.222892141992233" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

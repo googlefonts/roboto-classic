@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rfishhook" format="1">
+  <advance width="645.05"/>
+  <unicode hex="027E"/>
+  <outline>
+    <contour>
+      <point x="371.419623826291" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="148.53076189018174" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="764.26962382629097" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="286.12770400522749" y="0.0" type="line"/>
+      <point x="416.46832854859576" y="758.76251799478257" type="line" smooth="yes"/>
+      <point x="436.67965446354145" y="857.39039307030362"/>
+      <point x="515.9144769491121" y="905.8321408564658"/>
+      <point x="613.65704125061598" y="902.37231166202162" type="curve" smooth="yes"/>
+      <point x="636.86268377792476" y="901.55089307058631"/>
+      <point x="659.53918677744491" y="897.41341834768411"/>
+      <point x="682.29768073177786" y="893.23311319472123" type="curve"/>
+      <point x="699.87100679595017" y="1087.8244161562236" type="line"/>
+      <point x="646.91480429727653" y="1097.9777947201378"/>
+      <point x="593.98598671055368" y="1103.5245495664306"/>
+      <point x="540.02435793336656" y="1104.1824123085169" type="curve" smooth="yes"/>
+      <point x="310.24517358054351" y="1106.9837207144744"/>
+      <point x="155.80645493419485" y="992.27679695302618"/>
+      <point x="128.36826699169001" y="757.92246647971274" type="curve" smooth="yes"/>
+      <point x="2.7353574336856923" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.939</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gbreve.smcp" format="1">
+  <advance width="1002.01"/>
+  <outline>
+    <contour>
+      <point x="641.41308573178185" y="1320" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="431.31910808073087" y="3" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1155.3920635163638" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="808.61846203902167" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1107.013085731782" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="693.75853876904591" y="1659" type="move" name="top"/>
+    </contour>
+    <component base="G.smcp"/>
+    <component base="breve" xOffset="95.470858568864742" yOffset="30"/>
+  </outline>
+</glyph>

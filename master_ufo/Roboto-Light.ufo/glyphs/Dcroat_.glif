@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcroat" format="1">
+  <advance width="1372"/>
+  <unicode hex="0110"/>
+  <outline>
+    <contour>
+      <point x="599" y="1612" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="601" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1372" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1372" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1372" y="1612" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="599" y="1612" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="613" y="0" type="line"/>
+      <point x="987" y="0"/>
+      <point x="1243" y="261"/>
+      <point x="1243" y="661" type="curve"/>
+      <point x="1243" y="795" type="line"/>
+      <point x="1243" y="1194"/>
+      <point x="985" y="1456"/>
+      <point x="622" y="1456" type="curve"/>
+      <point x="277" y="1456" type="line"/>
+      <point x="277" y="1351" type="line"/>
+      <point x="622" y="1351" type="line"/>
+      <point x="922" y="1351"/>
+      <point x="1121" y="1133"/>
+      <point x="1121" y="797" type="curve"/>
+      <point x="1121" y="661" type="line" smooth="yes"/>
+      <point x="1121" y="330"/>
+      <point x="925" y="104"/>
+      <point x="613" y="104" type="curve"/>
+      <point x="285" y="104" type="line"/>
+      <point x="283" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="1456" type="line"/>
+      <point x="215" y="1456" type="line"/>
+      <point x="215" y="0" type="line"/>
+      <point x="338" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="675" y="792" type="line"/>
+      <point x="64" y="792" type="line"/>
+      <point x="64" y="690" type="line"/>
+      <point x="675" y="690" type="line"/>
+    </contour>
+  </outline>
+</glyph>

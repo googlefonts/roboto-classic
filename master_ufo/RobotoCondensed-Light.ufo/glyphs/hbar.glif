@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbar" format="1">
+  <advance width="1015"/>
+  <unicode hex="0127"/>
+  <outline>
+    <contour>
+      <point x="431" y="1611" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="509" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="995" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="995" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="995" y="1611" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="431" y="1611" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="290" y="1536" type="line"/>
+      <point x="179" y="1536" type="line"/>
+      <point x="179" y="0" type="line"/>
+      <point x="290" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="265" y="608" type="line"/>
+      <point x="268" y="770"/>
+      <point x="367" y="996"/>
+      <point x="551" y="996" type="curve" smooth="yes"/>
+      <point x="680" y="996"/>
+      <point x="759" y="927"/>
+      <point x="759" y="706" type="curve" smooth="yes"/>
+      <point x="759" y="0" type="line"/>
+      <point x="870" y="0" type="line"/>
+      <point x="870" y="705" type="line" smooth="yes"/>
+      <point x="870" y="990"/>
+      <point x="761" y="1102"/>
+      <point x="580" y="1102" type="curve" smooth="yes"/>
+      <point x="369" y="1102"/>
+      <point x="227" y="893"/>
+      <point x="216" y="637" type="curve"/>
+    </contour>
+    <contour>
+      <point x="563" y="1360" type="line"/>
+      <point x="45" y="1360" type="line"/>
+      <point x="45" y="1256" type="line"/>
+      <point x="563" y="1256" type="line"/>
+    </contour>
+  </outline>
+</glyph>

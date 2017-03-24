@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breveacutecomb" format="1">
+  <advance width="826"/>
+  <outline>
+    <contour>
+      <point x="406" y="1289" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="523" y="1456" type="line"/>
+      <point x="523" y="1398"/>
+      <point x="492" y="1344"/>
+      <point x="405" y="1344" type="curve" smooth="yes"/>
+      <point x="317" y="1344"/>
+      <point x="286" y="1398"/>
+      <point x="286" y="1456" type="curve"/>
+      <point x="102" y="1456" type="line"/>
+      <point x="102" y="1318"/>
+      <point x="219" y="1222"/>
+      <point x="405" y="1222" type="curve" smooth="yes"/>
+      <point x="590" y="1222"/>
+      <point x="708" y="1318"/>
+      <point x="708" y="1456" type="curve"/>
+    </contour>
+    <contour>
+      <point x="335" y="1459" type="line"/>
+      <point x="479" y="1459" type="line"/>
+      <point x="625" y="1646" type="line"/>
+      <point x="432" y="1646" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

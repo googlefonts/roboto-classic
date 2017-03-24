@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eta" format="1">
+  <advance width="986.49"/>
+  <unicode hex="03B7"/>
+  <outline>
+    <contour>
+      <point x="609.06962382629104" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="132.79858252534535" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1086.309623826291" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="413.52196697466206" y="836.24876991580174" type="line"/>
+      <point x="435.65442838645731" y="1081.9770206194678" type="line"/>
+      <point x="180.13739715213268" y="1081.9397630545973" type="line"/>
+      <point x="-7.7386937901864457" y="0.0" type="line"/>
+      <point x="268.48405331723285" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="314.85245492718099" y="578.33651383285348" type="line"/>
+      <point x="336.33062718993017" y="695.19403409486608"/>
+      <point x="394.15636665060515" y="875.16944873356806"/>
+      <point x="544.10096065290998" y="869.20536435642759" type="curve" smooth="yes"/>
+      <point x="637.30572382045511" y="865.49812118716682"/>
+      <point x="631.03084576912158" y="762.23433646713852"/>
+      <point x="623.6162793697689" y="693.3185233266895" type="curve"/>
+      <point x="436.25521194967678" y="-415.93035031190641" type="line"/>
+      <point x="712.44751703423572" y="-415.94780316747875" type="line"/>
+      <point x="899.90962743534658" y="692.26724668704628" type="line"/>
+      <point x="918.61646387075155" y="870.70909786685172"/>
+      <point x="892.66300189377807" y="1096.8783362362515"/>
+      <point x="669.75586311287077" y="1103.000512863315" type="curve" smooth="yes"/>
+      <point x="400.05931641057009" y="1110.4077673085997"/>
+      <point x="290.46353697131872" y="791.77706436883568"/>
+      <point x="263.03081464551735" y="575.5050168535389" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>901.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>555.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

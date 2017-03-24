@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02AB" format="1">
+  <advance width="1129"/>
+  <unicode hex="02AB"/>
+  <outline>
+    <contour>
+      <point x="676" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="676" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1109" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="1048" y="152" type="line"/>
+      <point x="331" y="152" type="line"/>
+      <point x="331" y="0" type="line"/>
+      <point x="1048" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1028" y="951" type="line"/>
+      <point x="1028" y="1082" type="line"/>
+      <point x="923" y="1082" type="line"/>
+      <point x="262" y="117" type="line"/>
+      <point x="262" y="0" type="line"/>
+      <point x="379" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="950" y="1082" type="line"/>
+      <point x="295" y="1082" type="line"/>
+      <point x="295" y="929" type="line"/>
+      <point x="950" y="929" type="line"/>
+    </contour>
+    <contour>
+      <point x="323" y="1536" type="line"/>
+      <point x="147" y="1536" type="line"/>
+      <point x="147" y="0" type="line"/>
+      <point x="323" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.939</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

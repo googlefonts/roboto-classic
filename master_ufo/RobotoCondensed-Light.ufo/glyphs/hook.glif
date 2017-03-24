@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hook" format="1">
+  <advance width="0"/>
+  <unicode hex="0309"/>
+  <outline>
+    <contour>
+      <point x="-470" y="1263" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-470" y="1263" type="move" name="_marktop"/>
+    </contour>
+    <contour>
+      <point x="-470" y="1690" type="move" name="mkmktop"/>
+    </contour>
+    <contour>
+      <point x="-470" y="1690" type="move" name="mkmktop_acc"/>
+    </contour>
+    <contour>
+      <point x="-410" y="1430" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="-427" y="1235" type="line"/>
+      <point x="-427" y="1297" type="line"/>
+      <point x="-351" y="1306"/>
+      <point x="-282" y="1349"/>
+      <point x="-282" y="1453" type="curve" smooth="yes"/>
+      <point x="-282" y="1559"/>
+      <point x="-376" y="1626"/>
+      <point x="-531" y="1626" type="curve"/>
+      <point x="-537" y="1548" type="line"/>
+      <point x="-455" y="1548"/>
+      <point x="-374" y="1524"/>
+      <point x="-374" y="1455" type="curve" smooth="yes"/>
+      <point x="-374" y="1392"/>
+      <point x="-415" y="1369"/>
+      <point x="-510" y="1361" type="curve"/>
+      <point x="-510" y="1235" type="line"/>
+    </contour>
+  </outline>
+</glyph>
