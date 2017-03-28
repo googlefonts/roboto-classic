@@ -3,7 +3,7 @@ import os
 
 ###
 
-designSpacePath = "RobotoB.designspace"
+designSpacePath = "Roboto-min.designspace"
 familyName = "Roboto"
 
 sources = [
