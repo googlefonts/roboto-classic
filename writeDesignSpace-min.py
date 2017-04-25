@@ -40,12 +40,13 @@ instances.insert(3, dict(location=dict(weight=0.35), styleName="Medium", familyN
 instances.insert(4, dict(location=dict(weight=0.73), styleName="Bold", familyName=familyName))
 #Bold
 #Thin Italic
-instances.insert(7, dict(location=dict(weight=-.55, slant=12), styleName="Light Italic", familyName=familyName))
+instances.insert(7, dict(location=dict(weight=-0.55, slant=12), styleName="Light Italic", familyName=familyName))
 #Italic
 instances.insert(9, dict(location=dict(weight=0.35, slant=12), styleName="Medium Italic", familyName=familyName))
 instances.insert(10, dict(location=dict(weight=0.73, slant=12), styleName="Bold Italic", familyName=familyName))
 #Black Italic
 
+instances.pop(2) # fix bug with 2 regular?
 
 doc = DesignSpaceDocument()
 

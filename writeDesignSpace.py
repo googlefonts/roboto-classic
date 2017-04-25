@@ -40,6 +40,7 @@ instances = []
 for source in sources:
 	instances.append(dict(location=source["location"], styleName=source["styleName"], familyName=source["familyName"]))
 
+
 ### 
 
 doc = DesignSpaceDocument()
