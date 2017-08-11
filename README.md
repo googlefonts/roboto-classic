@@ -50,12 +50,37 @@ The [fonts](fonts/) folder contains the variation font.
 
 Both fonts have all named instances:
 
-- Thin- Thin Italic
-- Light- Light Italic- Regular
+- Thin
+- Thin Italic
+- Light
+- Light Italic
+- Regular
 - Italic
-- Medium- Medium Italic
-- Bold- Bold Italic
-- Black- Black Italic
-- Condensed Light- Condensed Light Italic
-- Condensed Regular- Condensed Italic
-- Condensed Bold- Condensed Bold Italic
+- Medium
+- Medium Italic
+- Bold
+- Bold Italic
+- Black
+- Black Italic
+- Condensed Light
+- Condensed Light Italic
+- Condensed Regular
+- Condensed Italic
+- Condensed Bold
+- Condensed Bold Italic
+
+## Installing dependencies
+```
+# Create a new virtualenv
+$ virtualenv env
+# Activate env
+$ source env/bin/activate
+# Install dependencies
+$ pip install -r requirements.txt
+```
+
+## Generating fonts
+```
+$ sh build.sh
+```
+
