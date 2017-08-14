@@ -4,30 +4,6 @@
   <unicode hex="0061"/>
   <outline>
     <contour>
-      <point x="582" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="502" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="970" y="0" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="700" y="1288" type="move" name="rhalfring"/>
-    </contour>
-    <contour>
-      <point x="1114" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1114" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="879" y="654" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="1114" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="779" y="185" type="line"/>
       <point x="779" y="124"/>
       <point x="790" y="42"/>
@@ -75,6 +51,30 @@
       <point x="414" y="526"/>
       <point x="626" y="526" type="curve"/>
       <point x="813" y="526" type="line"/>
+    </contour>
+    <contour>
+      <point x="582" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="502" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="970" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="700" y="1288" type="move" name="rhalfring"/>
+    </contour>
+    <contour>
+      <point x="1114" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1114" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="879" y="654" type="move" name="rhotichook"/>
+    </contour>
+    <contour>
+      <point x="1114" y="1290" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

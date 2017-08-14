@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gamma" format="1">
+  <advance width="1106.77"/>
+  <unicode hex="0393"/>
+  <outline>
+    <contour>
+      <point x="1197.3212860991025" y="1455.9126357552523" type="line"/>
+      <point x="298.28298172678655" y="1455.9379193176578" type="line"/>
+      <point x="45.6341156512468" y="0.0" type="line"/>
+      <point x="291.73548098676713" y="0.0" type="line"/>
+      <point x="509.2094782279461" y="1252.925168835743" type="line"/>
+      <point x="1161.5450754383178" y="1253.072028404893" type="line"/>
+    </contour>
+    <contour>
+      <point x="777.5043200244947" y="1608" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="287.2407618901817" y="0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="331.01565571800364" y="753" type="move" name="cross"/>
+    </contour>
+    <contour>
+      <point x="1280.9343200244948" y="1608" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

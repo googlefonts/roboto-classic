@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelow" format="1">
-  <advance width="0"/>
   <unicode hex="0323"/>
   <outline>
-    <contour>
-      <point x="-599" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-600" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-600" y="-375" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-600" y="0" type="move" name="_bottomu"/>
-    </contour>
     <contour>
       <point x="-763" y="-235" type="curve" smooth="yes"/>
       <point x="-763" y="-314"/>
@@ -28,6 +15,18 @@
       <point x="-600" y="-95" type="curve" smooth="yes"/>
       <point x="-699" y="-95"/>
       <point x="-763" y="-155"/>
+    </contour>
+    <contour>
+      <point x="-599" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="-600" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-600" y="-375" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="-600" y="0" type="move" name="_bottomu"/>
     </contour>
   </outline>
   <lib>

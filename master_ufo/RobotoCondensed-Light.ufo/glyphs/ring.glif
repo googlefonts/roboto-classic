@@ -4,12 +4,6 @@
   <unicode hex="02DA"/>
   <outline>
     <contour>
-      <point x="310" y="1286" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="310" y="1656" type="move" name="mkmktop_acc"/>
-    </contour>
-    <contour>
       <point x="118" y="1396" type="curve"/>
       <point x="118" y="1288"/>
       <point x="202" y="1208"/>
@@ -36,6 +30,12 @@
       <point x="311" y="1280" type="curve" smooth="yes"/>
       <point x="243" y="1280"/>
       <point x="194" y="1332"/>
+    </contour>
+    <contour>
+      <point x="310" y="1286" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="310" y="1656" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
 </glyph>

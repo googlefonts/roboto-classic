@@ -3,24 +3,6 @@
   <advance width="1336"/>
   <outline>
     <contour>
-      <point x="663" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="663" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1198" y="0" type="move" name="right"/>
-    </contour>
-    <contour>
-      <point x="1316" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1316" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1316" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="194" y="1165" type="line"/>
       <point x="603" y="0" type="line"/>
       <point x="732" y="0" type="line"/>
@@ -42,6 +24,24 @@
       <point x="1029" y="0" type="line"/>
       <point x="1205" y="0" type="line"/>
       <point x="1205" y="1165" type="line"/>
+    </contour>
+    <contour>
+      <point x="663" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="663" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1198" y="0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="1316" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1316" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1316" y="1320" type="move" name="top0315"/>
     </contour>
   </outline>
 </glyph>

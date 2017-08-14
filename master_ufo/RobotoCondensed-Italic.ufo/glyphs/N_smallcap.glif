@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nsmallcap" format="1">
+  <advance width="980.67"/>
+  <unicode hex="0274"/>
+  <outline>
+    <contour>
+      <point x="390.3639086458317" y="1078.819419737461" type="line"/>
+      <point x="708.9526100477879" y="100.59017337245803" type="line"/>
+      <point x="571.3813860401257" y="0.0" type="line"/>
+      <point x="252.68175803466158" y="982.2515433901303" type="line"/>
+    </contour>
+    <contour>
+      <point x="196.0947174062594" y="0.0" type="line"/>
+      <point x="25.73646845792966" y="0.0" type="line"/>
+      <point x="213.73548256936039" y="1081.9381329416094" type="line"/>
+      <point x="384.0937315177143" y="1081.9472338634528" type="line"/>
+    </contour>
+    <contour>
+      <point x="747.0546017774466" y="0.0" type="line"/>
+      <point x="577.6663533469152" y="0.0" type="line"/>
+      <point x="765.6653695648201" y="1081.9381933746215" type="line"/>
+      <point x="935.053617995354" y="1081.9472936818236" type="line"/>
+    </contour>
+    <contour>
+      <point x="607.129623826291" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="384.2407618901817" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1080.4896238262909" y="1290" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.779</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

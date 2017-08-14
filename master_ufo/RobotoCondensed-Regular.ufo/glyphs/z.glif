@@ -4,21 +4,6 @@
   <unicode hex="007A"/>
   <outline>
     <contour>
-      <point x="453" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="459" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="879" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="879" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="879" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="818" y="152" type="line"/>
       <point x="163" y="152" type="line"/>
       <point x="163" y="0" type="line"/>
@@ -37,6 +22,21 @@
       <point x="98" y="1082" type="line"/>
       <point x="98" y="929" type="line"/>
       <point x="721" y="929" type="line"/>
+    </contour>
+    <contour>
+      <point x="453" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="459" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="879" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="879" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="879" y="1290" type="move" name="top0315"/>
     </contour>
   </outline>
 </glyph>

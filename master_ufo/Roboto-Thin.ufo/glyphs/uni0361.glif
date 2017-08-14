@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0361" format="1">
-  <advance width="0"/>
   <unicode hex="0361"/>
   <outline>
-    <contour>
-      <point x="0" y="1230" type="move" name="_marktop_dd"/>
-    </contour>
     <contour>
       <point x="678" y="1168" type="line"/>
       <point x="538" y="1314"/>
@@ -21,6 +17,9 @@
       <point x="359" y="1400"/>
       <point x="474" y="1271"/>
       <point x="614" y="1168" type="curve"/>
+    </contour>
+    <contour>
+      <point x="0" y="1230" type="move" name="_marktop_dd"/>
     </contour>
   </outline>
   <lib>

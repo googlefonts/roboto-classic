@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E2E" format="1">
+  <advance width="598"/>
+  <unicode hex="1E2E"/>
+  <outline>
+    <component base="I" xOffset="48"/>
+    <component base="dieresisacutecomb" xOffset="762" yOffset="296"/>
+    <contour>
+      <point x="354" y="0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="298" y="5" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="130" y="1454" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="298" y="1612" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="528" y="1612" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="528" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="336" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="528" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

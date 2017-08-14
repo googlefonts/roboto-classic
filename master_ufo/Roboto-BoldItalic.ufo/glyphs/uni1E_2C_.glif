@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E2C" format="1">
+  <advance width="759.81"/>
+  <unicode hex="1E2C"/>
+  <outline>
+    <component base="I" xOffset="87.3"/>
+    <component base="tilde" xOffset="-389.33205861145115" yOffset="-1647"/>
+    <contour>
+      <point x="412.3707618901817" y="0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="274.1791080807308" y="3" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="256.7142284335238" y="1457" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="202.64733378495623" y="-411" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="550.6304097069128" y="1603" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="840.6604097069129" y="1603" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="840.1420635163638" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="362.90076189018174" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="493.36846203902167" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

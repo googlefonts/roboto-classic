@@ -4,18 +4,6 @@
   <unicode hex="0254"/>
   <outline>
     <contour>
-      <point x="757" y="654" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="440" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="439" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="909" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="87" y="335" type="line"/>
       <point x="95" y="103"/>
       <point x="252" y="-21"/>
@@ -44,6 +32,18 @@
       <point x="315" y="83"/>
       <point x="202" y="142"/>
       <point x="193" y="335" type="curve"/>
+    </contour>
+    <contour>
+      <point x="757" y="654" type="move" name="rhotichook"/>
+    </contour>
+    <contour>
+      <point x="440" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="439" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="909" y="1290" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

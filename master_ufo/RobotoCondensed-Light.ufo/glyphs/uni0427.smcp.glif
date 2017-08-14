@@ -3,12 +3,6 @@
   <advance width="969"/>
   <outline>
     <contour>
-      <point x="452" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="949" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="822" y="1165" type="line"/>
       <point x="710" y="1165" type="line"/>
       <point x="710" y="0" type="line"/>
@@ -31,6 +25,12 @@
       <point x="565" y="438"/>
       <point x="665" y="477"/>
       <point x="746" y="521" type="curve"/>
+    </contour>
+    <contour>
+      <point x="452" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="949" y="1320" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

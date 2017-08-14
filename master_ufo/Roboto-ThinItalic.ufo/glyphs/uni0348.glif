@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0348" format="1">
-  <advance width="0.0"/>
   <unicode hex="0348"/>
   <outline>
-    <contour>
-      <point x="-736.20966716932003" y="-489" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-651.71923810981821" y="0" type="move" name="_markbottom"/>
-    </contour>
     <component base="linevert" xOffset="-1003.1025841668366" yOffset="-1640"/>
     <component base="linevert" xOffset="-867.3025841668366" yOffset="-1640"/>
+    <contour>
+      <point x="-736.20966716932" y="-489" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="-651.7192381098182" y="0" type="move" name="_markbottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

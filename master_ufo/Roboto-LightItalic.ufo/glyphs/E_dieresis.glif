@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edieresis" format="1">
+  <advance width="1130.05"/>
+  <unicode hex="00CB"/>
+  <outline>
+    <component base="E"/>
+    <component base="dieresis" xOffset="243.58162045719985" yOffset="320"/>
+    <contour>
+      <point x="775.2854482785601" y="1612" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="498.48858252534535" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1302.8320635163636" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="956.0584620390216" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1304.90544827856" y="1612" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="816.146715394311" y="1878" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

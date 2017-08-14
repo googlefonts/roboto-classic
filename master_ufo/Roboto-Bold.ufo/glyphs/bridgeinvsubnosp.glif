@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bridgeinvsubnosp" format="1">
-  <advance width="0"/>
   <unicode hex="033A"/>
   <outline>
-    <contour>
-      <point x="-580" y="-489" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-580" y="0" type="move" name="_markbottom"/>
-    </contour>
     <contour>
       <point x="-397.0" y="-304.0" type="line"/>
       <point x="-803.0" y="-304.0" type="line"/>
@@ -26,6 +19,12 @@
       <point x="-412.0" y="-98.0" type="line"/>
       <point x="-412.0" y="-476.0" type="line"/>
       <point x="-225.0" y="-476.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-580" y="-489" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="-580" y="0" type="move" name="_markbottom"/>
     </contour>
   </outline>
   <lib>

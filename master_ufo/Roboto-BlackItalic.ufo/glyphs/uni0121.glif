@@ -3,8 +3,10 @@
   <advance width="1143.6299999999999"/>
   <unicode hex="0121"/>
   <outline>
+    <component base="g"/>
+    <component base="dotaccent" xOffset="275.5739874608764" yOffset="23"/>
     <contour>
-      <point x="656.59962382629101" y="1290" type="move" name="parent_top"/>
+      <point x="656.599623826291" y="1290" type="move" name="parent_top"/>
     </contour>
     <contour>
       <point x="356.47717949836715" y="-447" type="move" name="bottom"/>
@@ -13,7 +15,7 @@
       <point x="1316.4120635163636" y="1600" type="move" name="top_dd"/>
     </contour>
     <contour>
-      <point x="969.63846203902153" y="-407" type="move" name="bottom_dd"/>
+      <point x="969.6384620390215" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
       <point x="1262.849623826291" y="1290" type="move" name="top0315"/>
@@ -21,7 +23,5 @@
     <contour>
       <point x="721.3372563746002" y="1668" type="move" name="top"/>
     </contour>
-    <component base="g"/>
-    <component base="dotaccent" xOffset="275.57398746087642" yOffset="23"/>
   </outline>
 </glyph>

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seagullsubnosp" format="1">
-  <advance width="0"/>
   <unicode hex="033C"/>
   <outline>
-    <contour>
-      <point x="-574" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-574" y="-343" type="move" name="mkmkbottom_acc"/>
-    </contour>
     <contour>
       <point x="-973" y="-356" type="line"/>
       <point x="-973" y="-213"/>
@@ -40,6 +33,12 @@
       <point x="-469" y="-247"/>
       <point x="-512" y="-290"/>
       <point x="-512" y="-356" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-574" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-574" y="-343" type="move" name="mkmkbottom_acc"/>
     </contour>
   </outline>
   <lib>

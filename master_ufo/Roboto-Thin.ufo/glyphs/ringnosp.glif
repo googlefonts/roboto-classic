@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringnosp" format="1">
-  <advance width="0"/>
   <unicode hex="030A"/>
   <outline>
+    <component base="ring" xOffset="-901"/>
     <contour>
       <point x="-617" y="1230" type="move" name="_marktop"/>
     </contour>
@@ -12,7 +12,6 @@
     <contour>
       <point x="-617" y="1617" type="move" name="mkmktop"/>
     </contour>
-    <component base="ring" xOffset="-901"/>
   </outline>
   <lib>
     <dict>

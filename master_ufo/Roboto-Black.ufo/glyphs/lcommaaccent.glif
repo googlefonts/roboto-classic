@@ -3,6 +3,8 @@
   <advance width="563"/>
   <unicode hex="013C"/>
   <outline>
+    <component base="l"/>
+    <component base="commaaccent" xOffset="61" yOffset="-360"/>
     <contour>
       <point x="281" y="1677" type="move" name="parent_top"/>
     </contour>
@@ -21,7 +23,5 @@
     <contour>
       <point x="281" y="-506" type="move" name="bottom"/>
     </contour>
-    <component base="l"/>
-    <component base="commaaccent" xOffset="61" yOffset="-360"/>
   </outline>
 </glyph>

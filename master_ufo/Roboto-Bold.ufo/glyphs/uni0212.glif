@@ -3,6 +3,8 @@
   <advance width="1307"/>
   <unicode hex="0212"/>
   <outline>
+    <component base="R"/>
+    <component base="breveinvnosp" xOffset="1177" yOffset="430"/>
     <contour>
       <point x="598" y="1600" type="move" name="parent_top"/>
     </contour>
@@ -21,7 +23,5 @@
     <contour>
       <point x="598" y="1984" type="move" name="top"/>
     </contour>
-    <component base="R"/>
-    <component base="breveinvnosp" xOffset="1177" yOffset="430"/>
   </outline>
 </glyph>

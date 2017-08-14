@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acuterightnosp" format="1">
-  <advance width="0"/>
   <unicode hex="0341"/>
   <outline>
+    <component base="acute" xOffset="-323"/>
     <contour>
       <point x="-72" y="1290" type="move" name="_marktop"/>
     </contour>
     <contour>
       <point x="-72" y="1658" type="move" name="mkmktop"/>
     </contour>
-    <component base="acute" xOffset="-323"/>
   </outline>
   <lib>
     <dict>

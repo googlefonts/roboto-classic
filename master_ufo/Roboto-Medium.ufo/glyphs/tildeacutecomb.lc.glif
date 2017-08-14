@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildeacutecomb.lc" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-578" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-578" y="1998" type="move" name="mkmktop_acc"/>
-    </contour>
     <contour>
       <point x="-360" y="1525" type="line"/>
       <point x="-360" y="1464"/>
@@ -35,6 +28,12 @@
       <point x="-505" y="1574" type="line"/>
       <point x="-229" y="1877" type="line"/>
       <point x="-505" y="1877" type="line"/>
+    </contour>
+    <contour>
+      <point x="-578" y="1290" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-578" y="1998" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
   <lib>

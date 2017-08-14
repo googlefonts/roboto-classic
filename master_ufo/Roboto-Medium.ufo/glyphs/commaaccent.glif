@@ -4,18 +4,6 @@
   <unicode hex="F6C3"/>
   <outline>
     <contour>
-      <point x="245" y="367" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="110" y="261" type="move" name="_caron"/>
-    </contour>
-    <contour>
-      <point x="208" y="70" type="move" name="_right"/>
-    </contour>
-    <contour>
-      <point x="245" y="-154" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
       <point x="346" y="262" type="line"/>
       <point x="145" y="262" type="line"/>
       <point x="145" y="178" type="line" smooth="yes"/>
@@ -26,6 +14,18 @@
       <point x="291" y="-70"/>
       <point x="346" y="71"/>
       <point x="346" y="187" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="245" y="367" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="110" y="261" type="move" name="_caron"/>
+    </contour>
+    <contour>
+      <point x="208" y="70" type="move" name="_right"/>
+    </contour>
+    <contour>
+      <point x="245" y="-154" type="move" name="mkmkbottom_acc"/>
     </contour>
   </outline>
 </glyph>

@@ -3,11 +3,13 @@
   <advance width="1407.47"/>
   <unicode hex="03CE"/>
   <outline>
+    <component base="omega"/>
+    <component base="tonos" xOffset="381.1433076189019" yOffset="-6"/>
     <contour>
       <point x="816.5829314451928" y="1284" type="move" name="parent_top"/>
     </contour>
     <contour>
-      <point x="599.79294125501804" y="-10" type="move" name="bottom"/>
+      <point x="599.792941255018" y="-10" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="1506.2529314451926" y="1284" type="move" name="top0315"/>
@@ -15,7 +17,5 @@
     <contour>
       <point x="816.5829314451928" y="1284" type="move" name="top"/>
     </contour>
-    <component base="omega"/>
-    <component base="tonos" xOffset="381.14330761890187" yOffset="-6"/>
   </outline>
 </glyph>

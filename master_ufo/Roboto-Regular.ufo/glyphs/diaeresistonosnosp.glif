@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="diaeresistonosnosp" format="1">
-  <advance width="0"/>
   <unicode hex="0344"/>
   <outline>
+    <component base="dieresistonos" xOffset="-1096"/>
     <contour>
       <point x="-588" y="1290" type="move" name="_marktop"/>
     </contour>
     <contour>
       <point x="-588" y="1743" type="move" name="mkmktop"/>
     </contour>
-    <component base="dieresistonos" xOffset="-1096"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildemacroncomb.lc" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-464" y="1282" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-464" y="1832" type="move" name="mkmktop_acc"/>
-    </contour>
     <contour>
       <point x="-256" y="1493" type="line"/>
       <point x="-256" y="1419"/>
@@ -35,6 +28,12 @@
       <point x="-726" y="1714" type="line"/>
       <point x="-726" y="1615" type="line"/>
       <point x="-197" y="1615" type="line"/>
+    </contour>
+    <contour>
+      <point x="-464" y="1282" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-464" y="1832" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
   <lib>

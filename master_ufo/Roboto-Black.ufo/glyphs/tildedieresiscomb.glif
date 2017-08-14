@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildedieresiscomb" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-575" y="1273" type="move" name="_top"/>
-    </contour>
     <contour>
       <point x="-413" y="1451" type="line"/>
       <point x="-413" y="1403"/>
@@ -54,6 +50,9 @@
       <point x="-367" y="1751" type="curve" smooth="yes"/>
       <point x="-453" y="1751"/>
       <point x="-512" y="1698"/>
+    </contour>
+    <contour>
+      <point x="-575" y="1273" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>

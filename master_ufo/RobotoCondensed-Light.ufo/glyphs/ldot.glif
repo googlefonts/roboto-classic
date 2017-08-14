@@ -3,6 +3,8 @@
   <advance width="652"/>
   <unicode hex="0140"/>
   <outline>
+    <component base="l"/>
+    <component base="dotaccent" xOffset="236" yOffset="-594"/>
     <contour>
       <point x="217" y="1685" type="move" name="parent_top"/>
     </contour>
@@ -21,7 +23,5 @@
     <contour>
       <point x="217" y="1685" type="move" name="top"/>
     </contour>
-    <component base="l"/>
-    <component base="dotaccent" xOffset="236" yOffset="-594"/>
   </outline>
 </glyph>

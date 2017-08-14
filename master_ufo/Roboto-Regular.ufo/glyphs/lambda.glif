@@ -4,9 +4,6 @@
   <unicode hex="03BB"/>
   <outline>
     <contour>
-      <point x="973" y="1611" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="539" y="807" type="line"/>
       <point x="589" y="1090" type="line"/>
       <point x="459" y="1102" type="line"/>
@@ -43,6 +40,9 @@
       <point x="513" y="1344" type="line" smooth="yes"/>
       <point x="475" y="1450"/>
       <point x="412" y="1518"/>
+    </contour>
+    <contour>
+      <point x="973" y="1611" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

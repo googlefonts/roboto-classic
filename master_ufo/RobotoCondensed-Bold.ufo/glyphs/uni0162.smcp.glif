@@ -2,6 +2,8 @@
 <glyph name="uni0162.smcp" format="1">
   <advance width="978"/>
   <outline>
+    <component base="T.smcp"/>
+    <component base="cedilla" xOffset="257" yOffset="11"/>
     <contour>
       <point x="484" y="1320" type="move" name="parent_top"/>
     </contour>
@@ -20,7 +22,5 @@
     <contour>
       <point x="483" y="-453" type="move" name="bottom"/>
     </contour>
-    <component base="T.smcp"/>
-    <component base="cedilla" xOffset="257" yOffset="11"/>
   </outline>
 </glyph>

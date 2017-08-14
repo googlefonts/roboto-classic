@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="anglesupnosp" format="1">
-  <advance width="0"/>
   <unicode hex="031A"/>
   <outline>
-    <contour>
-      <point x="-306" y="1263" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-306" y="1696" type="move" name="mkmktop"/>
-    </contour>
     <contour>
       <point x="-596" y="1538" type="line"/>
       <point x="-135" y="1538" type="line"/>
@@ -20,6 +13,12 @@
       <point x="-18" y="1283" type="line"/>
       <point x="-18" y="1655" type="line"/>
       <point x="-151" y="1655" type="line"/>
+    </contour>
+    <contour>
+      <point x="-306" y="1263" type="move" name="_marktop"/>
+    </contour>
+    <contour>
+      <point x="-306" y="1696" type="move" name="mkmktop"/>
     </contour>
   </outline>
   <lib>

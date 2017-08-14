@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macronsubnosp" format="1">
-  <advance width="0.0"/>
   <unicode hex="0331"/>
   <outline>
     <contour>
-      <point x="-670.14923810981827" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-670.14923810981827" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-723.08724192692375" y="-312" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-377.08424370980413" y="-161.07298673044897" type="line"/>
-      <point x="-1044.1758338848479" y="-161.06494831600321" type="line"/>
+      <point x="-377.0842437098041" y="-161.07298673044897" type="line"/>
+      <point x="-1044.1758338848479" y="-161.0649483160032" type="line"/>
       <point x="-1069.4549325977846" y="-318.92722593079975" type="line"/>
-      <point x="-402.36334242273949" y="-318.9352643452421" type="line"/>
+      <point x="-402.3633424227395" y="-318.9352643452421" type="line"/>
+    </contour>
+    <contour>
+      <point x="-670.1492381098183" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="-670.1492381098183" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-723.0872419269238" y="-312" type="move" name="mkmkbottom_acc"/>
     </contour>
   </outline>
   <lib>

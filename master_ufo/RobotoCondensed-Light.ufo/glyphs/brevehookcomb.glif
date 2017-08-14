@@ -3,9 +3,6 @@
   <advance width="796"/>
   <outline>
     <contour>
-      <point x="385" y="1283" type="move" name="_top"/>
-    </contour>
-    <contour>
       <point x="521" y="1456" type="line"/>
       <point x="521" y="1384"/>
       <point x="480" y="1320"/>
@@ -38,6 +35,9 @@
       <point x="431" y="1570"/>
       <point x="339" y="1564" type="curve"/>
       <point x="339" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="385" y="1283" type="move" name="_top"/>
     </contour>
   </outline>
 </glyph>

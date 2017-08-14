@@ -3,6 +3,8 @@
   <advance width="719"/>
   <unicode hex="026B"/>
   <outline>
+    <component base="l" xOffset="150"/>
+    <component base="tilde" xOffset="-55" yOffset="-570"/>
     <contour>
       <point x="364" y="1600" type="move" name="top"/>
     </contour>
@@ -15,8 +17,6 @@
     <contour>
       <point x="364" y="0" type="move" name="bottom"/>
     </contour>
-    <component base="l" xOffset="150"/>
-    <component base="tilde" xOffset="-55" yOffset="-570"/>
   </outline>
   <lib>
     <dict>

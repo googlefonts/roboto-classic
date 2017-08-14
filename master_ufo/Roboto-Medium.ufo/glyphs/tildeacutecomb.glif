@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildeacutecomb" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-578" y="1261" type="move" name="_top"/>
-    </contour>
     <contour>
       <point x="-401" y="1441" type="line"/>
       <point x="-401" y="1392"/>
@@ -32,6 +28,9 @@
       <point x="-524" y="1465" type="line"/>
       <point x="-342" y="1676" type="line"/>
       <point x="-538" y="1676" type="line"/>
+    </contour>
+    <contour>
+      <point x="-578" y="1261" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>

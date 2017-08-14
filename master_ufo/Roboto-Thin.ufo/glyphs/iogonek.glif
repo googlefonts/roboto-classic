@@ -3,6 +3,8 @@
   <advance width="422"/>
   <unicode hex="012F"/>
   <outline>
+    <component base="i"/>
+    <component base="ogonek" xOffset="-75"/>
     <contour>
       <point x="210" y="10" type="move" name="bottom"/>
     </contour>
@@ -21,7 +23,5 @@
     <contour>
       <point x="218" y="1600" type="move" name="top"/>
     </contour>
-    <component base="i"/>
-    <component base="ogonek" xOffset="-75"/>
   </outline>
 </glyph>

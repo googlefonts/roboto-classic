@@ -4,12 +4,6 @@
   <unicode hex="0434"/>
   <outline>
     <contour>
-      <point x="627" y="1269" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1137" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="268" y="1082" type="line"/>
       <point x="263" y="724" type="line" smooth="yes"/>
       <point x="261" y="492"/>
@@ -40,6 +34,12 @@
       <point x="833" y="-326" type="line"/>
       <point x="1116" y="-326" type="line"/>
       <point x="1116" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="627" y="1269" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1137" y="1269" type="move" name="top0315"/>
     </contour>
   </outline>
 </glyph>

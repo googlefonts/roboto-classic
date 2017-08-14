@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresis.smcp" format="1">
+  <advance width="1161.09"/>
+  <outline>
+    <component base="A.smcp"/>
+    <component base="dieresis" xOffset="136.21085856886475" yOffset="30"/>
+    <contour>
+      <point x="706.4030857317819" y="1320" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="481.2407618901817" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1333.8720635163636" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="987.0984620390216" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1285.4930857317818" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="754.8019298800622" y="1632" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

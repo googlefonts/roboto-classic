@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexnosp" format="1">
-  <advance width="0"/>
   <unicode hex="0302"/>
   <outline>
+    <component base="circumflex" xOffset="-1013"/>
     <contour>
       <point x="-577" y="1290" type="move" name="_marktop"/>
     </contour>
@@ -12,7 +12,6 @@
     <contour>
       <point x="-577" y="1621" type="move" name="mkmktop"/>
     </contour>
-    <component base="circumflex" xOffset="-1013"/>
   </outline>
   <lib>
     <dict>

@@ -2,6 +2,8 @@
 <glyph name="uni040C.smcp" format="1">
   <advance width="1090.28"/>
   <outline>
+    <component base="K.smcp"/>
+    <component base="acute" xOffset="278.80085856886484" yOffset="30"/>
     <contour>
       <point x="390.47301839831266" y="8" type="move" name="bottom"/>
     </contour>
@@ -12,15 +14,13 @@
       <point x="1263.0620635163637" y="1600" type="move" name="top_dd"/>
     </contour>
     <contour>
-      <point x="916.28846203902162" y="-407" type="move" name="bottom_dd"/>
+      <point x="916.2884620390216" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
       <point x="1214.6830857317818" y="1320" type="move" name="top0315"/>
     </contour>
     <contour>
-      <point x="676.72735062102413" y="1695" type="move" name="top"/>
+      <point x="676.7273506210241" y="1695" type="move" name="top"/>
     </contour>
-    <component base="K.smcp"/>
-    <component base="acute" xOffset="278.80085856886484" yOffset="30"/>
   </outline>
 </glyph>

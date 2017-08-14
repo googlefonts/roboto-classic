@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overscorenosp" format="1">
-  <advance width="0.0"/>
   <unicode hex="0305"/>
   <outline>
+    <component base="underscore" xOffset="-690.0626713870179" yOffset="1710"/>
     <contour>
       <point x="-399.21486029461806" y="1540" type="move" name="_marktop"/>
     </contour>
@@ -12,7 +12,6 @@
     <contour>
       <point x="-353.56099822497794" y="1793" type="move" name="mkmktop"/>
     </contour>
-    <component base="underscore" xOffset="-690.06267138701787" yOffset="1710"/>
   </outline>
   <lib>
     <dict>

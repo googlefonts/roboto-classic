@@ -2,8 +2,10 @@
 <glyph name="uni0120.smcp" format="1">
   <advance width="1002.01"/>
   <outline>
+    <component base="G.smcp"/>
+    <component base="dotaccent" xOffset="265.170756985269" yOffset="47"/>
     <contour>
-      <point x="641.41308573178185" y="1320" type="move" name="parent_top"/>
+      <point x="641.4130857317818" y="1320" type="move" name="parent_top"/>
     </contour>
     <contour>
       <point x="431.31910808073087" y="3" type="move" name="bottom"/>
@@ -12,15 +14,13 @@
       <point x="1155.3920635163638" y="1600" type="move" name="top_dd"/>
     </contour>
     <contour>
-      <point x="808.61846203902167" y="-407" type="move" name="bottom_dd"/>
+      <point x="808.6184620390217" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
       <point x="1107.013085731782" y="1320" type="move" name="top0315"/>
     </contour>
     <contour>
-      <point x="702.57996129482194" y="1675" type="move" name="top"/>
+      <point x="702.5799612948219" y="1675" type="move" name="top"/>
     </contour>
-    <component base="G.smcp"/>
-    <component base="dotaccent" xOffset="265.17075698526901" yOffset="47"/>
   </outline>
 </glyph>

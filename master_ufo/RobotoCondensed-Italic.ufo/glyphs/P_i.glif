@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Pi" format="1">
+  <advance width="1232.87"/>
+  <unicode hex="03A0"/>
+  <outline>
+    <contour>
+      <point x="1219.3442632012197" y="1455.9237021235842" type="line"/>
+      <point x="309.1135266555002" y="1455.9354603341656" type="line"/>
+      <point x="56.41033972220616" y="0.0" type="line"/>
+      <point x="236.22505827980262" y="0.0" type="line"/>
+      <point x="461.5583151680935" y="1297.9255031077964" type="line"/>
+      <point x="1012.1589208556929" y="1297.9374956874542" type="line"/>
+      <point x="786.8154373927185" y="0.0" type="line"/>
+      <point x="966.6355184933677" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="964.3007618901818" y="0" type="move" name="right"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

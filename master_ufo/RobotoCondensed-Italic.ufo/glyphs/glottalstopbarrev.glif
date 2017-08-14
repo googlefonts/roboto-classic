@@ -3,8 +3,10 @@
   <advance width="927.62"/>
   <unicode hex="02A2"/>
   <outline>
+    <component base="glottalstoprevinv"/>
+    <component base="crossbar" xOffset="-7.648249694665523" yOffset="-499"/>
     <contour>
-      <point x="665.42387161240379" y="1633" type="move" name="top"/>
+      <point x="665.4238716124038" y="1633" type="move" name="top"/>
     </contour>
     <contour>
       <point x="1076.7038716124039" y="1633" type="move" name="top0315"/>
@@ -12,8 +14,6 @@
     <contour>
       <point x="383.27076189018175" y="0" type="move" name="bottom"/>
     </contour>
-    <component base="glottalstoprevinv"/>
-    <component base="crossbar" xOffset="-7.6482496946655232" yOffset="-499"/>
   </outline>
   <lib>
     <dict>

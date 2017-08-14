@@ -3,6 +3,8 @@
   <advance width="1300"/>
   <unicode hex="040C"/>
   <outline>
+    <component base="K"/>
+    <component base="acute" xOffset="436" yOffset="231"/>
     <contour>
       <point x="623" y="110" type="move" name="bottom"/>
     </contour>
@@ -21,7 +23,5 @@
     <contour>
       <point x="602" y="1774" type="move" name="top"/>
     </contour>
-    <component base="K"/>
-    <component base="acute" xOffset="436" yOffset="231"/>
   </outline>
 </glyph>

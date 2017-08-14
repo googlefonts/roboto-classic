@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="archdblsubnosp" format="1">
-  <advance width="0"/>
   <unicode hex="032B"/>
   <outline>
-    <contour>
-      <point x="-464" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-464" y="-294" type="move" name="mkmkbottom_acc"/>
-    </contour>
     <contour>
       <point x="-738" y="-119" type="line"/>
       <point x="-738" y="-225"/>
@@ -40,6 +33,12 @@
       <point x="-399" y="-219"/>
       <point x="-430" y="-178"/>
       <point x="-430" y="-120" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-464" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-464" y="-294" type="move" name="mkmkbottom_acc"/>
     </contour>
   </outline>
   <lib>

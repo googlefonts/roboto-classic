@@ -3,8 +3,10 @@
   <advance width="1339.87"/>
   <unicode hex="0243"/>
   <outline>
+    <component base="B" xOffset="75.66"/>
+    <component base="crossbar" xOffset="-166.46740111842553" yOffset="-301"/>
     <contour>
-      <point x="801.47544827856018" y="1612" type="move" name="top"/>
+      <point x="801.4754482785602" y="1612" type="move" name="top"/>
     </contour>
     <contour>
       <point x="1504.72544827856" y="1612" type="move" name="top0315"/>
@@ -12,8 +14,6 @@
     <contour>
       <point x="524.6785825253454" y="10" type="move" name="bottom"/>
     </contour>
-    <component base="B" xOffset="75.659999999999997"/>
-    <component base="crossbar" xOffset="-166.46740111842553" yOffset="-301"/>
   </outline>
   <lib>
     <dict>

@@ -4,21 +4,6 @@
   <unicode hex="004A"/>
   <outline>
     <contour>
-      <point x="731" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="450" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="985" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="985" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="985" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="596" y="449" type="line"/>
       <point x="596" y="306"/>
       <point x="550" y="224"/>
@@ -35,6 +20,21 @@
       <point x="890" y="449" type="curve"/>
       <point x="890" y="1456" type="line"/>
       <point x="596" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="731" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="450" y="-10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="985" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="985" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="985" y="1600" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

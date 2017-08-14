@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildecomb" format="1">
-  <advance width="0"/>
   <unicode hex="0303"/>
   <outline>
+    <component base="tilde" xOffset="-899"/>
     <contour>
       <point x="-473" y="1256" type="move" name="_top"/>
     </contour>
@@ -15,7 +15,6 @@
     <contour>
       <point x="-473" y="1659" type="move" name="mkmktop"/>
     </contour>
-    <component base="tilde" xOffset="-899"/>
   </outline>
   <lib>
     <dict>

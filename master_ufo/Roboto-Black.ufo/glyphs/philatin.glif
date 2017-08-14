@@ -4,15 +4,6 @@
   <unicode hex="0278"/>
   <outline>
     <contour>
-      <point x="688" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="688" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1377" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="54" y="530" type="line"/>
       <point x="54" y="114"/>
       <point x="350" y="-20"/>
@@ -49,6 +40,15 @@
       <point x="857" y="-416" type="line"/>
       <point x="857" y="1536" type="line"/>
       <point x="520" y="1536" type="line"/>
+    </contour>
+    <contour>
+      <point x="688" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="688" y="-447" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1377" y="1600" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

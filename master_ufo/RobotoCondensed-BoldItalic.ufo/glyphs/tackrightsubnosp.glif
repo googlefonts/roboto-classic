@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tackrightsubnosp" format="1">
-  <advance width="0.0"/>
   <unicode hex="0319"/>
   <outline>
+    <contour>
+      <point x="-784.0286413661184" y="-65.0714261879483" type="line"/>
+      <point x="-611.1560927519869" y="-65.06082068925396" type="line"/>
+      <point x="-689.0428304456993" y="-510.9283460084758" type="line"/>
+      <point x="-861.9153790598302" y="-510.9389515071711" type="line"/>
+    </contour>
+    <contour>
+      <point x="-379.25232161684704" y="-199.07610180072822" type="line"/>
+      <point x="-410.55266683827733" y="-375.9113309748086" type="line"/>
+      <point x="-823.985924439197" y="-375.9236707912035" type="line"/>
+      <point x="-792.6855792177747" y="-199.08844161712724" type="line"/>
+    </contour>
     <contour>
       <point x="-570.2392381098183" y="0" type="move" name="_markbottom"/>
     </contour>
     <contour>
-      <point x="-658.53087256668016" y="-511" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-784.02864136611845" y="-65.071426187948305" type="line"/>
-      <point x="-611.15609275198688" y="-65.060820689253958" type="line"/>
-      <point x="-689.04283044569934" y="-510.92834600847578" type="line"/>
-      <point x="-861.91537905983023" y="-510.93895150717111" type="line"/>
-    </contour>
-    <contour>
-      <point x="-379.25232161684704" y="-199.07610180072822" type="line"/>
-      <point x="-410.55266683827733" y="-375.91133097480861" type="line"/>
-      <point x="-823.98592443919699" y="-375.92367079120351" type="line"/>
-      <point x="-792.68557921777472" y="-199.08844161712724" type="line"/>
+      <point x="-658.5308725666802" y="-511" type="move" name="mkmkbottom_acc"/>
     </contour>
   </outline>
   <lib>

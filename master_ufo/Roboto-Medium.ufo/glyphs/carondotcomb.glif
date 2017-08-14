@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="carondotcomb" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-584" y="1249" type="move" name="_top"/>
-    </contour>
     <contour>
       <point x="-708" y="1615" type="curve" smooth="yes"/>
       <point x="-708" y="1551"/>
@@ -29,6 +25,9 @@
       <point x="-238" y="1459" type="line"/>
       <point x="-445" y="1459" type="line"/>
       <point x="-585" y="1339" type="line"/>
+    </contour>
+    <contour>
+      <point x="-584" y="1249" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>

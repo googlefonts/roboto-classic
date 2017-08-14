@@ -3,11 +3,13 @@
   <advance width="1371.58"/>
   <unicode hex="022A"/>
   <outline>
+    <component base="O"/>
+    <component base="dieresismacroncomb" xOffset="1298.8575554050146" yOffset="337"/>
     <contour>
-      <point x="855.66206351636379" y="1600" type="move" name="parent_top"/>
+      <point x="855.6620635163638" y="1600" type="move" name="parent_top"/>
     </contour>
     <contour>
-      <point x="586.97076189018173" y="0" type="move" name="bottom"/>
+      <point x="586.9707618901817" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="1544.3620635163638" y="1600" type="move" name="top_dd"/>
@@ -19,9 +21,7 @@
       <point x="1544.3620635163638" y="1600" type="move" name="top0315"/>
     </contour>
     <contour>
-      <point x="855.66206351636379" y="1600" type="move" name="top"/>
+      <point x="855.6620635163638" y="1600" type="move" name="top"/>
     </contour>
-    <component base="O"/>
-    <component base="dieresismacroncomb" xOffset="1298.8575554050146" yOffset="337"/>
   </outline>
 </glyph>

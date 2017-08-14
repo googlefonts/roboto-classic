@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macrongravecomb" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-464" y="1275" type="move" name="_top"/>
-    </contour>
     <contour>
       <point x="-529" y="1628" type="line"/>
       <point x="-641" y="1628" type="line"/>
@@ -16,6 +12,9 @@
       <point x="-728" y="1342" type="line"/>
       <point x="-728" y="1243" type="line"/>
       <point x="-200" y="1243" type="line"/>
+    </contour>
+    <contour>
+      <point x="-464" y="1275" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>

@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaturnsupnosp" format="1">
-  <advance width="0.0"/>
   <unicode hex="0312"/>
   <outline>
     <contour>
-      <point x="-470.25558347962181" y="1112" type="move" name="_marktop"/>
+      <point x="-537.8364511683765" y="1064.1129094676712" type="line"/>
+      <point x="-419.7538502843671" y="1064.0261499763835" type="line"/>
+      <point x="-388.9595993642428" y="1241.9320247531837" type="line" smooth="yes"/>
+      <point x="-370.088387412566" y="1347.8690641482524"/>
+      <point x="-320.8668106867663" y="1434.4029057982432"/>
+      <point x="-251.93744544901034" y="1515.8442728179712" type="curve"/>
+      <point x="-322.9645594942418" y="1570.6192060906303" type="line"/>
+      <point x="-423.84266897633614" y="1484.0474896935364"/>
+      <point x="-488.7943782263956" y="1369.746937785065"/>
+      <point x="-509.4647930507884" y="1238.1256891838639" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-470.2555834796218" y="1112" type="move" name="_marktop"/>
     </contour>
     <contour>
       <point x="-371.42424314826167" y="1684" type="move" name="mkmktop"/>
     </contour>
     <contour>
-      <point x="-389.24526045876712" y="1317" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="-537.83645116837647" y="1064.1129094676712" type="line"/>
-      <point x="-419.7538502843671" y="1064.0261499763835" type="line"/>
-      <point x="-388.95959936424282" y="1241.9320247531837" type="line" smooth="yes"/>
-      <point x="-370.08838741256602" y="1347.8690641482524"/>
-      <point x="-320.86681068676631" y="1434.4029057982432"/>
-      <point x="-251.93744544901034" y="1515.8442728179712" type="curve"/>
-      <point x="-322.96455949424183" y="1570.6192060906303" type="line"/>
-      <point x="-423.84266897633614" y="1484.0474896935364"/>
-      <point x="-488.79437822639562" y="1369.746937785065"/>
-      <point x="-509.46479305078839" y="1238.1256891838639" type="curve" smooth="yes"/>
+      <point x="-389.2452604587671" y="1317" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

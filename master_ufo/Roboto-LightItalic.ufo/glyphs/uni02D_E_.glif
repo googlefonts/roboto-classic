@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02DE" format="1">
+  <advance width="411.28"/>
+  <unicode hex="02DE"/>
+  <outline>
+    <contour>
+      <point x="-192.07218572647622" y="585.5016690808663" type="line"/>
+      <point x="51.982432539972436" y="636.2090881031038" type="line"/>
+      <point x="46.22553547207025" y="517.866479233555"/>
+      <point x="53.60632707349427" y="372.7245481626382"/>
+      <point x="203.1319227596067" y="371.86949621105856" type="curve" smooth="yes"/>
+      <point x="242.94898885754904" y="371.6418050260344"/>
+      <point x="280.6781716880301" y="383.6619097812992"/>
+      <point x="317.24844572845456" y="398.2390123816105" type="curve"/>
+      <point x="307.73013226480697" y="500.4129741975484" type="line"/>
+      <point x="283.16248450749146" y="495.6343625166709"/>
+      <point x="257.9718786750513" y="489.77541079119385"/>
+      <point x="232.76511409077057" y="490.4030613766419" type="curve" smooth="yes"/>
+      <point x="124.71814495352092" y="493.09344011240296"/>
+      <point x="165.84236197382978" y="705.3945368644355"/>
+      <point x="170.42805611278243" y="766.4506658018099" type="curve"/>
+      <point x="-172.177288927034" y="698.4428945713432" type="line"/>
+    </contour>
+    <contour>
+      <point x="-177.66758920527997" y="644" type="move" name="_markrhotichook"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

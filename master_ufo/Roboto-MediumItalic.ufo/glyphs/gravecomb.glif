@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="1">
-  <advance width="0.0"/>
   <unicode hex="0300"/>
   <outline>
     <contour>
-      <point x="-398.76037617370901" y="1290" type="move" name="_top"/>
+      <point x="-432.5962221752826" y="1535.9322902051981" type="line"/>
+      <point x="-685.2457126190692" y="1535.9466045691495" type="line"/>
+      <point x="-474.45069942511884" y="1234.112366690861" type="line"/>
+      <point x="-294.56294513998995" y="1233.998978655949" type="line"/>
     </contour>
     <contour>
-      <point x="-398.76037617370901" y="1290" type="move" name="_marktop"/>
+      <point x="-398.760376173709" y="1290" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-335.34935886320352" y="1657" type="move" name="mkmktop"/>
+      <point x="-398.760376173709" y="1290" type="move" name="_marktop"/>
+    </contour>
+    <contour>
+      <point x="-335.3493588632035" y="1657" type="move" name="mkmktop"/>
     </contour>
     <contour>
       <point x="-490.9860801396544" y="1385" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="-432.59622217528261" y="1535.9322902051981" type="line"/>
-      <point x="-685.2457126190692" y="1535.9466045691495" type="line"/>
-      <point x="-474.45069942511884" y="1234.1123666908611" type="line"/>
-      <point x="-294.56294513998995" y="1233.998978655949" type="line"/>
     </contour>
   </outline>
   <lib>

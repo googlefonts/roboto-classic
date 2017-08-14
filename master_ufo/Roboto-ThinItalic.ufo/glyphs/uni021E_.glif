@@ -3,11 +3,13 @@
   <advance width="1394.86"/>
   <unicode hex="021E"/>
   <outline>
+    <component base="H"/>
+    <component base="caron" xOffset="365.41138857930173" yOffset="324"/>
     <contour>
-      <point x="869.37544827856004" y="1612" type="move" name="parent_top"/>
+      <point x="869.37544827856" y="1612" type="move" name="parent_top"/>
     </contour>
     <contour>
-      <point x="592.57858252534538" y="10" type="move" name="bottom"/>
+      <point x="592.5785825253454" y="10" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="1567.6420635163636" y="1600" type="move" name="top_dd"/>
@@ -19,9 +21,7 @@
       <point x="1569.71544827856" y="1612" type="move" name="top0315"/>
     </contour>
     <contour>
-      <point x="912.50513970538191" y="1864" type="move" name="top"/>
+      <point x="912.5051397053819" y="1864" type="move" name="top"/>
     </contour>
-    <component base="H"/>
-    <component base="caron" xOffset="365.41138857930173" yOffset="324"/>
   </outline>
 </glyph>

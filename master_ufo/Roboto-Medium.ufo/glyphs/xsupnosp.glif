@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="xsupnosp" format="1">
-  <advance width="0"/>
   <unicode hex="033D"/>
   <outline>
-    <contour>
-      <point x="-525" y="1170" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-525" y="1818" type="move" name="mkmktop"/>
-    </contour>
     <contour>
       <point x="-663" y="1249" type="line"/>
       <point x="-285" y="1629" type="line"/>
@@ -20,6 +13,12 @@
       <point x="-286" y="1351" type="line"/>
       <point x="-661" y="1734" type="line"/>
       <point x="-762" y="1630" type="line"/>
+    </contour>
+    <contour>
+      <point x="-525" y="1170" type="move" name="_marktop"/>
+    </contour>
+    <contour>
+      <point x="-525" y="1818" type="move" name="mkmktop"/>
     </contour>
   </outline>
   <lib>

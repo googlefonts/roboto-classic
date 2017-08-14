@@ -3,8 +3,10 @@
   <advance width="1678.1"/>
   <unicode hex="01E3"/>
   <outline>
+    <component base="ae"/>
+    <component base="macron" xOffset="352.048578068447" yOffset="-1"/>
     <contour>
-      <point x="955.53240588980725" y="1291" type="move" name="parent_top"/>
+      <point x="955.5324058898073" y="1291" type="move" name="parent_top"/>
     </contour>
     <contour>
       <point x="1850.8820635163638" y="1600" type="move" name="top_dd"/>
@@ -15,7 +17,5 @@
     <contour>
       <point x="1003.7819298800622" y="1601" type="move" name="top"/>
     </contour>
-    <component base="ae"/>
-    <component base="macron" xOffset="352.048578068447" yOffset="-1"/>
   </outline>
 </glyph>

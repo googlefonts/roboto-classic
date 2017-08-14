@@ -3,6 +3,8 @@
   <advance width="1008"/>
   <unicode hex="0125"/>
   <outline>
+    <component base="h"/>
+    <component base="circumflex" xOffset="10" yOffset="383"/>
     <contour>
       <point x="469" y="1673" type="move" name="parent_top"/>
     </contour>
@@ -21,7 +23,5 @@
     <contour>
       <point x="469" y="2023" type="move" name="top"/>
     </contour>
-    <component base="h"/>
-    <component base="circumflex" xOffset="10" yOffset="383"/>
   </outline>
 </glyph>

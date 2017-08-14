@@ -4,13 +4,19 @@
   <unicode hex="0049"/>
   <outline>
     <contour>
-      <point x="441.02040970691291" y="1603" type="move" name="top"/>
+      <point x="560.9354907495546" y="1455.933034503534" type="line"/>
+      <point x="274.027572821344" y="1455.9463285726865" type="line"/>
+      <point x="21.360761060081188" y="0.0" type="line"/>
+      <point x="308.26867898829505" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="441.0204097069129" y="1603" type="move" name="top"/>
     </contour>
     <contour>
       <point x="165.53910808073084" y="3" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="94.724228433523749" y="1457" type="move" name="tonos"/>
+      <point x="94.72422843352375" y="1457" type="move" name="tonos"/>
     </contour>
     <contour>
       <point x="300.82076189018176" y="0" type="move" name="right"/>
@@ -19,19 +25,13 @@
       <point x="250.38076189018176" y="0" type="move" name="ogonek"/>
     </contour>
     <contour>
-      <point x="690.76206351636381" y="1600" type="move" name="top_dd"/>
+      <point x="690.7620635163638" y="1600" type="move" name="top_dd"/>
     </contour>
     <contour>
-      <point x="343.98846203902173" y="-407" type="move" name="bottom_dd"/>
+      <point x="343.9884620390217" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
-      <point x="691.28040970691291" y="1603" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="560.93549074955456" y="1455.9330345035339" type="line"/>
-      <point x="274.02757282134399" y="1455.9463285726865" type="line"/>
-      <point x="21.360761060081188" y="0.0" type="line"/>
-      <point x="308.26867898829505" y="0.0" type="line"/>
+      <point x="691.2804097069129" y="1603" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

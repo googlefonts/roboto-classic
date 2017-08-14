@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macronacutecomb" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-562" y="1303" type="move" name="_top"/>
-    </contour>
     <contour>
       <point x="-279" y="1326" type="line"/>
       <point x="-846" y="1326" type="line"/>
@@ -16,6 +12,9 @@
       <point x="-600" y="1424" type="line"/>
       <point x="-424" y="1637" type="line"/>
       <point x="-489" y="1637" type="line"/>
+    </contour>
+    <contour>
+      <point x="-562" y="1303" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>

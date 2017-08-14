@@ -3,6 +3,8 @@
   <advance width="544.17"/>
   <unicode hex="012B"/>
   <outline>
+    <component base="dotlessi"/>
+    <component base="macron" xOffset="-215.2559349478147" yOffset="-17"/>
     <contour>
       <point x="388.22789287354556" y="1275" type="move" name="parent_top"/>
     </contour>
@@ -10,12 +12,10 @@
       <point x="160.9285825253454" y="10" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="660.79789287354549" y="1275" type="move" name="top0315"/>
+      <point x="660.7978928735455" y="1275" type="move" name="top0315"/>
     </contour>
     <contour>
-      <point x="436.78192988006219" y="1585" type="move" name="top"/>
+      <point x="436.7819298800622" y="1585" type="move" name="top"/>
     </contour>
-    <component base="dotlessi"/>
-    <component base="macron" xOffset="-215.25593494781469" yOffset="-17"/>
   </outline>
 </glyph>

@@ -3,21 +3,6 @@
   <advance width="2222"/>
   <outline>
     <contour>
-      <point x="1134" y="1642" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1130" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="2222" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="2222" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="2222" y="1642" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="1171" y="913" type="line"/>
       <point x="1178" y="1101"/>
       <point x="1333" y="1369"/>
@@ -59,6 +44,21 @@
       <point x="185" y="1456" type="line"/>
       <point x="185" y="0" type="line"/>
       <point x="308" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1134" y="1642" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1130" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="2222" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="2222" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="2222" y="1642" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

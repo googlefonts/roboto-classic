@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni030F" format="1">
-  <advance width="0.0"/>
   <unicode hex="030F"/>
   <outline>
+    <contour>
+      <point x="-369.8512138326973" y="1252.1029509116113" type="line"/>
+      <point x="-625.7892980098935" y="1252.1389358122046" type="line"/>
+      <point x="-862.2440143418121" y="1517.8233539717887" type="line"/>
+      <point x="-561.6711634295752" y="1517.9160508483549" type="line"/>
+    </contour>
+    <contour>
+      <point x="-41.56598523968662" y="1252.0517048658571" type="line"/>
+      <point x="-289.991566593043" y="1252.1075618527236" type="line"/>
+      <point x="-481.79716221773685" y="1517.8656101484648" type="line"/>
+      <point x="-188.71011681891648" y="1517.9573279981666" type="line"/>
+    </contour>
     <contour>
       <point x="-332.6275941101926" y="1291" type="move" name="_top"/>
     </contour>
@@ -10,25 +21,13 @@
       <point x="-332.6275941101926" y="1291" type="move" name="_marktop"/>
     </contour>
     <contour>
-      <point x="-273.88169251462892" y="1631" type="move" name="mkmktop"/>
+      <point x="-273.8816925146289" y="1631" type="move" name="mkmktop"/>
     </contour>
     <contour>
-      <point x="-273.88169251462892" y="1631" type="move" name="mkmktop_acc"/>
+      <point x="-273.8816925146289" y="1631" type="move" name="mkmktop_acc"/>
     </contour>
     <contour>
-      <point x="-451.21608013965442" y="1385" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="-369.85121383269728" y="1252.1029509116113" type="line"/>
-      <point x="-625.78929800989351" y="1252.1389358122046" type="line"/>
-      <point x="-862.24401434181209" y="1517.8233539717887" type="line"/>
-      <point x="-561.67116342957524" y="1517.9160508483549" type="line"/>
-    </contour>
-    <contour>
-      <point x="-41.565985239686619" y="1252.0517048658571" type="line"/>
-      <point x="-289.99156659304299" y="1252.1075618527236" type="line"/>
-      <point x="-481.79716221773685" y="1517.8656101484648" type="line"/>
-      <point x="-188.71011681891648" y="1517.9573279981666" type="line"/>
+      <point x="-451.2160801396544" y="1385" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

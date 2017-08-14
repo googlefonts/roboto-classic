@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexsubnosp" format="1">
-  <advance width="0"/>
   <unicode hex="032D"/>
   <outline>
+    <contour>
+      <point x="-537.0" y="-126.0" type="line"/>
+      <point x="-613.0" y="-126.0" type="line"/>
+      <point x="-851.0" y="-381.0" type="line"/>
+      <point x="-851.0" y="-393.0" type="line"/>
+      <point x="-743.0" y="-393.0" type="line"/>
+      <point x="-576.0" y="-210.0" type="line"/>
+      <point x="-407.0" y="-393.0" type="line"/>
+      <point x="-297.0" y="-393.0" type="line"/>
+      <point x="-297.0" y="-383.0" type="line"/>
+    </contour>
     <contour>
       <point x="-574" y="0" type="move" name="_bottom"/>
     </contour>
@@ -14,17 +24,6 @@
     </contour>
     <contour>
       <point x="-574" y="0" type="move" name="_bottomu"/>
-    </contour>
-    <contour>
-      <point x="-537.0" y="-126.0" type="line"/>
-      <point x="-613.0" y="-126.0" type="line"/>
-      <point x="-851.0" y="-381.0" type="line"/>
-      <point x="-851.0" y="-393.0" type="line"/>
-      <point x="-743.0" y="-393.0" type="line"/>
-      <point x="-576.0" y="-210.0" type="line"/>
-      <point x="-407.0" y="-393.0" type="line"/>
-      <point x="-297.0" y="-393.0" type="line"/>
-      <point x="-297.0" y="-383.0" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -3,16 +3,36 @@
   <advance width="1052.45"/>
   <outline>
     <contour>
-      <point x="645.29308573178196" y="1320" type="move" name="top"/>
+      <point x="449.89046011762" y="523.3343139920681" type="line"/>
+      <point x="462.6591066634013" y="386.0014296818045" type="line"/>
+      <point x="600.2055931770138" y="386.33571716358165" type="line"/>
+      <point x="1152.6070572870065" y="1164.6164725847161" type="line"/>
+      <point x="878.6965453387334" y="1164.713118603441" type="line"/>
     </contour>
     <contour>
-      <point x="425.69918522402543" y="21" type="move" name="bottom"/>
+      <point x="356.2118198362366" y="1164.9824299807551" type="line"/>
+      <point x="109.18938402135844" y="1165.0207701442441" type="line"/>
+      <point x="391.21227782119826" y="385.99008253945175" type="line"/>
+      <point x="521.7282918850279" y="386.2871175837122" type="line"/>
+      <point x="572.5576888385727" y="490.406281700269" type="line"/>
+    </contour>
+    <contour>
+      <point x="632.8781969597424" y="549.9277097925234" type="line"/>
+      <point x="395.515341472694" y="549.9392687726258" type="line"/>
+      <point x="299.7622578424582" y="0.0" type="line"/>
+      <point x="537.1251133295086" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="645.293085731782" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="425.6991852240254" y="21" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="501.47171650506914" y="482" type="move" name="cross"/>
     </contour>
     <contour>
-      <point x="40.046301759712819" y="1163" type="move" name="tonos"/>
+      <point x="40.04630175971282" y="1163" type="move" name="tonos"/>
     </contour>
     <contour>
       <point x="1225.2320635163637" y="1600" type="move" name="top_dd"/>
@@ -21,27 +41,7 @@
       <point x="878.4584620390217" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
-      <point x="1176.8530857317819" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="449.89046011762002" y="523.33431399206813" type="line"/>
-      <point x="462.6591066634013" y="386.0014296818045" type="line"/>
-      <point x="600.20559317701384" y="386.33571716358165" type="line"/>
-      <point x="1152.6070572870065" y="1164.6164725847161" type="line"/>
-      <point x="878.69654533873336" y="1164.713118603441" type="line"/>
-    </contour>
-    <contour>
-      <point x="356.2118198362366" y="1164.9824299807551" type="line"/>
-      <point x="109.18938402135844" y="1165.0207701442441" type="line"/>
-      <point x="391.21227782119826" y="385.99008253945175" type="line"/>
-      <point x="521.72829188502794" y="386.28711758371219" type="line"/>
-      <point x="572.55768883857274" y="490.40628170026901" type="line"/>
-    </contour>
-    <contour>
-      <point x="632.87819695974235" y="549.92770979252339" type="line"/>
-      <point x="395.51534147269399" y="549.93926877262584" type="line"/>
-      <point x="299.76225784245821" y="0.0" type="line"/>
-      <point x="537.12511332950862" y="0.0" type="line"/>
+      <point x="1176.853085731782" y="1320" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

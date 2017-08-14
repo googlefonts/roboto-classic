@@ -4,9 +4,6 @@
   <unicode hex="0503"/>
   <outline>
     <contour>
-      <point x="1124" y="1558" type="move" name="caron"/>
-    </contour>
-    <contour>
       <point x="100" y="501" type="line"/>
       <point x="100" y="196"/>
       <point x="253" y="-21"/>
@@ -61,6 +58,9 @@
       <point x="997" y="345" type="curve"/>
       <point x="997" y="1560" type="line"/>
       <point x="811" y="1560" type="line"/>
+    </contour>
+    <contour>
+      <point x="1124" y="1558" type="move" name="caron"/>
     </contour>
   </outline>
 </glyph>

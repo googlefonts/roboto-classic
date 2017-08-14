@@ -3,24 +3,6 @@
   <advance width="1259"/>
   <outline>
     <contour>
-      <point x="625" y="1642" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="620" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1050" y="17" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="1239" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1239" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1239" y="1642" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="970" y="268" type="line"/>
       <point x="975" y="0" type="line"/>
       <point x="1085" y="0" type="line"/>
@@ -44,6 +26,24 @@
       <point x="808" y="-20"/>
       <point x="1006" y="138"/>
       <point x="1034" y="422" type="curve"/>
+    </contour>
+    <contour>
+      <point x="625" y="1642" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="620" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1050" y="17" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="1239" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1239" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1239" y="1642" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

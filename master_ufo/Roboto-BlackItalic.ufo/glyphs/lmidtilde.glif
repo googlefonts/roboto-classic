@@ -3,8 +3,10 @@
   <advance width="845.17"/>
   <unicode hex="026B"/>
   <outline>
+    <component base="l" xOffset="144.53"/>
+    <component base="tilde" xOffset="-161.96013493400005" yOffset="-550"/>
     <contour>
-      <point x="586.97206351636373" y="1600" type="move" name="top"/>
+      <point x="586.9720635163637" y="1600" type="move" name="top"/>
     </contour>
     <contour>
       <point x="462.79325937095996" y="842" type="move" name="parenthesses.w2"/>
@@ -15,8 +17,6 @@
     <contour>
       <point x="310.52076189018175" y="0" type="move" name="bottom"/>
     </contour>
-    <component base="l" xOffset="144.53"/>
-    <component base="tilde" xOffset="-161.96013493400005" yOffset="-550"/>
   </outline>
   <lib>
     <dict>

@@ -3,6 +3,8 @@
   <advance width="1053"/>
   <unicode hex="0477"/>
   <outline>
+    <component base="uni0475"/>
+    <component base="uni030F" xOffset="1041"/>
     <contour>
       <point x="568" y="1290" type="move" name="parent_top"/>
     </contour>
@@ -12,7 +14,5 @@
     <contour>
       <point x="568" y="1640" type="move" name="top"/>
     </contour>
-    <component base="uni0475"/>
-    <component base="uni030F" xOffset="1041"/>
   </outline>
 </glyph>

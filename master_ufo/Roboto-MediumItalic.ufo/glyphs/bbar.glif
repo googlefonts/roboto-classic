@@ -3,14 +3,16 @@
   <advance width="1214.74"/>
   <unicode hex="0180"/>
   <outline>
+    <component base="b" xOffset="86.33"/>
+    <component base="crossbar" xOffset="-16.147005859189008" yOffset="569"/>
     <contour>
       <point x="503.76294125501806" y="-10" type="move" name="markbottom"/>
     </contour>
     <contour>
-      <point x="807.40153796097832" y="1607" type="move" name="top"/>
+      <point x="807.4015379609783" y="1607" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="473.57579065200377" y="1303" type="move" name="parenthesses.w2"/>
+      <point x="473.5757906520038" y="1303" type="move" name="parenthesses.w2"/>
     </contour>
     <contour>
       <point x="1378.7315379609784" y="1607" type="move" name="top0315"/>
@@ -18,8 +20,6 @@
     <contour>
       <point x="503.76294125501806" y="-10" type="move" name="bottom"/>
     </contour>
-    <component base="b" xOffset="86.329999999999998"/>
-    <component base="crossbar" xOffset="-16.147005859189008" yOffset="569"/>
   </outline>
   <lib>
     <dict>

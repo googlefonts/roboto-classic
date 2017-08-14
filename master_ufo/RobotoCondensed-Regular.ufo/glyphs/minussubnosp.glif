@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minussubnosp" format="1">
-  <advance width="0"/>
   <unicode hex="0320"/>
   <outline>
-    <contour>
-      <point x="-474" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-474" y="-328" type="move" name="mkmkbottom_acc"/>
-    </contour>
     <contour>
       <point x="-660" y="-194" type="line"/>
       <point x="-660" y="-328" type="line"/>
       <point x="-287" y="-328" type="line"/>
       <point x="-287" y="-194" type="line"/>
+    </contour>
+    <contour>
+      <point x="-474" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-474" y="-328" type="move" name="mkmkbottom_acc"/>
     </contour>
   </outline>
   <lib>

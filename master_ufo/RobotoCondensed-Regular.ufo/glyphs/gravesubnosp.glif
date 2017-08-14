@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravesubnosp" format="1">
-  <advance width="0"/>
   <unicode hex="0316"/>
   <outline>
-    <contour>
-      <point x="-470" y="-388" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-470" y="0" type="move" name="_markbottom"/>
-    </contour>
     <contour>
       <point x="-455.0" y="-93.0" type="line"/>
       <point x="-679.0" y="-93.0" type="line"/>
       <point x="-421.0" y="-387.0" type="line"/>
       <point x="-262.0" y="-387.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-470" y="-388" type="move" name="mkmkbottom_acc"/>
+    </contour>
+    <contour>
+      <point x="-470" y="0" type="move" name="_markbottom"/>
     </contour>
   </outline>
   <lib>

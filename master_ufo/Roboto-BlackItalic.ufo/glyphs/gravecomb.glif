@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="1">
-  <advance width="0.0"/>
   <unicode hex="0300"/>
   <outline>
+    <contour>
+      <point x="-385.48456185902137" y="1535.6173085038006" type="line"/>
+      <point x="-716.163776592894" y="1534.2449492081475" type="line"/>
+      <point x="-490.73385852764113" y="1222.1567740209023" type="line"/>
+      <point x="-241.93138700782674" y="1223.4008963481945" type="line"/>
+    </contour>
     <contour>
       <point x="-412.34037617370893" y="1290" type="move" name="_top"/>
     </contour>
@@ -13,13 +18,7 @@
       <point x="-346.6831920374907" y="1670" type="move" name="mkmktop"/>
     </contour>
     <contour>
-      <point x="-479.41277252075258" y="1379" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="-385.48456185902137" y="1535.6173085038006" type="line"/>
-      <point x="-716.16377659289401" y="1534.2449492081475" type="line"/>
-      <point x="-490.73385852764113" y="1222.1567740209023" type="line"/>
-      <point x="-241.93138700782674" y="1223.4008963481945" type="line"/>
+      <point x="-479.4127725207526" y="1379" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

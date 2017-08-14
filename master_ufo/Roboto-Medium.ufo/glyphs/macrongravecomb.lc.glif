@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macrongravecomb.lc" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-584" y="1287" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-584" y="1958" type="move" name="mkmktop_acc"/>
-    </contour>
     <contour>
       <point x="-237" y="1450" type="line"/>
       <point x="-923" y="1450" type="line"/>
@@ -19,6 +12,12 @@
       <point x="-929" y="1837" type="line"/>
       <point x="-659" y="1534" type="line"/>
       <point x="-457" y="1534" type="line"/>
+    </contour>
+    <contour>
+      <point x="-584" y="1287" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-584" y="1958" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
   <lib>

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0351" format="1">
-  <advance width="0"/>
   <unicode hex="0351"/>
   <outline>
-    <contour>
-      <point x="-509" y="1112" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-509" y="1555" type="move" name="mkmktop"/>
-    </contour>
     <contour>
       <point x="-449" y="1122" type="curve"/>
       <point x="-449" y="1215" type="line"/>
@@ -24,6 +17,12 @@
       <point x="-657" y="1316" type="curve" smooth="yes"/>
       <point x="-657" y="1201"/>
       <point x="-564" y="1122"/>
+    </contour>
+    <contour>
+      <point x="-509" y="1112" type="move" name="_marktop"/>
+    </contour>
+    <contour>
+      <point x="-509" y="1555" type="move" name="mkmktop"/>
     </contour>
   </outline>
   <lib>

@@ -4,21 +4,6 @@
   <unicode hex="01E5"/>
   <outline>
     <contour>
-      <point x="498" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="498" y="-484" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="497" y="-116" type="move" name="parenthesses.w3"/>
-    </contour>
-    <contour>
-      <point x="498" y="-484" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="990" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="974" y="-54" type="line" name="hr00"/>
       <point x="45" y="-54" type="line"/>
       <point x="45" y="-169" type="line"/>
@@ -74,6 +59,21 @@
       <point x="354" y="137"/>
       <point x="287" y="314"/>
       <point x="287" y="529" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="498" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="498" y="-484" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="497" y="-116" type="move" name="parenthesses.w3"/>
+    </contour>
+    <contour>
+      <point x="498" y="-484" type="move" name="markbottom"/>
+    </contour>
+    <contour>
+      <point x="990" y="1290" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

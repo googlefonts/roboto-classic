@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresis.unic" format="1">
+  <advance width="1355.09"/>
+  <outline>
+    <component base="A.unic"/>
+    <component base="dieresis" xOffset="319.75329825893766" yOffset="340"/>
+    <contour>
+      <point x="860.8455254218547" y="1630" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="570.9991080807308" y="3" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1527.8720635163636" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1181.0984620390216" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1533.0555254218546" y="1630" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="906.9881262586243" y="1931" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="linevertnosp" format="1">
-  <advance width="0.0"/>
   <unicode hex="030D"/>
   <outline>
+    <component base="linevert" xOffset="-738.17"/>
     <contour>
       <point x="-457.536403160509" y="1180" type="move" name="_marktop"/>
     </contour>
@@ -12,7 +12,6 @@
     <contour>
       <point x="-371.1453714023271" y="1680" type="move" name="mkmktop"/>
     </contour>
-    <component base="linevert" xOffset="-738.16999999999996"/>
   </outline>
   <lib>
     <dict>

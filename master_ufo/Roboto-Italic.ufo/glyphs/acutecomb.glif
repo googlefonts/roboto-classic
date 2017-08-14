@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="1">
-  <advance width="0.0"/>
   <unicode hex="0301"/>
   <outline>
+    <contour>
+      <point x="-534.0694654555351" y="1242.4382868470996" type="line"/>
+      <point x="-374.14511802487635" y="1242.4828059707515" type="line"/>
+      <point x="-62.94628509075052" y="1535.4830723780667" type="line"/>
+      <point x="-294.20132647575394" y="1535.6381126887572" type="line"/>
+    </contour>
     <contour>
       <point x="-429.80037617370897" y="1290" type="move" name="_top"/>
     </contour>
@@ -14,12 +19,6 @@
     </contour>
     <contour>
       <point x="-299.20495188558897" y="1389" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="-534.06946545553512" y="1242.4382868470996" type="line"/>
-      <point x="-374.14511802487635" y="1242.4828059707515" type="line"/>
-      <point x="-62.946285090750521" y="1535.4830723780667" type="line"/>
-      <point x="-294.20132647575394" y="1535.6381126887572" type="line"/>
     </contour>
   </outline>
   <lib>

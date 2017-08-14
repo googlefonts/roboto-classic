@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eng" format="1">
+  <advance width="1190.19"/>
+  <unicode hex="014A"/>
+  <outline>
+    <contour>
+      <point x="293.69061687859545" y="1455.943154524226" type="line"/>
+      <point x="40.89396855518011" y="0.0" type="line"/>
+      <point x="220.70572034177366" y="0.0" type="line"/>
+      <point x="473.5023686651907" y="1455.934979538008" type="line"/>
+    </contour>
+    <contour>
+      <point x="330.1471755204987" y="1350.792105614644" type="line"/>
+      <point x="774.6585199120822" y="0.0" type="line"/>
+      <point x="912.710854893761" y="105.17222229716081" type="line"/>
+      <point x="467.19591780195594" y="1458.4544814198255" type="line"/>
+    </contour>
+    <contour>
+      <point x="1021.2047778208171" y="1455.9442529452538" type="line"/>
+      <point x="757.8578981137211" y="-84.18969581122097" type="line" smooth="yes"/>
+      <point x="746.8022175385354" y="-158.29106160298875"/>
+      <point x="720.0917668554258" y="-282.76556139174596"/>
+      <point x="623.5068212646648" y="-283.4585854377562" type="curve" smooth="yes"/>
+      <point x="595.7163524186815" y="-283.6579898381249"/>
+      <point x="567.1076513418442" y="-275.5811703055106"/>
+      <point x="540.981232962132" y="-267.11332774372613" type="curve"/>
+      <point x="512.6980783320136" y="-420.3987799638606" type="line"/>
+      <point x="546.811181666429" y="-431.397575613191"/>
+      <point x="578.8788366706058" y="-438.8281619342904"/>
+      <point x="614.9331988715365" y="-439.37624573605723" type="curve" smooth="yes"/>
+      <point x="823.8896876869607" y="-442.5527175914061"/>
+      <point x="914.7999862563263" y="-267.5459926088981"/>
+      <point x="938.9771964753552" y="-83.5329013391737" type="curve" smooth="yes"/>
+      <point x="1201.99422323291" y="1455.9367484861984" type="line"/>
+    </contour>
+    <contour>
+      <point x="784.0548455798802" y="1601" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="503.3385825253454" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1343.7448455798801" y="1601" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -4,27 +4,6 @@
   <unicode hex="0045"/>
   <outline>
     <contour>
-      <point x="619" y="1612" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="619" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="-42" y="1455" type="move" name="tonos"/>
-    </contour>
-    <contour>
-      <point x="1022" y="0" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="1164" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1164" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1164" y="1612" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="1094" y="157" type="line"/>
       <point x="323" y="157" type="line"/>
       <point x="323" y="0" type="line"/>
@@ -47,6 +26,27 @@
       <point x="323" y="1456" type="line"/>
       <point x="323" y="1298" type="line"/>
       <point x="1084" y="1298" type="line"/>
+    </contour>
+    <contour>
+      <point x="619" y="1612" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="619" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="-42" y="1455" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="1022" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="1164" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1164" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1164" y="1612" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

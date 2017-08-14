@@ -4,24 +4,6 @@
   <unicode hex="0441"/>
   <outline>
     <contour>
-      <point x="540" y="1290" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="540" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1056" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1056" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1056" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="540" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="557" y="82" type="curve" smooth="yes"/>
       <point x="308" y="82"/>
       <point x="214" y="289"/>
@@ -50,6 +32,24 @@
       <point x="858" y="335" type="line"/>
       <point x="846" y="170"/>
       <point x="707" y="82"/>
+    </contour>
+    <contour>
+      <point x="540" y="1290" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="540" y="-10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1056" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1056" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1056" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="540" y="1290" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

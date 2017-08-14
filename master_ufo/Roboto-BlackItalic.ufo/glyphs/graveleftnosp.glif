@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="graveleftnosp" format="1">
-  <advance width="0.0"/>
   <unicode hex="0340"/>
   <outline>
+    <component base="grave" xOffset="-341.44"/>
     <contour>
       <point x="150.25962382629098" y="1290" type="move" name="_marktop"/>
     </contour>
     <contour>
       <point x="215.91680796250927" y="1670" type="move" name="mkmktop"/>
     </contour>
-    <component base="grave" xOffset="-341.44"/>
   </outline>
   <lib>
     <dict>

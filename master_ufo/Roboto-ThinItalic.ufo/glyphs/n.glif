@@ -4,7 +4,32 @@
   <unicode hex="006E"/>
   <outline>
     <contour>
-      <point x="679.87962382629098" y="1290" type="move" name="top"/>
+      <point x="263.76677743301235" y="851.0231964423579" type="line"/>
+      <point x="302.96287502197555" y="1081.725426441422" type="line"/>
+      <point x="249.14380030565127" y="1081.724472525545" type="line"/>
+      <point x="63.22638329024754" y="0.0" type="line"/>
+      <point x="117.04000119935854" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="217.66374518147137" y="633.8857663991948" type="line"/>
+      <point x="275.8534027750153" y="836.4047821418512"/>
+      <point x="445.68100467373245" y="1046.1529947112765"/>
+      <point x="671.8382886185677" y="1048.7759746359834" type="curve" smooth="yes"/>
+      <point x="886.7099739320357" y="1051.2680638012507"/>
+      <point x="920.4144012913195" y="881.6019397072878"/>
+      <point x="889.8877550583687" y="700.0247295770068" type="curve" smooth="yes"/>
+      <point x="769.3889351760087" y="0.0" type="line"/>
+      <point x="823.2009187395155" y="0.0" type="line"/>
+      <point x="943.6419193182287" y="700.003613379016" type="line" smooth="yes"/>
+      <point x="977.7393141252669" y="913.0496456239767"/>
+      <point x="919.3455122192049" y="1103.47024094305"/>
+      <point x="673.9394629603647" y="1101.8305613374312" type="curve" smooth="yes"/>
+      <point x="439.2645409855335" y="1100.2625817188584"/>
+      <point x="263.48642156646906" y="902.1025115157622"/>
+      <point x="197.6469399111141" y="692.1669284455417" type="curve"/>
+    </contour>
+    <contour>
+      <point x="679.879623826291" y="1290" type="move" name="top"/>
     </contour>
     <contour>
       <point x="458.71858252534537" y="10" type="move" name="bottom"/>
@@ -13,44 +38,19 @@
       <point x="161.72401145131653" y="1536" type="move" name="caron"/>
     </contour>
     <contour>
-      <point x="820.74076189018172" y="0" type="move" name="right"/>
+      <point x="820.7407618901817" y="0" type="move" name="right"/>
     </contour>
     <contour>
-      <point x="679.87962382629098" y="1290" type="move" name="marktop"/>
+      <point x="679.879623826291" y="1290" type="move" name="marktop"/>
     </contour>
     <contour>
       <point x="1260.1520635163638" y="1600" type="move" name="top_dd"/>
     </contour>
     <contour>
-      <point x="913.37846203902154" y="-407" type="move" name="bottom_dd"/>
+      <point x="913.3784620390215" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
       <point x="1206.5896238262908" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="263.76677743301235" y="851.02319644235786" type="line"/>
-      <point x="302.96287502197555" y="1081.7254264414221" type="line"/>
-      <point x="249.14380030565127" y="1081.724472525545" type="line"/>
-      <point x="63.22638329024754" y="0.0" type="line"/>
-      <point x="117.04000119935854" y="0.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="217.66374518147137" y="633.88576639919484" type="line"/>
-      <point x="275.8534027750153" y="836.40478214185123"/>
-      <point x="445.68100467373245" y="1046.1529947112765"/>
-      <point x="671.83828861856773" y="1048.7759746359834" type="curve" smooth="yes"/>
-      <point x="886.70997393203572" y="1051.2680638012507"/>
-      <point x="920.41440129131945" y="881.60193970728778"/>
-      <point x="889.88775505836873" y="700.02472957700684" type="curve" smooth="yes"/>
-      <point x="769.38893517600866" y="0.0" type="line"/>
-      <point x="823.20091873951549" y="0.0" type="line"/>
-      <point x="943.6419193182287" y="700.00361337901597" type="line" smooth="yes"/>
-      <point x="977.7393141252669" y="913.04964562397674"/>
-      <point x="919.34551221920492" y="1103.4702409430499"/>
-      <point x="673.93946296036472" y="1101.8305613374312" type="curve" smooth="yes"/>
-      <point x="439.26454098553347" y="1100.2625817188584"/>
-      <point x="263.48642156646906" y="902.10251151576222"/>
-      <point x="197.64693991111409" y="692.16692844554166" type="curve"/>
     </contour>
   </outline>
   <lib>

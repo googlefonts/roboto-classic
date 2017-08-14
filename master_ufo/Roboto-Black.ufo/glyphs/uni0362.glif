@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0362" format="1">
-  <advance width="0"/>
   <unicode hex="0362"/>
   <outline>
-    <contour>
-      <point x="0" y="-110" type="move" name="_markbottom_dd"/>
-    </contour>
     <contour>
       <point x="817" y="-276" type="line"/>
       <point x="-821" y="-276" type="line"/>
@@ -23,6 +19,9 @@
       <point x="797" y="-395" type="line"/>
       <point x="965" y="-345" type="line"/>
       <point x="664" y="-140" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-110" type="move" name="_markbottom_dd"/>
     </contour>
   </outline>
   <lib>

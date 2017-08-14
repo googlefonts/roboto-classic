@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresisacutecomb.lc" format="1">
-  <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-574" y="1292" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-573" y="1858" type="move" name="mkmktop_acc"/>
-    </contour>
     <contour>
       <point x="-873" y="1397" type="curve" smooth="yes"/>
       <point x="-873" y="1352"/>
@@ -41,6 +34,12 @@
       <point x="-540" y="1523" type="line"/>
       <point x="-308" y="1802" type="line"/>
       <point x="-453" y="1802" type="line"/>
+    </contour>
+    <contour>
+      <point x="-574" y="1292" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="-573" y="1858" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
   <lib>

@@ -4,12 +4,6 @@
   <unicode hex="02DD"/>
   <outline>
     <contour>
-      <point x="372" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="372" y="1640" type="move" name="mkmktop_acc"/>
-    </contour>
-    <contour>
       <point x="429" y="1235" type="line"/>
       <point x="667" y="1235" type="line"/>
       <point x="933" y="1535" type="line"/>
@@ -20,6 +14,12 @@
       <point x="281" y="1235" type="line"/>
       <point x="518" y="1535" type="line"/>
       <point x="239" y="1535" type="line"/>
+    </contour>
+    <contour>
+      <point x="372" y="1290" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="372" y="1640" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
   <lib>

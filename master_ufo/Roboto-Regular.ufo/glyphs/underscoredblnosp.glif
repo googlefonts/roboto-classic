@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscoredblnosp" format="1">
-  <advance width="0"/>
   <unicode hex="0333"/>
   <outline>
-    <contour>
-      <point x="-585" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-584" y="-487" type="move" name="mkmkbottom_acc"/>
-    </contour>
     <contour>
       <point x="-127" y="-86" type="line"/>
       <point x="-1044" y="-86" type="line"/>
@@ -20,6 +13,12 @@
       <point x="-1043" y="-335" type="line"/>
       <point x="-1043" y="-487" type="line"/>
       <point x="-126" y="-487" type="line"/>
+    </contour>
+    <contour>
+      <point x="-585" y="0" type="move" name="_markbottom"/>
+    </contour>
+    <contour>
+      <point x="-584" y="-487" type="move" name="mkmkbottom_acc"/>
     </contour>
   </outline>
   <lib>

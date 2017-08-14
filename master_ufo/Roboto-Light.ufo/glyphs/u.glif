@@ -4,30 +4,6 @@
   <unicode hex="0075"/>
   <outline>
     <contour>
-      <point x="574" y="1292" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="965" y="0" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="511" y="0" type="move" name="bottomu"/>
-    </contour>
-    <contour>
-      <point x="1125" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1125" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="922" y="654" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="1125" y="1292" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="561" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
       <point x="850" y="250" type="line"/>
       <point x="855" y="0" type="line"/>
       <point x="970" y="0" type="line"/>
@@ -51,6 +27,30 @@
       <point x="812" y="-20"/>
       <point x="934" y="180"/>
       <point x="934" y="452" type="curve"/>
+    </contour>
+    <contour>
+      <point x="574" y="1292" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="965" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="511" y="0" type="move" name="bottomu"/>
+    </contour>
+    <contour>
+      <point x="1125" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1125" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="922" y="654" type="move" name="rhotichook"/>
+    </contour>
+    <contour>
+      <point x="1125" y="1292" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="561" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>

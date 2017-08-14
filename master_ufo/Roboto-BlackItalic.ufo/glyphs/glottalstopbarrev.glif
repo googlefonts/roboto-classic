@@ -3,17 +3,17 @@
   <advance width="1043.05"/>
   <unicode hex="02A2"/>
   <outline>
+    <component base="glottalstoprevinv"/>
+    <component base="crossbar" xOffset="-45.226673028509154" yOffset="-520"/>
     <contour>
-      <point x="717.80387161240378" y="1633" type="move" name="top"/>
+      <point x="717.8038716124038" y="1633" type="move" name="top"/>
     </contour>
     <contour>
       <point x="1211.5338716124038" y="1633" type="move" name="top0315"/>
     </contour>
     <contour>
-      <point x="435.65076189018168" y="0" type="move" name="bottom"/>
+      <point x="435.6507618901817" y="0" type="move" name="bottom"/>
     </contour>
-    <component base="glottalstoprevinv"/>
-    <component base="crossbar" xOffset="-45.226673028509154" yOffset="-520"/>
   </outline>
   <lib>
     <dict>

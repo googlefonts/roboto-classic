@@ -4,18 +4,6 @@
   <unicode hex="02DB"/>
   <outline>
     <contour>
-      <point x="352" y="0" type="move" name="_ogonek"/>
-    </contour>
-    <contour>
-      <point x="352" y="0" type="move" name="_right"/>
-    </contour>
-    <contour>
-      <point x="280" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="280" y="-434" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
       <point x="285" y="57" type="line"/>
       <point x="119" y="-27"/>
       <point x="59" y="-136"/>
@@ -36,6 +24,18 @@
       <point x="211" y="-135"/>
       <point x="281" y="-64"/>
       <point x="352" y="0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="352" y="0" type="move" name="_ogonek"/>
+    </contour>
+    <contour>
+      <point x="352" y="0" type="move" name="_right"/>
+    </contour>
+    <contour>
+      <point x="280" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="280" y="-434" type="move" name="mkmkbottom_acc"/>
     </contour>
   </outline>
 </glyph>

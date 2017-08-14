@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gbar_uni1ABE" format="1">
+  <advance width="1411.6499999999999"/>
+  <outline>
+    <component base="gbar" xOffset="138.71"/>
+    <component base="uni1ABE" xOffset="1133.1958631574473" yOffset="-706"/>
+    <contour>
+      <point x="500.43424314826166" y="-484" type="move" name="markbottom"/>
+    </contour>
+    <contour>
+      <point x="809.859623826291" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1495.6496238262912" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="565.9580425222836" y="-116" type="move" name="cross"/>
+    </contour>
+    <contour>
+      <point x="500.43424314826166" y="-484" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

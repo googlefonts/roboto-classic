@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commasuprevnosp" format="1">
-  <advance width="0.0"/>
   <unicode hex="0314"/>
   <outline>
+    <contour>
+      <point x="-466.30867168688206" y="1568.9363195490546" type="line"/>
+      <point x="-353.7428355965191" y="1568.9513936011974" type="line"/>
+      <point x="-383.00262609116527" y="1391.7860114808507" type="line" smooth="yes"/>
+      <point x="-396.19479709237766" y="1294.8828920736528"/>
+      <point x="-381.35388003723017" y="1205.8425016931897"/>
+      <point x="-340.1370734714859" y="1117.581337999257" type="curve"/>
+      <point x="-419.6245239883036" y="1065.9555370279654" type="line"/>
+      <point x="-490.6701375438416" y="1158.6942700328548"/>
+      <point x="-511.2954873584823" y="1278.2642833926334"/>
+      <point x="-495.55642890098113" y="1392.4189342204875" type="curve" smooth="yes"/>
+    </contour>
     <contour>
       <point x="-427.57558347962174" y="1112" type="move" name="_marktop"/>
     </contour>
@@ -10,19 +21,7 @@
       <point x="-328.7442431482616" y="1684" type="move" name="mkmktop"/>
     </contour>
     <contour>
-      <point x="-409.61526045876712" y="1317" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="-466.30867168688206" y="1568.9363195490546" type="line"/>
-      <point x="-353.74283559651911" y="1568.9513936011974" type="line"/>
-      <point x="-383.00262609116527" y="1391.7860114808507" type="line" smooth="yes"/>
-      <point x="-396.19479709237766" y="1294.8828920736528"/>
-      <point x="-381.35388003723017" y="1205.8425016931897"/>
-      <point x="-340.13707347148591" y="1117.5813379992569" type="curve"/>
-      <point x="-419.62452398830362" y="1065.9555370279654" type="line"/>
-      <point x="-490.67013754384158" y="1158.6942700328548"/>
-      <point x="-511.29548735848232" y="1278.2642833926334"/>
-      <point x="-495.55642890098113" y="1392.4189342204875" type="curve" smooth="yes"/>
+      <point x="-409.6152604587671" y="1317" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

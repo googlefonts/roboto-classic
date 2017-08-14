@@ -4,9 +4,6 @@
   <unicode hex="2019"/>
   <outline>
     <contour>
-      <point x="72" y="1536" type="move" name="_caron"/>
-    </contour>
-    <contour>
       <point x="328" y="1536" type="line"/>
       <point x="144" y="1536" type="line"/>
       <point x="144" y="1405" type="line" smooth="yes"/>
@@ -17,6 +14,9 @@
       <point x="264" y="1137"/>
       <point x="328" y="1287"/>
       <point x="328" y="1408" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="72" y="1536" type="move" name="_caron"/>
     </contour>
   </outline>
 </glyph>

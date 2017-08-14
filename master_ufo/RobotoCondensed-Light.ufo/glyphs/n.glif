@@ -4,30 +4,6 @@
   <unicode hex="006E"/>
   <outline>
     <contour>
-      <point x="503" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="498" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="6" y="1537" type="move" name="caron"/>
-    </contour>
-    <contour>
-      <point x="839" y="0" type="move" name="right"/>
-    </contour>
-    <contour>
-      <point x="503" y="1290" type="move" name="marktop"/>
-    </contour>
-    <contour>
-      <point x="967" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="967" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="967" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="260" y="851" type="line"/>
       <point x="255" y="1082" type="line"/>
       <point x="149" y="1082" type="line"/>
@@ -51,6 +27,30 @@
       <point x="339" y="1102"/>
       <point x="197" y="893"/>
       <point x="186" y="637" type="curve"/>
+    </contour>
+    <contour>
+      <point x="503" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="498" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="6" y="1537" type="move" name="caron"/>
+    </contour>
+    <contour>
+      <point x="839" y="0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="503" y="1290" type="move" name="marktop"/>
+    </contour>
+    <contour>
+      <point x="967" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="967" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="967" y="1290" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

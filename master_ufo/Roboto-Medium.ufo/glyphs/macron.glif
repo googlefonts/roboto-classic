@@ -4,16 +4,16 @@
   <unicode hex="00AF"/>
   <outline>
     <contour>
-      <point x="495" y="1287" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="495" y="1591" type="move" name="mkmktop_acc"/>
-    </contour>
-    <contour>
       <point x="842" y="1450" type="line"/>
       <point x="156" y="1450" type="line"/>
       <point x="156" y="1292" type="line"/>
       <point x="842" y="1292" type="line"/>
+    </contour>
+    <contour>
+      <point x="495" y="1287" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="495" y="1591" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
   <lib>

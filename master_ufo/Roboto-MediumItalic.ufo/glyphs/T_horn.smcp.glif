@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Thorn.smcp" format="1">
+  <advance width="1002.01"/>
+  <outline>
+    <contour>
+      <point x="9.73044350372605" y="0.0" type="line"/>
+      <point x="247.09807317808776" y="0.0" type="line"/>
+      <point x="449.3996322036096" y="1164.9330358676189" type="line"/>
+      <point x="212.03200252924393" y="1164.9446564594873" type="line"/>
+    </contour>
+    <contour>
+      <point x="209.00274256759667" y="227.08437200100317" type="line"/>
+      <point x="448.7321806667826" y="225.69011357055885" type="line" smooth="yes"/>
+      <point x="693.5058959574426" y="225.04620105639054"/>
+      <point x="933.014386643469" y="342.5441783055338"/>
+      <point x="950.1771534127367" y="612.2242657420933" type="curve" smooth="yes"/>
+      <point x="965.5571160746132" y="853.890992977053"/>
+      <point x="771.2736963384637" y="976.1431392177007"/>
+      <point x="550.4676665968453" y="981.8862981883248" type="curve" smooth="yes"/>
+      <point x="342.6100212847156" y="983.0068540506105" type="line"/>
+      <point x="307.93734700625663" y="787.221800306489" type="line"/>
+      <point x="545.1594946415148" y="786.0902514564982" type="line" smooth="yes"/>
+      <point x="651.3939468222821" y="781.8224183094511"/>
+      <point x="731.434757234246" y="724.4198628127815"/>
+      <point x="715.1973858355344" y="609.9082958677851" type="curve" smooth="yes"/>
+      <point x="696.4072399239892" y="477.3936789004796"/>
+      <point x="579.447932807473" y="422.804771722725"/>
+      <point x="456.8797607325404" y="421.41430073837915" type="curve" smooth="yes"/>
+      <point x="243.6847913169405" y="423.10097764142296" type="line"/>
+    </contour>
+    <contour>
+      <point x="637.533085731782" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="338.4385825253454" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1174.7920635163637" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="828.0184620390216" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1126.4130857317818" y="1320" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

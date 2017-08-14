@@ -4,22 +4,16 @@
   <unicode hex="042E"/>
   <outline>
     <contour>
-      <point x="789" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1652" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="417.0" y="1456.0" type="line"/>
       <point x="123.0" y="1456.0" type="line"/>
       <point x="123.0" y="0.0" type="line"/>
       <point x="417.0" y="0.0" type="line"/>
     </contour>
     <contour>
-      <point x="639.39999999999998" y="814.0" type="line"/>
-      <point x="297.10000000000002" y="814.0" type="line"/>
-      <point x="297.10000000000002" y="579.0" type="line"/>
-      <point x="639.39999999999998" y="579.0" type="line"/>
+      <point x="639.4" y="814.0" type="line"/>
+      <point x="297.1" y="814.0" type="line"/>
+      <point x="297.1" y="579.0" type="line"/>
+      <point x="639.4" y="579.0" type="line"/>
     </contour>
     <contour>
       <point x="1583.0" y="840.0" type="line"/>
@@ -52,6 +46,12 @@
       <point x="1208.0" y="1230.0"/>
       <point x="1289.0" y="1119.0"/>
       <point x="1289.0" y="842.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="789" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1652" y="1600" type="move" name="top0315"/>
     </contour>
   </outline>
 </glyph>

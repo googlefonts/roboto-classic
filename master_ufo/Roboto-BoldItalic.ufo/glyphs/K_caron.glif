@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kcaron" format="1">
+  <advance width="1261.97"/>
+  <unicode hex="01E8"/>
+  <outline>
+    <component base="K"/>
+    <component base="caron" xOffset="168.02243969007282" yOffset="310"/>
+    <contour>
+      <point x="539.4832498281962" y="62" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="751.8720635163638" y="1600" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="1434.7520635163637" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1087.9784620390217" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1434.7520635163637" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="813.3600384381166" y="1956" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

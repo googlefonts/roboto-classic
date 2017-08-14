@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="linevertdblnosp" format="1">
-  <advance width="0.0"/>
   <unicode hex="030E"/>
   <outline>
+    <component base="linevert" xOffset="-888.52"/>
+    <component base="linevert" xOffset="-591.6999999999999"/>
     <contour>
-      <point x="-461.41640316050899" y="1180" type="move" name="_marktop"/>
+      <point x="-461.416403160509" y="1180" type="move" name="_marktop"/>
     </contour>
     <contour>
-      <point x="-427.75119585459629" y="1358" type="move" name="parent_top"/>
+      <point x="-427.7511958545963" y="1358" type="move" name="parent_top"/>
     </contour>
     <contour>
       <point x="-375.0253714023271" y="1680" type="move" name="mkmktop"/>
     </contour>
-    <component base="linevert" xOffset="-888.51999999999998"/>
-    <component base="linevert" xOffset="-591.69999999999993"/>
   </outline>
   <lib>
     <dict>

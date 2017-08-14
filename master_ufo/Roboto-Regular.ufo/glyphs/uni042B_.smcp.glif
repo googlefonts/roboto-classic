@@ -2,14 +2,14 @@
 <glyph name="uni042B.smcp" format="1">
   <advance width="1521"/>
   <outline>
+    <component base="uni042C.smcp"/>
+    <component base="I.smcp" xOffset="1046"/>
     <contour>
       <point x="756" y="1320" type="move" name="top"/>
     </contour>
     <contour>
       <point x="1521" y="1320" type="move" name="top0315"/>
     </contour>
-    <component base="uni042C.smcp"/>
-    <component base="I.smcp" xOffset="1046"/>
   </outline>
   <lib>
     <dict>

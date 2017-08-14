@@ -3,27 +3,6 @@
   <advance width="878"/>
   <outline>
     <contour>
-      <point x="471" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="471" y="8" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="33" y="1166" type="move" name="tonos"/>
-    </contour>
-    <contour>
-      <point x="760" y="0" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="858" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="858" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="858" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="814" y="152" type="line"/>
       <point x="268" y="152" type="line"/>
       <point x="268" y="0" type="line"/>
@@ -46,6 +25,27 @@
       <point x="268" y="1165" type="line"/>
       <point x="268" y="1012" type="line"/>
       <point x="807" y="1012" type="line"/>
+    </contour>
+    <contour>
+      <point x="471" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="471" y="8" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="33" y="1166" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="760" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="858" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="858" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="858" y="1320" type="move" name="top0315"/>
     </contour>
   </outline>
 </glyph>

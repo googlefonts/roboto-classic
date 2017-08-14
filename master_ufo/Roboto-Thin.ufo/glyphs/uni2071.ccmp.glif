@@ -3,13 +3,13 @@
   <advance width="334"/>
   <outline>
     <contour>
-      <point x="170" y="1560" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="194" y="1360" type="line"/>
       <point x="140" y="1360" type="line"/>
       <point x="140" y="559" type="line"/>
       <point x="194" y="559" type="line"/>
+    </contour>
+    <contour>
+      <point x="170" y="1560" type="move" name="top"/>
     </contour>
   </outline>
   <lib>

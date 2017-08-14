@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacron.smcp" format="1">
+  <advance width="529.62"/>
+  <outline>
+    <component base="I.smcp"/>
+    <component base="macron" xOffset="-230.41394340646485" yOffset="24"/>
+    <contour>
+      <point x="390.1830857317819" y="1320" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="163.1868515725999" y="-5" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="702.4020635163638" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="355.6284620390217" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="654.023085731782" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="439.51833251383516" y="1634" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

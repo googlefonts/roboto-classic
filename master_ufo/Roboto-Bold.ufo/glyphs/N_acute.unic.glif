@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nacute.unic" format="1">
+  <advance width="1448"/>
+  <outline>
+    <component base="N.unic"/>
+    <component base="acute" xOffset="503" yOffset="340"/>
+    <contour>
+      <point x="743" y="1630" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="741" y="3" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1448" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1448" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1448" y="1630" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="743" y="2005" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

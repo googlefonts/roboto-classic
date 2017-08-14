@@ -3,24 +3,6 @@
   <advance width="1064"/>
   <outline>
     <contour>
-      <point x="533" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="556" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="129" y="1163" type="move" name="tonos"/>
-    </contour>
-    <contour>
-      <point x="1044" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1044" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1044" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
       <point x="965" y="615" type="line"/>
       <point x="965" y="967"/>
       <point x="793" y="1181"/>
@@ -51,6 +33,24 @@
       <point x="694" y="1026"/>
       <point x="790" y="880"/>
       <point x="790" y="617" type="curve"/>
+    </contour>
+    <contour>
+      <point x="533" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="556" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="129" y="1163" type="move" name="tonos"/>
+    </contour>
+    <contour>
+      <point x="1044" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1044" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1044" y="1320" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>
