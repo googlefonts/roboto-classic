@@ -152,15 +152,15 @@ feature unic {
    sub @unicase_l by @unicase_r;
 } unic;
 
-
-feature mark {
-   ;
-} mark;
-
-
-feature mkmk {
-   ;
-} mkmk;
+## let fontmake build these automatically
+#feature mark {
+#   ;
+#} mark;
+#
+#
+#feature mkmk {
+#   ;
+#} mkmk;
 
 
 feature ccmp {
