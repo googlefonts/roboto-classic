@@ -1,86 +1,36 @@
 # Roboto VF
 
-Source UFOs were build from roboto v2.136 after fixing a couple glyphs for compatibility:
+This is a variable version of Roboto intended to be a 1:1 match with the official non-variable release from Google. 
 
-- Roboto-Bold.ufo/glyphs/bhook.cn.glif
-- Roboto-Bold.ufo/glyphs/dhook.cn.glif
-- Roboto-Bold.ufo/glyphs/eshcurl.glif
-- Roboto-Bold.ufo/glyphs/ghook.cn.glif
-- Roboto-Bold.ufo/glyphs/phook.cn.glif
-- Roboto-Bold.ufo/glyphs/qhook.cn.glif
-- Roboto-Bold.ufo/glyphs/uni2185.cn.glif
-- Roboto-Bold.ufo/glyphs/uniA758_.cn.glif
-- Roboto-Bold.ufo/glyphs/uniA797_.cn.glif
-- Roboto-Bold.ufo/glyphs/uniAB36__.cn.glif
-- Roboto-Bold.ufo/glyphs/uniAB36__.glif
-- Roboto-Regular.ufo/glyphs/bhook.cn.glif
-- Roboto-Regular.ufo/glyphs/dhook.cn.glif
-- Roboto-Regular.ufo/glyphs/ghook.cn.glif
-- Roboto-Regular.ufo/glyphs/hornnosp.glif
-- Roboto-Regular.ufo/glyphs/phook.cn.glif
-- Roboto-Regular.ufo/glyphs/qhook.cn.glif
-- Roboto-Regular.ufo/glyphs/uni2185.cn.glif
-- Roboto-Regular.ufo/glyphs/uniA758_.cn.glif
-- Roboto-Regular.ufo/glyphs/uniA797_.cn.glif
-- Roboto-Regular.ufo/glyphs/uniAB36__.cn.glif
-- Roboto-Regular.ufo/glyphs/uniAB36__.glif
-- Roboto-Thin.ufo/glyphs/bhook.cn.glif
-- Roboto-Thin.ufo/glyphs/dhook.cn.glif
-- Roboto-Thin.ufo/glyphs/ghook.cn.glif
-- Roboto-Thin.ufo/glyphs/phook.cn.glif
-- Roboto-Thin.ufo/glyphs/qhook.cn.glif
-- Roboto-Thin.ufo/glyphs/uni2185.cn.glif
-- Roboto-Thin.ufo/glyphs/uniA758_.cn.glif
-- Roboto-Thin.ufo/glyphs/uniA797_.cn.glif
-- Roboto-Thin.ufo/glyphs/uniAB36__.cn.glif
-- Roboto-Thin.ufo/glyphs/uniAB36__.glif
+This is not an official Google project, but was enabled with generous funding by Google Fonts.
 
-Then the build script was edited to preserve glyph overlap.
+The project began by taking UFO instances generated during the build process of the Roboto v2.136 release, which have quadratic outlines. 
+The Thin, Regular and Bold UFOs required some fixes for interpolation compatibility, and a build script was written that preserves outline overlaps.
 
-- scripts/build-v2.py
-- scripts/lib/fontbuild/Build.py
+* [/master_ufo](master_ufo/) contains new source UFOs
 
-The [master_ufo](master_ufo/) folder contains the new UFOs.
+* [/fonts](fonts/) folder contains variation font TTFs
 
-The [fonts](fonts/) folder contains the variation font.
+  * **Roboto-min-VF.ttf** has deltas for min, default and max
 
-**Roboto-min-VF.ttf** has deltas for min, default and max
+  * **Roboto-VF.ttf** has deltas min, default, max, and also intermediate instances
 
-**Roboto-VF.ttf** has deltas min, default, max and also intermediate instances
+Both fonts have named instances for all the styles in the v2.136 release.
 
-Both fonts have all named instances:
+## Install
 
-- Thin
-- Thin Italic
-- Light
-- Light Italic
-- Regular
-- Italic
-- Medium
-- Medium Italic
-- Bold
-- Bold Italic
-- Black
-- Black Italic
-- Condensed Light
-- Condensed Light Italic
-- Condensed Regular
-- Condensed Italic
-- Condensed Bold
-- Condensed Bold Italic
+    # Create a new virtualenv
+    virtualenv env
+    # Activate env
+    source env/bin/activate
+    # Install dependencies
+    pip install -r requirements.txt
 
-## Installing dependencies
-```
-# Create a new virtualenv
-$ virtualenv env
-# Activate env
-$ source env/bin/activate
-# Install dependencies
-$ pip install -r requirements.txt
-```
+## Generate
 
-## Generating fonts
-```
-$ sh build.sh
-```
+    sh build.sh
+    sh build.sh
 
+# License
+
+Both fonts and software found in this repo are all available under the Apache License v2.0
