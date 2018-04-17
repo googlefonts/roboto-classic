@@ -4,7 +4,7 @@ This is a variable version of Roboto intended to be a 1:1 match with the officia
 
 This is not an official Google project, but was enabled with generous funding by Google Fonts.
 
-The project began by taking the TTF files from the Roboto v2.136 release, and converting them to new "source" UFOs with quadratic outlines. 
+The project began by taking UFO instances generated during the build process of the Roboto v2.136 release, which have quadratic outlines. 
 The Thin, Regular and Bold UFOs required some fixes for interpolation compatibility, and a build script was written that preserves outline overlaps.
 
 * [/master_ufo](master_ufo/) contains new source UFOs
