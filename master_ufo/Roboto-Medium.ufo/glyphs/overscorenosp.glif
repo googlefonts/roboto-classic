@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overscorenosp" format="1">
+  <advance width="0"/>
   <unicode hex="0305"/>
   <outline>
     <component base="underscore" xOffset="-1045" yOffset="1775"/>
     <contour>
-      <point x="-582" y="1576" type="move" name="_marktop"/>
+      <point x="-582" y="1576" type="move" name="_top"/>
     </contour>
     <contour>
       <point x="-583" y="1679" type="move" name="parent_top"/>
