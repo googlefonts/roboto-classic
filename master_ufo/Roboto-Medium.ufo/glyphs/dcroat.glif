@@ -49,9 +49,6 @@
       <point x="1203" y="1224" type="line"/>
     </contour>
     <contour>
-      <point x="1135" y="1536" type="move" name="caron"/>
-    </contour>
-    <contour>
       <point x="605" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -64,13 +61,19 @@
       <point x="1157" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
-      <point x="605" y="0" type="move" name="markbottom"/>
+      <point x="605" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="1262" y="1607" type="move" name="top0315"/>
     </contour>
     <contour>
       <point x="869" y="1311" type="move" name="parenthesses.w2"/>
+    </contour>
+    <contour>
+      <point x="869" y="1311" type="move" name="parenthesses.w2"/>
+    </contour>
+    <contour>
+      <point x="525" y="1607" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

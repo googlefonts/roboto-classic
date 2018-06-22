@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildesubnosp_uni1ABD" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-1035" y="-492" type="curve"/>
@@ -56,13 +57,7 @@
       <point x="-187" y="-128" type="curve"/>
     </contour>
     <contour>
-      <point x="-575" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-575" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-575" y="-407" type="move" name="mkmkbottom_acc"/>
+      <point x="-575" y="-407" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

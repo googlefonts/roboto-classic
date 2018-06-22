@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0347" format="1">
+  <advance width="0"/>
   <unicode hex="0347"/>
   <outline>
     <contour>
@@ -15,10 +16,7 @@
       <point x="-460.3265960909758" y="-327.25185185098" type="line"/>
     </contour>
     <contour>
-      <point x="-649.7792381098183" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-714.6392043095528" y="-381" type="move" name="mkmkbottom_acc"/>
+      <point x="-714.6392043095528" y="-381" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>

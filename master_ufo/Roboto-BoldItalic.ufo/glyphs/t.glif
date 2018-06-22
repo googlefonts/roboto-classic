@@ -31,16 +31,10 @@
       <point x="317.3107618901817" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="764.4184617719601" y="1667" type="move" name="caron"/>
-    </contour>
-    <contour>
-      <point x="307.8628592068109" y="619" type="move" name="cross"/>
-    </contour>
-    <contour>
       <point x="476.30708764033466" y="1476" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="768.9074444614547" y="1300" type="move" name="marktop"/>
+      <point x="768.9074444614547" y="1300" type="move" name="top"/>
     </contour>
     <contour>
       <point x="844.0220635163638" y="1600" type="move" name="top_dd"/>
@@ -50,6 +44,9 @@
     </contour>
     <contour>
       <point x="822.5970876403346" y="1476" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="768.9074444614547" y="1300" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

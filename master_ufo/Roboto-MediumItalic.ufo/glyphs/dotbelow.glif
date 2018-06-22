@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelow" format="1">
+  <advance width="0"/>
   <unicode hex="0323"/>
   <outline>
     <contour>
@@ -17,16 +18,7 @@
       <point x="-865.5009558279665" y="-169.4610657933915"/>
     </contour>
     <contour>
-      <point x="-685.6692381098183" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-685.6692381098183" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-749.0802554203237" y="-367" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-685.6692381098183" y="0" type="move" name="_bottomu"/>
+      <point x="-749.0802554203237" y="-367" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>

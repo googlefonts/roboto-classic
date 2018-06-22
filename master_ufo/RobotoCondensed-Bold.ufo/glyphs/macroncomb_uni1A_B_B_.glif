@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macroncomb_uni1ABB" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-838" y="1176" type="curve"/>
@@ -40,10 +41,10 @@
       <point x="-170" y="1290" type="line"/>
     </contour>
     <contour>
-      <point x="-473" y="1290" type="move" name="_marktop"/>
+      <point x="-473" y="1540" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="-473" y="1540" type="move" name="mkmktop"/>
+      <point x="-473" y="1540" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

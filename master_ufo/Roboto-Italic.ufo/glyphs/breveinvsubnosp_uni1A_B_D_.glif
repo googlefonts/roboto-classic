@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvsubnosp_uni1ABD" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-1098.2655436962823" y="-480.07472990032863" type="curve"/>
@@ -50,10 +51,7 @@
       <point x="-590.4125887172543" y="-372.2647485693664" type="curve"/>
     </contour>
     <contour>
-      <point x="-668.2092381098182" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-732.4841657379055" y="-372" type="move" name="mkmkbottom_acc"/>
+      <point x="-732.4841657379055" y="-372" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

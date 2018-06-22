@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni030C_uni1ABB" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-651.6292429526038" y="1172.74939248855" type="curve"/>
@@ -45,13 +46,10 @@
       <point x="-334.494860537086" y="1367.0097953672976" type="line"/>
     </contour>
     <contour>
-      <point x="-338.62037617370896" y="1290" type="move" name="_top"/>
+      <point x="-291.45087283374164" y="1563" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="-338.62037617370896" y="1290" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-291.45087283374164" y="1563" type="move" name="mkmktop"/>
+      <point x="-291.45087283374164" y="1563" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

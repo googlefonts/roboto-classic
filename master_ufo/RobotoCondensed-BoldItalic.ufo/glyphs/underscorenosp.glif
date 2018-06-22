@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscorenosp" format="1">
+  <advance width="0"/>
   <unicode hex="0332"/>
   <outline>
     <component base="underscore" xOffset="-877.5773095274545" yOffset="-150"/>
     <contour>
-      <point x="-624.8808581190037" y="-378" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-559.5692381098182" y="0" type="move" name="_markbottom"/>
+      <point x="-624.8808581190037" y="-378" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>

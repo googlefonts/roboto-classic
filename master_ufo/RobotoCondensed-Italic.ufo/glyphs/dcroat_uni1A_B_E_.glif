@@ -80,12 +80,6 @@
       <point x="1194.3566950573577" y="1219.5789150301414"/>
     </contour>
     <contour>
-      <point x="1090.9840114513165" y="1536" type="move" name="caron"/>
-    </contour>
-    <contour>
-      <point x="863.0641368425528" y="1306" type="move" name="cross"/>
-    </contour>
-    <contour>
       <point x="421.10076189018173" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -98,10 +92,13 @@
       <point x="792.1284620390217" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
-      <point x="421.10076189018173" y="0" type="move" name="markbottom"/>
+      <point x="421.10076189018173" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="1206.7626662150437" y="1611" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="643.1926662150438" y="1611" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

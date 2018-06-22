@@ -49,7 +49,7 @@
       <point x="793" y="-407" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="471" y="1290" type="move" name="marktop"/>
+      <point x="471" y="1290" type="move" name="top"/>
     </contour>
     <contour>
       <point x="983" y="1600" type="move" name="top_dd"/>
@@ -59,6 +59,9 @@
     </contour>
     <contour>
       <point x="983" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="471" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

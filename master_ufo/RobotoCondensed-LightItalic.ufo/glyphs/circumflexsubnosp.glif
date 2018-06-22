@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexsubnosp" format="1">
+  <advance width="0"/>
   <unicode hex="032D"/>
   <outline>
     <contour>
@@ -14,16 +15,7 @@
       <point x="-388.19265650011675" y="-383.1764940738883" type="line"/>
     </contour>
     <contour>
-      <point x="-553.7492381098183" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-553.7492381098183" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-620.8553711352656" y="-394" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-553.7492381098183" y="0" type="move" name="_bottomu"/>
+      <point x="-620.8553711352656" y="-394" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>

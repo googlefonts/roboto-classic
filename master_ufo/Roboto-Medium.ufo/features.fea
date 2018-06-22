@@ -153,15 +153,15 @@ feature unic {
 } unic;
 
 
-feature mark {
-   ;
-} mark;
-
-
-feature mkmk {
-   ;
-} mkmk;
-
+## let fontmake build these automatically
+#feature mark {
+#   ;
+#} mark;
+#
+#
+#feature mkmk {
+#   ;
+#} mkmk;
 
 feature ccmp {
 

@@ -5,7 +5,7 @@
     <component base="gbar" xOffset="83.42"/>
     <component base="uni1ABE" xOffset="1029.0602990304144" yOffset="-708"/>
     <contour>
-      <point x="439.8971794983671" y="-447" type="move" name="markbottom"/>
+      <point x="439.8971794983671" y="-447" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="752.629623826291" y="1290" type="move" name="top"/>
@@ -14,10 +14,10 @@
       <point x="1398.6496238262912" y="1290" type="move" name="top0315"/>
     </contour>
     <contour>
-      <point x="493.977965378989" y="-134" type="move" name="cross"/>
+      <point x="439.8971794983671" y="-447" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="439.8971794983671" y="-447" type="move" name="bottom"/>
+      <point x="752.629623826291" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>
