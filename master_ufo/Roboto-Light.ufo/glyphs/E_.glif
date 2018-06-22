@@ -34,12 +34,6 @@
       <point x="619" y="10" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="-56" y="1456" type="move" name="tonos"/>
-    </contour>
-    <contour>
-      <point x="1024" y="0" type="move" name="ogonek"/>
-    </contour>
-    <contour>
       <point x="1165" y="1600" type="move" name="top_dd"/>
     </contour>
     <contour>
@@ -47,6 +41,9 @@
     </contour>
     <contour>
       <point x="1165" y="1612" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="619" y="1612" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>
