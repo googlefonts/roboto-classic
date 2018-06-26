@@ -6,13 +6,7 @@
     <component base="I" xOffset="71.78"/>
     <component base="dieresisacutecomb" xOffset="981.2159015955638" yOffset="340"/>
     <contour>
-      <point x="396.85076189018173" y="0" type="move" name="right"/>
-    </contour>
-    <contour>
       <point x="258.65910808073085" y="3" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="240.22422843352376" y="1457" type="move" name="tonos"/>
     </contour>
     <contour>
       <point x="534.1404097069128" y="1603" type="move" name="top"/>
@@ -24,10 +18,10 @@
       <point x="824.6220635163638" y="1600" type="move" name="top_dd"/>
     </contour>
     <contour>
-      <point x="346.41076189018173" y="0" type="move" name="ogonek"/>
+      <point x="477.8484620390217" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
-      <point x="477.8484620390217" y="-407" type="move" name="bottom_dd"/>
+      <point x="534.1404097069128" y="1603" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

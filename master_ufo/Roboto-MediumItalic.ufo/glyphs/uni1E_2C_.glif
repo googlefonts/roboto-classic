@@ -6,16 +6,10 @@
     <component base="I" xOffset="91.17999999999999"/>
     <component base="tilde" xOffset="-389.9291994046402" yOffset="-1628"/>
     <contour>
-      <point x="385.21076189018174" y="0" type="move" name="right"/>
-    </contour>
-    <contour>
       <point x="269.0502363347963" y="7" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="288.72422843352376" y="1457" type="move" name="tonos"/>
-    </contour>
-    <contour>
-      <point x="195.79064140385805" y="-417" type="move" name="mkmkbottom_acc"/>
+      <point x="195.79064140385805" y="-417" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="545.6743200244947" y="1608" type="move" name="top"/>
@@ -27,10 +21,10 @@
       <point x="824.6220635163638" y="1600" type="move" name="top_dd"/>
     </contour>
     <contour>
-      <point x="344.47076189018173" y="0" type="move" name="ogonek"/>
+      <point x="477.8484620390217" y="-407" type="move" name="bottom_dd"/>
     </contour>
     <contour>
-      <point x="477.8484620390217" y="-407" type="move" name="bottom_dd"/>
+      <point x="545.6743200244947" y="1608" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildevertsupnosp" format="1">
+  <advance width="0"/>
   <unicode hex="033E"/>
   <outline>
     <contour>
@@ -25,10 +26,13 @@
       <point x="-455.16895565921067" y="1258.6114366048068" type="curve"/>
     </contour>
     <contour>
-      <point x="-371.17009649588357" y="1096" type="move" name="_marktop"/>
+      <point x="-371.17009649588357" y="1096" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-255.06054981288713" y="1768" type="move" name="mkmktop"/>
+      <point x="-255.06054981288713" y="1768" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="-255.06054981288713" y="1768" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

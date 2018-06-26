@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commasuprevnosp" format="1">
+  <advance width="0"/>
   <unicode hex="0314"/>
   <outline>
     <contour>
@@ -15,10 +16,10 @@
       <point x="-470.0883728720103" y="1390.557380093039" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="-361.45799427434173" y="1068" type="move" name="_marktop"/>
+      <point x="-361.45799427434173" y="1068" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-255.02424314826163" y="1684" type="move" name="mkmktop"/>
+      <point x="-255.02424314826163" y="1684" type="move" name="top"/>
     </contour>
     <contour>
       <point x="-341.63646585612713" y="1295" type="move" name="parent_top"/>

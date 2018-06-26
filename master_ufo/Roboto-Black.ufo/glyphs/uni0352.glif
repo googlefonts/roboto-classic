@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0352" format="1">
+  <advance width="0"/>
   <unicode hex="0352"/>
   <outline>
     <contour>
@@ -33,10 +34,13 @@
       <point x="-761" y="1395"/>
     </contour>
     <contour>
-      <point x="-574" y="1250" type="move" name="_marktop"/>
+      <point x="-574" y="1250" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-574" y="1900" type="move" name="mkmktop"/>
+      <point x="-574" y="1900" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="-574" y="1900" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

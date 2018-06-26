@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1ABC" format="1">
+  <advance width="0"/>
   <unicode hex="1ABC"/>
   <outline>
     <contour>
@@ -67,10 +68,7 @@
       <point x="66.37591457170639" y="1341.4509491937488" type="curve"/>
     </contour>
     <contour>
-      <point x="-413.6134523627271" y="1350" type="move" name="_markparent_top"/>
-    </contour>
-    <contour>
-      <point x="-413.6134523627271" y="1350" type="move" name="_marktop"/>
+      <point x="-413.6134523627271" y="1350" type="move" name="_parent_top"/>
     </contour>
   </outline>
   <lib>

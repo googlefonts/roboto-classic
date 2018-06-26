@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringlefthalfsubnosp" format="1">
+  <advance width="0"/>
   <unicode hex="031C"/>
   <outline>
     <contour>
@@ -19,10 +20,10 @@
       <point x="-447" y="-376" type="curve"/>
     </contour>
     <contour>
-      <point x="-531" y="-7" type="move" name="_markbottom"/>
+      <point x="-531" y="-7" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="-531" y="-475" type="move" name="mkmkbottom_acc"/>
+      <point x="-531" y="-475" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
