@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hook" format="1">
+  <advance width="0"/>
   <unicode hex="0309"/>
   <outline>
     <contour>
@@ -24,10 +25,7 @@
       <point x="-479.65533760206165" y="1299" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-479.65533760206165" y="1299" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-401.90340901969796" y="1749" type="move" name="mkmktop"/>
+      <point x="-401.90340901969796" y="1749" type="move" name="top"/>
     </contour>
     <contour>
       <point x="-401.90340901969796" y="1749" type="move" name="mkmktop_acc"/>

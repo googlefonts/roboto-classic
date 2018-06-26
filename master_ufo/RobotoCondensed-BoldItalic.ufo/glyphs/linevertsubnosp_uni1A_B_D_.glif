@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="linevertsubnosp_uni1ABD" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-933.6714314903297" y="-491.2336935046051" type="curve"/>
@@ -40,10 +41,10 @@
       <point x="-561.6593697560066" y="-507.9390534482458" type="line"/>
     </contour>
     <contour>
-      <point x="-560.5392381098183" y="0" type="move" name="_markbottom"/>
+      <point x="-560.5392381098183" y="0" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="-647.342526376131" y="-508" type="move" name="mkmkbottom_acc"/>
+      <point x="-647.342526376131" y="-508" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

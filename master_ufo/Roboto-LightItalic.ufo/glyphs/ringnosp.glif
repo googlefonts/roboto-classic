@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringnosp" format="1">
+  <advance width="0"/>
   <unicode hex="030A"/>
   <outline>
     <component base="ring" xOffset="-885.61"/>
     <contour>
-      <point x="-471.39218426974895" y="1257" type="move" name="_marktop"/>
+      <point x="-471.39218426974895" y="1257" type="move" name="_top"/>
     </contour>
     <contour>
       <point x="-447.20269537745804" y="1397" type="move" name="parent_top"/>
     </contour>
     <contour>
-      <point x="-402.79770505375257" y="1654" type="move" name="mkmktop"/>
+      <point x="-402.79770505375257" y="1654" type="move" name="top"/>
     </contour>
   </outline>
   <lib>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1ABB" format="1">
+  <advance width="0"/>
   <unicode hex="1ABB"/>
   <outline>
     <contour>
@@ -35,10 +36,7 @@
       <point x="-177" y="1342" type="curve"/>
     </contour>
     <contour>
-      <point x="-450" y="1350" type="move" name="_markparent_top"/>
-    </contour>
-    <contour>
-      <point x="-450" y="1350" type="move" name="_marktop"/>
+      <point x="-450" y="1350" type="move" name="_parent_top"/>
     </contour>
   </outline>
   <lib>

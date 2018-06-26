@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildecomb" format="1">
+  <advance width="0"/>
   <unicode hex="0303"/>
   <outline>
     <component base="tilde" xOffset="-1058"/>
@@ -7,13 +8,10 @@
       <point x="-587" y="1256" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-587" y="1256" type="move" name="_marktop"/>
-    </contour>
-    <contour>
       <point x="-559" y="1398" type="move" name="parent_top"/>
     </contour>
     <contour>
-      <point x="-587" y="1676" type="move" name="mkmktop"/>
+      <point x="-587" y="1676" type="move" name="top"/>
     </contour>
   </outline>
   <lib>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexnosp" format="1">
+  <advance width="0"/>
   <unicode hex="0302"/>
   <outline>
     <component base="circumflex" xOffset="-1044.69"/>
     <contour>
-      <point x="-450.170376173709" y="1290" type="move" name="_marktop"/>
+      <point x="-450.170376173709" y="1290" type="move" name="_top"/>
     </contour>
     <contour>
       <point x="-430.4338236315234" y="1393" type="move" name="parent_top"/>
     </contour>
     <contour>
-      <point x="-389.69665394298164" y="1640" type="move" name="mkmktop"/>
+      <point x="-389.69665394298164" y="1640" type="move" name="top"/>
     </contour>
   </outline>
   <lib>

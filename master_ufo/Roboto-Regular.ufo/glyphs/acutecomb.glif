@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="1">
+  <advance width="0"/>
   <unicode hex="0301"/>
   <outline>
     <contour>
@@ -12,10 +13,7 @@
       <point x="-566" y="1290" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-566" y="1290" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-566" y="1641" type="move" name="mkmktop"/>
+      <point x="-566" y="1641" type="move" name="top"/>
     </contour>
     <contour>
       <point x="-449" y="1389" type="move" name="parent_top"/>

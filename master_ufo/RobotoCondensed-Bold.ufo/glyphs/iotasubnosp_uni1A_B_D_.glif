@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iotasubnosp_uni1ABD" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-736" y="-522" type="curve"/>
@@ -52,10 +53,10 @@
       <point x="-393" y="-70" type="line"/>
     </contour>
     <contour>
-      <point x="-480" y="0" type="move" name="_markbottom"/>
+      <point x="-480" y="0" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="-480" y="-527" type="move" name="mkmkbottom_acc"/>
+      <point x="-480" y="-527" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

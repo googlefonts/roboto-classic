@@ -49,9 +49,6 @@
       <point x="1271.2749050860696" y="1219.07937089287" type="line"/>
     </contour>
     <contour>
-      <point x="1282.0740114513164" y="1536" type="move" name="caron"/>
-    </contour>
-    <contour>
       <point x="468.6307618901817" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -71,6 +68,12 @@
     </contour>
     <contour>
       <point x="948.490829223651" y="1312" type="move" name="parenthesses.w2"/>
+    </contour>
+    <contour>
+      <point x="948.490829223651" y="1312" type="move" name="markparenthesses.w2"/>
+    </contour>
+    <contour>
+      <point x="656.3604097069128" y="1603" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringsubnosp" format="1">
+  <advance width="0"/>
   <unicode hex="0325"/>
   <outline>
     <contour>
@@ -31,10 +32,10 @@
       <point x="-824.5128800437949" y="-341.4741944114196"/>
     </contour>
     <contour>
-      <point x="-753.4301927247056" y="-482" type="move" name="mkmkbottom_acc"/>
+      <point x="-753.4301927247056" y="-482" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="-670.1492381098183" y="0" type="move" name="_markbottom"/>
+      <point x="-670.1492381098183" y="0" type="move" name="_bottom"/>
     </contour>
   </outline>
   <lib>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seagullsubnosp" format="1">
+  <advance width="0"/>
   <unicode hex="033C"/>
   <outline>
     <contour>
@@ -35,10 +36,10 @@
       <point x="-584.6901790311668" y="-300.858817040333" type="curve"/>
     </contour>
     <contour>
-      <point x="-552.7792381098183" y="0" type="move" name="_markbottom"/>
+      <point x="-552.7792381098183" y="0" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="-603.4043827201128" y="-293" type="move" name="mkmkbottom_acc"/>
+      <point x="-603.4043827201128" y="-293" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>

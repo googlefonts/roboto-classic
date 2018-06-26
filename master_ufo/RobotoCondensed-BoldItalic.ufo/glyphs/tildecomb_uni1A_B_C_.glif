@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildecomb_uni1ABC" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-858.1208000051636" y="1176.6615059982605" type="curve"/>
@@ -91,10 +92,10 @@
       <point x="-345.46496633326535" y="1256" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="-345.46496633326535" y="1256" type="move" name="_marktop"/>
+      <point x="-286.7190647377017" y="1596" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="-286.7190647377017" y="1596" type="move" name="mkmktop"/>
+      <point x="-286.7190647377017" y="1596" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>
