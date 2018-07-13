@@ -22,8 +22,7 @@ Diffs produced with [fontdiffenator](https://github.com/googlefonts/fontdiffenat
 ## Summary for commit e7ece644e5714951089cd6916db07fc055c9383d
 - No marks are missing
 - mark below for uni1E2C fixed
-- Some mkmks are missing but no visual difference
-- Some mkmks are modified but no visual difference
+- No mkmks missing
 - No kerns are missing
 - No glyphs are missing
 - caretSlopeRun, caretSlopeRise in italics are different
