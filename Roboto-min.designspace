@@ -104,6 +104,8 @@
             </location>
         </source>
     </sources>
+
+
     <instances>
         <instance familyname="Roboto" stylename="Thin" filename="Roboto-Thin.ufo">
             <location>
@@ -123,7 +125,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Regular" filename="Roboto-Regular">
+        <instance familyname="Roboto" stylename="Regular" filename="Roboto-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="100" />
@@ -132,7 +134,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Medium" filename="Roboto-Medium">
+        <instance familyname="Roboto" stylename="Medium" filename="Roboto-Medium.ufo">
             <location>
                 <dimension name="weight" xvalue="0.350000" />
                 <dimension name="width" xvalue="100" />
