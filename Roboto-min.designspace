@@ -105,7 +105,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Roboto" stylename="Thin">
+        <instance familyname="Roboto" stylename="Thin" filename="Roboto-Thin.ufo">
             <location>
                 <dimension name="weight" xvalue="-1" />
                 <dimension name="width" xvalue="100" />
@@ -114,7 +114,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Light">
+        <instance familyname="Roboto" stylename="Light" filename="Roboto-Light.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="100" />
@@ -123,7 +123,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Regular">
+        <instance familyname="Roboto" stylename="Regular" filename="Roboto-Regular">
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="100" />
@@ -132,7 +132,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Medium">
+        <instance familyname="Roboto" stylename="Medium" filename="Roboto-Medium">
             <location>
                 <dimension name="weight" xvalue="0.350000" />
                 <dimension name="width" xvalue="100" />
@@ -141,7 +141,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Bold">
+        <instance familyname="Roboto" stylename="Bold" filename="Roboto-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="0.730000" />
                 <dimension name="width" xvalue="100" />
@@ -150,7 +150,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Black">
+        <instance familyname="Roboto" stylename="Black" filename="Roboto-Black.ufo">
             <location>
                 <dimension name="weight" xvalue="1.125000" />
                 <dimension name="width" xvalue="100" />
@@ -159,7 +159,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Thin Italic">
+        <instance familyname="Roboto" stylename="Thin Italic" filename="Roboto-Thin_Italic.ufo">
             <location>
                 <dimension name="weight" xvalue="-1" />
                 <dimension name="width" xvalue="100" />
@@ -168,7 +168,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Light Italic">
+        <instance familyname="Roboto" stylename="Light Italic" filename="Roboto-Light_Italic.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="100" />
@@ -177,7 +177,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Italic">
+        <instance familyname="Roboto" stylename="Italic" filename="Roboto-Italic.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="100" />
@@ -186,7 +186,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Medium Italic">
+        <instance familyname="Roboto" stylename="Medium Italic" filename="Roboto-Medium_Italic.ufo">
             <location>
                 <dimension name="weight" xvalue="0.350000" />
                 <dimension name="width" xvalue="100" />
@@ -195,7 +195,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Bold Italic">
+        <instance familyname="Roboto" stylename="Bold Italic" filename="Roboto-Bold_Italic.ufo">
             <location>
                 <dimension name="weight" xvalue="0.730000" />
                 <dimension name="width" xvalue="100" />
@@ -204,7 +204,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Black Italic">
+        <instance familyname="Roboto" stylename="Black Italic" filename="Roboto-Black_Italic.ufo">
             <location>
                 <dimension name="weight" xvalue="1.125000" />
                 <dimension name="width" xvalue="100" />
@@ -213,7 +213,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Light">
+        <instance familyname="Roboto" stylename="Condensed Light" filename="Roboto_Condensed-Light.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="75" />
@@ -222,7 +222,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Regular">
+        <instance familyname="Roboto" stylename="Condensed Regular" filename="Roboto_Condensed-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="75" />
@@ -231,7 +231,16 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Bold">
+        <instance familyname="Roboto" stylename="Condensed Medium" filename="Roboto_Condensed-Medium.ufo">
+            <location>
+                <dimension name="weight" xvalue="0.400000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="slant" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="Condensed Bold" filename="Roboto_Condensed-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="0.750000" />
                 <dimension name="width" xvalue="75" />
@@ -240,7 +249,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Light Italic">
+        <instance familyname="Roboto" stylename="Condensed Light Italic" filename="Roboto_Condensed-Light_Italic.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="75" />
@@ -249,7 +258,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Italic">
+        <instance familyname="Roboto" stylename="Condensed Italic" filename="Roboto_Condensed-Italic.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="75" />
@@ -258,40 +267,22 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Bold Italic">
+
+        <instance familyname="Roboto" stylename="Condensed Medium Italic" filename="Roboto_Condensed-Medium_Italic.ufo">
             <location>
-                <dimension name="weight" xvalue="0.750000" />
+                <dimension name="weight" xvalue="0.400000" />
                 <dimension name="width" xvalue="75" />
                 <dimension name="slant" xvalue="-12" />
             </location>
             <kerning />
             <info />
         </instance>
-
-        <instance familyname="Roboto" stylename="Medium-Scrap_40">
+        
+        <instance familyname="Roboto" stylename="Condensed Bold Italic" filename="Roboto_Condensed-Bold_Italic.ufo">
             <location>
-                <dimension name="weight" xvalue="0.400000" />
-                <dimension name="width" xvalue="100" />
-                <dimension name="slant" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-
-        <instance familyname="Roboto" stylename="Condensed Medium">
-            <location>
-                <dimension name="weight" xvalue="0.400000" />
+                <dimension name="weight" xvalue="0.750000" />
                 <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Roboto" stylename="Condensed Medium-Scrap_35">
-            <location>
-                <dimension name="weight" xvalue="0.350000" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="0" />
+                <dimension name="slant" xvalue="-12" />
             </location>
             <kerning />
             <info />
