@@ -114,51 +114,6 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Italic">
-            <location>
-                <dimension name="weight" xvalue="-0.100000" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="-12" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Roboto" stylename="Condensed Regular">
-            <location>
-                <dimension name="weight" xvalue="-0.100000" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Roboto" stylename="Condensed Light">
-            <location>
-                <dimension name="weight" xvalue="-0.550000" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Roboto" stylename="Condensed Medium">
-            <location>
-                <dimension name="weight" xvalue="0.400000" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Roboto" stylename="Condensed Bold">
-            <location>
-                <dimension name="weight" xvalue="0.750000" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
         <instance familyname="Roboto" stylename="Light">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
@@ -177,29 +132,11 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Light Italic">
-            <location>
-                <dimension name="weight" xvalue="-0.550000" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="-12" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Roboto" stylename="Condensed Medium Italic">
+        <instance familyname="Roboto" stylename="Condensed Medium">
             <location>
                 <dimension name="weight" xvalue="0.400000" />
                 <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="-12" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Roboto" stylename="Condensed Bold Italic">
-            <location>
-                <dimension name="weight" xvalue="0.750000" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="slant" xvalue="-12" />
+                <dimension name="slant" xvalue="0" />
             </location>
             <kerning />
             <info />
@@ -244,6 +181,15 @@
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="100" />
+                <dimension name="slant" xvalue="-12" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="Condensed Medium Italic">
+            <location>
+                <dimension name="weight" xvalue="0.400000" />
+                <dimension name="width" xvalue="75" />
                 <dimension name="slant" xvalue="-12" />
             </location>
             <kerning />
