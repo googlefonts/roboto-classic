@@ -82,11 +82,26 @@ for instance in instances:
     i.styleName = instance["styleName"]
 
     #add filename so individual instances can be generated using fontmake
-    filename = instance["familyName"] +"-"+ instance["styleName"].replace(" ", "")
+    fiFamily = ''
+    fiStyle = ''
+
     #currently individual instances have with width as part of the family name before the hyphen
-    filename = filename.replace("-Condensed", "Condensed-")
-    i.filename = filename
+    #here's a list of possible widths that should be part of the family name rather than the style name
+    widths = ["Wide", "Condensed", "Compressed"]
+    styleAttributes = instance["styleName"].split(" ")
+    series = instance["familyName"]
+    fiFamily += series 
+
+    #add width to family name
+    for attribute in styleAttributes:
+        if attribute in widths:
+            fiFamily += attribute
+            styleAttributes.remove(attribute)
+    fiStyle = ''.join(styleAttributes)
     
+    #add filename to instance
+    i.filename = fiFamily +"-"+ fiStyle
+
     doc.addInstance(i)
 
 for axis in axes:
