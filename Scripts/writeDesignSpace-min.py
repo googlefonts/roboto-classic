@@ -46,6 +46,23 @@ instances.insert(9, dict(location=dict(weight=0.35, slant=-12), styleName="Mediu
 instances.insert(10, dict(location=dict(weight=0.73, slant=-12), styleName="Bold Italic", familyName=familyName))
 #Black Italic
 
+#Condensed 
+#Thin
+instances.insert(1, dict(location=dict(weight=-0.55, width=75), styleName="Condensed Light", familyName=familyName))
+instances.insert(1, dict(location=dict(weight=-0.1, width=75), styleName="Condensed Regular", familyName=familyName))
+instances.insert(3, dict(location=dict(weight=0.4, width=75), styleName="Condensed Medium", familyName=familyName))
+instances.insert(4, dict(location=dict(weight=0.75, width=75), styleName="Condensed Bold", familyName=familyName))
+
+#Thin Italic
+instances.insert(7, dict(location=dict(weight=-0.55, width=75, slant=-12), styleName="Condensed Light Italic", familyName=familyName))
+instances.insert(1, dict(location=dict(weight=-0.1, width=75, slant=-12), styleName="Condensed Italic", familyName=familyName))
+instances.insert(9, dict(location=dict(weight=0.4, width=75, slant=-12), styleName="Condensed Medium Italic", familyName=familyName))
+instances.insert(10, dict(location=dict(weight=0.75, width=75, slant=-12), styleName="Condensed Bold Italic", familyName=familyName))
+#Black Italic
+
+
+
+
 doc = DesignSpaceDocument()
 
 for source in sources:
