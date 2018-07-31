@@ -80,6 +80,13 @@ for instance in instances:
     i.location = instance["location"]
     i.familyName = instance["familyName"]
     i.styleName = instance["styleName"]
+
+    #add filename so individual instances can be generated using fontmake
+    filename = instance["familyName"] +"-"+ instance["styleName"].replace(" ", "")
+    #currently individual instances have with width as part of the family name before the hyphen
+    filename = filename.replace("-Condensed", "Condensed-")
+    i.filename = filename
+    
     doc.addInstance(i)
 
 for axis in axes:
