@@ -48,16 +48,16 @@ instances.insert(10, dict(location=dict(weight=0.73, slant=-12), styleName="Bold
 
 #Condensed 
 #Thin
-instances.insert(1, dict(location=dict(weight=-0.55, width=75), styleName="Condensed Light", familyName=familyName))
-instances.insert(1, dict(location=dict(weight=-0.1, width=75), styleName="Condensed Regular", familyName=familyName))
+#Condensed Light
+#Condensed Regular
 instances.insert(3, dict(location=dict(weight=0.4, width=75), styleName="Condensed Medium", familyName=familyName))
-instances.insert(4, dict(location=dict(weight=0.75, width=75), styleName="Condensed Bold", familyName=familyName))
+#Condensed Bold
 
 #Thin Italic
-instances.insert(7, dict(location=dict(weight=-0.55, width=75, slant=-12), styleName="Condensed Light Italic", familyName=familyName))
-instances.insert(1, dict(location=dict(weight=-0.1, width=75, slant=-12), styleName="Condensed Italic", familyName=familyName))
+#Condensed Light Italic
+#Condensed Italic
 instances.insert(9, dict(location=dict(weight=0.4, width=75, slant=-12), styleName="Condensed Medium Italic", familyName=familyName))
-instances.insert(10, dict(location=dict(weight=0.75, width=75, slant=-12), styleName="Condensed Bold Italic", familyName=familyName))
+#Condensed Bold Italic
 #Black Italic
 
 
