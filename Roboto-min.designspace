@@ -104,8 +104,12 @@
             </location>
         </source>
     </sources>
+
+
     <instances>
+
         <instance familyname="Roboto" filename="Roboto-Thin" stylename="Thin">
+
             <location>
                 <dimension name="weight" xvalue="-1" />
                 <dimension name="width" xvalue="100" />
@@ -115,6 +119,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-Light" stylename="Light">
+
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="100" />
@@ -124,6 +129,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-Regular" stylename="Regular">
+
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="100" />
@@ -142,6 +148,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-Medium" stylename="Medium">
+
             <location>
                 <dimension name="weight" xvalue="0.350000" />
                 <dimension name="width" xvalue="100" />
@@ -151,6 +158,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-Bold" stylename="Bold">
+
             <location>
                 <dimension name="weight" xvalue="0.730000" />
                 <dimension name="width" xvalue="100" />
@@ -160,6 +168,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-Black" stylename="Black">
+
             <location>
                 <dimension name="weight" xvalue="1.125000" />
                 <dimension name="width" xvalue="100" />
@@ -169,6 +178,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-ThinItalic" stylename="Thin Italic">
+
             <location>
                 <dimension name="weight" xvalue="-1" />
                 <dimension name="width" xvalue="100" />
@@ -178,6 +188,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-LightItalic" stylename="Light Italic">
+
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="100" />
@@ -196,6 +207,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-Italic" stylename="Italic">
+
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="100" />
@@ -205,6 +217,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-MediumItalic" stylename="Medium Italic">
+
             <location>
                 <dimension name="weight" xvalue="0.350000" />
                 <dimension name="width" xvalue="100" />
@@ -214,6 +227,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="Roboto-BoldItalic" stylename="Bold Italic">
+
             <location>
                 <dimension name="weight" xvalue="0.730000" />
                 <dimension name="width" xvalue="100" />
@@ -221,8 +235,9 @@
             </location>
             <kerning />
             <info />
-        </instance>
+         </instance>
         <instance familyname="Roboto" filename="Roboto-BlackItalic" stylename="Black Italic">
+
             <location>
                 <dimension name="weight" xvalue="1.125000" />
                 <dimension name="width" xvalue="100" />
@@ -232,6 +247,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="RobotoCondensed-Light" stylename="Condensed Light">
+
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="75" />
@@ -241,6 +257,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="RobotoCondensed-Regular" stylename="Condensed Regular">
+
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="75" />
@@ -250,6 +267,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="RobotoCondensed-Bold" stylename="Condensed Bold">
+
             <location>
                 <dimension name="weight" xvalue="0.750000" />
                 <dimension name="width" xvalue="75" />
@@ -259,6 +277,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="RobotoCondensed-LightItalic" stylename="Condensed Light Italic">
+
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
                 <dimension name="width" xvalue="75" />
@@ -268,6 +287,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="RobotoCondensed-Italic" stylename="Condensed Italic">
+
             <location>
                 <dimension name="weight" xvalue="-0.100000" />
                 <dimension name="width" xvalue="75" />
@@ -277,6 +297,7 @@
             <info />
         </instance>
         <instance familyname="Roboto" filename="RobotoCondensed-BoldItalic" stylename="Condensed Bold Italic">
+
             <location>
                 <dimension name="weight" xvalue="0.750000" />
                 <dimension name="width" xvalue="75" />
@@ -285,5 +306,7 @@
             <kerning />
             <info />
         </instance>
+
+
     </instances>
 </designspace>
