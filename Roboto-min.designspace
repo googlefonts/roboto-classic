@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="400" maximum="900" minimum="250" name="weight" tag="wght">
+        <axis default="400" maximum="900" minimum="100" name="weight" tag="wght">
             <labelname xml:lang="en">Weight</labelname>
-            <map input="250" output="-1" />
+            <map input="100" output="-1" />
             <map input="300" output="-0.550000" />
             <map input="400" output="-0.100000" />
             <map input="500" output="0.350000" />
