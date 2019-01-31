@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Racute.smcp" format="1">
+  <advance width="1007"/>
+  <outline>
+    <component base="R.smcp"/>
+    <component base="acute" xOffset="290" yOffset="26"/>
+    <contour>
+      <point x="460.0" y="1320.0" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="461.0" y="8.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="988.0" y="1600.0" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="988.0" y="-407.0" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="988.0" y="1320.0" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="460.0" y="1577.0" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

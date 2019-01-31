@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcommaaccent" format="1">
+  <advance width="937"/>
+  <unicode hex="013B"/>
+  <outline>
+    <component base="L"/>
+    <component base="commaaccent" xOffset="319" yOffset="-216"/>
+    <contour>
+      <point x="219.0" y="1553.0" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="919.0" y="1600.0" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="919.0" y="-407.0" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="919.0" y="1553.0" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="219.0" y="1553.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="548.0" y="-416.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

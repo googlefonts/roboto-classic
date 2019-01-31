@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot" format="1">
+  <advance width="620"/>
+  <unicode hex="0140"/>
+  <outline>
+    <component base="l"/>
+    <component base="dotaccent" xOffset="209" yOffset="-600"/>
+    <contour>
+      <point x="202.0" y="1674.0" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="202.0" y="10.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="601.0" y="1600.0" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="601.0" y="-407.0" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="601.0" y="1674.0" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="202.0" y="1674.0" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

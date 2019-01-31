@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E2F" format="1">
+  <advance width="564"/>
+  <unicode hex="1E2F"/>
+  <outline>
+    <component base="dotlessi" xOffset="82"/>
+    <component base="dieresisacutecomb.lc" xOffset="740" yOffset="-23"/>
+    <contour>
+      <point x="285.0" y="654.0" type="move" name="rhotichook"/>
+    </contour>
+    <contour>
+      <point x="280.0" y="1271.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="452.0" y="1271.0" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="282.0" y="1780.0" type="move" name="mkmktop_acc"/>
+    </contour>
+    <contour>
+      <point x="282.0" y="10.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="280.0" y="1271.0" type="move" name="parent_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

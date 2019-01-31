@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wcircumflex.smcp" format="1">
+  <advance width="1387"/>
+  <outline>
+    <component base="W.smcp"/>
+    <component base="circumflex" xOffset="328" yOffset="26"/>
+    <contour>
+      <point x="692.0" y="1320.0" type="move" name="parent_top"/>
+    </contour>
+    <contour>
+      <point x="692.0" y="10.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1368.0" y="1600.0" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1368.0" y="-407.0" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1368.0" y="1320.0" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="692.0" y="1635.0" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

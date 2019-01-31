@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t" format="1">
+  <advance width="589"/>
+  <unicode hex="0074"/>
+  <outline>
+    <contour>
+      <point x="478" y="1082" type="line"/>
+      <point x="50" y="1082" type="line"/>
+      <point x="50" y="1029" type="line"/>
+      <point x="478" y="1029" type="line"/>
+    </contour>
+    <contour>
+      <point x="219" y="1374" type="line"/>
+      <point x="219" y="259" type="line"/>
+      <point x="219" y="42"/>
+      <point x="291" y="-20"/>
+      <point x="408" y="-20" type="curve" smooth="yes"/>
+      <point x="435" y="-20"/>
+      <point x="482" y="-18"/>
+      <point x="506" y="-9" type="curve"/>
+      <point x="498" y="40" type="line"/>
+      <point x="467" y="34"/>
+      <point x="444" y="31"/>
+      <point x="407" y="31" type="curve" smooth="yes"/>
+      <point x="336" y="31"/>
+      <point x="273" y="66"/>
+      <point x="273" y="259" type="curve"/>
+      <point x="273" y="1374" type="line"/>
+    </contour>
+    <contour>
+      <point x="372" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="246" y="1542" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="452" y="1288" type="move" name="marktop"/>
+    </contour>
+    <contour>
+      <point x="570" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="570" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="570" y="1542" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="246" y="1542" type="move" name="parent_top"/>
+    </contour>
+  </outline>
+</glyph>
