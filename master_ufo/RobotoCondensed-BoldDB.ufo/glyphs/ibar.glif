@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibar" format="2">
+  <advance width="675"/>
+  <unicode hex="0268"/>
+  <guideline x="341.0" y="0.0" angle="90.0" identifier="ULTQ4w3KYA"/>
+  <anchor x="338" y="1600" name="top"/>
+  <anchor x="655" y="1600" name="top0315"/>
+  <anchor x="338" y="0" name="bottom"/>
+  <anchor x="338" y="1600" name="parent_top"/>
+  <outline>
+    <component base="i" xOffset="80"/>
+    <component base="crossbar" xOffset="-110" yOffset="-163"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.ULTQ4w3KYA</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>
