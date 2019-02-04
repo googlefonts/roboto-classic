@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="dieresis" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="1">
   <advance width="959"/>
   <unicode hex="00A8"/>
-  <anchor x="479" y="1603" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="95" y="1366" type="curve" smooth="yes"/>
@@ -31,6 +30,9 @@
       <point x="723" y="1493" type="curve" smooth="yes"/>
       <point x="642" y="1493"/>
       <point x="584" y="1437"/>
+    </contour>
+    <contour>
+      <point x="479" y="1603" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
 </glyph>

@@ -1,13 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="R" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="R" format="1">
   <advance width="1134"/>
   <unicode hex="0052"/>
-  <anchor x="521" y="1600" name="top"/>
-  <anchor x="536" y="10" name="bottom"/>
-  <anchor x="1114" y="1600" name="top_dd"/>
-  <anchor x="1114" y="-407" name="bottom_dd"/>
-  <anchor x="1114" y="1600" name="top0315"/>
-  <anchor x="521" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="118" y="1456" type="line"/>
@@ -38,6 +32,24 @@
       <point x="1094" y="14" type="line"/>
       <point x="821" y="650" type="line"/>
       <point x="511" y="649" type="line"/>
+    </contour>
+    <contour>
+      <point x="521" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="536" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1114" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1114" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1114" y="1600" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="521" y="1600" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

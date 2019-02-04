@@ -51,8 +51,63 @@
     </dict>
     <key>A.smcp</key>
     <dict>
+      <key>C.smcp</key>
+      <integer>-14</integer>
+      <key>T.smcp</key>
+      <integer>-64</integer>
+      <key>U.smcp</key>
+      <integer>-20</integer>
+      <key>Upsilon.smcp</key>
+      <integer>-65</integer>
       <key>V.smcp</key>
       <integer>-57</integer>
+      <key>W.smcp</key>
+      <integer>-40</integer>
+    </dict>
+    <key>A_UC</key>
+    <dict>
+      <key>C.smcp</key>
+      <integer>-11</integer>
+      <key>C_UC</key>
+      <integer>-21</integer>
+      <key>T.smcp</key>
+      <integer>-57</integer>
+      <key>T_UC</key>
+      <integer>-120</integer>
+      <key>U.smcp</key>
+      <integer>-15</integer>
+      <key>U_UC</key>
+      <integer>-17</integer>
+      <key>Upsilon</key>
+      <integer>-150</integer>
+      <key>Upsilon.smcp</key>
+      <integer>-60</integer>
+      <key>V_UC</key>
+      <integer>-77</integer>
+      <key>W.smcp</key>
+      <integer>-35</integer>
+      <key>W_UC</key>
+      <integer>-39</integer>
+      <key>eta</key>
+      <integer>-48</integer>
+      <key>gamma</key>
+      <integer>-50</integer>
+      <key>minute</key>
+      <integer>-120</integer>
+      <key>o_LC</key>
+      <integer>-12</integer>
+      <key>u_LC</key>
+      <integer>-11</integer>
+      <key>uni0409</key>
+      <integer>17</integer>
+      <key>uni0427</key>
+      <integer>-55</integer>
+      <key>uni043B</key>
+      <integer>18</integer>
+      <key>uni0447</key>
+      <integer>-33</integer>
+      <key>z_LC</key>
+      <integer>12</integer>
     </dict>
     <key>Aacute</key>
     <dict>
@@ -732,6 +787,17 @@
       <key>uni050E</key>
       <integer>-26</integer>
     </dict>
+    <key>B_UC</key>
+    <dict>
+      <key>T_UC</key>
+      <integer>-27</integer>
+      <key>Upsilon</key>
+      <integer>-55</integer>
+      <key>V_UC</key>
+      <integer>-24</integer>
+      <key>uni040E</key>
+      <integer>-13</integer>
+    </dict>
     <key>Beta</key>
     <dict>
       <key>uni046A</key>
@@ -760,6 +826,11 @@
       <integer>-26</integer>
       <key>uni04BD</key>
       <integer>-19</integer>
+    </dict>
+    <key>C_UC</key>
+    <dict>
+      <key>T_UC</key>
+      <integer>-29</integer>
     </dict>
     <key>Cacute</key>
     <dict>
@@ -808,15 +879,27 @@
     <key>Chi</key>
     <dict>
       <key>C.smcp</key>
-      <integer>-23</integer>
+      <integer>-25</integer>
+      <key>C_UC</key>
+      <integer>-25</integer>
       <key>Phi</key>
       <integer>-44</integer>
       <key>Q.smcp</key>
       <integer>-23</integer>
+      <key>V_UC</key>
+      <integer>14</integer>
+      <key>alpha</key>
+      <integer>-26</integer>
       <key>delta.alt</key>
       <integer>-16</integer>
+      <key>emdash</key>
+      <integer>-156</integer>
+      <key>gamma</key>
+      <integer>-31</integer>
       <key>lambda</key>
       <integer>17</integer>
+      <key>o_LC</key>
+      <integer>-21</integer>
       <key>omega</key>
       <integer>-18</integer>
       <key>phi</key>
@@ -827,12 +910,20 @@
       <integer>-32</integer>
       <key>theta</key>
       <integer>-19</integer>
+      <key>u_LC</key>
+      <integer>-21</integer>
+      <key>uni0409</key>
+      <integer>17</integer>
       <key>uni0414</key>
       <integer>18</integer>
       <key>uni0431</key>
       <integer>-23</integer>
+      <key>uni043B</key>
+      <integer>17</integer>
       <key>uni0442</key>
       <integer>-41</integer>
+      <key>uni0447</key>
+      <integer>-47</integer>
       <key>uni04A1</key>
       <integer>-41</integer>
       <key>uni04B9</key>
@@ -871,6 +962,12 @@
     </dict>
     <key>D.smcp</key>
     <dict>
+      <key>Chi.smcp</key>
+      <integer>-20</integer>
+      <key>T.smcp</key>
+      <integer>-18</integer>
+      <key>Upsilon.smcp</key>
+      <integer>-22</integer>
       <key>V.smcp</key>
       <integer>-18</integer>
       <key>W.smcp</key>
@@ -894,6 +991,29 @@
       <integer>-32</integer>
       <key>uni050E</key>
       <integer>-32</integer>
+    </dict>
+    <key>D_UC</key>
+    <dict>
+      <key>A.smcp</key>
+      <integer>-19</integer>
+      <key>A_UC</key>
+      <integer>-21</integer>
+      <key>Chi</key>
+      <integer>-22</integer>
+      <key>Chi.smcp</key>
+      <integer>-11</integer>
+      <key>T_UC</key>
+      <integer>-85</integer>
+      <key>Upsilon</key>
+      <integer>-43</integer>
+      <key>V_UC</key>
+      <integer>-22</integer>
+      <key>Z_UC</key>
+      <integer>-23</integer>
+      <key>comma</key>
+      <integer>-122</integer>
+      <key>uni0409</key>
+      <integer>-31</integer>
     </dict>
     <key>Dbar1</key>
     <dict>
@@ -1027,10 +1147,26 @@
     </dict>
     <key>Dtopbar</key>
     <dict>
+      <key>A_UC</key>
+      <integer>18</integer>
+      <key>Chi</key>
+      <integer>17</integer>
+      <key>T_UC</key>
+      <integer>-29</integer>
+      <key>Upsilon</key>
+      <integer>-28</integer>
+      <key>uni0409</key>
+      <integer>17</integer>
       <key>uni0414</key>
       <integer>21</integer>
+      <key>uni0427</key>
+      <integer>-28</integer>
       <key>uni0434</key>
       <integer>21</integer>
+      <key>uni043B</key>
+      <integer>17</integer>
+      <key>uni0447</key>
+      <integer>-27</integer>
       <key>uni04B8</key>
       <integer>-28</integer>
       <key>uni04B9</key>
@@ -1052,6 +1188,23 @@
       <integer>-18</integer>
       <key>w</key>
       <integer>-22</integer>
+    </dict>
+    <key>E_UC</key>
+    <dict>
+      <key>T_UC</key>
+      <integer>20</integer>
+      <key>Upsilon.smcp</key>
+      <integer>-16</integer>
+      <key>W.smcp</key>
+      <integer>-19</integer>
+      <key>alpha</key>
+      <integer>-19</integer>
+      <key>gamma</key>
+      <integer>-26</integer>
+      <key>o_LC</key>
+      <integer>-19</integer>
+      <key>u_LC</key>
+      <integer>-17</integer>
     </dict>
     <key>Eacute</key>
     <dict>
@@ -1998,22 +2151,50 @@
     <dict>
       <key>AE</key>
       <integer>-341</integer>
+      <key>A_UC</key>
+      <integer>-205</integer>
+      <key>C_UC</key>
+      <integer>-67</integer>
       <key>Phi</key>
       <integer>-142</integer>
+      <key>S_UC</key>
+      <integer>-47</integer>
+      <key>T_UC</key>
+      <integer>7</integer>
+      <key>Upsilon</key>
+      <integer>7</integer>
+      <key>V_UC</key>
+      <integer>7</integer>
+      <key>W_UC</key>
+      <integer>5</integer>
+      <key>a_LC</key>
+      <integer>-161</integer>
       <key>ae</key>
       <integer>-162</integer>
+      <key>alpha</key>
+      <integer>-171</integer>
       <key>chi.alt</key>
       <integer>-150</integer>
+      <key>comma</key>
+      <integer>-458</integer>
       <key>delta.alt</key>
       <integer>-45</integer>
+      <key>emdash</key>
+      <integer>-482</integer>
       <key>epsilon</key>
       <integer>-241</integer>
+      <key>eta</key>
+      <integer>-171</integer>
+      <key>gamma</key>
+      <integer>-159</integer>
       <key>guillemotleft</key>
       <integer>-271</integer>
       <key>guillemotright</key>
       <integer>-268</integer>
       <key>iota</key>
       <integer>-246</integer>
+      <key>o_LC</key>
+      <integer>-154</integer>
       <key>omega</key>
       <integer>-244</integer>
       <key>oslash</key>
@@ -2028,8 +2209,14 @@
       <integer>-130</integer>
       <key>rho</key>
       <integer>-249</integer>
+      <key>s_LC</key>
+      <integer>-149</integer>
       <key>tau</key>
       <integer>-152</integer>
+      <key>u_LC</key>
+      <integer>-130</integer>
+      <key>uni0409</key>
+      <integer>-110</integer>
       <key>uni0414</key>
       <integer>-157</integer>
       <key>uni042C</key>
@@ -2042,8 +2229,12 @@
       <integer>-258</integer>
       <key>uni0437</key>
       <integer>-237</integer>
+      <key>uni043B</key>
+      <integer>-241</integer>
       <key>uni0442</key>
       <integer>-152</integer>
+      <key>uni0447</key>
+      <integer>-244</integer>
       <key>uni044B</key>
       <integer>-242</integer>
       <key>uni044C</key>
@@ -2096,6 +2287,10 @@
       <integer>-43</integer>
       <key>w</key>
       <integer>-99</integer>
+      <key>x_LC</key>
+      <integer>-150</integer>
+      <key>z_LC</key>
+      <integer>-122</integer>
     </dict>
     <key>H</key>
     <dict>
@@ -2420,6 +2615,13 @@
       <key>uni050E</key>
       <integer>-28</integer>
     </dict>
+    <key>J_UC</key>
+    <dict>
+      <key>A.smcp</key>
+      <integer>-21</integer>
+      <key>A_UC</key>
+      <integer>-22</integer>
+    </dict>
     <key>K</key>
     <dict>
       <key>C.smcp</key>
@@ -2458,6 +2660,30 @@
       <integer>-17</integer>
       <key>w</key>
       <integer>-63</integer>
+    </dict>
+    <key>K.smcp</key>
+    <dict>
+      <key>C.smcp</key>
+      <integer>-21</integer>
+    </dict>
+    <key>K_UC</key>
+    <dict>
+      <key>C.smcp</key>
+      <integer>-25</integer>
+      <key>C_UC</key>
+      <integer>-31</integer>
+      <key>alpha</key>
+      <integer>-26</integer>
+      <key>emdash</key>
+      <integer>-164</integer>
+      <key>gamma</key>
+      <integer>-40</integer>
+      <key>o_LC</key>
+      <integer>-27</integer>
+      <key>u_LC</key>
+      <integer>-23</integer>
+      <key>uni0447</key>
+      <integer>-93</integer>
     </dict>
     <key>Kappa</key>
     <dict>
@@ -2589,10 +2815,55 @@
     </dict>
     <key>L.smcp</key>
     <dict>
+      <key>C.smcp</key>
+      <integer>-17</integer>
       <key>Q.smcp</key>
       <integer>-16</integer>
+      <key>T.smcp</key>
+      <integer>-69</integer>
+      <key>U.smcp</key>
+      <integer>-20</integer>
+      <key>Upsilon.smcp</key>
+      <integer>-76</integer>
       <key>V.smcp</key>
       <integer>-73</integer>
+      <key>W.smcp</key>
+      <integer>-43</integer>
+    </dict>
+    <key>L_UC</key>
+    <dict>
+      <key>A.smcp</key>
+      <integer>19</integer>
+      <key>A_UC</key>
+      <integer>19</integer>
+      <key>C.smcp</key>
+      <integer>-14</integer>
+      <key>C_UC</key>
+      <integer>-64</integer>
+      <key>T.smcp</key>
+      <integer>-67</integer>
+      <key>T_UC</key>
+      <integer>-205</integer>
+      <key>U.smcp</key>
+      <integer>-18</integer>
+      <key>U_UC</key>
+      <integer>-24</integer>
+      <key>Upsilon</key>
+      <integer>-279</integer>
+      <key>Upsilon.smcp</key>
+      <integer>-73</integer>
+      <key>V_UC</key>
+      <integer>-206</integer>
+      <key>W.smcp</key>
+      <integer>-41</integer>
+      <key>W_UC</key>
+      <integer>-93</integer>
+      <key>gamma</key>
+      <integer>-123</integer>
+      <key>minute</key>
+      <integer>-288</integer>
+      <key>u_LC</key>
+      <integer>-14</integer>
     </dict>
     <key>Lacute</key>
     <dict>
@@ -3253,6 +3524,33 @@
       <integer>-174</integer>
       <key>uni0500</key>
       <integer>-49</integer>
+    </dict>
+    <key>P_UC</key>
+    <dict>
+      <key>A.smcp</key>
+      <integer>-128</integer>
+      <key>A_UC</key>
+      <integer>-178</integer>
+      <key>Chi</key>
+      <integer>-51</integer>
+      <key>J_UC</key>
+      <integer>-184</integer>
+      <key>Z_UC</key>
+      <integer>-36</integer>
+      <key>a_LC</key>
+      <integer>-11</integer>
+      <key>alpha</key>
+      <integer>-13</integer>
+      <key>comma</key>
+      <integer>-404</integer>
+      <key>gamma</key>
+      <integer>15</integer>
+      <key>o_LC</key>
+      <integer>-13</integer>
+      <key>uni0409</key>
+      <integer>-145</integer>
+      <key>uni043B</key>
+      <integer>-89</integer>
     </dict>
     <key>Phi</key>
     <dict>
@@ -4189,8 +4487,69 @@
     </dict>
     <key>T.smcp</key>
     <dict>
+      <key>Upsilon.smcp</key>
+      <integer>13</integer>
       <key>V.smcp</key>
       <integer>13</integer>
+    </dict>
+    <key>T_UC</key>
+    <dict>
+      <key>A.smcp</key>
+      <integer>-81</integer>
+      <key>A_UC</key>
+      <integer>-120</integer>
+      <key>C.smcp</key>
+      <integer>-71</integer>
+      <key>C_UC</key>
+      <integer>-28</integer>
+      <key>Chi.smcp</key>
+      <integer>-19</integer>
+      <key>J_UC</key>
+      <integer>-216</integer>
+      <key>S.smcp</key>
+      <integer>-68</integer>
+      <key>S_UC</key>
+      <integer>-16</integer>
+      <key>T.smcp</key>
+      <integer>-15</integer>
+      <key>T_UC</key>
+      <integer>16</integer>
+      <key>Upsilon</key>
+      <integer>16</integer>
+      <key>V_UC</key>
+      <integer>16</integer>
+      <key>W.smcp</key>
+      <integer>-15</integer>
+      <key>W_UC</key>
+      <integer>15</integer>
+      <key>a_LC</key>
+      <integer>-168</integer>
+      <key>alpha</key>
+      <integer>-89</integer>
+      <key>comma</key>
+      <integer>-258</integer>
+      <key>emdash</key>
+      <integer>-272</integer>
+      <key>eta</key>
+      <integer>-89</integer>
+      <key>gamma</key>
+      <integer>-82</integer>
+      <key>o_LC</key>
+      <integer>-208</integer>
+      <key>s_LC</key>
+      <integer>-76</integer>
+      <key>u_LC</key>
+      <integer>-65</integer>
+      <key>uni0409</key>
+      <integer>-53</integer>
+      <key>uni043B</key>
+      <integer>-130</integer>
+      <key>uni0447</key>
+      <integer>-132</integer>
+      <key>x_LC</key>
+      <integer>-77</integer>
+      <key>z_LC</key>
+      <integer>-60</integer>
     </dict>
     <key>Tau</key>
     <dict>
@@ -4651,14 +5010,46 @@
     </dict>
     <key>Upsilon</key>
     <dict>
+      <key>A.smcp</key>
+      <integer>-85</integer>
       <key>AE</key>
       <integer>-96</integer>
+      <key>A_UC</key>
+      <integer>-150</integer>
       <key>C.smcp</key>
-      <integer>-51</integer>
+      <integer>-53</integer>
+      <key>C_UC</key>
+      <integer>-29</integer>
+      <key>Chi</key>
+      <integer>13</integer>
+      <key>Chi.smcp</key>
+      <integer>-17</integer>
+      <key>J_UC</key>
+      <integer>-96</integer>
       <key>Phi</key>
       <integer>-48</integer>
+      <key>S_UC</key>
+      <integer>-16</integer>
+      <key>T.smcp</key>
+      <integer>-13</integer>
+      <key>T_UC</key>
+      <integer>17</integer>
+      <key>U_UC</key>
+      <integer>-96</integer>
+      <key>Upsilon</key>
+      <integer>18</integer>
+      <key>V_UC</key>
+      <integer>18</integer>
+      <key>W.smcp</key>
+      <integer>-13</integer>
+      <key>W_UC</key>
+      <integer>17</integer>
+      <key>a_LC</key>
+      <integer>-63</integer>
       <key>ae</key>
       <integer>-63</integer>
+      <key>alpha</key>
+      <integer>-65</integer>
       <key>ampersand</key>
       <integer>-30</integer>
       <key>asterisk</key>
@@ -4673,18 +5064,28 @@
       <integer>-45</integer>
       <key>chi.alt</key>
       <integer>-64</integer>
+      <key>comma</key>
+      <integer>-231</integer>
       <key>delta.alt</key>
       <integer>-18</integer>
+      <key>emdash</key>
+      <integer>-152</integer>
       <key>epsilon</key>
       <integer>-58</integer>
+      <key>eta</key>
+      <integer>-40</integer>
       <key>f</key>
       <integer>-22</integer>
+      <key>gamma</key>
+      <integer>-20</integer>
       <key>guillemotleft</key>
       <integer>-82</integer>
       <key>guillemotright</key>
       <integer>-51</integer>
       <key>iota</key>
       <integer>-42</integer>
+      <key>o_LC</key>
+      <integer>-65</integer>
       <key>omega</key>
       <integer>-57</integer>
       <key>oslash</key>
@@ -4701,12 +5102,20 @@
       <integer>-40</integer>
       <key>rho</key>
       <integer>-70</integer>
+      <key>s_LC</key>
+      <integer>-58</integer>
       <key>t</key>
       <integer>-22</integer>
       <key>tau</key>
       <integer>-23</integer>
       <key>theta</key>
       <integer>-23</integer>
+      <key>u_LC</key>
+      <integer>-39</integer>
+      <key>x_LC</key>
+      <integer>-23</integer>
+      <key>z_LC</key>
+      <integer>-30</integer>
       <key>zeta</key>
       <integer>13</integer>
     </dict>
@@ -4843,6 +5252,31 @@
       <key>r</key>
       <integer>-30</integer>
     </dict>
+    <key>V_UC</key>
+    <dict>
+      <key>A.smcp</key>
+      <integer>-76</integer>
+      <key>A_UC</key>
+      <integer>-75</integer>
+      <key>C.smcp</key>
+      <integer>-39</integer>
+      <key>C_UC</key>
+      <integer>-13</integer>
+      <key>a_LC</key>
+      <integer>-46</integer>
+      <key>alpha</key>
+      <integer>-44</integer>
+      <key>comma</key>
+      <integer>-215</integer>
+      <key>emdash</key>
+      <integer>-157</integer>
+      <key>gamma</key>
+      <integer>-11</integer>
+      <key>o_LC</key>
+      <integer>-46</integer>
+      <key>u_LC</key>
+      <integer>-28</integer>
+    </dict>
     <key>W</key>
     <dict>
       <key>C.smcp</key>
@@ -4855,6 +5289,29 @@
       <integer>15</integer>
       <key>r</key>
       <integer>-21</integer>
+    </dict>
+    <key>W_UC</key>
+    <dict>
+      <key>A.smcp</key>
+      <integer>-53</integer>
+      <key>A_UC</key>
+      <integer>-43</integer>
+      <key>C.smcp</key>
+      <integer>-25</integer>
+      <key>T_UC</key>
+      <integer>14</integer>
+      <key>a_LC</key>
+      <integer>-33</integer>
+      <key>alpha</key>
+      <integer>-31</integer>
+      <key>comma</key>
+      <integer>-143</integer>
+      <key>emdash</key>
+      <integer>-60</integer>
+      <key>o_LC</key>
+      <integer>-31</integer>
+      <key>u_LC</key>
+      <integer>-19</integer>
     </dict>
     <key>Wacute</key>
     <dict>
@@ -5472,6 +5929,25 @@
       <key>w</key>
       <integer>-27</integer>
     </dict>
+    <key>Z_UC</key>
+    <dict>
+      <key>A.smcp</key>
+      <integer>13</integer>
+      <key>A_UC</key>
+      <integer>13</integer>
+      <key>C.smcp</key>
+      <integer>-20</integer>
+      <key>C_UC</key>
+      <integer>-26</integer>
+      <key>alpha</key>
+      <integer>-21</integer>
+      <key>gamma</key>
+      <integer>-27</integer>
+      <key>o_LC</key>
+      <integer>-21</integer>
+      <key>u_LC</key>
+      <integer>-19</integer>
+    </dict>
     <key>Zacute</key>
     <dict>
       <key>C.smcp</key>
@@ -5542,6 +6018,13 @@
       <integer>-13</integer>
       <key>uni050F</key>
       <integer>-15</integer>
+    </dict>
+    <key>a_LC</key>
+    <dict>
+      <key>gamma</key>
+      <integer>-15</integer>
+      <key>minute</key>
+      <integer>-17</integer>
     </dict>
     <key>aacute</key>
     <dict>
@@ -5640,6 +6123,10 @@
     </dict>
     <key>aemacron</key>
     <dict>
+      <key>gamma</key>
+      <integer>-13</integer>
+      <key>minute</key>
+      <integer>-14</integer>
       <key>quoteright</key>
       <integer>-64</integer>
       <key>uni0442</key>
@@ -5780,6 +6267,19 @@
       <integer>-20</integer>
       <key>uni050F</key>
       <integer>-20</integer>
+    </dict>
+    <key>b_LC</key>
+    <dict>
+      <key>gamma</key>
+      <integer>-11</integer>
+      <key>minute</key>
+      <integer>-29</integer>
+      <key>uni043B</key>
+      <integer>-14</integer>
+      <key>x_LC</key>
+      <integer>-15</integer>
+      <key>z_LC</key>
+      <integer>-15</integer>
     </dict>
     <key>bbar</key>
     <dict>
@@ -5928,6 +6428,11 @@
       <integer>-20</integer>
       <key>uni050F</key>
       <integer>-20</integer>
+    </dict>
+    <key>c_LC</key>
+    <dict>
+      <key>minute</key>
+      <integer>-11</integer>
     </dict>
     <key>chi.alt</key>
     <dict>
@@ -6306,6 +6811,11 @@
       <key>uniAB36</key>
       <integer>-21</integer>
     </dict>
+    <key>comma</key>
+    <dict>
+      <key>minute</key>
+      <integer>-285</integer>
+    </dict>
     <key>delta.alt</key>
     <dict>
       <key>chi.alt</key>
@@ -6387,6 +6897,8 @@
     </dict>
     <key>eta</key>
     <dict>
+      <key>minute</key>
+      <integer>-80</integer>
       <key>quoteright</key>
       <integer>-120</integer>
       <key>uni0442</key>
@@ -6664,10 +7176,20 @@
     </dict>
     <key>gamma</key>
     <dict>
+      <key>a_LC</key>
+      <integer>-15</integer>
+      <key>alpha</key>
+      <integer>-13</integer>
+      <key>comma</key>
+      <integer>-167</integer>
       <key>delta.alt</key>
       <integer>-11</integer>
       <key>f</key>
       <integer>13</integer>
+      <key>minute</key>
+      <integer>15</integer>
+      <key>o_LC</key>
+      <integer>-15</integer>
       <key>pi</key>
       <integer>11</integer>
       <key>rho</key>
@@ -6676,6 +7198,8 @@
       <integer>12</integer>
       <key>uni0434</key>
       <integer>-56</integer>
+      <key>uni043B</key>
+      <integer>-41</integer>
       <key>uni047B</key>
       <integer>-15</integer>
     </dict>
@@ -7373,6 +7897,20 @@
     </dict>
     <key>minute</key>
     <dict>
+      <key>A_UC</key>
+      <integer>-120</integer>
+      <key>a_LC</key>
+      <integer>-50</integer>
+      <key>alpha</key>
+      <integer>-59</integer>
+      <key>eta</key>
+      <integer>-20</integer>
+      <key>minute</key>
+      <integer>-37</integer>
+      <key>o_LC</key>
+      <integer>-91</integer>
+      <key>s_LC</key>
+      <integer>-92</integer>
       <key>w</key>
       <integer>11</integer>
     </dict>
@@ -7457,6 +7995,19 @@
       <integer>-11</integer>
       <key>uni050F</key>
       <integer>-20</integer>
+    </dict>
+    <key>o_LC</key>
+    <dict>
+      <key>gamma</key>
+      <integer>-15</integer>
+      <key>minute</key>
+      <integer>-88</integer>
+      <key>uni043B</key>
+      <integer>-16</integer>
+      <key>x_LC</key>
+      <integer>-21</integer>
+      <key>z_LC</key>
+      <integer>-16</integer>
     </dict>
     <key>oacute</key>
     <dict>
@@ -8036,694 +8587,6 @@
       <key>zdotaccent</key>
       <integer>-14</integer>
     </dict>
-    <key>public.kern1.A.smcp</key>
-    <dict>
-      <key>public.kern2.C.smcp</key>
-      <integer>-14</integer>
-      <key>public.kern2.T.smcp</key>
-      <integer>-64</integer>
-      <key>public.kern2.U.smcp</key>
-      <integer>-20</integer>
-      <key>public.kern2.Upsilon.smcp</key>
-      <integer>-65</integer>
-      <key>public.kern2.W.smcp</key>
-      <integer>-40</integer>
-    </dict>
-    <key>public.kern1.A_UC</key>
-    <dict>
-      <key>public.kern2.C.smcp</key>
-      <integer>-11</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-21</integer>
-      <key>public.kern2.T.smcp</key>
-      <integer>-57</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>-120</integer>
-      <key>public.kern2.U.smcp</key>
-      <integer>-15</integer>
-      <key>public.kern2.U_UC</key>
-      <integer>-17</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>-150</integer>
-      <key>public.kern2.Upsilon.smcp</key>
-      <integer>-60</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>-77</integer>
-      <key>public.kern2.W.smcp</key>
-      <integer>-35</integer>
-      <key>public.kern2.W_UC</key>
-      <integer>-39</integer>
-      <key>public.kern2.eta</key>
-      <integer>-48</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-50</integer>
-      <key>public.kern2.minute</key>
-      <integer>-120</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-12</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-11</integer>
-      <key>public.kern2.uni0409</key>
-      <integer>17</integer>
-      <key>public.kern2.uni0427</key>
-      <integer>-55</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>18</integer>
-      <key>public.kern2.uni0447</key>
-      <integer>-33</integer>
-      <key>public.kern2.z_LC</key>
-      <integer>12</integer>
-    </dict>
-    <key>public.kern1.B_UC</key>
-    <dict>
-      <key>public.kern2.T_UC</key>
-      <integer>-27</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>-55</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>-24</integer>
-      <key>public.kern2.uni040E</key>
-      <integer>-13</integer>
-    </dict>
-    <key>public.kern1.C_UC</key>
-    <dict>
-      <key>public.kern2.T_UC</key>
-      <integer>-29</integer>
-    </dict>
-    <key>public.kern1.Chi</key>
-    <dict>
-      <key>public.kern2.C.smcp</key>
-      <integer>-25</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-25</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>14</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-26</integer>
-      <key>public.kern2.emdash</key>
-      <integer>-156</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-31</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-21</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-21</integer>
-      <key>public.kern2.uni0409</key>
-      <integer>17</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>17</integer>
-      <key>public.kern2.uni0447</key>
-      <integer>-47</integer>
-    </dict>
-    <key>public.kern1.D.smcp</key>
-    <dict>
-      <key>public.kern2.Chi.smcp</key>
-      <integer>-20</integer>
-      <key>public.kern2.T.smcp</key>
-      <integer>-18</integer>
-      <key>public.kern2.Upsilon.smcp</key>
-      <integer>-22</integer>
-    </dict>
-    <key>public.kern1.D_UC</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>-19</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>-21</integer>
-      <key>public.kern2.Chi</key>
-      <integer>-22</integer>
-      <key>public.kern2.Chi.smcp</key>
-      <integer>-11</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>-85</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>-43</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>-22</integer>
-      <key>public.kern2.Z_UC</key>
-      <integer>-23</integer>
-      <key>public.kern2.comma</key>
-      <integer>-122</integer>
-      <key>public.kern2.uni0409</key>
-      <integer>-31</integer>
-    </dict>
-    <key>public.kern1.Dtopbar</key>
-    <dict>
-      <key>public.kern2.A_UC</key>
-      <integer>18</integer>
-      <key>public.kern2.Chi</key>
-      <integer>17</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>-29</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>-28</integer>
-      <key>public.kern2.uni0409</key>
-      <integer>17</integer>
-      <key>public.kern2.uni0427</key>
-      <integer>-28</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>17</integer>
-      <key>public.kern2.uni0447</key>
-      <integer>-27</integer>
-    </dict>
-    <key>public.kern1.E_UC</key>
-    <dict>
-      <key>public.kern2.T_UC</key>
-      <integer>20</integer>
-      <key>public.kern2.Upsilon.smcp</key>
-      <integer>-16</integer>
-      <key>public.kern2.W.smcp</key>
-      <integer>-19</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-19</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-26</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-19</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-17</integer>
-    </dict>
-    <key>public.kern1.Gamma</key>
-    <dict>
-      <key>public.kern2.A_UC</key>
-      <integer>-205</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-67</integer>
-      <key>public.kern2.S_UC</key>
-      <integer>-47</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>7</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>7</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>7</integer>
-      <key>public.kern2.W_UC</key>
-      <integer>5</integer>
-      <key>public.kern2.a_LC</key>
-      <integer>-161</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-171</integer>
-      <key>public.kern2.comma</key>
-      <integer>-458</integer>
-      <key>public.kern2.emdash</key>
-      <integer>-482</integer>
-      <key>public.kern2.eta</key>
-      <integer>-171</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-159</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-154</integer>
-      <key>public.kern2.s_LC</key>
-      <integer>-149</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-130</integer>
-      <key>public.kern2.uni0409</key>
-      <integer>-110</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>-241</integer>
-      <key>public.kern2.uni0447</key>
-      <integer>-244</integer>
-      <key>public.kern2.x_LC</key>
-      <integer>-150</integer>
-      <key>public.kern2.z_LC</key>
-      <integer>-122</integer>
-    </dict>
-    <key>public.kern1.J_UC</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>-21</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>-22</integer>
-    </dict>
-    <key>public.kern1.K.smcp</key>
-    <dict>
-      <key>public.kern2.C.smcp</key>
-      <integer>-21</integer>
-    </dict>
-    <key>public.kern1.K_UC</key>
-    <dict>
-      <key>public.kern2.C.smcp</key>
-      <integer>-25</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-31</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-26</integer>
-      <key>public.kern2.emdash</key>
-      <integer>-164</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-40</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-27</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-23</integer>
-      <key>public.kern2.uni0447</key>
-      <integer>-93</integer>
-    </dict>
-    <key>public.kern1.L.smcp</key>
-    <dict>
-      <key>public.kern2.C.smcp</key>
-      <integer>-17</integer>
-      <key>public.kern2.T.smcp</key>
-      <integer>-69</integer>
-      <key>public.kern2.U.smcp</key>
-      <integer>-20</integer>
-      <key>public.kern2.Upsilon.smcp</key>
-      <integer>-76</integer>
-      <key>public.kern2.W.smcp</key>
-      <integer>-43</integer>
-    </dict>
-    <key>public.kern1.L_UC</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>19</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>19</integer>
-      <key>public.kern2.C.smcp</key>
-      <integer>-14</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-64</integer>
-      <key>public.kern2.T.smcp</key>
-      <integer>-67</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>-205</integer>
-      <key>public.kern2.U.smcp</key>
-      <integer>-18</integer>
-      <key>public.kern2.U_UC</key>
-      <integer>-24</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>-279</integer>
-      <key>public.kern2.Upsilon.smcp</key>
-      <integer>-73</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>-206</integer>
-      <key>public.kern2.W.smcp</key>
-      <integer>-41</integer>
-      <key>public.kern2.W_UC</key>
-      <integer>-93</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-123</integer>
-      <key>public.kern2.minute</key>
-      <integer>-288</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-14</integer>
-    </dict>
-    <key>public.kern1.P_UC</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>-128</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>-178</integer>
-      <key>public.kern2.Chi</key>
-      <integer>-51</integer>
-      <key>public.kern2.J_UC</key>
-      <integer>-184</integer>
-      <key>public.kern2.Z_UC</key>
-      <integer>-36</integer>
-      <key>public.kern2.a_LC</key>
-      <integer>-11</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-13</integer>
-      <key>public.kern2.comma</key>
-      <integer>-404</integer>
-      <key>public.kern2.gamma</key>
-      <integer>15</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-13</integer>
-      <key>public.kern2.uni0409</key>
-      <integer>-145</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>-89</integer>
-    </dict>
-    <key>public.kern1.T.smcp</key>
-    <dict>
-      <key>public.kern2.Upsilon.smcp</key>
-      <integer>13</integer>
-    </dict>
-    <key>public.kern1.T_UC</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>-81</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>-120</integer>
-      <key>public.kern2.C.smcp</key>
-      <integer>-71</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-28</integer>
-      <key>public.kern2.Chi.smcp</key>
-      <integer>-19</integer>
-      <key>public.kern2.J_UC</key>
-      <integer>-216</integer>
-      <key>public.kern2.S.smcp</key>
-      <integer>-68</integer>
-      <key>public.kern2.S_UC</key>
-      <integer>-16</integer>
-      <key>public.kern2.T.smcp</key>
-      <integer>-15</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>16</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>16</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>16</integer>
-      <key>public.kern2.W.smcp</key>
-      <integer>-15</integer>
-      <key>public.kern2.W_UC</key>
-      <integer>15</integer>
-      <key>public.kern2.a_LC</key>
-      <integer>-168</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-89</integer>
-      <key>public.kern2.comma</key>
-      <integer>-258</integer>
-      <key>public.kern2.emdash</key>
-      <integer>-272</integer>
-      <key>public.kern2.eta</key>
-      <integer>-89</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-82</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-208</integer>
-      <key>public.kern2.s_LC</key>
-      <integer>-76</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-65</integer>
-      <key>public.kern2.uni0409</key>
-      <integer>-53</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>-130</integer>
-      <key>public.kern2.uni0447</key>
-      <integer>-132</integer>
-      <key>public.kern2.x_LC</key>
-      <integer>-77</integer>
-      <key>public.kern2.z_LC</key>
-      <integer>-60</integer>
-    </dict>
-    <key>public.kern1.Upsilon</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>-85</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>-150</integer>
-      <key>public.kern2.C.smcp</key>
-      <integer>-53</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-29</integer>
-      <key>public.kern2.Chi</key>
-      <integer>13</integer>
-      <key>public.kern2.Chi.smcp</key>
-      <integer>-17</integer>
-      <key>public.kern2.J_UC</key>
-      <integer>-96</integer>
-      <key>public.kern2.S_UC</key>
-      <integer>-16</integer>
-      <key>public.kern2.T.smcp</key>
-      <integer>-13</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>17</integer>
-      <key>public.kern2.U_UC</key>
-      <integer>-96</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>18</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>18</integer>
-      <key>public.kern2.W.smcp</key>
-      <integer>-13</integer>
-      <key>public.kern2.W_UC</key>
-      <integer>17</integer>
-      <key>public.kern2.a_LC</key>
-      <integer>-63</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-65</integer>
-      <key>public.kern2.comma</key>
-      <integer>-231</integer>
-      <key>public.kern2.emdash</key>
-      <integer>-152</integer>
-      <key>public.kern2.eta</key>
-      <integer>-40</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-20</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-65</integer>
-      <key>public.kern2.s_LC</key>
-      <integer>-58</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-39</integer>
-      <key>public.kern2.x_LC</key>
-      <integer>-23</integer>
-      <key>public.kern2.z_LC</key>
-      <integer>-30</integer>
-    </dict>
-    <key>public.kern1.V_UC</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>-76</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>-75</integer>
-      <key>public.kern2.C.smcp</key>
-      <integer>-39</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-13</integer>
-      <key>public.kern2.a_LC</key>
-      <integer>-46</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-44</integer>
-      <key>public.kern2.comma</key>
-      <integer>-215</integer>
-      <key>public.kern2.emdash</key>
-      <integer>-157</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-11</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-46</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-28</integer>
-    </dict>
-    <key>public.kern1.W_UC</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>-53</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>-43</integer>
-      <key>public.kern2.C.smcp</key>
-      <integer>-25</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>14</integer>
-      <key>public.kern2.a_LC</key>
-      <integer>-33</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-31</integer>
-      <key>public.kern2.comma</key>
-      <integer>-143</integer>
-      <key>public.kern2.emdash</key>
-      <integer>-60</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-31</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-19</integer>
-    </dict>
-    <key>public.kern1.Z_UC</key>
-    <dict>
-      <key>public.kern2.A.smcp</key>
-      <integer>13</integer>
-      <key>public.kern2.A_UC</key>
-      <integer>13</integer>
-      <key>public.kern2.C.smcp</key>
-      <integer>-20</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-26</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-21</integer>
-      <key>public.kern2.gamma</key>
-      <integer>-27</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-21</integer>
-      <key>public.kern2.u_LC</key>
-      <integer>-19</integer>
-    </dict>
-    <key>public.kern1.a_LC</key>
-    <dict>
-      <key>public.kern2.gamma</key>
-      <integer>-15</integer>
-      <key>public.kern2.minute</key>
-      <integer>-17</integer>
-    </dict>
-    <key>public.kern1.aemacron</key>
-    <dict>
-      <key>public.kern2.gamma</key>
-      <integer>-13</integer>
-      <key>public.kern2.minute</key>
-      <integer>-14</integer>
-    </dict>
-    <key>public.kern1.b_LC</key>
-    <dict>
-      <key>public.kern2.gamma</key>
-      <integer>-11</integer>
-      <key>public.kern2.minute</key>
-      <integer>-29</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>-14</integer>
-      <key>public.kern2.x_LC</key>
-      <integer>-15</integer>
-      <key>public.kern2.z_LC</key>
-      <integer>-15</integer>
-    </dict>
-    <key>public.kern1.c_LC</key>
-    <dict>
-      <key>public.kern2.minute</key>
-      <integer>-11</integer>
-    </dict>
-    <key>public.kern1.comma</key>
-    <dict>
-      <key>public.kern2.minute</key>
-      <integer>-285</integer>
-    </dict>
-    <key>public.kern1.eta</key>
-    <dict>
-      <key>public.kern2.minute</key>
-      <integer>-80</integer>
-    </dict>
-    <key>public.kern1.gamma</key>
-    <dict>
-      <key>public.kern2.a_LC</key>
-      <integer>-15</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-13</integer>
-      <key>public.kern2.comma</key>
-      <integer>-167</integer>
-      <key>public.kern2.minute</key>
-      <integer>15</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-15</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>-41</integer>
-    </dict>
-    <key>public.kern1.minute</key>
-    <dict>
-      <key>public.kern2.A_UC</key>
-      <integer>-120</integer>
-      <key>public.kern2.a_LC</key>
-      <integer>-50</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-59</integer>
-      <key>public.kern2.eta</key>
-      <integer>-20</integer>
-      <key>public.kern2.minute</key>
-      <integer>-37</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-91</integer>
-      <key>public.kern2.s_LC</key>
-      <integer>-92</integer>
-    </dict>
-    <key>public.kern1.o_LC</key>
-    <dict>
-      <key>public.kern2.gamma</key>
-      <integer>-15</integer>
-      <key>public.kern2.minute</key>
-      <integer>-88</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>-16</integer>
-      <key>public.kern2.x_LC</key>
-      <integer>-21</integer>
-      <key>public.kern2.z_LC</key>
-      <integer>-16</integer>
-    </dict>
-    <key>public.kern1.r_LC</key>
-    <dict>
-      <key>public.kern2.a_LC</key>
-      <integer>-30</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-19</integer>
-      <key>public.kern2.comma</key>
-      <integer>-173</integer>
-      <key>public.kern2.gamma</key>
-      <integer>18</integer>
-      <key>public.kern2.minute</key>
-      <integer>16</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-36</integer>
-    </dict>
-    <key>public.kern1.uni0409</key>
-    <dict>
-      <key>public.kern2.T_UC</key>
-      <integer>-97</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>-83</integer>
-      <key>public.kern2.V_UC</key>
-      <integer>-56</integer>
-      <key>public.kern2.minute</key>
-      <integer>-64</integer>
-      <key>public.kern2.uni040E</key>
-      <integer>-21</integer>
-      <key>public.kern2.uni0427</key>
-      <integer>-25</integer>
-      <key>public.kern2.x_LC</key>
-      <integer>-55</integer>
-    </dict>
-    <key>public.kern1.uni040E</key>
-    <dict>
-      <key>public.kern2.A_UC</key>
-      <integer>-91</integer>
-      <key>public.kern2.C_UC</key>
-      <integer>-23</integer>
-      <key>public.kern2.T_UC</key>
-      <integer>18</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>18</integer>
-      <key>public.kern2.a_LC</key>
-      <integer>-81</integer>
-      <key>public.kern2.alpha</key>
-      <integer>-67</integer>
-      <key>public.kern2.comma</key>
-      <integer>-393</integer>
-      <key>public.kern2.emdash</key>
-      <integer>-199</integer>
-      <key>public.kern2.eta</key>
-      <integer>-82</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-67</integer>
-      <key>public.kern2.s_LC</key>
-      <integer>-46</integer>
-      <key>public.kern2.uni0409</key>
-      <integer>-54</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>-69</integer>
-      <key>public.kern2.uni0447</key>
-      <integer>-23</integer>
-    </dict>
-    <key>public.kern1.uni0433</key>
-    <dict>
-      <key>public.kern2.alpha</key>
-      <integer>-20</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-20</integer>
-      <key>public.kern2.uni043B</key>
-      <integer>-40</integer>
-    </dict>
-    <key>public.kern1.uni044A</key>
-    <dict>
-      <key>public.kern2.gamma</key>
-      <integer>-75</integer>
-      <key>public.kern2.minute</key>
-      <integer>-135</integer>
-      <key>public.kern2.uni0447</key>
-      <integer>-29</integer>
-      <key>public.kern2.x_LC</key>
-      <integer>-21</integer>
-    </dict>
-    <key>public.kern1.x_LC</key>
-    <dict>
-      <key>public.kern2.alpha</key>
-      <integer>-20</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-40</integer>
-    </dict>
-    <key>public.kern1.z_LC</key>
-    <dict>
-      <key>public.kern2.alpha</key>
-      <integer>-16</integer>
-      <key>public.kern2.o_LC</key>
-      <integer>-16</integer>
-    </dict>
     <key>quotedbl</key>
     <dict>
       <key>w</key>
@@ -9137,6 +9000,21 @@
       <integer>50</integer>
       <key>w</key>
       <integer>17</integer>
+    </dict>
+    <key>r_LC</key>
+    <dict>
+      <key>a_LC</key>
+      <integer>-30</integer>
+      <key>alpha</key>
+      <integer>-19</integer>
+      <key>comma</key>
+      <integer>-173</integer>
+      <key>gamma</key>
+      <integer>18</integer>
+      <key>minute</key>
+      <integer>16</integer>
+      <key>o_LC</key>
+      <integer>-36</integer>
     </dict>
     <key>racute</key>
     <dict>
@@ -11881,6 +11759,8 @@
       <integer>-16</integer>
       <key>T</key>
       <integer>-99</integer>
+      <key>T_UC</key>
+      <integer>-97</integer>
       <key>Tcaron</key>
       <integer>-99</integer>
       <key>Trthook</key>
@@ -11893,6 +11773,8 @@
       <integer>-85</integer>
       <key>V</key>
       <integer>-57</integer>
+      <key>V_UC</key>
+      <integer>-56</integer>
       <key>X</key>
       <integer>-16</integer>
       <key>Y</key>
@@ -11911,6 +11793,8 @@
       <integer>-46</integer>
       <key>m</key>
       <integer>-46</integer>
+      <key>minute</key>
+      <integer>-64</integer>
       <key>n</key>
       <integer>-46</integer>
       <key>nacute</key>
@@ -12159,6 +12043,8 @@
       <integer>-46</integer>
       <key>uniAB51</key>
       <integer>-46</integer>
+      <key>x_LC</key>
+      <integer>-55</integer>
     </dict>
     <key>uni040A</key>
     <dict>
@@ -12743,6 +12629,30 @@
     </dict>
     <key>uni040E</key>
     <dict>
+      <key>A_UC</key>
+      <integer>-91</integer>
+      <key>C_UC</key>
+      <integer>-23</integer>
+      <key>T_UC</key>
+      <integer>18</integer>
+      <key>Upsilon</key>
+      <integer>18</integer>
+      <key>a_LC</key>
+      <integer>-81</integer>
+      <key>alpha</key>
+      <integer>-67</integer>
+      <key>comma</key>
+      <integer>-393</integer>
+      <key>emdash</key>
+      <integer>-199</integer>
+      <key>eta</key>
+      <integer>-82</integer>
+      <key>o_LC</key>
+      <integer>-67</integer>
+      <key>s_LC</key>
+      <integer>-46</integer>
+      <key>uni0409</key>
+      <integer>-54</integer>
       <key>uni0414</key>
       <integer>-82</integer>
       <key>uni042C</key>
@@ -12753,6 +12663,10 @@
       <integer>-83</integer>
       <key>uni0437</key>
       <integer>-42</integer>
+      <key>uni043B</key>
+      <integer>-69</integer>
+      <key>uni0447</key>
+      <integer>-23</integer>
       <key>uni044B</key>
       <integer>-33</integer>
       <key>uni044F</key>
@@ -15288,8 +15202,14 @@
     </dict>
     <key>uni0433</key>
     <dict>
+      <key>alpha</key>
+      <integer>-20</integer>
+      <key>o_LC</key>
+      <integer>-20</integer>
       <key>uni0434</key>
       <integer>-152</integer>
+      <key>uni043B</key>
+      <integer>-40</integer>
       <key>uni047B</key>
       <integer>-18</integer>
     </dict>
@@ -16946,6 +16866,8 @@
     <dict>
       <key>gamma</key>
       <integer>-64</integer>
+      <key>minute</key>
+      <integer>-135</integer>
       <key>nu</key>
       <integer>-64</integer>
       <key>uni0233</key>
@@ -17012,6 +16934,8 @@
       <integer>-18</integer>
       <key>v</key>
       <integer>-64</integer>
+      <key>x_LC</key>
+      <integer>-21</integer>
       <key>y</key>
       <integer>-64</integer>
       <key>yacute</key>
@@ -26434,6 +26358,13 @@
       <key>uni047B</key>
       <integer>-15</integer>
     </dict>
+    <key>x_LC</key>
+    <dict>
+      <key>alpha</key>
+      <integer>-20</integer>
+      <key>o_LC</key>
+      <integer>-40</integer>
+    </dict>
     <key>xi</key>
     <dict>
       <key>alpha</key>
@@ -26769,6 +26700,13 @@
       <integer>-56</integer>
       <key>uni047B</key>
       <integer>-15</integer>
+    </dict>
+    <key>z_LC</key>
+    <dict>
+      <key>alpha</key>
+      <integer>-16</integer>
+      <key>o_LC</key>
+      <integer>-16</integer>
     </dict>
     <key>zeta</key>
     <dict>

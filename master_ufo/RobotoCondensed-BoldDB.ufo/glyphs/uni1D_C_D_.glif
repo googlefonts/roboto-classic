@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni1DCD" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1DCD" format="1">
+  <advance width="0"/>
   <unicode hex="1DCD"/>
-  <anchor x="22" y="1170" name="_top"/>
   <outline>
     <contour>
       <point x="98" y="1518" type="line"/>
@@ -13,6 +13,9 @@
       <point x="552" y="1177" type="line"/>
       <point x="730" y="1252" type="line"/>
       <point x="730" y="1275" type="line"/>
+    </contour>
+    <contour>
+      <point x="22" y="1170" type="move" name="_top"/>
     </contour>
   </outline>
 </glyph>

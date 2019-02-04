@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni1ABD" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1ABD" format="1">
+  <advance width="0"/>
   <unicode hex="1ABD"/>
-  <anchor x="-485" y="-320" name="_markparent_bottom"/>
   <outline>
     <contour>
       <point x="-796" y="-542" type="curve"/>
@@ -34,6 +34,9 @@
       <point x="-110" y="-409"/>
       <point x="-155" y="-443"/>
       <point x="-192" y="-465" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-485" y="-320" type="move" name="_markparent_bottom"/>
     </contour>
   </outline>
 </glyph>

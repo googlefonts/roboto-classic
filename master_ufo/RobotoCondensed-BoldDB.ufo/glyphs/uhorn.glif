@@ -1,11 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uhorn" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhorn" format="1">
   <advance width="1107"/>
   <unicode hex="01B0"/>
-  <anchor x="503" y="1269" name="top"/>
-  <anchor x="1087" y="1269" name="top0315"/>
-  <anchor x="502" y="0" name="bottom"/>
-  <anchor x="503" y="1269" name="parent_top"/>
   <outline>
     <contour>
       <point x="1002" y="1178" type="line"/>
@@ -41,6 +37,18 @@
       <point x="625" y="-20"/>
       <point x="736" y="194"/>
       <point x="736" y="485" type="curve"/>
+    </contour>
+    <contour>
+      <point x="503" y="1269" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1087" y="1269" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="502" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="503" y="1269" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

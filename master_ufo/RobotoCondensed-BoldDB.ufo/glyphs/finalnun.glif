@@ -1,11 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="finalnun" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="finalnun" format="1">
   <advance width="1272"/>
   <unicode hex="02AF"/>
-  <anchor x="619" y="1290" name="top"/>
-  <anchor x="619" y="-447" name="bottom"/>
-  <anchor x="1252" y="1290" name="top0315"/>
-  <anchor x="619" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="759" y="-17" type="line"/>
@@ -66,6 +62,18 @@
       <point x="1042" y="-204"/>
       <point x="1042" y="-93" type="curve" smooth="yes"/>
       <point x="1042" y="108" type="line"/>
+    </contour>
+    <contour>
+      <point x="619" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="619" y="-447" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1252" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="619" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

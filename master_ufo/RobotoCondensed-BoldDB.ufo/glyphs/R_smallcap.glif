@@ -1,11 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="Rsmallcap" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rsmallcap" format="1">
   <advance width="1022"/>
   <unicode hex="0280"/>
-  <anchor x="494" y="1290" name="top"/>
-  <anchor x="494" y="0" name="bottom"/>
-  <anchor x="1002" y="1290" name="top0315"/>
-  <anchor x="494" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="419" y="543" type="line"/>
@@ -34,6 +30,18 @@
       <point x="930" y="929"/>
       <point x="775" y="1082"/>
       <point x="525" y="1082" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="494" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="494" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1002" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="494" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

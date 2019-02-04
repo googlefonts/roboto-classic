@@ -1,11 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="ohorn" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohorn" format="1">
   <advance width="1051"/>
   <unicode hex="01A1"/>
-  <anchor x="504" y="1290" name="top"/>
-  <anchor x="504" y="-10" name="bottom"/>
-  <anchor x="1031" y="1290" name="top0315"/>
-  <anchor x="504" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="875" y="1183" type="line"/>
@@ -48,6 +44,18 @@
       <point x="388" y="215"/>
       <point x="353" y="355"/>
       <point x="353" y="530" type="curve"/>
+    </contour>
+    <contour>
+      <point x="504" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="504" y="-10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1031" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="504" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

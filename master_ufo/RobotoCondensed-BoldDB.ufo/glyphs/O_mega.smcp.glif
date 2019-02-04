@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="Omega.smcp" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omega.smcp" format="1">
   <advance width="1074"/>
-  <anchor x="540" y="10" name="bottom"/>
   <outline>
     <contour>
       <point x="722" y="607" type="line"/>
@@ -46,6 +45,9 @@
       <point x="503" y="0" type="line"/>
       <point x="503" y="238" type="line"/>
       <point x="93" y="238" type="line"/>
+    </contour>
+    <contour>
+      <point x="540" y="10" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

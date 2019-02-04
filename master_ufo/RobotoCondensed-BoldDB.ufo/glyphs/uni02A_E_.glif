@@ -1,11 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni02AE" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02AE" format="1">
   <advance width="1158"/>
   <unicode hex="02AE"/>
-  <anchor x="619" y="1290" name="top"/>
-  <anchor x="619" y="-447" name="bottom"/>
-  <anchor x="1138" y="1290" name="top0315"/>
-  <anchor x="619" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="767" y="-417" type="line" name="hr00"/>
@@ -49,11 +45,24 @@
       <point x="238" y="746" type="curve" smooth="yes"/>
       <point x="238" y="559" type="line"/>
     </contour>
+    <contour>
+      <point x="619" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="619" y="-447" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1138" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="619" y="1290" type="move" name="parent_top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data></data>
+      <data>
+      </data>
     </dict>
   </lib>
 </glyph>

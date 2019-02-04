@@ -1,12 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="X.smcp" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X.smcp" format="1">
   <advance width="996"/>
-  <anchor x="483" y="1320" name="top"/>
-  <anchor x="483" y="8" name="bottom"/>
-  <anchor x="976" y="1600" name="top_dd"/>
-  <anchor x="976" y="-407" name="bottom_dd"/>
-  <anchor x="976" y="1320" name="top0315"/>
-  <anchor x="483" y="1320" name="parent_top"/>
   <outline>
     <contour>
       <point x="346" y="1165" type="line"/>
@@ -21,6 +15,24 @@
       <point x="950" y="1165" type="line"/>
       <point x="625" y="1165" type="line"/>
       <point x="484" y="791" type="line"/>
+    </contour>
+    <contour>
+      <point x="483" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="483" y="8" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="976" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="976" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="976" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="483" y="1320" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

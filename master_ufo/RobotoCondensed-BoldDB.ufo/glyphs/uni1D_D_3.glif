@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni1DD3" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1DD3" format="1">
+  <advance width="0"/>
   <unicode hex="1DD3"/>
-  <guideline x="-754.0" y="0.0" angle="90.0" identifier="lJjaRi5nFB"/>
-  <anchor x="-479" y="1170" name="_top"/>
   <outline>
     <contour>
       <point x="-551" y="1388" type="line"/>
@@ -35,6 +34,9 @@
       <point x="-241" y="1191"/>
       <point x="-161" y="1256"/>
       <point x="-161" y="1388" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-479" y="1170" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>

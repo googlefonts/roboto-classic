@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="brevesubnosp" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevesubnosp" format="1">
+  <advance width="0"/>
   <unicode hex="032E"/>
-  <anchor x="-469" y="0" name="_bottom"/>
-  <anchor x="-469" y="-385" name="bottom"/>
   <outline>
     <contour>
       <point x="-366" y="-86" type="line"/>
@@ -19,6 +18,12 @@
       <point x="-284" y="-383"/>
       <point x="-167" y="-261"/>
       <point x="-167" y="-86" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-469" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="-469" y="-385" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni0362" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0362" format="1">
+  <advance width="0"/>
   <unicode hex="0362"/>
-  <anchor x="20" y="-120" name="_bottom_dd"/>
   <outline>
     <contour>
       <point x="681" y="-278" type="line"/>
@@ -20,6 +20,9 @@
       <point x="670" y="-393" type="line"/>
       <point x="808" y="-341" type="line"/>
       <point x="555" y="-132" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="-120" type="move" name="_bottom_dd"/>
     </contour>
   </outline>
 </glyph>

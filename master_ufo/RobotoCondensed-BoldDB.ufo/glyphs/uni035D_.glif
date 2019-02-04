@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni035D" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni035D" format="1">
+  <advance width="0"/>
   <unicode hex="035D"/>
-  <anchor x="20" y="1138" name="_top_dd"/>
   <outline>
     <contour>
       <point x="446" y="1516" type="line"/>
@@ -18,6 +18,9 @@
       <point x="411" y="1159"/>
       <point x="578" y="1341"/>
       <point x="643" y="1516" type="curve"/>
+    </contour>
+    <contour>
+      <point x="20" y="1138" type="move" name="_top_dd"/>
     </contour>
   </outline>
 </glyph>

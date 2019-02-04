@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni1DE9" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1DE9" format="1">
+  <advance width="0"/>
   <unicode hex="1DE9"/>
-  <anchor x="-469" y="986" name="_top"/>
   <outline>
     <contour>
       <point x="-503" y="1610" type="line" name="hr00"/>
@@ -53,11 +53,15 @@
       <point x="-266" y="1884"/>
       <point x="-351" y="1954"/>
     </contour>
+    <contour>
+      <point x="-469" y="986" type="move" name="_top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data></data>
+      <data>
+      </data>
     </dict>
   </lib>
 </glyph>

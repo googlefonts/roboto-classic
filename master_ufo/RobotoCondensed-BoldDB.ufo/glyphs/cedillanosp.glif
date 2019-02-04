@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="cedillanosp" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedillanosp" format="1">
+  <advance width="0"/>
   <unicode hex="0327"/>
-  <anchor x="-502" y="7" name="_bottom"/>
   <outline>
     <contour>
       <point x="-606" y="8" type="line"/>
@@ -20,6 +20,9 @@
       <point x="-345" y="-64"/>
       <point x="-405" y="-51" type="curve"/>
       <point x="-396" y="8" type="line"/>
+    </contour>
+    <contour>
+      <point x="-502" y="7" type="move" name="_bottom"/>
     </contour>
   </outline>
 </glyph>

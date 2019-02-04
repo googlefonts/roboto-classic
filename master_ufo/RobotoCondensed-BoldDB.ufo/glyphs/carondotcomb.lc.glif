@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="carondotcomb.lc" format="2">
-  <anchor x="-469" y="2002" name="mkmktop_acc"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="carondotcomb.lc" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-585" y="1537" type="line"/>
@@ -26,6 +26,9 @@
       <point x="-470" y="1886" type="curve" smooth="yes"/>
       <point x="-556" y="1886"/>
       <point x="-610" y="1828"/>
+    </contour>
+    <contour>
+      <point x="-469" y="2002" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
 </glyph>

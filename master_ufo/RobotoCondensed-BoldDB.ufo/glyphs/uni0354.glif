@@ -1,9 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni0354" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0354" format="1">
+  <advance width="0"/>
   <unicode hex="0354"/>
-  <anchor x="-463" y="-555" name="bottom"/>
-  <anchor x="-463" y="0" name="_bottom"/>
   <outline>
     <component base="uni02F1" xOffset="-775"/>
+    <contour>
+      <point x="-463" y="-555" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="-463" y="0" type="move" name="_bottom"/>
+    </contour>
   </outline>
 </glyph>

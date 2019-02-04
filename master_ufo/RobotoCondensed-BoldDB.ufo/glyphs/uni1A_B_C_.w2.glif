@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni1ABC.w2" format="2">
-  <anchor x="-691" y="212" name="_parenthesses.w2"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1ABC.w2" format="1">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-1064" y="0" type="curve"/>
@@ -65,6 +65,9 @@
       <point x="-79" y="133"/>
       <point x="-124" y="99"/>
       <point x="-161" y="77" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-691" y="212" type="move" name="_parenthesses.w2"/>
     </contour>
   </outline>
 </glyph>

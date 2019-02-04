@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni1ABB" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1ABB" format="1">
+  <advance width="0"/>
   <unicode hex="1ABB"/>
-  <anchor x="-480" y="1350" name="_parent_top"/>
   <outline>
     <contour>
       <point x="-791" y="1286" type="curve"/>
@@ -34,6 +34,9 @@
       <point x="-105" y="1419"/>
       <point x="-150" y="1385"/>
       <point x="-187" y="1363" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-480" y="1350" type="move" name="_parent_top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,14 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="S.smcp" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="S.smcp" format="1">
   <advance width="972"/>
-  <guideline x="0.0" y="1326.0" angle="0.0" identifier="P6KYlbhfHn"/>
-  <guideline x="0.0" y="444.0" angle="0.0" identifier="LZLz8p7O7p"/>
-  <anchor x="505" y="1320" name="top"/>
-  <anchor x="502" y="0" name="bottom"/>
-  <anchor x="952" y="1600" name="top_dd"/>
-  <anchor x="952" y="-407" name="bottom_dd"/>
-  <anchor x="952" y="1320" name="top0315"/>
-  <anchor x="505" y="1320" name="parent_top"/>
   <outline>
     <contour>
       <point x="621" y="314" type="curve"/>
@@ -49,6 +41,24 @@
       <point x="462" y="470" type="curve" smooth="yes"/>
       <point x="586" y="430"/>
       <point x="621" y="387"/>
+    </contour>
+    <contour>
+      <point x="505" y="1320" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="502" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="952" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="952" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="952" y="1320" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="505" y="1320" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

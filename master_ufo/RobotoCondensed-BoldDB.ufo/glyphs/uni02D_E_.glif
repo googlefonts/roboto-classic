@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni02DE" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02DE" format="1">
   <advance width="498"/>
   <unicode hex="02DE"/>
-  <anchor x="-137" y="646" name="_rhotichook"/>
   <outline>
     <contour>
       <point x="-142" y="534" type="line"/>
@@ -21,6 +20,9 @@
       <point x="244" y="644"/>
       <point x="212" y="840" type="curve"/>
       <point x="-142" y="752" type="line"/>
+    </contour>
+    <contour>
+      <point x="-137" y="646" type="move" name="_rhotichook"/>
     </contour>
   </outline>
 </glyph>

@@ -1,14 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni050C" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni050C" format="1">
   <advance width="1137"/>
   <unicode hex="050C"/>
-  <guideline x="0.0" y="901.0" angle="0.0" identifier="tkjxGnNYJY"/>
-  <guideline x="0.0" y="555.0" angle="0.0" identifier="khxKLZDioJ"/>
-  <guideline x="920.0" y="0.0" angle="90.0" identifier="CEr0c434vc"/>
-  <anchor x="585" y="1633" name="top"/>
-  <anchor x="585" y="-10" name="bottom"/>
-  <anchor x="1117" y="1633" name="top0315"/>
-  <anchor x="585" y="1633" name="parent_top"/>
   <outline>
     <contour>
       <point x="610" y="-21" type="curve" smooth="yes"/>
@@ -45,6 +38,18 @@
       <point x="65" y="597" type="line"/>
       <point x="65" y="243"/>
       <point x="285" y="-21"/>
+    </contour>
+    <contour>
+      <point x="585" y="1633" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="585" y="-10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1117" y="1633" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="585" y="1633" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

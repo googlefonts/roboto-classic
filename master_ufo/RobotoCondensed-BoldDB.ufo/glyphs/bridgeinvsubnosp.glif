@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="bridgeinvsubnosp" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bridgeinvsubnosp" format="1">
+  <advance width="0"/>
   <unicode hex="033A"/>
-  <anchor x="-469" y="-489" name="bottom"/>
-  <anchor x="-469" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="-331.0" y="-304.0" type="line"/>
@@ -21,6 +20,12 @@
       <point x="-344.0" y="-98.0" type="line"/>
       <point x="-344.0" y="-477.0" type="line"/>
       <point x="-164.0" y="-477.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-469" y="-489" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="-469" y="0" type="move" name="_bottom"/>
     </contour>
   </outline>
 </glyph>

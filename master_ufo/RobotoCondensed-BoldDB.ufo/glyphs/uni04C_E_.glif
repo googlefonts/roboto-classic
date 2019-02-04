@@ -1,10 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni04CE" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04CE" format="1">
   <advance width="1512"/>
   <unicode hex="04CE"/>
-  <anchor x="1340" y="1269" name="top0315"/>
   <outline>
     <component base="uni043C"/>
     <component base="comma" xOffset="1077" yOffset="-44"/>
+    <contour>
+      <point x="1340" y="1269" type="move" name="top0315"/>
+    </contour>
   </outline>
 </glyph>

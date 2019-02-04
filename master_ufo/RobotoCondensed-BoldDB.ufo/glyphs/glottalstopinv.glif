@@ -1,13 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="glottalstopinv" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glottalstopinv" format="1">
   <advance width="943"/>
   <unicode hex="0296"/>
-  <guideline x="0.0" y="-20.0" angle="0.0" identifier="Iy4h6FjWpG"/>
-  <guideline x="0.0" y="1535.0" angle="0.0" identifier="UPKNVV5dqs"/>
-  <anchor x="456" y="1633" name="top"/>
-  <anchor x="456" y="0" name="bottom"/>
-  <anchor x="923" y="1633" name="top0315"/>
-  <anchor x="456" y="1633" name="parent_top"/>
   <outline>
     <contour>
       <point x="449" y="975" type="line"/>
@@ -40,6 +34,18 @@
       <point x="315" y="1536" type="line"/>
       <point x="315" y="975" type="line"/>
       <point x="598" y="975" type="line"/>
+    </contour>
+    <contour>
+      <point x="456" y="1633" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="456" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="923" y="1633" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="456" y="1633" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

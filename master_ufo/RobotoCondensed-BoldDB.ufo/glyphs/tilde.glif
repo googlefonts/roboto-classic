@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="tilde" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde" format="1">
   <advance width="895"/>
   <unicode hex="02DC"/>
-  <anchor x="451" y="1659" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="615" y="1536" type="line"/>
@@ -25,6 +24,9 @@
       <point x="692" y="1258"/>
       <point x="775" y="1378"/>
       <point x="775" y="1525" type="curve"/>
+    </contour>
+    <contour>
+      <point x="451" y="1659" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
 </glyph>

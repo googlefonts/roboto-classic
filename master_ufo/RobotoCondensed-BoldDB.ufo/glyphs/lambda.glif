@@ -1,10 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="lambda" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lambda" format="1">
   <advance width="984"/>
   <unicode hex="03BB"/>
-  <guideline x="0.0" y="901.0" angle="0.0" identifier="FZLTaR23vl"/>
-  <guideline x="0.0" y="555.0" angle="0.0" identifier="7j6qLug9bN"/>
-  <anchor x="909" y="1603" name="top0315"/>
   <outline>
     <contour>
       <point x="486" y="691" type="line"/>
@@ -43,6 +40,9 @@
       <point x="500" y="1374" type="line" smooth="yes"/>
       <point x="463" y="1483"/>
       <point x="388" y="1547"/>
+    </contour>
+    <contour>
+      <point x="909" y="1603" type="move" name="top0315"/>
     </contour>
   </outline>
   <lib>

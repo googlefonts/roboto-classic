@@ -1,15 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="o" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o" format="1">
   <advance width="1019"/>
   <unicode hex="006F"/>
-  <guideline x="0.0" y="2079.0" angle="0.0" identifier="gelP9VIpWr"/>
-  <anchor x="505" y="1290" name="top"/>
-  <anchor x="508" y="-8" name="bottom"/>
-  <anchor x="998" y="1600" name="top_dd"/>
-  <anchor x="998" y="-407" name="bottom_dd"/>
-  <anchor x="829" y="654" name="rhotichook"/>
-  <anchor x="998" y="1290" name="top0315"/>
-  <anchor x="505" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="71" y="505" type="line"/>
@@ -42,6 +34,27 @@
       <point x="412" y="215"/>
       <point x="354" y="304"/>
       <point x="354" y="505" type="curve"/>
+    </contour>
+    <contour>
+      <point x="505" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="508" y="-8" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="998" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="998" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="829" y="654" type="move" name="rhotichook"/>
+    </contour>
+    <contour>
+      <point x="998" y="1290" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="505" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
   <lib>

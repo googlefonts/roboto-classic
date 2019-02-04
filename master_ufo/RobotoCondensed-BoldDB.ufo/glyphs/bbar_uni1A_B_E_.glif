@@ -1,11 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="bbar_uni1ABE" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bbar_uni1ABE" format="1">
   <advance width="1275"/>
-  <anchor x="772" y="1603" name="top"/>
-  <anchor x="765" y="-10" name="bottom"/>
-  <anchor x="765" y="-10" name="markbottom"/>
-  <anchor x="1255" y="1603" name="top0315"/>
-  <anchor x="772" y="1603" name="parent_top"/>
   <outline>
     <contour>
       <point x="365" y="1536" type="line"/>
@@ -83,6 +78,21 @@
       <point x="913" y="1311" type="curve" smooth="yes"/>
       <point x="913" y="1243"/>
       <point x="876" y="1214"/>
+    </contour>
+    <contour>
+      <point x="772" y="1603" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="765" y="-10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="765" y="-10" type="move" name="markbottom"/>
+    </contour>
+    <contour>
+      <point x="1255" y="1603" type="move" name="top0315"/>
+    </contour>
+    <contour>
+      <point x="772" y="1603" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>
