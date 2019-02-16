@@ -52,6 +52,13 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>0.8</real>
+		<real>0.2</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
 	<array>
 		<real>0.5</real>
@@ -258,6 +265,7 @@
 	</array>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
+		<string>background</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>

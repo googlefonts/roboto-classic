@@ -61,6 +61,15 @@
                 <dimension name="slant" xvalue="-12" />
             </location>
         </source>
+        
+        <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Thin.ufo" name="RobotoCondensed-Thin.ufo" stylename="Condensed Thin">
+            <location>
+                <dimension name="weight" xvalue="-1" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="slant" xvalue="0" />
+            </location>
+        </source>
+        
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Light.ufo" name="RobotoCondensed-Light.ufo" stylename="Condensed Light">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
@@ -215,6 +224,28 @@
             <kerning />
             <info />
         </instance>
+        
+<!--
+        <instance familyname="Roboto" stylename="Condensed Thin" filename="RobotoCondensed-Light.ufo">
+            <location>
+                <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="slant" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="Condensed Extralight" filename="RobotoCondensed-Light.ufo">
+            <location>
+                <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="slant" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+-->
+        
         <instance familyname="Roboto" stylename="Condensed Light" filename="RobotoCondensed-Light.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
