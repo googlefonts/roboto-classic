@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0498" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0498" format="2">
   <advance width="1216"/>
   <unicode hex="0498"/>
+  <anchor x="606" y="1633" name="parent_top"/>
+  <anchor x="606" y="-10" name="bottom"/>
+  <anchor x="1216" y="1633" name="top0315"/>
+  <anchor x="606" y="1633" name="top"/>
   <outline>
     <component base="uni0417"/>
     <component base="cyrillictic" xOffset="411" yOffset="-74"/>
-    <contour>
-      <point x="606" y="1633" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="606" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1216" y="1633" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="606" y="1633" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

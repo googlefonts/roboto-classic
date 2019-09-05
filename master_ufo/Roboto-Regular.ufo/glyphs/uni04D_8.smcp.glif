@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04D8.smcp" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04D8.smcp" format="2">
   <advance width="1227"/>
+  <anchor x="585" y="1320" name="top"/>
+  <anchor x="595" y="0" name="bottom"/>
+  <anchor x="1227" y="1320" name="top0315"/>
+  <anchor x="585" y="1320" name="parent_top"/>
   <outline>
     <contour>
       <point x="584" y="1181" type="curve" smooth="yes"/>
@@ -36,28 +40,5 @@
       <point x="1130" y="963"/>
       <point x="923" y="1181"/>
     </contour>
-    <contour>
-      <point x="585" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="595" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1227" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="585" y="1320" type="move" name="parent_top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

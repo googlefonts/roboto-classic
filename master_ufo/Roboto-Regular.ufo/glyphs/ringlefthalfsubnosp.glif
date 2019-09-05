@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ringlefthalfsubnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringlefthalfsubnosp" format="2">
   <unicode hex="031C"/>
+  <anchor x="-510" y="-9" name="_bottom"/>
+  <anchor x="-510" y="-481" name="bottom"/>
   <outline>
     <contour>
       <point x="-432" y="-473" type="line"/>
@@ -19,22 +20,5 @@
       <point x="-488" y="-384"/>
       <point x="-432" y="-384" type="curve"/>
     </contour>
-    <contour>
-      <point x="-510" y="-9" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-510" y="-481" type="move" name="bottom"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

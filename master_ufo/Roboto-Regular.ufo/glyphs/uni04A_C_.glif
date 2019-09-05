@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04AC" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04AC" format="2">
   <advance width="1222"/>
   <unicode hex="04AC"/>
+  <anchor x="612" y="1600" name="parent_top"/>
+  <anchor x="614" y="0" name="bottom"/>
+  <anchor x="1222" y="1600" name="top_dd"/>
+  <anchor x="1222" y="-407" name="bottom_dd"/>
+  <anchor x="1222" y="1600" name="top0315"/>
+  <anchor x="612" y="1600" name="top"/>
   <outline>
     <component base="T"/>
     <component base="cyrillictic" xOffset="576"/>
-    <contour>
-      <point x="612" y="1600" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="614" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1222" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1222" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1222" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="612" y="1600" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

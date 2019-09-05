@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1ABC" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1ABC" format="2">
   <unicode hex="1ABC"/>
+  <anchor x="-558" y="1350" name="_parent_top"/>
   <outline>
     <contour>
       <point x="-1092" y="1281" type="curve"/>
@@ -67,19 +67,5 @@
       <point x="11" y="1373"/>
       <point x="-34" y="1349" type="curve"/>
     </contour>
-    <contour>
-      <point x="-558" y="1350" type="move" name="_parent_top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

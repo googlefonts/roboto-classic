@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="backslash" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash" format="2">
   <advance width="841"/>
   <unicode hex="005C"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="xX0HXxWzPK"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="zHw2lTD4YW"/>
   <outline>
     <contour>
       <point x="649" y="-125" type="line"/>
@@ -12,33 +14,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.xX0HXxWzPK</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.zHw2lTD4YW</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

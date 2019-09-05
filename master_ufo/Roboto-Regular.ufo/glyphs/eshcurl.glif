@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eshcurl" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eshcurl" format="2">
   <advance width="936"/>
   <unicode hex="0286"/>
+  <anchor x="751" y="1700" name="top"/>
+  <anchor x="328" y="-447" name="bottom"/>
+  <anchor x="936" y="1700" name="top0315"/>
+  <anchor x="751" y="1700" name="parent_top"/>
   <outline>
     <contour>
       <point x="636" y="218" type="curve"/>
@@ -61,28 +65,5 @@
       <point x="451" y="1196" type="curve" smooth="yes"/>
       <point x="451" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="751" y="1700" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="328" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="936" y="1700" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="751" y="1700" type="move" name="parent_top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

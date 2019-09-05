@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="srthook" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="srthook" format="2">
   <advance width="1057"/>
   <unicode hex="0282"/>
+  <anchor x="544" y="1290" name="top"/>
+  <anchor x="544" y="-447" name="bottom"/>
+  <anchor x="1057" y="1290" name="top0315"/>
+  <anchor x="544" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="95" y="334" type="line"/>
@@ -61,28 +65,5 @@
       <point x="736" y="431"/>
       <point x="771" y="367"/>
     </contour>
-    <contour>
-      <point x="544" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="544" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1057" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="544" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

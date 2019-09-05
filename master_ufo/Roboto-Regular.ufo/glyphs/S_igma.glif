@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Sigma" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sigma" format="2">
   <advance width="1170"/>
   <unicode hex="03A3"/>
   <outline>
@@ -27,15 +27,4 @@
       <point x="755" y="718" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.6</real>
-        <real>0.609</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

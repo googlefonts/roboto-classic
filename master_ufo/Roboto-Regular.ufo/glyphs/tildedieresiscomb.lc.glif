@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildedieresiscomb.lc" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildedieresiscomb.lc" format="2">
+  <anchor x="-586" y="1885" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="-908" y="1679" type="curve" smooth="yes"/>
@@ -52,19 +52,5 @@
       <point x="-230" y="1354"/>
       <point x="-230" y="1501" type="curve"/>
     </contour>
-    <contour>
-      <point x="-586" y="1885" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

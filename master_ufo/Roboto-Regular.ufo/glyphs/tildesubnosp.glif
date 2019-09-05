@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildesubnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildesubnosp" format="2">
   <unicode hex="0330"/>
+  <anchor x="-585" y="0" name="_bottom"/>
+  <anchor x="-585" y="-426" name="bottom"/>
   <outline>
     <contour>
       <point x="-366.0" y="-107.0" type="line"/>
@@ -25,22 +26,5 @@
       <point x="-241.0" y="-265.0"/>
       <point x="-241.0" y="-118.0" type="curve"/>
     </contour>
-    <contour>
-      <point x="-585" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-585" y="-426" type="move" name="bottom"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

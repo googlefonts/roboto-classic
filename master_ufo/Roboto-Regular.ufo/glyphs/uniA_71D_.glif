@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniA71D" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA71D" format="2">
   <advance width="394"/>
   <unicode hex="A71D"/>
+  <guideline x="499.0" y="0.0" angle="90.0" identifier="ke1C72w4MW"/>
   <outline>
     <contour>
       <point x="282" y="1723" type="line"/>
@@ -26,28 +27,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>499.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.ke1C72w4MW</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>
