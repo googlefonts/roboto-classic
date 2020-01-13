@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rho" format="2">
-  <advance width="1161"/>
+  <advance width="1160"/>
   <unicode hex="03C1"/>
   <anchor x="593" y="1281" name="top"/>
   <anchor x="1161" y="1281" name="top0315"/>
@@ -41,4 +41,10 @@
       <point x="146" y="579" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
 </glyph>

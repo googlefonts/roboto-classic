@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dcroat" format="2">
-  <advance width="1224"/>
+  <advance width="1223"/>
   <unicode hex="0111"/>
   <anchor x="617" y="0" name="bottom"/>
   <anchor x="549" y="1611" name="top"/>
@@ -58,4 +58,10 @@
       <point x="1197" y="1233" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.779,0.6,1</string>
+    </dict>
+  </lib>
 </glyph>

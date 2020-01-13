@@ -2,15 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>com.defcon.sortDescriptor</key>
-    <array>
-      <dict>
-        <key>ascending</key>
-        <string>Latin-1</string>
-        <key>type</key>
-        <string>characterSet</string>
-      </dict>
-    </array>
     <key>com.fontlab.v2.tth</key>
     <dict>
       <key>stems</key>
@@ -68,37 +59,37 @@
       <real>0.5</real>
       <real>0.7</real>
     </array>
-    <key>com.typemytype.robofont.guideline.magnetic.6Gvp3HfXNQ</key>
+    <key>com.typemytype.robofont.guideline.magnetic.5e7D6w7spL</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.8HJKUs0hUN</key>
+    <key>com.typemytype.robofont.guideline.magnetic.BXxRxQnemG</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.F0UDxOi02n</key>
+    <key>com.typemytype.robofont.guideline.magnetic.CBADsLUpON</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.NIw5Vv7OMk</key>
+    <key>com.typemytype.robofont.guideline.magnetic.CY1oQoX5y7</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.RseonF9EOV</key>
+    <key>com.typemytype.robofont.guideline.magnetic.IazS7HH0pO</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.SDs932Dktn</key>
+    <key>com.typemytype.robofont.guideline.magnetic.NNeLeTaS3E</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.gj8iKOqZtL</key>
+    <key>com.typemytype.robofont.guideline.magnetic.OsDCXbwjAc</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.jle2ARkVgF</key>
+    <key>com.typemytype.robofont.guideline.magnetic.QldWXov0Mk</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.kWhfRccKhQ</key>
+    <key>com.typemytype.robofont.guideline.magnetic.SUWnDzf6ca</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.kyZwHDKTNx</key>
+    <key>com.typemytype.robofont.guideline.magnetic.Ugcqt3y3Wj</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.m7CIwmxGIv</key>
+    <key>com.typemytype.robofont.guideline.magnetic.bkp9xNQb83</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.nOUR5Eqnac</key>
+    <key>com.typemytype.robofont.guideline.magnetic.iJdbXullnl</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.okHenagfKC</key>
+    <key>com.typemytype.robofont.guideline.magnetic.iZsmbtk5ZF</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.uVo42aWfo9</key>
+    <key>com.typemytype.robofont.guideline.magnetic.ioj0lHn9z4</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.ypohj05y2p</key>
+    <key>com.typemytype.robofont.guideline.magnetic.ipTZviyxEW</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.z11pamfq7P</key>
+    <key>com.typemytype.robofont.guideline.magnetic.mS7892nX1W</key>
     <real>5.0</real>
     <key>com.typemytype.robofont.segmentType</key>
     <string>curve</string>
@@ -3501,6 +3492,11 @@
     </array>
     <key>public.glyphOrder</key>
     <array>
+      <string>.notdef</string>
+      <string>.null</string>
+      <string>uni0002</string>
+      <string>uni0009</string>
+      <string>CR</string>
       <string>space</string>
       <string>exclam</string>
       <string>quotedbl</string>
@@ -3626,96 +3622,26 @@
       <string>onehalf</string>
       <string>threequarters</string>
       <string>questiondown</string>
-      <string>Agrave</string>
-      <string>Aacute</string>
-      <string>Acircumflex</string>
-      <string>Atilde</string>
-      <string>Adieresis</string>
-      <string>Aring</string>
       <string>AE</string>
-      <string>Ccedilla</string>
-      <string>Egrave</string>
-      <string>Eacute</string>
-      <string>Ecircumflex</string>
-      <string>Edieresis</string>
-      <string>Igrave</string>
-      <string>Iacute</string>
-      <string>Icircumflex</string>
-      <string>Idieresis</string>
-      <string>Eth</string>
-      <string>Ntilde</string>
-      <string>Ograve</string>
-      <string>Oacute</string>
-      <string>Ocircumflex</string>
-      <string>Otilde</string>
-      <string>Odieresis</string>
       <string>multiply</string>
       <string>Oslash</string>
-      <string>OE</string>
-      <string>Ugrave</string>
-      <string>Uacute</string>
-      <string>Ucircumflex</string>
-      <string>Udieresis</string>
-      <string>Yacute</string>
       <string>Thorn</string>
       <string>germandbls</string>
-      <string>agrave</string>
-      <string>aacute</string>
-      <string>acircumflex</string>
-      <string>atilde</string>
-      <string>adieresis</string>
-      <string>aring</string>
       <string>ae</string>
-      <string>ccedilla</string>
-      <string>egrave</string>
-      <string>eacute</string>
-      <string>ecircumflex</string>
-      <string>edieresis</string>
-      <string>igrave</string>
-      <string>iacute</string>
-      <string>icircumflex</string>
-      <string>idieresis</string>
       <string>eth</string>
-      <string>ntilde</string>
-      <string>ograve</string>
-      <string>oacute</string>
-      <string>ocircumflex</string>
-      <string>otilde</string>
-      <string>odieresis</string>
       <string>divide</string>
       <string>oslash</string>
-      <string>oe</string>
-      <string>ugrave</string>
-      <string>uacute</string>
-      <string>ucircumflex</string>
-      <string>udieresis</string>
-      <string>yacute</string>
       <string>thorn</string>
-      <string>ydieresis</string>
-      <string>dotlessi</string>
-      <string>circumflex</string>
-      <string>caron</string>
-      <string>breve</string>
-      <string>dotaccent</string>
-      <string>ring</string>
-      <string>ogonek</string>
-      <string>tilde</string>
-      <string>hungarumlaut</string>
-      <string>quoteleft</string>
-      <string>quoteright</string>
-      <string>minus</string>
-      <string>.notdef</string>
-      <string>.null</string>
-      <string>uni0002</string>
-      <string>uni0009</string>
-      <string>CR</string>
       <string>dcroat</string>
       <string>Hbar</string>
+      <string>dotlessi</string>
       <string>kgreenlandic</string>
       <string>Lslash</string>
       <string>lslash</string>
       <string>Eng</string>
       <string>eng</string>
+      <string>OE</string>
+      <string>oe</string>
       <string>longs</string>
       <string>bbar</string>
       <string>Bhook</string>
@@ -3941,6 +3867,8 @@
       <string>uni02C3</string>
       <string>uni02C4</string>
       <string>uni02C5</string>
+      <string>circumflex</string>
+      <string>caron</string>
       <string>linevert</string>
       <string>uni02C9</string>
       <string>uni02CA</string>
@@ -3957,6 +3885,12 @@
       <string>uni02D5</string>
       <string>uni02D6</string>
       <string>uni02D7</string>
+      <string>breve</string>
+      <string>dotaccent</string>
+      <string>ring</string>
+      <string>ogonek</string>
+      <string>tilde</string>
+      <string>hungarumlaut</string>
       <string>uni02DE</string>
       <string>qofdagesh</string>
       <string>gammasuper</string>
@@ -4680,6 +4614,8 @@
       <string>emdash</string>
       <string>verticalbardbl</string>
       <string>underscoredbl</string>
+      <string>quoteleft</string>
+      <string>quoteright</string>
       <string>quotesinglbase</string>
       <string>quotereversed</string>
       <string>quotedblleft</string>
@@ -4897,6 +4833,7 @@
       <string>partialdiff</string>
       <string>product</string>
       <string>summation</string>
+      <string>minus</string>
       <string>radical</string>
       <string>infinity</string>
       <string>integral</string>
@@ -5832,11 +5769,65 @@
       <string>nbspace</string>
       <string>uni00AD</string>
       <string>Dcroat</string>
+      <string>Eth</string>
       <string>hbar</string>
       <string>Tbar</string>
       <string>tbar</string>
+      <string>Agrave</string>
+      <string>Aacute</string>
+      <string>Acircumflex</string>
+      <string>Atilde</string>
+      <string>Adieresis</string>
+      <string>Aring</string>
       <string>Aringacute</string>
+      <string>Ccedilla</string>
+      <string>Egrave</string>
+      <string>Eacute</string>
+      <string>Ecircumflex</string>
+      <string>Edieresis</string>
+      <string>Igrave</string>
+      <string>Iacute</string>
+      <string>Icircumflex</string>
+      <string>Idieresis</string>
+      <string>Ntilde</string>
+      <string>Ograve</string>
+      <string>Oacute</string>
+      <string>Ocircumflex</string>
+      <string>Otilde</string>
+      <string>Odieresis</string>
+      <string>Ugrave</string>
+      <string>Uacute</string>
+      <string>Ucircumflex</string>
+      <string>Udieresis</string>
+      <string>Yacute</string>
+      <string>agrave</string>
+      <string>aacute</string>
+      <string>acircumflex</string>
+      <string>atilde</string>
+      <string>adieresis</string>
+      <string>aring</string>
       <string>aringacute</string>
+      <string>ccedilla</string>
+      <string>egrave</string>
+      <string>eacute</string>
+      <string>ecircumflex</string>
+      <string>edieresis</string>
+      <string>igrave</string>
+      <string>iacute</string>
+      <string>icircumflex</string>
+      <string>idieresis</string>
+      <string>ntilde</string>
+      <string>ograve</string>
+      <string>oacute</string>
+      <string>ocircumflex</string>
+      <string>otilde</string>
+      <string>odieresis</string>
+      <string>ugrave</string>
+      <string>uacute</string>
+      <string>ucircumflex</string>
+      <string>udieresis</string>
+      <string>yacute</string>
+      <string>ydieresis</string>
       <string>Amacron</string>
       <string>amacron</string>
       <string>Abreve</string>
@@ -6888,7 +6879,6 @@
       <string>Uogonek.unic</string>
       <string>uni1E2D.ccmp</string>
       <string>uni1ECB.ccmp</string>
-      <string>firsttonechinese</string>
     </array>
   </dict>
 </plist>

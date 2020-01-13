@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kgreenlandic" format="2">
-  <advance width="1140"/>
+  <advance width="1139"/>
   <unicode hex="0138"/>
   <anchor x="590" y="1290" name="top"/>
   <anchor x="590" y="10" name="bottom"/>
@@ -28,4 +28,10 @@
       <point x="423" y="490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
 </glyph>

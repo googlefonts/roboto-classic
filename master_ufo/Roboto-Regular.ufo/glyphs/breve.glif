@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breve" format="2">
-  <advance width="875"/>
+  <advance width="874"/>
   <unicode hex="02D8"/>
   <anchor x="429" y="1606" name="mkmktop_acc"/>
   <outline>
@@ -21,4 +21,10 @@
       <point x="728" y="1495" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
 </glyph>
