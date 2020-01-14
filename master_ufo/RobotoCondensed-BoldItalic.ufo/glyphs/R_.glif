@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="R" format="1">
-  <advance width="1099.98"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="R" format="2">
+  <advance width="1100"/>
   <unicode hex="0052"/>
+  <anchor x="678.1520635163638" y="1600" name="top"/>
+  <anchor x="417.97858252534536" y="10" name="bottom"/>
+  <anchor x="1253.3620635163638" y="1600" name="top_dd"/>
+  <anchor x="906.5884620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1253.3620635163638" y="1600" name="top0315"/>
+  <anchor x="678.1520635163638" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="262.40744895150857" y="1456.1381835539119" type="line"/>
@@ -33,34 +39,11 @@
       <point x="800.2105280234894" y="650.0475266194256" type="line"/>
       <point x="509.33939584226243" y="649.0864931827019" type="line"/>
     </contour>
-    <contour>
-      <point x="678.1520635163638" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="417.97858252534536" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1253.3620635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="906.5884620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1253.3620635163638" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="678.1520635163638" y="1600" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.6</real>
-        <real>0.609</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
     </dict>
   </lib>
 </glyph>

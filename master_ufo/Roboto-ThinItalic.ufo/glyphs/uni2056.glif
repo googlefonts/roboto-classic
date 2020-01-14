@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2056" format="1">
-  <advance width="709.37"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2056" format="2">
+  <advance width="709"/>
   <unicode hex="2056"/>
+  <guideline x="0.0" y="483.0" angle="0.0" identifier="PIIggyafU5"/>
+  <guideline x="0.0" y="36.0" angle="0.0" identifier="m6f2cyPGzc"/>
   <outline>
     <component base="dotbelow" xOffset="811.760226524971" yOffset="701"/>
     <component base="dotbelow" xOffset="1170.85386206964" yOffset="253"/>
@@ -9,40 +11,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>483.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>36.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.PIIggyafU5</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.m6f2cyPGzc</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

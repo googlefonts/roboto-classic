@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildesubnosp_uni1ABD" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildesubnosp_uni1ABD" format="2">
+  <anchor x="-659.4792381098182" y="0" name="_bottom"/>
+  <anchor x="-727.5553711352655" y="-394" name="bottom"/>
   <outline>
     <contour>
       <point x="-1111.2459995311099" y="-487.2994832429001" type="curve"/>
@@ -55,12 +56,6 @@
       <point x="-450.4943273606168" y="-345.7330937246471"/>
       <point x="-378.61881790117116" y="-243.25248484515333"/>
       <point x="-361.94865124868113" y="-129.57805654603564" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-659.4792381098182" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-727.5553711352655" y="-394" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniA748" format="1">
-  <advance width="1181.76"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA748" format="2">
+  <advance width="1182"/>
   <unicode hex="A748"/>
   <outline>
     <component base="L" xOffset="95.06"/>
@@ -8,13 +8,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

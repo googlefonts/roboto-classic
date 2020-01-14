@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="OEsmallcap" format="1">
-  <advance width="1667.43"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="OEsmallcap" format="2">
+  <advance width="1667"/>
   <unicode hex="0276"/>
+  <anchor x="1031.019623826291" y="1290" name="top"/>
+  <anchor x="808.1307618901817" y="0" name="bottom"/>
+  <anchor x="1786.6496238262912" y="1290" name="top0315"/>
+  <anchor x="1031.019623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="1507.3089299843375" y="149.91093975159762" type="line"/>
@@ -57,31 +61,13 @@
       <point x="80.23352164154757" y="255.1867887840521"/>
       <point x="201.5781337932139" y="-11.12349891760399"/>
     </contour>
-    <contour>
-      <point x="1031.019623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="808.1307618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1786.6496238262912" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="1031.019623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.779</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>public.markColor</key>
+      <string>1,0.779,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexhookcomb" format="1">
-  <advance width="886.5799999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexhookcomb" format="2">
+  <advance width="887"/>
   <outline>
     <contour>
       <point x="651.1391703599309" y="1514.9676563311075" type="line"/>
@@ -32,13 +32,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni01DF" format="1">
-  <advance width="936.05"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01DF" format="2">
+  <advance width="936"/>
   <unicode hex="01DF"/>
+  <anchor x="611.1824058898073" y="1291" name="parent_top"/>
+  <anchor x="326.0407618901817" y="0" name="bottom"/>
+  <anchor x="1089.4320635163638" y="1600" name="top_dd"/>
+  <anchor x="742.6584620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1036.0424058898075" y="1291" name="top0315"/>
+  <anchor x="707.3886305062256" y="1835" name="top"/>
   <outline>
     <component base="a"/>
     <component base="dieresismacroncomb.lc" xOffset="941.6972179364836" yOffset="-1"/>
-    <contour>
-      <point x="611.1824058898073" y="1291" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="326.0407618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1089.4320635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="742.6584620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1036.0424058898075" y="1291" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="707.3886305062256" y="1835" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

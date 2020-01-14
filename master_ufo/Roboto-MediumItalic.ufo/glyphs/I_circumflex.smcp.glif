@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Icircumflex.smcp" format="1">
-  <advance width="493.72999999999996"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Icircumflex.smcp" format="2">
+  <advance width="494"/>
+  <anchor x="371.7530857317819" y="1320" name="parent_top"/>
+  <anchor x="143.85354395369808" y="1" name="bottom"/>
+  <anchor x="666.5120635163637" y="1600" name="top_dd"/>
+  <anchor x="319.73846203902167" y="-407" name="bottom_dd"/>
+  <anchor x="618.1330857317819" y="1320" name="top0315"/>
+  <anchor x="432.96334605701827" y="1670" name="top"/>
   <outline>
     <component base="I.smcp"/>
     <component base="circumflex" xOffset="-223.73653809450911" yOffset="30"/>
-    <contour>
-      <point x="371.7530857317819" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="143.85354395369808" y="1" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="666.5120635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="319.73846203902167" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="618.1330857317819" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="432.96334605701827" y="1670" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

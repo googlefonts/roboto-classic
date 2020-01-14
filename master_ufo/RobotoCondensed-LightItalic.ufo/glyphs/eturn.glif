@@ -1,20 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eturn" format="1">
-  <advance width="903.0699999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eturn" format="2">
+  <advance width="903"/>
   <unicode hex="01DD"/>
+  <anchor x="596.6324058898074" y="1291" name="parent_top"/>
+  <anchor x="380.70632601721445" y="2" name="bottom"/>
+  <anchor x="1003.0624058898075" y="1291" name="top0315"/>
+  <anchor x="596.6324058898074" y="1291" name="top"/>
   <outline>
     <component base="schwa"/>
-    <contour>
-      <point x="596.6324058898074" y="1291" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="380.70632601721445" y="2" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1003.0624058898075" y="1291" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="596.6324058898074" y="1291" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

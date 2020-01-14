@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ubreve.smcp" format="1">
-  <advance width="1125.2"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ubreve.smcp" format="2">
+  <advance width="1125"/>
+  <anchor x="693.793085731782" y="1320" name="parent_top"/>
+  <anchor x="458.93076189018177" y="0" name="bottom"/>
+  <anchor x="1297.9820635163637" y="1600" name="top_dd"/>
+  <anchor x="951.2084620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1249.603085731782" y="1320" name="top0315"/>
+  <anchor x="735.5725157235325" y="1590" name="top"/>
   <outline>
     <component base="U.smcp"/>
     <component base="breve" xOffset="171.28665889808656" yOffset="31"/>
-    <contour>
-      <point x="693.793085731782" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="458.93076189018177" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1297.9820635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="951.2084620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1249.603085731782" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="735.5725157235325" y="1590" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

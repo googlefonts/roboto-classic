@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="caron" format="1">
-  <advance width="956.42"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="956"/>
   <unicode hex="02C7"/>
+  <anchor x="658.661166692182" y="1650" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="484.9480808321514" y="1536.6065630941491" type="line"/>
@@ -14,19 +15,11 @@
       <point x="769.0697049532023" y="1536.1517795580094" type="line"/>
       <point x="603.158378111007" y="1404.044549207777" type="line"/>
     </contour>
-    <contour>
-      <point x="658.661166692182" y="1650" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

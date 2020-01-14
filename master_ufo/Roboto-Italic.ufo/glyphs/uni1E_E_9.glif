@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1EE9" format="1">
-  <advance width="1228.99"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1EE9" format="2">
+  <advance width="1229"/>
   <unicode hex="1EE9"/>
+  <anchor x="678.1912004924474" y="1269" name="parent_top"/>
+  <anchor x="1344.5812004924474" y="1269" name="top0315"/>
+  <anchor x="442.44076189018176" y="0" name="bottom"/>
+  <anchor x="732.4381427197054" y="1620" name="top"/>
   <outline>
     <component base="uhorn"/>
     <component base="acute" xOffset="352.4389733295303" yOffset="-21"/>
-    <contour>
-      <point x="678.1912004924474" y="1269" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1344.5812004924474" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="442.44076189018176" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="732.4381427197054" y="1620" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="srthook" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="srthook" format="2">
   <advance width="905"/>
+  <anchor x="455" y="1290" name="top"/>
+  <anchor x="455" y="-447" name="bottom"/>
+  <anchor x="886" y="1290" name="top0315"/>
+  <anchor x="455" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="107" y="263" type="line"/>
@@ -59,18 +63,6 @@
       <point x="444" y="531" type="curve" smooth="yes"/>
       <point x="658" y="428"/>
       <point x="725" y="353"/>
-    </contour>
-    <contour>
-      <point x="455" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="455" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="886" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="455" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

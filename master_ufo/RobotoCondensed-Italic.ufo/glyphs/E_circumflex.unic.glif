@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ecircumflex.unic" format="1">
-  <advance width="1212.5"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecircumflex.unic" format="2">
+  <advance width="1213"/>
+  <anchor x="803.9216922475675" y="1643" name="parent_top"/>
+  <anchor x="531.4685825253454" y="10" name="bottom"/>
+  <anchor x="1365.8820635163638" y="1600" name="top_dd"/>
+  <anchor x="1019.1084620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1373.3116922475674" y="1643" name="top0315"/>
+  <anchor x="863.3649998664692" y="1990" name="top"/>
   <outline>
     <component base="E.unic"/>
     <component base="circumflex" xOffset="270.5120684212766" yOffset="353"/>
-    <contour>
-      <point x="803.9216922475675" y="1643" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="531.4685825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1365.8820635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1019.1084620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1373.3116922475674" y="1643" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="863.3649998664692" y="1990" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

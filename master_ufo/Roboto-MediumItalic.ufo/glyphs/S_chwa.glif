@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Schwa" format="1">
-  <advance width="1374.49"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Schwa" format="2">
+  <advance width="1374"/>
   <unicode hex="018F"/>
+  <anchor x="823.6520635163638" y="1600" name="top"/>
+  <anchor x="571.4507618901818" y="0" name="bottom"/>
+  <anchor x="1547.2720635163637" y="1600" name="top0315"/>
+  <anchor x="823.6520635163638" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="585.2614926807545" y="-20.212955161597087" type="curve" smooth="yes"/>
@@ -37,28 +41,11 @@
       <point x="41.07723759243032" y="297.0896069963476"/>
       <point x="192.0500961108583" y="-13.671510149229128"/>
     </contour>
-    <contour>
-      <point x="823.6520635163638" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="571.4507618901818" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1547.2720635163637" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="823.6520635163638" y="1600" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

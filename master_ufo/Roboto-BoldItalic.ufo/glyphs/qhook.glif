@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qhook" format="1">
-  <advance width="1238.69"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qhook" format="2">
+  <advance width="1239"/>
   <unicode hex="02A0"/>
+  <anchor x="697.5520635163638" y="1600" name="top"/>
+  <anchor x="342.8971794983671" y="-447" name="bottom"/>
+  <anchor x="1411.472063516364" y="1600" name="top0315"/>
+  <anchor x="697.5520635163638" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="1060.5893803783874" y="886.9685777975766" type="line"/>
@@ -60,28 +64,11 @@
       <point x="324.27196605404674" y="407.90683154111423"/>
       <point x="336.6314526068578" y="523.6603782332891" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="697.5520635163638" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="342.8971794983671" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1411.472063516364" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="697.5520635163638" y="1600" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

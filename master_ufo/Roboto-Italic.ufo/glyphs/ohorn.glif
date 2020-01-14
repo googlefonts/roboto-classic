@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ohorn" format="1">
-  <advance width="1135.87"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorn" format="2">
+  <advance width="1136"/>
   <unicode hex="01A1"/>
+  <anchor x="683.759623826291" y="1290" name="top"/>
+  <anchor x="459.14294125501806" y="-10" name="bottom"/>
+  <anchor x="1255.0896238262908" y="1290" name="top0315"/>
+  <anchor x="683.759623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="1131.4718155157368" y="1201.1240675663444" type="line"/>
@@ -44,18 +48,6 @@
       <point x="276.1928621217022" y="137.50278496394873"/>
       <point x="239.3262224189135" y="353.45039406787197"/>
       <point x="259.0648033220912" y="522.1534576462575" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="683.759623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="459.14294125501806" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1255.0896238262908" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="683.759623826291" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

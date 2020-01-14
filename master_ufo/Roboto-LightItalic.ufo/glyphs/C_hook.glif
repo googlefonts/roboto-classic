@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Chook" format="1">
-  <advance width="1383.22"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chook" format="2">
+  <advance width="1383"/>
   <unicode hex="0187"/>
   <outline>
     <contour>
@@ -55,15 +55,9 @@
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

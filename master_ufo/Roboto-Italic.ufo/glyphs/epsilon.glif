@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="epsilon" format="1">
-  <advance width="1071.85"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilon" format="2">
+  <advance width="1072"/>
   <unicode hex="03B5"/>
+  <guideline x="0.0" y="1326.0" angle="0.0" identifier="5jD4LWAZAl"/>
+  <guideline x="0.0" y="444.0" angle="0.0" identifier="6Qwdt35TQu"/>
+  <anchor x="653.5168417627747" y="1289" name="top"/>
+  <anchor x="1190.8968417627746" y="1289" name="top0315"/>
+  <anchor x="653.5168417627747" y="1289" name="parent_top"/>
   <outline>
     <contour>
       <point x="495.6313353248911" y="588.0434068402418" type="line" smooth="yes"/>
@@ -51,45 +56,13 @@
       <point x="353.7096582260402" y="522.267738580259"/>
       <point x="507.80941199848166" y="518.3112437766398" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="653.5168417627747" y="1289" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1190.8968417627746" y="1289" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="653.5168417627747" y="1289" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1326.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>444.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.5jD4LWAZAl</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.6Qwdt35TQu</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

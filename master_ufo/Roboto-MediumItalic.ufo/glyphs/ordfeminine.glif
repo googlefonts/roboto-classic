@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ordfeminine" format="1">
-  <advance width="886.5799999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ordfeminine" format="2">
+  <advance width="887"/>
   <unicode hex="00AA"/>
+  <guideline x="0.0" y="1681.0" angle="0.0" identifier="SVSF41EvxG"/>
+  <guideline x="0.0" y="909.0" angle="0.0" identifier="dhD5c1tVX3"/>
   <outline>
     <contour>
       <point x="615.0016139089736" y="861.9544354184311" type="line" smooth="yes"/>
@@ -54,33 +56,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1681.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>909.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.SVSF41EvxG</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.dhD5c1tVX3</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

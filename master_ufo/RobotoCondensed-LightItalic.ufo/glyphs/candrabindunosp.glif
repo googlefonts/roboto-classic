@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="candrabindunosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="candrabindunosp" format="2">
   <unicode hex="0310"/>
+  <anchor x="-348.31136458886175" y="1189" name="_top"/>
+  <anchor x="-256.39130679815617" y="1721" name="top"/>
+  <anchor x="-306.32532315438533" y="1432" name="parent_top"/>
   <outline>
     <contour>
       <point x="-149.68055970778943" y="1485.256422063717" type="line"/>
@@ -33,25 +35,11 @@
       <point x="-324.2731811463251" y="1636.960875442136"/>
       <point x="-353.20519836411444" y="1595.927818706838"/>
     </contour>
-    <contour>
-      <point x="-348.31136458886175" y="1189" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-256.39130679815617" y="1721" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-306.32532315438533" y="1432" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Eogonek.smcp" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eogonek.smcp" format="2">
   <advance width="993"/>
+  <anchor x="545" y="1320" name="parent_top"/>
+  <anchor x="546" y="8" name="bottom"/>
+  <anchor x="993" y="1600" name="top_dd"/>
+  <anchor x="993" y="-407" name="bottom_dd"/>
+  <anchor x="993" y="1320" name="top0315"/>
+  <anchor x="545" y="1320" name="top"/>
   <outline>
     <contour>
       <point x="950" y="195" type="line"/>
@@ -47,24 +53,6 @@
       <point x="693" y="-120"/>
       <point x="763" y="-60"/>
       <point x="855" y="0" type="curve"/>
-    </contour>
-    <contour>
-      <point x="545" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="546" y="8" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="993" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="993" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="993" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="545" y="1320" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

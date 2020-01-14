@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tilde" format="1">
-  <advance width="792.49"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tilde" format="2">
+  <advance width="792"/>
   <unicode hex="02DC"/>
+  <anchor x="527.8382995916733" y="1510" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="788.710712669076" y="1471.417121709423" type="line"/>
@@ -25,19 +26,11 @@
       <point x="823.7352865413517" y="1373.8637562414094"/>
       <point x="844.0638114848912" y="1471.1214649856122" type="curve"/>
     </contour>
-    <contour>
-      <point x="527.8382995916733" y="1510" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

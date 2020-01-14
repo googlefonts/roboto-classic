@@ -1,9 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lessequal" format="1">
-  <advance width="901.43"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessequal" format="2">
+  <advance width="901"/>
   <unicode hex="2264"/>
   <outline>
-    <component base="less" yScale="0.95512" xOffset="16.241513970538193" yOffset="94"/>
-    <component base="minus" xOffset="-198.86571350870918" yOffset="-685"/>
+    <contour>
+      <point x="180" y="740" type="line"/>
+      <point x="112" y="749" type="line"/>
+      <point x="98" y="677" type="line"/>
+      <point x="708" y="314" type="line"/>
+      <point x="730" y="431" type="line"/>
+    </contour>
+    <contour>
+      <point x="838" y="1007" type="line"/>
+      <point x="858" y="1133" type="line"/>
+      <point x="115" y="771" type="line"/>
+      <point x="101" y="691" type="line"/>
+      <point x="185" y="699" type="line"/>
+    </contour>
+    <contour>
+      <point x="671" y="104" type="line"/>
+      <point x="-12" y="104" type="line"/>
+      <point x="-30" y="0" type="line"/>
+      <point x="652" y="0" type="line"/>
+    </contour>
   </outline>
 </glyph>

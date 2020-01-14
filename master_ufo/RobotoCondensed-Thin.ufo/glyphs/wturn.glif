@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="wturn" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wturn" format="2">
   <advance width="1344"/>
+  <anchor x="673" y="1290" name="top"/>
+  <anchor x="673" y="0" name="bottom"/>
+  <anchor x="1325" y="1290" name="top0315"/>
+  <anchor x="673" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="333" y="772" type="line"/>
@@ -31,18 +35,6 @@
       <point x="990" y="1082" type="line"/>
       <point x="944" y="1082" type="line"/>
       <point x="1012" y="772" type="line"/>
-    </contour>
-    <contour>
-      <point x="673" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="673" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1325" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="673" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="onehalf" format="1">
-  <advance width="1500.8899999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onehalf" format="2">
+  <advance width="1501"/>
   <unicode hex="00BD"/>
+  <guideline x="0.0" y="2079.0" angle="0.0" identifier="3rS9Dr8on5"/>
   <outline>
     <component base="fraction" xOffset="243.88225650813092" yOffset="8"/>
     <component base="one.sup" xOffset="62.75954668299645" yOffset="672"/>
@@ -9,21 +10,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>2079.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.3rS9Dr8on5</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

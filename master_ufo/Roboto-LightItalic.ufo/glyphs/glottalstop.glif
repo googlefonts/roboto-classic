@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="glottalstop" format="1">
-  <advance width="1020.4399999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstop" format="2">
+  <advance width="1020"/>
   <unicode hex="0294"/>
+  <guideline x="0.0" y="1557.0" angle="0.0" identifier="nyNsSrgSwK"/>
+  <anchor x="661.5438716124038" y="1633" name="top"/>
+  <anchor x="374.5407618901817" y="0" name="bottom"/>
+  <anchor x="1198.9238716124037" y="1633" name="top0315"/>
+  <anchor x="661.5438716124038" y="1633" name="parent_top"/>
   <outline>
     <contour>
       <point x="406.45569628009946" y="529.6095691323816" type="line"/>
@@ -35,43 +40,13 @@
       <point x="312.5552593106891" y="0.0" type="line"/>
       <point x="434.74507149239435" y="0.0" type="line"/>
     </contour>
-    <contour>
-      <point x="661.5438716124038" y="1633" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="374.5407618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1198.9238716124037" y="1633" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="661.5438716124038" y="1633" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1557.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.nyNsSrgSwK</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

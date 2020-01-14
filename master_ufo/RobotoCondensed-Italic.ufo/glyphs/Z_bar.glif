@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zbar" format="1">
-  <advance width="1038.87"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zbar" format="2">
+  <advance width="1039"/>
   <unicode hex="01B5"/>
+  <anchor x="695.7848455798802" y="1601" name="top"/>
+  <anchor x="412.1585825253454" y="10" name="bottom"/>
+  <anchor x="1192.4248455798802" y="1601" name="top0315"/>
+  <anchor x="695.7848455798802" y="1601" name="parent_top"/>
   <outline>
     <contour>
       <point x="940.0960570412412" y="811.9111854297663" type="line"/>
@@ -29,31 +33,13 @@
       <point x="215.27281605119316" y="1298.0899926105653" type="line"/>
       <point x="976.1130619060416" y="1298.0812242522281" type="line"/>
     </contour>
-    <contour>
-      <point x="695.7848455798802" y="1601" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="412.1585825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1192.4248455798802" y="1601" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="695.7848455798802" y="1601" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

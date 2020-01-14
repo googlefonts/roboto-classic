@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2E2D" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2E2D" format="2">
   <advance width="977"/>
   <unicode hex="2E2D"/>
+  <guideline x="0.0" y="778.0" angle="0.0" identifier="JPiz7R1VNX"/>
+  <guideline x="103.0" y="0.0" angle="90.0" identifier="ePJUp4LaQ7"/>
+  <guideline x="1062.0" y="0.0" angle="90.0" identifier="PRYk7Z5GkD"/>
   <outline>
     <component base="dotbelow" xOffset="660" yOffset="732"/>
     <component base="dotbelow" xOffset="961" yOffset="1136"/>
@@ -11,52 +14,14 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>778.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>103.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>1062.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.JPiz7R1VNX</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.PRYk7Z5GkD</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.ePJUp4LaQ7</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

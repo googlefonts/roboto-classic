@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="alpha" format="1">
-  <advance width="1114.53"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alpha" format="2">
+  <advance width="1115"/>
   <unicode hex="03B1"/>
+  <anchor x="725.469623826291" y="1290" name="top"/>
+  <anchor x="418.40294125501805" y="-10" name="bottom"/>
+  <anchor x="1233.749623826291" y="1290" name="top0315"/>
+  <anchor x="725.469623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="104.03888513141014" y="521.0191551751811" type="line" smooth="yes"/>
@@ -53,18 +57,6 @@
       <point x="850.2868571357565" y="182.76127896032102"/>
       <point x="862.3664037673908" y="254.89261096286072" type="curve" smooth="yes"/>
       <point x="1005.6334700160376" y="1081.6516721272837" type="line"/>
-    </contour>
-    <contour>
-      <point x="725.469623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="418.40294125501805" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1233.749623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="725.469623826291" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

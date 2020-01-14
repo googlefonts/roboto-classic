@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildecomb_uni1ABB" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb_uni1ABB" format="2">
+  <anchor x="-363.2038380791999" y="1260" name="_top"/>
+  <anchor x="-320.008322200109" y="1510" name="top"/>
+  <anchor x="-320.008322200109" y="1510" name="parent_top"/>
   <outline>
     <contour>
       <point x="-709.8583100785386" y="1192.6493012011458" type="curve"/>
@@ -55,15 +57,6 @@
       <point x="-117.65942140640553" y="1286.8144701229658"/>
       <point x="-48.43081506711955" y="1373.9027378451856"/>
       <point x="-26.62971574449601" y="1471.0227547738998" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-363.2038380791999" y="1260" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-320.008322200109" y="1510" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-320.008322200109" y="1510" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

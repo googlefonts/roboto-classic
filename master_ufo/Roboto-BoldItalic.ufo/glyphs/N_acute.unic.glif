@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Nacute.unic" format="1">
-  <advance width="1404.56"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nacute.unic" format="2">
+  <advance width="1405"/>
+  <anchor x="898.6755254218547" y="1630" name="parent_top"/>
+  <anchor x="615.6191080807308" y="3" name="bottom"/>
+  <anchor x="1577.3420635163639" y="1600" name="top_dd"/>
+  <anchor x="1230.5684620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1582.5255254218546" y="1630" name="top0315"/>
+  <anchor x="956.7273506210241" y="2005" name="top"/>
   <outline>
     <component base="N.unic"/>
     <component base="acute" xOffset="558.3732982589377" yOffset="340"/>
-    <contour>
-      <point x="898.6755254218547" y="1630" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="615.6191080807308" y="3" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1577.3420635163639" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1230.5684620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1582.5255254218546" y="1630" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="956.7273506210241" y="2005" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

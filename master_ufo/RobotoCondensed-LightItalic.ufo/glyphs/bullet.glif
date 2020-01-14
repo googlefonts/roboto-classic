@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bullet" format="1">
-  <advance width="643.11"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet" format="2">
+  <advance width="643"/>
   <unicode hex="2022"/>
+  <guideline x="0.0" y="1975.0" angle="0.0" identifier="z7WLxKBEPS"/>
   <outline>
     <contour>
       <point x="165.1327946520732" y="710.5005052149403" type="line"/>
@@ -22,21 +23,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1975.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.z7WLxKBEPS</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ring" format="1">
-  <advance width="616.92"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring" format="2">
+  <advance width="617"/>
   <unicode hex="02DA"/>
+  <anchor x="482.81229494624745" y="1654" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="252.07332677766152" y="1387.3492954473859" type="curve" smooth="yes"/>
@@ -30,9 +31,6 @@
       <point x="423.4912802349635" y="1279.7107452602002" type="curve" smooth="yes"/>
       <point x="362.33051481541224" y="1279.3917576486854"/>
       <point x="321.8071066273904" y="1329.803487243159"/>
-    </contour>
-    <contour>
-      <point x="482.81229494624745" y="1654" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
 </glyph>

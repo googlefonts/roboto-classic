@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1E3A" format="1">
-  <advance width="1047.6"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E3A" format="2">
+  <advance width="1048"/>
   <unicode hex="1E3A"/>
+  <anchor x="408.5041657379056" y="1572" name="parent_top"/>
+  <anchor x="1220.3820635163638" y="1600" name="top_dd"/>
+  <anchor x="873.6084620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1215.5441657379056" y="1572" name="top0315"/>
+  <anchor x="408.5041657379056" y="1572" name="top"/>
+  <anchor x="459.8802845827381" y="-231" name="bottom"/>
   <outline>
     <component base="L"/>
     <component base="macronsubnosp" xOffset="1161.8478206351638" yOffset="10"/>
-    <contour>
-      <point x="408.5041657379056" y="1572" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1220.3820635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="873.6084620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1215.5441657379056" y="1572" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="408.5041657379056" y="1572" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="459.8802845827381" y="-231" type="move" name="bottom"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildedieresiscomb" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildedieresiscomb" format="2">
   <outline>
     <contour>
       <point x="-295" y="1401" type="line"/>
@@ -55,13 +54,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="V.smcp" format="1">
-  <advance width="1059.24"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="V.smcp" format="2">
+  <advance width="1059"/>
+  <anchor x="653.053085731782" y="1320" name="top"/>
+  <anchor x="426.7085825253454" y="10" name="bottom"/>
+  <anchor x="1232.0220635163637" y="1600" name="top_dd"/>
+  <anchor x="885.2484620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1183.6430857317819" y="1320" name="top0315"/>
+  <anchor x="653.053085731782" y="1320" name="parent_top"/>
   <outline>
     <contour>
       <point x="487.01965146164014" y="217.28718786585983" type="line"/>
@@ -15,24 +21,6 @@
       <point x="369.971142283952" y="0.0" type="line"/>
       <point x="459.99484152281264" y="0.0" type="line"/>
       <point x="438.72934872887026" y="206.48262173062528" type="line"/>
-    </contour>
-    <contour>
-      <point x="653.053085731782" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="426.7085825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1232.0220635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="885.2484620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1183.6430857317819" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="653.053085731782" y="1320" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni050A" format="1">
-  <advance width="1966.19"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni050A" format="2">
+  <advance width="1966"/>
   <unicode hex="050A"/>
+  <anchor x="857.7354482785602" y="1612" name="top"/>
+  <anchor x="2141.0454482785603" y="1612" name="top0315"/>
+  <anchor x="857.7354482785602" y="1612" name="parent_top"/>
   <outline>
     <contour>
       <point x="377.49037098459354" y="849.9224536242316" type="line"/>
@@ -39,25 +42,11 @@
       <point x="1263.4350969862269" y="388.7430274069224" type="curve"/>
       <point x="1440.7425039190475" y="1455.8444361989161" type="line"/>
     </contour>
-    <contour>
-      <point x="857.7354482785602" y="1612" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="2141.0454482785603" y="1612" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="857.7354482785602" y="1612" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.6</real>
-        <real>0.609</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
     </dict>
   </lib>
 </glyph>

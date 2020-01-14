@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="epsilon" format="1">
-  <advance width="1088.34"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilon" format="2">
+  <advance width="1088"/>
   <unicode hex="03B5"/>
+  <guideline x="0.0" y="1326.0" angle="0.0" identifier="kHJKm8DUVs"/>
+  <guideline x="0.0" y="444.0" angle="0.0" identifier="PYngRCKQ07"/>
+  <anchor x="653.5168417627747" y="1289" name="top"/>
+  <anchor x="1207.3868417627746" y="1289" name="top0315"/>
+  <anchor x="653.5168417627747" y="1289" name="parent_top"/>
   <outline>
     <contour>
       <point x="524.4050025296898" y="572.0272697837803" type="line" smooth="yes"/>
@@ -51,45 +56,13 @@
       <point x="367.578028484691" y="533.2895131204278"/>
       <point x="526.3595532098313" y="531.1308319832041" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="653.5168417627747" y="1289" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1207.3868417627746" y="1289" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="653.5168417627747" y="1289" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1326.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>444.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.PYngRCKQ07</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.kHJKm8DUVs</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

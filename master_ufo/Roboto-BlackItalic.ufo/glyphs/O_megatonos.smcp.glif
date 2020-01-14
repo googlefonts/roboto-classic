@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omegatonos.smcp" format="1">
-  <advance width="1188.55"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegatonos.smcp" format="2">
+  <advance width="1189"/>
+  <anchor x="490.72858252534536" y="10" name="bottom"/>
   <outline>
     <component base="Omega.smcp" xOffset="10"/>
     <component base="tonos" xOffset="-492.9240163562291" yOffset="-289"/>
-    <contour>
-      <point x="490.72858252534536" y="10" type="move" name="bottom"/>
-    </contour>
   </outline>
 </glyph>

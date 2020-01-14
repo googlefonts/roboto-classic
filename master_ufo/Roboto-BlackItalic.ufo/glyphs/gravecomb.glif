@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gravecomb" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb" format="2">
   <unicode hex="0300"/>
+  <anchor x="-412.34037617370893" y="1290" name="_top"/>
+  <anchor x="-346.6831920374907" y="1670" name="top"/>
+  <anchor x="-479.4127725207526" y="1379" name="parent_top"/>
   <outline>
     <contour>
       <point x="-385.48456185902137" y="1535.6173085038006" type="line"/>
@@ -9,25 +11,11 @@
       <point x="-490.73385852764113" y="1222.1567740209023" type="line"/>
       <point x="-241.93138700782674" y="1223.4008963481945" type="line"/>
     </contour>
-    <contour>
-      <point x="-412.34037617370893" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-346.6831920374907" y="1670" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-479.4127725207526" y="1379" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

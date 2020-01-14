@@ -1,23 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04B7" format="1">
-  <advance width="1216.68"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04B7" format="2">
+  <advance width="1217"/>
   <unicode hex="04B7"/>
+  <anchor x="1209.020674937062" y="1276" name="top0315"/>
   <outline>
     <component base="uni0447"/>
     <component base="cyrillictic" xOffset="828.38"/>
-    <contour>
-      <point x="1209.020674937062" y="1276" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.6,0.6,1</string>
     </dict>
   </lib>
 </glyph>

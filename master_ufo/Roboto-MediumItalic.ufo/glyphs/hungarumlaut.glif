@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hungarumlaut" format="1">
-  <advance width="776.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlaut" format="2">
+  <advance width="776"/>
   <unicode hex="02DD"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="b2YGEKMFIx"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="a8ad64ljja"/>
+  <anchor x="519.8571792313055" y="1627" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="479.6731648331886" y="1233.4200655900581" type="line"/>
@@ -15,39 +18,13 @@
       <point x="637.348167385996" y="1534.5281043988598" type="line"/>
       <point x="395.32124105785937" y="1534.6444541027615" type="line"/>
     </contour>
-    <contour>
-      <point x="519.8571792313055" y="1627" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.a8ad64ljja</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.b2YGEKMFIx</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

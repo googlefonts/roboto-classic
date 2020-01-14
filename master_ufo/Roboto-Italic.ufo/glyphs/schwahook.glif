@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="schwahook" format="1">
-  <advance width="1381.28"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="schwahook" format="2">
+  <advance width="1381"/>
   <unicode hex="025A"/>
+  <anchor x="661.449623826291" y="1290" name="top"/>
+  <anchor x="452.1407618901817" y="0" name="bottom"/>
+  <anchor x="1500.499623826291" y="1290" name="top0315"/>
+  <anchor x="661.449623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="552.9934503939868" y="1101.9507152006377" type="curve" smooth="yes"/>
@@ -55,28 +59,11 @@
       <point x="1154.1395044442818" y="788.3029261683071" type="curve"/>
       <point x="902.3963122741342" y="740.3783109615441" type="line"/>
     </contour>
-    <contour>
-      <point x="661.449623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="452.1407618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1500.499623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="661.449623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

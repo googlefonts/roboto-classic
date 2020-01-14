@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macronsub" format="1">
-  <advance width="832.56"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronsub" format="2">
+  <advance width="833"/>
   <unicode hex="02CD"/>
   <outline>
     <component base="macron" xOffset="-351.10190432486206" yOffset="-1611"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

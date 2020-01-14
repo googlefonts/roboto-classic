@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oi" format="1">
-  <advance width="1493.8"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oi" format="2">
+  <advance width="1494"/>
   <unicode hex="01A3"/>
+  <guideline x="924.0" y="0.0" angle="90.0" identifier="jVvV5D9m4D"/>
   <outline>
     <contour>
       <point x="465.6538867444626" y="241.0117433185563" type="curve" smooth="yes"/>
@@ -49,28 +50,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>924.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.jVvV5D9m4D</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

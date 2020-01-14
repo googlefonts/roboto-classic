@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Oslash.smcp" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslash.smcp" format="2">
   <advance width="1038"/>
+  <anchor x="514" y="1320" name="top"/>
+  <anchor x="522" y="-2" name="bottom"/>
+  <anchor x="1019" y="1600" name="top_dd"/>
+  <anchor x="1019" y="-407" name="bottom_dd"/>
+  <anchor x="1019" y="1320" name="top0315"/>
+  <anchor x="514" y="1320" name="parent_top"/>
   <outline>
     <contour>
       <point x="922" y="663" type="line"/>
@@ -39,24 +45,6 @@
       <point x="866" y="1216" type="line"/>
       <point x="136" y="-75" type="line"/>
       <point x="190" y="-75" type="line"/>
-    </contour>
-    <contour>
-      <point x="514" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="522" y="-2" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1019" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1019" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1019" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="514" y="1320" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

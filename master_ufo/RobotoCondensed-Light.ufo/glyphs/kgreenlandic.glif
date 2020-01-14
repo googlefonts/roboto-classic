@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kgreenlandic" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kgreenlandic" format="2">
   <advance width="978"/>
   <unicode hex="0138"/>
+  <anchor x="505" y="1290" name="top"/>
+  <anchor x="505" y="10" name="bottom"/>
+  <anchor x="958" y="1290" name="top0315"/>
+  <anchor x="505" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="267" y="1082" type="line"/>
@@ -23,28 +27,11 @@
       <point x="434" y="604" type="line"/>
       <point x="364" y="511" type="line"/>
     </contour>
-    <contour>
-      <point x="505" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="505" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="958" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="505" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

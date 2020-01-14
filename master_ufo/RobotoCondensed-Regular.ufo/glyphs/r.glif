@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="r" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r" format="2">
   <advance width="624"/>
   <unicode hex="0072"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="En7mjiIEbO"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="LERR8qKZqZ"/>
+  <anchor x="362" y="1290" name="top"/>
+  <anchor x="234" y="11" name="bottom"/>
+  <anchor x="604" y="1600" name="top_dd"/>
+  <anchor x="604" y="-407" name="bottom_dd"/>
+  <anchor x="604" y="1290" name="top0315"/>
+  <anchor x="362" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="310" y="912" type="line"/>
@@ -26,54 +34,13 @@
       <point x="551" y="922"/>
       <point x="580" y="916" type="curve"/>
     </contour>
-    <contour>
-      <point x="362" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="234" y="11" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="604" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="604" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="604" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="362" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.En7mjiIEbO</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.LERR8qKZqZ</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

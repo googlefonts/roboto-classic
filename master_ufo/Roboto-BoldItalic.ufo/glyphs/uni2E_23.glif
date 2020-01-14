@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2E23" format="1">
-  <advance width="575.21"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2E23" format="2">
+  <advance width="575"/>
   <unicode hex="2E23"/>
+  <guideline x="0.0" y="677.0" angle="0.0" identifier="upU90NPWTY"/>
+  <guideline x="0.0" y="593.0" angle="0.0" identifier="L8MmpxPT3p"/>
   <outline>
     <contour>
       <point x="194.55688376292125" y="1281.0972441712036" type="line"/>
@@ -14,40 +16,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>677.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>593.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.L8MmpxPT3p</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.upU90NPWTY</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

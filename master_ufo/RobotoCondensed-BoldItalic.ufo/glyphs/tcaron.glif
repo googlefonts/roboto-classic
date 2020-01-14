@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tcaron" format="1">
-  <advance width="650.13"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron" format="2">
+  <advance width="650"/>
   <unicode hex="0165"/>
+  <anchor x="271.72076189018173" y="0" name="bottom"/>
+  <anchor x="454.96708764033474" y="1476" name="parent_top"/>
+  <anchor x="803.5120635163638" y="1600" name="top_dd"/>
+  <anchor x="456.73846203902167" y="-407" name="bottom_dd"/>
+  <anchor x="782.0870876403346" y="1476" name="top0315"/>
+  <anchor x="454.96708764033474" y="1476" name="top"/>
   <outline>
     <component base="t"/>
     <component base="commaaccent" xOffset="690.5926324147784" yOffset="1392"/>
-    <contour>
-      <point x="271.72076189018173" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="454.96708764033474" y="1476" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="803.5120635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="456.73846203902167" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="782.0870876403346" y="1476" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="454.96708764033474" y="1476" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

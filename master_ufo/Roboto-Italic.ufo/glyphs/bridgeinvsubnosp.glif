@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bridgeinvsubnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bridgeinvsubnosp" format="2">
   <unicode hex="033A"/>
+  <anchor x="-756.8191416139346" y="-496" name="bottom"/>
+  <anchor x="-671.1192381098182" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="-527.2665221741341" y="-357.09040123261815" type="line"/>
@@ -21,22 +22,11 @@
       <point x="-564.1843411744769" y="-473.9204552553627" type="line"/>
       <point x="-426.0817809528546" y="-473.9267215623063" type="line"/>
     </contour>
-    <contour>
-      <point x="-756.8191416139346" y="-496" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="-671.1192381098182" y="0" type="move" name="_bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

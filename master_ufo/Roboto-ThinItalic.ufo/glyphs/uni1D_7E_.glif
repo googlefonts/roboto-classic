@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1D7E" format="1">
-  <advance width="1481.19"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D7E" format="2">
+  <advance width="1481"/>
   <unicode hex="1D7E"/>
+  <guideline x="762.0" y="0.0" angle="90.0" identifier="z6K5anHyxR"/>
+  <anchor x="858.359623826291" y="1290" name="top"/>
+  <anchor x="635.4707618901817" y="0" name="bottom"/>
+  <anchor x="1600.409623826291" y="1290" name="top0315"/>
+  <anchor x="858.359623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="1449.6683137065484" y="641.7470420071721" type="line"/>
@@ -29,43 +34,13 @@
       <point x="1154.7114009989716" y="390.8827213453109" type="curve" smooth="yes"/>
       <point x="1272.9647031290892" y="1081.7222634269742" type="line"/>
     </contour>
-    <contour>
-      <point x="858.359623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="635.4707618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1600.409623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="858.359623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>762.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.z6K5anHyxR</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

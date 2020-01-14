@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="romanthousand" format="1">
-  <advance width="1786.07"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="romanthousand" format="2">
+  <advance width="1786"/>
   <unicode hex="216F"/>
   <outline>
     <component base="M" xOffset="18.429999999999993"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

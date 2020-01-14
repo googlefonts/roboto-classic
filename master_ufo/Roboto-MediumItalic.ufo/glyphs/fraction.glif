@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fraction" format="1">
-  <advance width="896.28"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="896"/>
   <unicode hex="2044"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="jab7NarfEl"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="l5Ko8Fua5N"/>
   <outline>
     <contour>
       <point x="969.7520745756453" y="1238.1328438511175" type="line"/>
@@ -12,33 +14,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.jab7NarfEl</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.l5Ko8Fua5N</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lambda" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lambda" format="2">
   <advance width="989"/>
   <unicode hex="03BB"/>
+  <anchor x="825" y="1613" name="top0315"/>
   <outline>
     <contour>
       <point x="470" y="1009" type="line"/>
@@ -40,9 +41,6 @@
       <point x="438" y="1258" type="line" smooth="yes"/>
       <point x="410" y="1349"/>
       <point x="370" y="1518"/>
-    </contour>
-    <contour>
-      <point x="825" y="1613" type="move" name="top0315"/>
     </contour>
   </outline>
 </glyph>

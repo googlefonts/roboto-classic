@@ -1,25 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Kappa.smcp" format="1">
-  <advance width="940.9"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kappa.smcp" format="2">
+  <advance width="941"/>
+  <anchor x="349.3874542712799" y="6" name="bottom"/>
+  <anchor x="565.7530857317819" y="1320" name="parent_top"/>
+  <anchor x="1094.282063516364" y="1600" name="top_dd"/>
+  <anchor x="747.5084620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1045.9030857317819" y="1320" name="top0315"/>
+  <anchor x="565.7530857317819" y="1320" name="top"/>
   <outline>
     <component base="K.smcp"/>
-    <contour>
-      <point x="349.3874542712799" y="6" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="565.7530857317819" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1094.282063516364" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="747.5084620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1045.9030857317819" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="565.7530857317819" y="1320" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

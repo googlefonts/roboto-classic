@@ -1,25 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0354" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0354" format="2">
   <unicode hex="0354"/>
+  <anchor x="-453" y="-551" name="bottom"/>
+  <anchor x="-453" y="0" name="_bottom"/>
   <outline>
     <component base="uni02F1" xOffset="-750"/>
-    <contour>
-      <point x="-453" y="-551" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="-453" y="0" type="move" name="_bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

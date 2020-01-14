@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Lcaron.smcp" format="1">
-  <advance width="925.38"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcaron.smcp" format="2">
+  <advance width="925"/>
+  <anchor x="371.7530857317819" y="1320" name="parent_top"/>
+  <anchor x="390.47301839831266" y="8" name="bottom"/>
+  <anchor x="1098.1620635163638" y="1600" name="top_dd"/>
+  <anchor x="751.3884620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1049.783085731782" y="1320" name="top0315"/>
+  <anchor x="371.7530857317819" y="1320" name="top"/>
   <outline>
     <component base="L.smcp"/>
     <component base="commaaccent" xOffset="561.8671647836292" yOffset="894"/>
-    <contour>
-      <point x="371.7530857317819" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="390.47301839831266" y="8" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1098.1620635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="751.3884620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1049.783085731782" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="371.7530857317819" y="1320" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

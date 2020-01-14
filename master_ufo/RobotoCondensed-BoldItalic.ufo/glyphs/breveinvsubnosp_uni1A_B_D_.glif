@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="breveinvsubnosp_uni1ABD" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breveinvsubnosp_uni1ABD" format="2">
+  <anchor x="-565.3892381098183" y="0" name="_bottom"/>
+  <anchor x="-633.1198070082328" y="-392" name="bottom"/>
   <outline>
     <contour>
       <point x="-989.473962951413" y="-488.24252309433814" type="curve"/>
@@ -49,12 +50,6 @@
       <point x="-527.4317814279883" y="-261.0003725870118"/>
       <point x="-521.1887165830558" y="-333.48052074517165"/>
       <point x="-524.6213234897722" y="-392.331802867016" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-565.3892381098183" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-633.1198070082328" y="-392" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

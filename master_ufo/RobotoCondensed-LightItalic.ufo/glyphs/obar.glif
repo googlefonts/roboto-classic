@@ -1,17 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="obar" format="1">
-  <advance width="983.5799999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obar" format="2">
+  <advance width="984"/>
   <unicode hex="0275"/>
+  <anchor x="597.1113547790364" y="1305" name="parent_top"/>
+  <anchor x="1085.9913547790363" y="1305" name="top0315"/>
+  <anchor x="597.1113547790364" y="1305" name="top"/>
   <outline>
     <component base="uni0473"/>
-    <contour>
-      <point x="597.1113547790364" y="1305" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1085.9913547790363" y="1305" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="597.1113547790364" y="1305" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

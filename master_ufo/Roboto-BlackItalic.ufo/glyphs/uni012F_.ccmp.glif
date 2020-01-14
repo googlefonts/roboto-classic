@@ -1,31 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni012F.ccmp" format="1">
-  <advance width="576.48"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni012F.ccmp" format="2">
+  <advance width="576"/>
+  <anchor x="399.8012004924474" y="1269" name="top"/>
+  <anchor x="682.0712004924474" y="1269" name="top0315"/>
+  <anchor x="89.59379473617075" y="-459" name="bottom"/>
+  <anchor x="399.8012004924474" y="1269" name="parent_top"/>
   <outline>
     <component base="dotlessi"/>
     <component base="ogonek" xOffset="-26.402179364836357" yOffset="10"/>
-    <contour>
-      <point x="399.8012004924474" y="1269" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="682.0712004924474" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="89.59379473617075" y="-459" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="399.8012004924474" y="1269" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.779</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.779,0.6,1</string>
     </dict>
   </lib>
 </glyph>

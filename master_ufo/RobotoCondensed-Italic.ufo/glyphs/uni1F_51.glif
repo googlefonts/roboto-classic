@@ -1,18 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1F51" format="1">
-  <advance width="956.42"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F51" format="2">
+  <advance width="956"/>
   <unicode hex="1F51"/>
+  <anchor x="581.1912004924474" y="1269" name="parent_top"/>
+  <anchor x="1052.6112004924473" y="1269" name="top0315"/>
+  <anchor x="581.1912004924474" y="1269" name="top"/>
   <outline>
     <component base="upsilon"/>
     <component base="uni1FFE" xOffset="273.05203952592365" yOffset="87"/>
-    <contour>
-      <point x="581.1912004924474" y="1269" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1052.6112004924473" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="581.1912004924474" y="1269" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seagullsubnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seagullsubnosp" format="2">
   <unicode hex="033C"/>
+  <anchor x="-659.4792381098182" y="0" name="_bottom"/>
+  <anchor x="-709.9316006565964" y="-292" name="bottom"/>
   <outline>
     <contour>
       <point x="-1023.4949919064788" y="-299.6482137979981" type="line"/>
@@ -35,22 +36,11 @@
       <point x="-671.0486719276033" y="-242.81469046720184"/>
       <point x="-686.6251178621814" y="-298.9807858398423" type="curve"/>
     </contour>
-    <contour>
-      <point x="-659.4792381098182" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-709.9316006565964" y="-292" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gbar" format="1">
-  <advance width="1134.8999999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gbar" format="2">
+  <advance width="1135"/>
   <unicode hex="01E5"/>
+  <anchor x="660.479623826291" y="1290" name="top"/>
+  <anchor x="353.4458969577126" y="-487" name="bottom"/>
+  <anchor x="446.2357860141527" y="-124" name="parenthesses.w3"/>
+  <anchor x="353.4458969577126" y="-487" name="markbottom"/>
+  <anchor x="1254.119623826291" y="1290" name="top0315"/>
+  <anchor x="446.2357860141527" y="-124" name="markparenthesses.w3"/>
+  <anchor x="660.479623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="1014.5317219687447" y="-54.09316434943405" type="line"/>
@@ -60,40 +67,13 @@
       <point x="329.1524333871639" y="399.5732179348905"/>
       <point x="342.00628487626176" y="520.5993671173089" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="660.479623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="353.4458969577126" y="-487" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="446.2357860141527" y="-124" type="move" name="parenthesses.w3"/>
-    </contour>
-    <contour>
-      <point x="353.4458969577126" y="-487" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="1254.119623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="446.2357860141527" y="-124" type="move" name="markparenthesses.w3"/>
-    </contour>
-    <contour>
-      <point x="660.479623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

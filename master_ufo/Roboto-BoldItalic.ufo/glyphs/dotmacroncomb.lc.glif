@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotmacroncomb.lc" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotmacroncomb.lc" format="2">
+  <anchor x="-330.793163142138" y="1936" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="-572.1990864336176" y="1369.7144467211551" type="curve" smooth="yes"/>
@@ -22,19 +22,11 @@
       <point x="-719.3638381004106" y="1622.0973568267332" type="line"/>
       <point x="-47.00539297548197" y="1622.083877413125" type="line"/>
     </contour>
-    <contour>
-      <point x="-330.793163142138" y="1936" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

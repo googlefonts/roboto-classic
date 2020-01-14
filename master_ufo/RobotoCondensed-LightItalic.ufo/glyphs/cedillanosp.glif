@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedillanosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedillanosp" format="2">
   <unicode hex="0327"/>
+  <anchor x="-560.5392381098183" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="-602.1644940306029" y="0.0" type="line"/>
@@ -21,19 +21,11 @@
       <point x="-538.2947468539062" y="-65.64391162896534" type="curve"/>
       <point x="-517.3987047863009" y="0.0" type="line"/>
     </contour>
-    <contour>
-      <point x="-560.5392381098183" y="0" type="move" name="_bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

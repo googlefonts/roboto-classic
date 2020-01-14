@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="jcrosstail" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jcrosstail" format="2">
   <advance width="804"/>
   <unicode hex="029D"/>
+  <anchor x="518" y="1600" name="top"/>
+  <anchor x="518" y="-447" name="bottom"/>
+  <anchor x="804" y="1600" name="top0315"/>
+  <anchor x="518" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="784" y="52" type="curve"/>
@@ -55,28 +59,11 @@
       <point x="467" y="1476"/>
       <point x="436" y="1440"/>
     </contour>
-    <contour>
-      <point x="518" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="518" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="804" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="518" y="1600" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

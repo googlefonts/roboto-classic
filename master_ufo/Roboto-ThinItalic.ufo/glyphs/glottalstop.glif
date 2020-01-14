@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="glottalstop" format="1">
-  <advance width="1001.04"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstop" format="2">
+  <advance width="1001"/>
   <unicode hex="0294"/>
+  <guideline x="0.0" y="1557.0" angle="0.0" identifier="VSI8pWmeMO"/>
+  <anchor x="661.5438716124038" y="1633" name="top"/>
+  <anchor x="379.39076189018175" y="0" name="bottom"/>
+  <anchor x="1179.5238716124038" y="1633" name="top0315"/>
+  <anchor x="661.5438716124038" y="1633" name="parent_top"/>
   <outline>
     <contour>
       <point x="449.79821235611564" y="516.7103778298323" type="line"/>
@@ -35,46 +40,15 @@
       <point x="353.2363414867293" y="0.0" type="line"/>
       <point x="407.050774578565" y="0.0" type="line"/>
     </contour>
-    <contour>
-      <point x="661.5438716124038" y="1633" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="379.39076189018175" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1179.5238716124038" y="1633" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="661.5438716124038" y="1633" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1557.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>com.typemytype.robofont.guideline.magnetic.VSI8pWmeMO</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

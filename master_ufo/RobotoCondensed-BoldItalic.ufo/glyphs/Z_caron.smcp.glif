@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zcaron.smcp" format="1">
-  <advance width="916.65"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zcaron.smcp" format="2">
+  <advance width="917"/>
+  <anchor x="592.9130857317818" y="1320" name="parent_top"/>
+  <anchor x="366.5685825253454" y="10" name="bottom"/>
+  <anchor x="1070.032063516364" y="1600" name="top_dd"/>
+  <anchor x="723.2584620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1021.6530857317819" y="1320" name="top0315"/>
+  <anchor x="653.6500384381166" y="1676" name="top"/>
   <outline>
     <component base="Z.smcp"/>
     <component base="caron" xOffset="50.773461905490876" yOffset="30"/>
-    <contour>
-      <point x="592.9130857317818" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="366.5685825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1070.032063516364" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="723.2584620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1021.6530857317819" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="653.6500384381166" y="1676" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

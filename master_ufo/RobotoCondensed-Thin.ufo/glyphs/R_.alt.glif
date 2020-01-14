@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="R.alt" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="R.alt" format="2">
   <advance width="1176"/>
+  <anchor x="534" y="1612" name="top"/>
+  <anchor x="534" y="10" name="bottom"/>
+  <anchor x="1157" y="1612" name="top0315"/>
+  <anchor x="534" y="1612" name="parent_top"/>
   <outline>
     <contour>
       <point x="619" y="684" type="line"/>
@@ -44,18 +48,6 @@
       <point x="982" y="575"/>
       <point x="900" y="721"/>
       <point x="620" y="721" type="curve"/>
-    </contour>
-    <contour>
-      <point x="534" y="1612" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="534" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1157" y="1612" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="534" y="1612" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

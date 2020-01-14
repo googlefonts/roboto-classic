@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dz" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dz" format="2">
   <advance width="1605"/>
+  <anchor x="1173" y="1600" name="top"/>
+  <anchor x="1173" y="0" name="bottom"/>
+  <anchor x="1586" y="1600" name="top0315"/>
+  <anchor x="1173" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="1543" y="51" type="line"/>
@@ -60,18 +64,6 @@
       <point x="269" y="31"/>
       <point x="176" y="240"/>
       <point x="176" y="531" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="1173" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1173" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1586" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="1173" y="1600" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

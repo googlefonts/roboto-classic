@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Idieresis.smcp" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis.smcp" format="2">
   <advance width="509"/>
+  <anchor x="255" y="1320" name="parent_top"/>
+  <anchor x="255" y="1" name="bottom"/>
+  <anchor x="509" y="1600" name="top_dd"/>
+  <anchor x="509" y="-407" name="bottom_dd"/>
+  <anchor x="509" y="1320" name="top0315"/>
+  <anchor x="255" y="1621" name="top"/>
   <outline>
     <component base="I.smcp"/>
     <component base="dieresis" xOffset="-192" yOffset="30"/>
-    <contour>
-      <point x="255" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="255" y="1" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="509" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="509" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="509" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="255" y="1621" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

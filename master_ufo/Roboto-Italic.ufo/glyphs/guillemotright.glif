@@ -1,40 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="guillemotright" format="1">
-  <advance width="941.1999999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guillemotright" format="2">
+  <advance width="941"/>
   <unicode hex="00BB"/>
+  <guideline x="0.0" y="98.0" angle="0.0" identifier="rn5XXFfVzr"/>
+  <guideline x="0.0" y="443.0" angle="0.0" identifier="mpVSWpPOgC"/>
   <outline>
     <component base="guilsinglright" xOffset="12.61"/>
     <component base="guilsinglright" xOffset="351.14"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>98.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>443.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.mpVSWpPOgC</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.rn5XXFfVzr</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

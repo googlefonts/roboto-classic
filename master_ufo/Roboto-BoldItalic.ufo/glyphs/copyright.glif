@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="copyright" format="1">
-  <advance width="1558.79"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="copyright" format="2">
+  <advance width="1559"/>
   <unicode hex="00A9"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="LCSpVfofpd"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="84f2Ueuzgg"/>
   <outline>
     <contour>
       <point x="927.3983800806512" y="595.6996697862171" type="line"/>
@@ -64,33 +66,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.84f2Ueuzgg</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.LCSpVfofpd</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

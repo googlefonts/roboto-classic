@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tavdages" format="1">
-  <advance width="718.77"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tavdages" format="2">
+  <advance width="719"/>
   <unicode hex="02E2"/>
   <outline>
     <contour>
@@ -46,13 +46,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

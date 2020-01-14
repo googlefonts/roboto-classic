@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Thorn.smcp" format="1">
-  <advance width="1012.68"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thorn.smcp" format="2">
+  <advance width="1013"/>
+  <anchor x="635.5930857317819" y="1320" name="top"/>
+  <anchor x="341.34858252534536" y="10" name="bottom"/>
+  <anchor x="1185.4620635163637" y="1600" name="top_dd"/>
+  <anchor x="838.6884620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1137.083085731782" y="1320" name="top0315"/>
+  <anchor x="635.5930857317819" y="1320" name="parent_top"/>
   <outline>
     <contour>
       <point x="-7.922309836873964" y="0.0" type="line"/>
@@ -28,34 +34,11 @@
       <point x="462.3854082571295" y="451.73259175413995" type="curve" smooth="yes"/>
       <point x="249.53618910436768" y="452.93213430764257" type="line"/>
     </contour>
-    <contour>
-      <point x="635.5930857317819" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="341.34858252534536" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1185.4620635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="838.6884620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1137.083085731782" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="635.5930857317819" y="1320" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

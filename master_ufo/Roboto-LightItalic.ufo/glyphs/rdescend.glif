@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rdescend" format="1">
-  <advance width="669.3"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rdescend" format="2">
+  <advance width="669"/>
   <unicode hex="027C"/>
+  <anchor x="562.509623826291" y="1290" name="top"/>
+  <anchor x="262.3871794983671" y="-447" name="bottom"/>
+  <anchor x="788.519623826291" y="1290" name="top0315"/>
+  <anchor x="562.509623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="321.8630448515829" y="903.6952578597605" type="line"/>
@@ -26,31 +30,13 @@
       <point x="681.2839120442628" y="986.7114352441145"/>
       <point x="706.9362412382023" y="982.3406720114251" type="curve"/>
     </contour>
-    <contour>
-      <point x="562.509623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="262.3871794983671" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="788.519623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="562.509623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

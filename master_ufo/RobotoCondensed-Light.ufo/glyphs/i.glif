@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="i" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
   <advance width="432"/>
   <unicode hex="0069"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="h4198Ab1Oe"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="ool4kpIlOm"/>
+  <anchor x="216" y="10" name="bottom"/>
+  <anchor x="220" y="1600" name="top"/>
+  <anchor x="412" y="1600" name="top_dd"/>
+  <anchor x="412" y="-407" name="bottom_dd"/>
+  <anchor x="230" y="654" name="rhotichook"/>
+  <anchor x="412" y="1600" name="top0315"/>
+  <anchor x="220" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="272" y="1082" type="line"/>
@@ -23,57 +32,13 @@
       <point x="171" y="1476"/>
       <point x="144" y="1440"/>
     </contour>
-    <contour>
-      <point x="216" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="220" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="412" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="412" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="230" y="654" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="412" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="220" y="1600" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.h4198Ab1Oe</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.ool4kpIlOm</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

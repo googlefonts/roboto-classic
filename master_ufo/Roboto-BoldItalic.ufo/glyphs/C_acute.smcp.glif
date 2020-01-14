@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Cacute.smcp" format="1">
-  <advance width="1121.32"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Cacute.smcp" format="2">
+  <advance width="1121"/>
+  <anchor x="701.553085731782" y="1320" name="parent_top"/>
+  <anchor x="470.1191080807308" y="3" name="bottom"/>
+  <anchor x="1294.1020635163636" y="1600" name="top_dd"/>
+  <anchor x="947.3284620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1245.7230857317818" y="1320" name="top0315"/>
+  <anchor x="759.7273506210241" y="1695" name="top"/>
   <outline>
     <component base="C.smcp"/>
     <component base="acute" xOffset="361.2508585688649" yOffset="30"/>
-    <contour>
-      <point x="701.553085731782" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="470.1191080807308" y="3" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1294.1020635163636" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="947.3284620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1245.7230857317818" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="759.7273506210241" y="1695" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

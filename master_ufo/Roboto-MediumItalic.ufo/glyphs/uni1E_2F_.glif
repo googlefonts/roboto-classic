@@ -1,38 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1E2F" format="1">
-  <advance width="724.89"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E2F" format="2">
+  <advance width="725"/>
   <unicode hex="1E2F"/>
+  <anchor x="404.12023142988363" y="654" name="rhotichook"/>
+  <anchor x="474.00014938167647" y="1283" name="top"/>
+  <anchor x="736.8701493816765" y="1283" name="top0315"/>
+  <anchor x="589.2457857470911" y="1950" name="mkmktop_acc"/>
+  <anchor x="248.22858252534542" y="10" name="bottom"/>
+  <anchor x="474.00014938167647" y="1283" name="parent_top"/>
   <outline>
     <component base="dotlessi" xOffset="96.03"/>
     <component base="dieresisacutecomb.lc" xOffset="921.2605255553855" yOffset="-7"/>
-    <contour>
-      <point x="404.12023142988363" y="654" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="474.00014938167647" y="1283" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="736.8701493816765" y="1283" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="589.2457857470911" y="1950" type="move" name="mkmktop_acc"/>
-    </contour>
-    <contour>
-      <point x="248.22858252534542" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="474.00014938167647" y="1283" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

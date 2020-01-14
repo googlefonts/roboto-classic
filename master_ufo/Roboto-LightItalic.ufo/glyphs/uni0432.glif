@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0432" format="1">
-  <advance width="1111.62"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0432" format="2">
+  <advance width="1112"/>
   <unicode hex="0432"/>
+  <guideline x="0.0" y="721.0" angle="0.0" identifier="fRpWVt2u7u"/>
+  <guideline x="0.0" y="444.0" angle="0.0" identifier="kxViCx6VqZ"/>
+  <anchor x="644.2412004924473" y="1269" name="top"/>
+  <anchor x="1227.2112004924472" y="1269" name="top0315"/>
+  <anchor x="644.2412004924473" y="1269" name="parent_top"/>
   <outline>
     <contour>
       <point x="607.0671245449387" y="498.8482672015628" type="line"/>
@@ -47,45 +52,13 @@
       <point x="165.91975976378308" y="100.66045165274684" type="line"/>
       <point x="102.9698197663014" y="0.0" type="line"/>
     </contour>
-    <contour>
-      <point x="644.2412004924473" y="1269" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1227.2112004924472" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="644.2412004924473" y="1269" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>721.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>444.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.fRpWVt2u7u</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.kxViCx6VqZ</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kturn" format="1">
-  <advance width="895.31"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kturn" format="2">
+  <advance width="895"/>
   <unicode hex="029E"/>
+  <anchor x="545.049623826291" y="1290" name="top"/>
+  <anchor x="244.92717949836714" y="-447" name="bottom"/>
+  <anchor x="995.129623826291" y="1290" name="top0315"/>
+  <anchor x="545.049623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="417.92838057614597" y="-415.93669437912945" type="line"/>
@@ -23,28 +27,11 @@
       <point x="396.88565424633754" y="400.65512925130406" type="line"/>
       <point x="506.87662100043826" y="555.6453839661507" type="line"/>
     </contour>
-    <contour>
-      <point x="545.049623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="244.92717949836714" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="995.129623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="545.049623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

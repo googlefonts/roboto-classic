@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ohungarumlaut.smcp" format="1">
-  <advance width="1032.08"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohungarumlaut.smcp" format="2">
+  <advance width="1032"/>
+  <anchor x="641.4130857317818" y="1320" name="parent_top"/>
+  <anchor x="435.6507618901817" y="0" name="bottom"/>
+  <anchor x="1185.4620635163637" y="1600" name="top_dd"/>
+  <anchor x="838.6884620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1137.083085731782" y="1320" name="top0315"/>
+  <anchor x="696.8710124055929" y="1644" name="top"/>
   <outline>
     <component base="O.smcp"/>
     <component base="hungarumlaut" xOffset="220.52346190549088" yOffset="30"/>
-    <contour>
-      <point x="641.4130857317818" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="435.6507618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1185.4620635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="838.6884620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1137.083085731782" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="696.8710124055929" y="1644" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

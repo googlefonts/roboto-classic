@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="philatin" format="1">
-  <advance width="1113.56"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="philatin" format="2">
+  <advance width="1114"/>
   <unicode hex="0278"/>
+  <guideline x="586.0" y="0.0" angle="90.0" identifier="enGIN5V3Mg"/>
+  <anchor x="729.5620635163638" y="1600" name="top"/>
+  <anchor x="375.8771794983671" y="-447" name="bottom"/>
+  <anchor x="1286.3420635163639" y="1600" name="top0315"/>
+  <anchor x="729.5620635163638" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="75.45105091200135" y="517.3094248597185" type="line" smooth="yes"/>
@@ -41,43 +46,13 @@
       <point x="778.2859339597914" y="1535.9274875507672" type="line"/>
       <point x="659.9763414526768" y="1535.9312403807494" type="line"/>
     </contour>
-    <contour>
-      <point x="729.5620635163638" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="375.8771794983671" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1286.3420635163639" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="729.5620635163638" y="1600" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>586.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.enGIN5V3Mg</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

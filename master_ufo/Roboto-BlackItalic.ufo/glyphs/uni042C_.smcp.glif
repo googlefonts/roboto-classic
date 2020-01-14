@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni042C.smcp" format="1">
-  <advance width="1133.93"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni042C.smcp" format="2">
+  <advance width="1134"/>
   <outline>
     <contour>
       <point x="640.4129102801587" y="814.5857027232004" type="line" smooth="yes"/>
@@ -27,13 +27,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,29 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04C9" format="1">
-  <advance width="1394.19"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04C9" format="2">
+  <advance width="1394"/>
   <unicode hex="04C9"/>
+  <anchor x="1372.6720635163638" y="1600" name="top_dd"/>
+  <anchor x="1025.8984620390215" y="-407" name="bottom_dd"/>
+  <anchor x="1373.1904097069128" y="1603" name="top0315"/>
   <outline>
     <component base="H"/>
     <component base="comma" xOffset="948.81758920528" yOffset="-44"/>
-    <contour>
-      <point x="1372.6720635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1025.8984620390215" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1373.1904097069128" y="1603" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.6</real>
-        <real>0.609</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,25 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="underscorenosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscorenosp" format="2">
   <unicode hex="0332"/>
+  <anchor x="-580" y="-376" name="bottom"/>
+  <anchor x="-580" y="0" name="_bottom"/>
   <outline>
     <component base="underscore" xOffset="-1036" yOffset="-150"/>
-    <contour>
-      <point x="-580" y="-376" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="-580" y="0" type="move" name="_bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

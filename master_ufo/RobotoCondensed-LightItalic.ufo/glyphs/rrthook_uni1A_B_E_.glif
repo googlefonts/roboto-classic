@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rrthook_uni1ABE" format="1">
-  <advance width="776.97"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rrthook_uni1ABE" format="2">
+  <advance width="777"/>
   <outline>
     <contour>
       <point x="177.03522219321127" y="200.00161322756563" type="line"/>
@@ -78,13 +78,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

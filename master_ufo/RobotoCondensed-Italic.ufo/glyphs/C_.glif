@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="C" format="1">
-  <advance width="1126.17"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="C" format="2">
+  <advance width="1126"/>
   <unicode hex="0043"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="6dtFjHYh3N"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="rf2sUs9Hxo"/>
+  <anchor x="751.7538716124038" y="1633" name="top"/>
+  <anchor x="467.8729412550181" y="-10" name="bottom"/>
+  <anchor x="1279.552063516364" y="1600" name="top_dd"/>
+  <anchor x="932.7784620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1285.2538716124038" y="1633" name="top0315"/>
+  <anchor x="751.7538716124038" y="1633" name="parent_top"/>
   <outline>
     <contour>
       <point x="832.4470841713595" y="461.9645035598476" type="line"/>
@@ -33,61 +41,15 @@
       <point x="966.8099759335504" y="182.02999665212832"/>
       <point x="1007.4095007437484" y="463.6414094053903" type="curve"/>
     </contour>
-    <contour>
-      <point x="751.7538716124038" y="1633" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="467.8729412550181" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1279.552063516364" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="932.7784620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1285.2538716124038" y="1633" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="751.7538716124038" y="1633" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.6</real>
-        <real>0.609</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.6dtFjHYh3N</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.rf2sUs9Hxo</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
     </dict>
   </lib>
 </glyph>

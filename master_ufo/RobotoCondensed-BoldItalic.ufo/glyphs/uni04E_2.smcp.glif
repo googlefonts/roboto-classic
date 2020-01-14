@@ -1,17 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04E2.smcp" format="1">
-  <advance width="1049.54"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04E2.smcp" format="2">
+  <advance width="1050"/>
+  <anchor x="647.233085731782" y="1320" name="parent_top"/>
+  <anchor x="1154.5430857317817" y="1320" name="top0315"/>
+  <anchor x="695.2877302092838" y="1630" name="top"/>
   <outline>
     <component base="uni0418.smcp"/>
     <component base="macron" xOffset="87.24345758120012" yOffset="27"/>
-    <contour>
-      <point x="647.233085731782" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1154.5430857317817" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="695.2877302092838" y="1630" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

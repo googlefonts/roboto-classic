@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eshlooprev" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eshlooprev" format="2">
   <advance width="954"/>
   <unicode hex="01AA"/>
+  <guideline x="0.0" y="1315.0" angle="0.0" identifier="Vb6s66bpTX"/>
+  <guideline x="456.0" y="0.0" angle="90.0" identifier="oyGDWxNPMi"/>
   <outline>
     <contour>
       <point x="581" y="1156" type="line" name="hr00"/>
@@ -53,42 +55,13 @@
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1315.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>456.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>com.typemytype.robofont.guideline.magnetic.Vb6s66bpTX</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.oyGDWxNPMi</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

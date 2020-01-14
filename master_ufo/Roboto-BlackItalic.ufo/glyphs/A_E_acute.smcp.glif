@@ -1,20 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="AEacute.smcp" format="1">
-  <advance width="1577.22"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AEacute.smcp" format="2">
+  <advance width="1577"/>
+  <anchor x="926.2596238262909" y="1290" name="parent_top"/>
+  <anchor x="703.3707618901817" y="0" name="bottom"/>
+  <anchor x="1696.4396238262912" y="1290" name="top0315"/>
+  <anchor x="985.3863522671322" y="1670" name="top"/>
   <outline>
     <component base="AE.smcp"/>
     <component base="acute" xOffset="582.0773966633737"/>
-    <contour>
-      <point x="926.2596238262909" y="1290" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="703.3707618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1696.4396238262912" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="985.3863522671322" y="1670" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

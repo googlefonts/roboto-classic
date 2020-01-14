@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dollar" format="1">
-  <advance width="966.12"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dollar" format="2">
+  <advance width="966"/>
   <unicode hex="0024"/>
+  <guideline x="0.0" y="1658.0" angle="0.0" identifier="Y48l30clVh"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="6fABJD4P6S"/>
   <outline>
     <contour>
       <point x="713.9572313841079" y="1677.9178920144614" type="line"/>
@@ -58,33 +60,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1658.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.6fABJD4P6S</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.Y48l30clVh</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

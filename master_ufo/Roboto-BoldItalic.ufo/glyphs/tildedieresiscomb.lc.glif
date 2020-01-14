@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildedieresiscomb.lc" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildedieresiscomb.lc" format="2">
+  <anchor x="-325.091355046098" y="1969" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="-737.1111482200146" y="1729.3398637801995" type="curve" smooth="yes"/>
@@ -52,19 +52,11 @@
       <point x="-53.58512149207599" y="1393.2541248150474"/>
       <point x="-44.57386565440615" y="1525.8944768970791" type="curve"/>
     </contour>
-    <contour>
-      <point x="-325.091355046098" y="1969" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macron" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macron" format="2">
   <advance width="849"/>
   <unicode hex="00AF"/>
+  <anchor x="427" y="1577" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="722" y="1445" type="line"/>
@@ -9,19 +10,11 @@
       <point x="142" y="1303" type="line"/>
       <point x="722" y="1303" type="line"/>
     </contour>
-    <contour>
-      <point x="427" y="1577" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

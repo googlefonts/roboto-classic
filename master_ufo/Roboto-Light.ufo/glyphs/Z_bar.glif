@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zbar" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zbar" format="2">
   <advance width="1225"/>
   <unicode hex="01B5"/>
+  <anchor x="613" y="1607" name="top"/>
+  <anchor x="628" y="10" name="bottom"/>
+  <anchor x="1225" y="1607" name="top0315"/>
+  <anchor x="613" y="1607" name="parent_top"/>
   <outline>
     <contour>
       <point x="1044" y="797" type="line" name="hr00"/>
@@ -29,31 +33,13 @@
       <point x="117" y="1352" type="line"/>
       <point x="1052" y="1352" type="line"/>
     </contour>
-    <contour>
-      <point x="613" y="1607" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="628" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1225" y="1607" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="613" y="1607" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

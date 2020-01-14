@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="G.ss06" format="1">
-  <advance width="1411.35"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="G.ss06" format="2">
+  <advance width="1411"/>
   <outline>
     <contour>
       <point x="1293.9133130817654" y="722.920997090574" type="line"/>
@@ -39,13 +39,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.6</real>
-        <real>0.609</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
     </dict>
   </lib>
 </glyph>

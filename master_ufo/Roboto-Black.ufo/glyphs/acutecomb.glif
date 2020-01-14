@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acutecomb" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
+  <anchor x="-523" y="1290" name="_top"/>
+  <anchor x="-523" y="1670" name="top"/>
+  <anchor x="-414" y="1379" name="parent_top"/>
   <outline>
     <contour>
       <point x="-691" y="1222" type="line"/>
@@ -9,25 +11,11 @@
       <point x="-138" y="1536" type="line"/>
       <point x="-493" y="1536" type="line"/>
     </contour>
-    <contour>
-      <point x="-523" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-523" y="1670" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-414" y="1379" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

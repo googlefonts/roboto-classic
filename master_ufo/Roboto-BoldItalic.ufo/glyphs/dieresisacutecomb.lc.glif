@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresisacutecomb.lc" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresisacutecomb.lc" format="2">
+  <anchor x="-323.70909853796707" y="1977" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="-800.706035675759" y="1362.6720835625856" type="curve" smooth="yes"/>
@@ -36,19 +36,11 @@
       <point x="29.737244588642895" y="1847.493479283767" type="line"/>
       <point x="-299.15354312616677" y="1847.6356666117883" type="line"/>
     </contour>
-    <contour>
-      <point x="-323.70909853796707" y="1977" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

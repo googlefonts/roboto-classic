@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresisnosp_uni1ABB" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresisnosp_uni1ABB" format="2">
+  <anchor x="-525.8303761737089" y="1290" name="_top"/>
+  <anchor x="-482.634860294618" y="1540" name="top"/>
+  <anchor x="-482.634860294618" y="1540" name="parent_top"/>
   <outline>
     <contour>
       <point x="-923.6660981314856" y="1172.6958658291242" type="curve"/>
@@ -61,15 +63,6 @@
       <point x="-291.6822887091323" y="1485.217400312536" type="curve" smooth="yes"/>
       <point x="-360.4747572559377" y="1483.3632807377248"/>
       <point x="-413.3856472987351" y="1431.616158383626"/>
-    </contour>
-    <contour>
-      <point x="-525.8303761737089" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-482.634860294618" y="1540" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-482.634860294618" y="1540" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

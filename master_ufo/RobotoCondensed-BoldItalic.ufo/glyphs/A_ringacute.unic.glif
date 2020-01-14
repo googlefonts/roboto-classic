@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Aringacute.unic" format="1">
-  <advance width="1182.43"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aringacute.unic" format="2">
+  <advance width="1182"/>
+  <anchor x="775.4855254218546" y="1630" name="parent_top"/>
+  <anchor x="500.88023633479634" y="7" name="bottom"/>
+  <anchor x="1335.8120635163637" y="1600" name="top_dd"/>
+  <anchor x="989.0384620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1340.9955254218546" y="1630" name="top0315"/>
+  <anchor x="775.4855254218546" y="1630" name="top"/>
   <outline>
     <component base="A.unic"/>
     <component base="ringacute" xOffset="344.42905492787634" yOffset="298"/>
-    <contour>
-      <point x="775.4855254218546" y="1630" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="500.88023633479634" y="7" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1335.8120635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="989.0384620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1340.9955254218546" y="1630" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="775.4855254218546" y="1630" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

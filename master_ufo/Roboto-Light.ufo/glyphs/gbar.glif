@@ -1,7 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gbar" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gbar" format="2">
   <advance width="1137"/>
   <unicode hex="01E5"/>
+  <anchor x="568" y="1290" name="top"/>
+  <anchor x="560" y="-465" name="bottom"/>
+  <anchor x="587" y="-125" name="parenthesses.w3"/>
+  <anchor x="560" y="-465" name="markbottom"/>
+  <anchor x="1137" y="1290" name="top0315"/>
+  <anchor x="587" y="-125" name="markparenthesses.w3"/>
+  <anchor x="568" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="1143" y="-79" type="line" name="hr00"/>
@@ -60,40 +67,13 @@
       <point x="235" y="278"/>
       <point x="235" y="530" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="568" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="560" y="-465" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="587" y="-125" type="move" name="parenthesses.w3"/>
-    </contour>
-    <contour>
-      <point x="560" y="-465" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="1137" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="587" y="-125" type="move" name="markparenthesses.w3"/>
-    </contour>
-    <contour>
-      <point x="568" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

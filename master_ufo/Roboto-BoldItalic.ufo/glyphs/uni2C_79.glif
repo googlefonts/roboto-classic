@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2C79" format="1">
-  <advance width="748.84"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2C79" format="2">
+  <advance width="749"/>
   <unicode hex="2C79"/>
+  <guideline x="0.0" y="1557.0" angle="0.0" identifier="iJXU6ApZQy"/>
   <outline>
     <contour>
       <point x="705.7893324621773" y="1014.8306307806976" type="line"/>
@@ -47,28 +48,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1557.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.iJXU6ApZQy</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

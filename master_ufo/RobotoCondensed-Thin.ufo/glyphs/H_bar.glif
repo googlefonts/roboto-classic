@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Hbar" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbar" format="2">
   <advance width="1219"/>
   <unicode hex="0126"/>
+  <anchor x="603" y="1612" name="top"/>
+  <anchor x="603" y="10" name="bottom"/>
+  <anchor x="1200" y="1612" name="top0315"/>
+  <anchor x="603" y="1612" name="parent_top"/>
   <outline>
     <contour>
       <point x="1169" y="1078" type="line"/>
@@ -26,18 +30,6 @@
       <point x="987" y="1456" type="line"/>
       <point x="987" y="0" type="line"/>
       <point x="1038" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="603" y="1612" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="603" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1200" y="1612" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="603" y="1612" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

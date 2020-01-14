@@ -1,35 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2E20" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2E20" format="2">
   <advance width="846"/>
   <unicode hex="2E20"/>
+  <guideline x="0.0" y="593.0" angle="0.0" identifier="SBAB8dfWXn"/>
   <outline>
     <component base="bar" xOffset="-6"/>
     <component base="crossbar" xOffset="68" yOffset="-135"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>593.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.SBAB8dfWXn</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

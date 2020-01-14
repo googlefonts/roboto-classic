@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dzcurl" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dzcurl" format="2">
   <advance width="1665"/>
+  <anchor x="1179" y="1600" name="top"/>
+  <anchor x="1179" y="-447" name="bottom"/>
+  <anchor x="1646" y="1600" name="top0315"/>
+  <anchor x="1179" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="959" y="-138" type="line"/>
@@ -86,18 +90,6 @@
       <point x="269" y="31"/>
       <point x="176" y="240"/>
       <point x="176" y="531" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="1179" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1179" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1646" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="1179" y="1600" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ntilde.unic" format="1">
-  <advance width="1417.17"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ntilde.unic" format="2">
+  <advance width="1417"/>
+  <anchor x="882.5310895488874" y="1632" name="parent_top"/>
+  <anchor x="596.4585825253454" y="10" name="bottom"/>
+  <anchor x="1589.952063516364" y="1600" name="top_dd"/>
+  <anchor x="1243.1784620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1595.4810895488874" y="1632" name="top0315"/>
+  <anchor x="929.2387285631758" y="1944" name="top"/>
   <outline>
     <component base="N.unic"/>
     <component base="tilde" xOffset="313.9320637028568" yOffset="346"/>
-    <contour>
-      <point x="882.5310895488874" y="1632" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="596.4585825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1589.952063516364" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1243.1784620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1595.4810895488874" y="1632" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="929.2387285631758" y="1944" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

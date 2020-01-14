@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0460" format="1">
-  <advance width="1780.9199999999998"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0460" format="2">
+  <advance width="1781"/>
   <unicode hex="0460"/>
+  <anchor x="1059.586345102742" y="1562" name="top"/>
+  <anchor x="1947.1363451027419" y="1562" name="top0315"/>
+  <anchor x="1059.586345102742" y="1562" name="parent_top"/>
   <outline>
     <contour>
       <point x="1006.5162302936274" y="1455.7261216132783" type="line"/>
@@ -42,15 +45,6 @@
       <point x="1522.5249484315063" y="199.4415507573372"/>
       <point x="1563.7206675133175" y="428.91178931984695" type="curve" smooth="yes"/>
       <point x="1740.2979283759234" y="1455.7294723160783" type="line"/>
-    </contour>
-    <contour>
-      <point x="1059.586345102742" y="1562" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1947.1363451027419" y="1562" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="1059.586345102742" y="1562" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

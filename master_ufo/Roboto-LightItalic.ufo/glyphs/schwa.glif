@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="schwa" format="1">
-  <advance width="1024.32"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="schwa" format="2">
+  <advance width="1024"/>
   <unicode hex="0259"/>
+  <anchor x="665.5024058898074" y="1291" name="top"/>
+  <anchor x="448.6063260172144" y="2" name="bottom"/>
+  <anchor x="885.2402314298836" y="654" name="rhotichook"/>
+  <anchor x="1143.7124058898073" y="1291" name="top0315"/>
+  <anchor x="665.5024058898074" y="1291" name="parent_top"/>
   <outline>
     <contour>
       <point x="566.6297815184255" y="1101.912476416069" type="curve" smooth="yes"/>
@@ -36,21 +41,6 @@
       <point x="942.2922847804145" y="575.5308715364813" type="line" smooth="yes"/>
       <point x="969.3646592837636" y="827.3851433821701"/>
       <point x="850.5879939383992" y="1095.4475376620774"/>
-    </contour>
-    <contour>
-      <point x="665.5024058898074" y="1291" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="448.6063260172144" y="2" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="885.2402314298836" y="654" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="1143.7124058898073" y="1291" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="665.5024058898074" y="1291" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

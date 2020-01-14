@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uogonek.unic" format="1">
-  <advance width="1231.8999999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uogonek.unic" format="2">
+  <advance width="1232"/>
+  <anchor x="787.4710895488874" y="1632" name="parent_top"/>
+  <anchor x="506.46076189018174" y="0" name="bottom"/>
+  <anchor x="1385.282063516364" y="1600" name="top_dd"/>
+  <anchor x="1038.5084620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1390.8110895488874" y="1632" name="top0315"/>
+  <anchor x="787.4710895488874" y="1632" name="top"/>
   <outline>
     <component base="U.unic"/>
     <component base="ogonek" xOffset="664.4793056137021" yOffset="3"/>
-    <contour>
-      <point x="787.4710895488874" y="1632" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="506.46076189018174" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1385.282063516364" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1038.5084620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1390.8110895488874" y="1632" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="787.4710895488874" y="1632" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

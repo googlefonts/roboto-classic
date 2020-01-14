@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rfishhook" format="1">
-  <advance width="548.05"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rfishhook" format="2">
+  <advance width="548"/>
   <unicode hex="027E"/>
+  <anchor x="331.649623826291" y="1290" name="top"/>
+  <anchor x="108.76076189018174" y="0" name="bottom"/>
+  <anchor x="667.269623826291" y="1290" name="top0315"/>
+  <anchor x="331.649623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="165.09015791062717" y="0.0" type="line"/>
@@ -21,28 +25,11 @@
       <point x="176.1560273644875" y="775.6051420953717" type="curve" smooth="yes"/>
       <point x="45.80993224886804" y="0.0" type="line"/>
     </contour>
-    <contour>
-      <point x="331.649623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="108.76076189018174" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="667.269623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="331.649623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

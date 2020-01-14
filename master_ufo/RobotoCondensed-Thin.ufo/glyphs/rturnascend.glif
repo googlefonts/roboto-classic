@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rturnascend" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rturnascend" format="2">
   <advance width="620"/>
+  <anchor x="233" y="1600" name="top"/>
+  <anchor x="233" y="0" name="bottom"/>
+  <anchor x="601" y="1600" name="top0315"/>
+  <anchor x="233" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="403" y="189" type="line"/>
@@ -24,18 +28,6 @@
       <point x="89" y="29"/>
       <point x="69" y="31"/>
       <point x="50" y="36" type="curve"/>
-    </contour>
-    <contour>
-      <point x="233" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="233" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="601" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="233" y="1600" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

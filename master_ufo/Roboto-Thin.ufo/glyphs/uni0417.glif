@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0417" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0417" format="2">
   <advance width="1221"/>
   <unicode hex="0417"/>
+  <guideline x="0.0" y="1658.0" angle="0.0" identifier="dj87UnmKEs"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="cGuenH0IjO"/>
+  <anchor x="626" y="1633" name="top"/>
+  <anchor x="626" y="-10" name="bottom"/>
+  <anchor x="1221" y="1633" name="top0315"/>
+  <anchor x="626" y="1633" name="parent_top"/>
   <outline>
     <contour>
       <point x="602" y="719" type="line"/>
@@ -51,48 +57,13 @@
       <point x="954" y="764"/>
       <point x="602" y="764" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="626" y="1633" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="626" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1221" y="1633" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="626" y="1633" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1658.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.cGuenH0IjO</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.dj87UnmKEs</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

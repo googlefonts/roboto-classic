@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macrondieresiscomb.lc" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macrondieresiscomb.lc" format="2">
+  <anchor x="-344.3247542559707" y="1824" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="-104.43890086415126" y="1440.906902786397" type="line"/>
@@ -36,19 +36,11 @@
       <point x="-198.7290446115551" y="1742.9812360002886"/>
       <point x="-235.48842112331982" y="1706.3593010417144"/>
     </contour>
-    <contour>
-      <point x="-344.3247542559707" y="1824" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dcroat" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcroat" format="2">
   <advance width="1153"/>
   <unicode hex="0111"/>
+  <anchor x="513" y="0" name="bottom"/>
+  <anchor x="431" y="1603" name="top"/>
+  <anchor x="995" y="1600" name="top_dd"/>
+  <anchor x="995" y="-407" name="bottom_dd"/>
+  <anchor x="513" y="0" name="markbottom"/>
+  <anchor x="1133" y="1603" name="top0315"/>
+  <anchor x="740" y="1312" name="parenthesses.w2"/>
+  <anchor x="740" y="1312" name="markparenthesses.w2"/>
+  <anchor x="431" y="1603" name="parent_top"/>
   <outline>
     <contour>
       <point x="626" y="239" type="line"/>
@@ -48,43 +57,11 @@
       <point x="434" y="1219" type="line"/>
       <point x="1041" y="1219" type="line"/>
     </contour>
-    <contour>
-      <point x="513" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="431" y="1603" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="995" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="995" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="513" y="0" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="1133" y="1603" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="740" y="1312" type="move" name="parenthesses.w2"/>
-    </contour>
-    <contour>
-      <point x="740" y="1312" type="move" name="markparenthesses.w2"/>
-    </contour>
-    <contour>
-      <point x="431" y="1603" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.779</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.779,0.6,1</string>
     </dict>
   </lib>
 </glyph>

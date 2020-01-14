@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gbar" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gbar" format="2">
   <advance width="993"/>
+  <anchor x="500" y="1290" name="top"/>
+  <anchor x="490" y="-446" name="bottom"/>
+  <anchor x="527" y="-135" name="parenthesses.w3"/>
+  <anchor x="490" y="-446" name="markbottom"/>
+  <anchor x="974" y="1290" name="top0315"/>
+  <anchor x="527" y="-135" name="markparenthesses.w3"/>
+  <anchor x="500" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="992" y="-105" type="line" name="hr00"/>
@@ -58,27 +65,6 @@
       <point x="270" y="31"/>
       <point x="173" y="240"/>
       <point x="173" y="531" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="500" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="490" y="-446" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="527" y="-135" type="move" name="parenthesses.w3"/>
-    </contour>
-    <contour>
-      <point x="490" y="-446" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="974" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="527" y="-135" type="move" name="markparenthesses.w3"/>
-    </contour>
-    <contour>
-      <point x="500" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

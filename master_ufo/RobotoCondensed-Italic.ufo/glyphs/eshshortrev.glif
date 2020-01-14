@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eshshortrev" format="1">
-  <advance width="725.56"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eshshortrev" format="2">
+  <advance width="726"/>
   <unicode hex="0285"/>
+  <guideline x="0.0" y="1102.0" angle="0.0" identifier="y6fAVoQWAf"/>
+  <anchor x="314.18962382629104" y="1290" name="top"/>
+  <anchor x="329.3171794983671" y="-447" name="bottom"/>
+  <anchor x="825.379623826291" y="1290" name="top0315"/>
+  <anchor x="314.18962382629104" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="344.7933653353409" y="0.0" type="line"/>
@@ -39,43 +44,13 @@
       <point x="336.18673355756727" y="-78.85070110472554" type="curve"/>
       <point x="459.85998098722564" y="663.8868676192482" type="line"/>
     </contour>
-    <contour>
-      <point x="314.18962382629104" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="329.3171794983671" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="825.379623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="314.18962382629104" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1102.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.y6fAVoQWAf</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

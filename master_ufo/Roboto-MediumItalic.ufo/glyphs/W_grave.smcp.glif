@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Wgrave.smcp" format="1">
-  <advance width="1497.68"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Wgrave.smcp" format="2">
+  <advance width="1498"/>
+  <anchor x="872.273085731782" y="1320" name="parent_top"/>
+  <anchor x="645.9285825253454" y="10" name="bottom"/>
+  <anchor x="1670.4620635163637" y="1600" name="top_dd"/>
+  <anchor x="1323.6884620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1622.083085731782" y="1320" name="top0315"/>
+  <anchor x="928.8309479872512" y="1687" name="top"/>
   <outline>
     <component base="W.smcp"/>
     <component base="grave" xOffset="381.62085856886495" yOffset="30"/>
-    <contour>
-      <point x="872.273085731782" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="645.9285825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1670.4620635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1323.6884620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1622.083085731782" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="928.8309479872512" y="1687" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

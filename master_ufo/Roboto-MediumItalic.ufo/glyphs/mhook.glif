@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="mhook" format="1">
-  <advance width="1729.51"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mhook" format="2">
+  <advance width="1730"/>
   <unicode hex="0271"/>
+  <guideline x="0.0" y="-437.0" angle="0.0" identifier="k8VtLkSJDa"/>
+  <anchor x="993.1896238262912" y="1290" name="top"/>
+  <anchor x="693.0671794983672" y="-447" name="bottom"/>
+  <anchor x="1848.7296238262911" y="1290" name="top0315"/>
+  <anchor x="993.1896238262912" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="1320.060540106028" y="298.954508222489" type="line"/>
@@ -64,43 +69,13 @@
       <point x="882.8527315261865" y="871.771854819171"/>
       <point x="856.8716260890162" y="616.1689545959849" type="curve"/>
     </contour>
-    <contour>
-      <point x="993.1896238262912" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="693.0671794983672" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1848.7296238262911" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="993.1896238262912" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>-437.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.k8VtLkSJDa</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="epsilon" format="1">
-  <advance width="1105.8"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilon" format="2">
+  <advance width="1106"/>
   <unicode hex="03B5"/>
+  <guideline x="0.0" y="1326.0" angle="0.0" identifier="l8gdfzaTTH"/>
+  <guideline x="0.0" y="444.0" angle="0.0" identifier="DjT1vQzRAF"/>
+  <anchor x="686.4968417627746" y="1289" name="top"/>
+  <anchor x="1224.8468417627746" y="1289" name="top0315"/>
+  <anchor x="686.4968417627746" y="1289" name="parent_top"/>
   <outline>
     <contour>
       <point x="488.2573662931659" y="589.1098180590529" type="line" smooth="yes"/>
@@ -51,45 +56,13 @@
       <point x="360.19355644638676" y="521.29657742257"/>
       <point x="513.1423743506424" y="517.3626462488442" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="686.4968417627746" y="1289" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1224.8468417627746" y="1289" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="686.4968417627746" y="1289" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1326.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>444.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.DjT1vQzRAF</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.l8gdfzaTTH</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

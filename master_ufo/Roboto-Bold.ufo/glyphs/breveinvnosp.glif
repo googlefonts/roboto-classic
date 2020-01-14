@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="breveinvnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breveinvnosp" format="2">
   <unicode hex="0311"/>
+  <anchor x="-579" y="1170" name="_top"/>
+  <anchor x="-579" y="1554" name="top"/>
+  <anchor x="-579" y="1554" name="mkmktop_acc"/>
+  <anchor x="-579" y="1307" name="parent_top"/>
   <outline>
     <contour>
       <point x="-233" y="1159" type="line"/>
@@ -19,28 +22,11 @@
       <point x="-440" y="1228"/>
       <point x="-440" y="1159" type="curve"/>
     </contour>
-    <contour>
-      <point x="-579" y="1170" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-579" y="1554" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-579" y="1554" type="move" name="mkmktop_acc"/>
-    </contour>
-    <contour>
-      <point x="-579" y="1307" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

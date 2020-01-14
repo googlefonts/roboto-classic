@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04BC.smcp" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04BC.smcp" format="2">
   <advance width="1210"/>
+  <anchor x="738" y="-10" name="bottom"/>
   <outline>
     <contour>
       <point x="741" y="-21" type="curve" smooth="yes"/>
@@ -41,9 +42,6 @@
       <point x="321" y="494" type="line" smooth="yes"/>
       <point x="321" y="192"/>
       <point x="475" y="-21"/>
-    </contour>
-    <contour>
-      <point x="738" y="-10" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

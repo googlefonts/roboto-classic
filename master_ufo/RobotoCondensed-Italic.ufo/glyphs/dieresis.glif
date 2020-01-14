@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresis" format="1">
-  <advance width="831.29"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis" format="2">
+  <advance width="831"/>
   <unicode hex="00A8"/>
+  <anchor x="562.5269216495218" y="1577" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="218.19959648503504" y="1368.5882913535063" type="curve" smooth="yes"/>
@@ -31,19 +32,11 @@
       <point x="679.7366227039361" y="1475.3225819326635"/>
       <point x="636.4513710942186" y="1428.6893277778195"/>
     </contour>
-    <contour>
-      <point x="562.5269216495218" y="1577" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresisnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresisnosp" format="2">
   <unicode hex="0308"/>
+  <anchor x="-487.030376173709" y="1290" name="_top"/>
+  <anchor x="-431.74011584847256" y="1610" name="top"/>
+  <anchor x="-474.0717214099817" y="1365" name="parent_top"/>
   <outline>
     <contour>
       <point x="-872.5680795174295" y="1360.4485965263577" type="curve" smooth="yes"/>
@@ -31,25 +33,11 @@
       <point x="-301.22974241114616" y="1497.5113864520886"/>
       <point x="-372.0339550973892" y="1439.7531270212976"/>
     </contour>
-    <contour>
-      <point x="-487.030376173709" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-431.74011584847256" y="1610" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-474.0717214099817" y="1365" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

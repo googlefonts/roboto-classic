@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1DE5" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DE5" format="2">
   <unicode hex="1DE5"/>
+  <anchor x="-402.03422379567263" y="1170" name="_top"/>
   <outline>
     <contour>
       <point x="-372.1665017474105" y="1201.0692616644938" type="line"/>
@@ -21,19 +21,11 @@
       <point x="-440.95921398987184" y="1809.6042249481795" type="curve"/>
       <point x="-537.5409968216487" y="1201.1129753270068" type="line"/>
     </contour>
-    <contour>
-      <point x="-402.03422379567263" y="1170" type="move" name="_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

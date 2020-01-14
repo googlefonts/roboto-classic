@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni020B" format="1">
-  <advance width="467.53999999999996"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni020B" format="2">
+  <advance width="468"/>
   <unicode hex="020B"/>
+  <anchor x="350.70405969925827" y="1288" name="parent_top"/>
+  <anchor x="126.00858252534535" y="10" name="bottom"/>
+  <anchor x="567.0140596992583" y="1288" name="top0315"/>
+  <anchor x="408.80122938780016" y="1627" name="top"/>
   <outline>
     <component base="dotlessi"/>
     <component base="breveinvnosp" xOffset="708.4759498435055" yOffset="92"/>
-    <contour>
-      <point x="350.70405969925827" y="1288" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="126.00858252534535" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="567.0140596992583" y="1288" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="408.80122938780016" y="1627" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

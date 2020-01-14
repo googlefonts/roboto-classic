@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seagullsubnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seagullsubnosp" format="2">
+  <anchor x="-458" y="0" name="_bottom"/>
+  <anchor x="-458" y="-256" name="bottom"/>
   <outline>
     <contour>
       <point x="-674" y="-256" type="line"/>
@@ -33,12 +34,6 @@
       <point x="-405" y="-183"/>
       <point x="-433" y="-214"/>
       <point x="-433" y="-256" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-458" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-458" y="-256" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

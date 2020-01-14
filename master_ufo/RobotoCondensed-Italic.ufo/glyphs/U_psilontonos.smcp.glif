@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Upsilontonos.smcp" format="1">
-  <advance width="970.8299999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilontonos.smcp" format="2">
+  <advance width="971"/>
+  <anchor x="579.3330857317819" y="1320" name="parent_top"/>
+  <anchor x="352.9885825253454" y="10" name="bottom"/>
+  <anchor x="1124.2120635163637" y="1600" name="top_dd"/>
+  <anchor x="777.4384620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1075.833085731782" y="1320" name="top0315"/>
+  <anchor x="579.3330857317819" y="1320" name="top"/>
   <outline>
     <component base="Y.smcp" xOffset="60"/>
     <component base="tonos" xOffset="-363.90236254677825" yOffset="-292"/>
-    <contour>
-      <point x="579.3330857317819" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="352.9885825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1124.2120635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="777.4384620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1075.833085731782" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="579.3330857317819" y="1320" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

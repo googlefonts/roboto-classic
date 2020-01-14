@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04BC.smcp" format="1">
-  <advance width="1431.72"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04BC.smcp" format="2">
+  <advance width="1432"/>
+  <anchor x="761.782941255018" y="-10" name="bottom"/>
   <outline>
     <contour>
       <point x="793.8339479366808" y="-15.011922931694782" type="curve" smooth="yes"/>
@@ -42,19 +43,11 @@
       <point x="294.5878452663419" y="208.8149751633951"/>
       <point x="484.4194779753914" y="-11.661661329156175"/>
     </contour>
-    <contour>
-      <point x="761.782941255018" y="-10" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

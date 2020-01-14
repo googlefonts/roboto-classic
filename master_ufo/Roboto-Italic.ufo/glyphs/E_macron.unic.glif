@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Emacron.unic" format="1">
-  <advance width="1382.25"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Emacron.unic" format="2">
+  <advance width="1382"/>
+  <anchor x="893.1616922475673" y="1643" name="parent_top"/>
+  <anchor x="618.7685825253454" y="10" name="bottom"/>
+  <anchor x="1555.032063516364" y="1600" name="top_dd"/>
+  <anchor x="1208.2584620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1562.4616922475675" y="1643" name="top0315"/>
+  <anchor x="939.0269216495218" y="1938" name="top"/>
   <outline>
     <component base="E.unic"/>
     <component base="macron" xOffset="328.09586771842316" yOffset="361"/>
-    <contour>
-      <point x="893.1616922475673" y="1643" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="618.7685825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1555.032063516364" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1208.2584620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1562.4616922475675" y="1643" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="939.0269216495218" y="1938" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

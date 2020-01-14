@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ringrighthalfsubnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringrighthalfsubnosp" format="2">
+  <anchor x="-482" y="-388" name="bottom"/>
+  <anchor x="-482" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="-517" y="-389" type="line"/>
@@ -17,12 +18,6 @@
       <point x="-451" y="-301"/>
       <point x="-480" y="-335"/>
       <point x="-517" y="-335" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-482" y="-388" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="-482" y="0" type="move" name="_bottom"/>
     </contour>
   </outline>
 </glyph>

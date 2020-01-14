@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omega" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omega" format="2">
   <advance width="1205"/>
   <unicode hex="03A9"/>
   <unicode hex="2126"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="6rCL60fP9T"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="uNZqRGHa9G"/>
+  <anchor x="597" y="10" name="bottom"/>
   <outline>
     <contour>
       <point x="761" y="777" type="line"/>
@@ -48,46 +51,15 @@
       <point x="563" y="247" type="line"/>
       <point x="120" y="247" type="line"/>
     </contour>
-    <contour>
-      <point x="597" y="10" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.6</real>
-        <real>0.609</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.6rCL60fP9T</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.uNZqRGHa9G</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
     </dict>
   </lib>
 </glyph>

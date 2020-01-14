@@ -1,18 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1FD1" format="1">
-  <advance width="548.05"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FD1" format="2">
+  <advance width="548"/>
   <unicode hex="1FD1"/>
+  <anchor x="305.71120049244735" y="1269" name="parent_top"/>
+  <anchor x="663.6412004924473" y="1269" name="top0315"/>
+  <anchor x="346.0623094683218" y="1527" name="top"/>
   <outline>
     <component base="iota"/>
     <component base="macron" xOffset="-201.15462403669676" yOffset="-13"/>
-    <contour>
-      <point x="305.71120049244735" y="1269" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="663.6412004924473" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="346.0623094683218" y="1527" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ringsubnosp_uni1ABD" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringsubnosp_uni1ABD" format="2">
+  <anchor x="-705.0692381098182" y="0" name="_bottom"/>
+  <anchor x="-777.2921406596583" y="-418" name="bottom"/>
   <outline>
     <contour>
       <point x="-1081.849808350448" y="-467.35436079829464" type="curve"/>
@@ -61,12 +62,6 @@
       <point x="-771.4986440208231" y="-363.38274542705585" type="curve" smooth="yes"/>
       <point x="-836.4401521424226" y="-362.9836986146393"/>
       <point x="-872.7101817489169" y="-310.1317366746968"/>
-    </contour>
-    <contour>
-      <point x="-705.0692381098182" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-777.2921406596583" y="-418" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

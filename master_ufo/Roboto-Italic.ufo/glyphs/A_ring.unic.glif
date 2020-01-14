@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Aring.unic" format="1">
-  <advance width="1352.18"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aring.unic" format="2">
+  <advance width="1352"/>
+  <anchor x="858.2810895488874" y="1632" name="parent_top"/>
+  <anchor x="557.8707618901817" y="0" name="bottom"/>
+  <anchor x="1524.9620635163637" y="1600" name="top_dd"/>
+  <anchor x="1178.1884620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1530.4910895488874" y="1632" name="top0315"/>
+  <anchor x="929.7707954233856" y="2046" name="top"/>
   <outline>
     <component base="A.unic"/>
     <component base="ring" xOffset="415.0420684212763" yOffset="353"/>
-    <contour>
-      <point x="858.2810895488874" y="1632" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="557.8707618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1524.9620635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1178.1884620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1530.4910895488874" y="1632" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="929.7707954233856" y="2046" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

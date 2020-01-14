@@ -1,28 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildecomb" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb" format="2">
   <unicode hex="0303"/>
+  <anchor x="-440.52496633326535" y="1256" name="_top"/>
+  <anchor x="-396.65660569503984" y="1392" name="parent_top"/>
+  <anchor x="-371.2393588632035" y="1657" name="top"/>
   <outline>
     <component base="tilde" xOffset="-1013.6500000000001"/>
-    <contour>
-      <point x="-440.52496633326535" y="1256" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-396.65660569503984" y="1392" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="-371.2393588632035" y="1657" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1ECA" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1ECA" format="2">
   <advance width="598"/>
   <unicode hex="1ECA"/>
+  <anchor x="298" y="1603" name="parent_top"/>
+  <anchor x="598" y="1600" name="top_dd"/>
+  <anchor x="598" y="-407" name="bottom_dd"/>
+  <anchor x="598" y="1603" name="top0315"/>
+  <anchor x="298" y="1603" name="top"/>
+  <anchor x="298" y="-372" name="bottom"/>
   <outline>
     <component base="I"/>
     <component base="dotbelow" xOffset="898" yOffset="3"/>
-    <contour>
-      <point x="298" y="1603" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="598" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="598" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="598" y="1603" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="298" y="1603" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="298" y="-372" type="move" name="bottom"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Etatonos.smcp" format="1">
-  <advance width="1268.62"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etatonos.smcp" format="2">
+  <advance width="1269"/>
+  <anchor x="719.013085731782" y="1320" name="parent_top"/>
+  <anchor x="492.6685825253454" y="10" name="bottom"/>
+  <anchor x="1441.4020635163638" y="1600" name="top_dd"/>
+  <anchor x="1094.6284620390215" y="-407" name="bottom_dd"/>
+  <anchor x="1393.0230857317817" y="1320" name="top0315"/>
+  <anchor x="719.013085731782" y="1320" name="top"/>
   <outline>
     <component base="H.smcp" xOffset="60"/>
     <component base="tonos" xOffset="-378.79792667381093" yOffset="-294"/>
-    <contour>
-      <point x="719.013085731782" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="492.6685825253454" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1441.4020635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1094.6284620390215" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1393.0230857317817" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="719.013085731782" y="1320" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

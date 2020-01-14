@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acute" format="1">
-  <advance width="559.6899999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute" format="2">
+  <advance width="560"/>
   <unicode hex="00B4"/>
+  <anchor x="344.5181262586244" y="1591" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="218.5035149241191" y="1257.4735565394574" type="line"/>
@@ -9,19 +10,11 @@
       <point x="599.1614879805976" y="1535.4861980170715" type="line"/>
       <point x="448.3169170241955" y="1535.5489897399739" type="line"/>
     </contour>
-    <contour>
-      <point x="344.5181262586244" y="1591" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

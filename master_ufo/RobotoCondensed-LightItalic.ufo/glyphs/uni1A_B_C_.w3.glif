@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1ABC.w3" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1ABC.w3" format="2">
+  <anchor x="-760.2438765173164" y="214" name="_parenthesses.w3"/>
   <outline>
     <contour>
       <point x="-1215.6957514892583" y="0.0" type="curve"/>
@@ -66,19 +66,11 @@
       <point x="-162.00223246054384" y="88.36557628246794"/>
       <point x="-228.9865440978361" y="50.67206985137537" type="curve"/>
     </contour>
-    <contour>
-      <point x="-760.2438765173164" y="214" type="move" name="_parenthesses.w3"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

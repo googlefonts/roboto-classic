@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="overscoredblnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overscoredblnosp" format="2">
   <unicode hex="033F"/>
+  <anchor x="-419.00291235966534" y="1476" name="_top"/>
+  <anchor x="-317.23427694852705" y="2065" name="top"/>
+  <anchor x="-317.23427694852705" y="2065" name="parent_top"/>
   <outline>
     <contour>
       <point x="64.14843681652975" y="1654.909403960176" type="line"/>
@@ -15,25 +17,11 @@
       <point x="-799.3858533036" y="1787.0908537920159" type="line"/>
       <point x="85.40296849372923" y="1787.0770097342192" type="line"/>
     </contour>
-    <contour>
-      <point x="-419.00291235966534" y="1476" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-317.23427694852705" y="2065" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-317.23427694852705" y="2065" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

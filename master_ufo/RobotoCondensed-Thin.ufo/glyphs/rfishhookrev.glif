@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rfishhookrev" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rfishhookrev" format="2">
   <advance width="512"/>
+  <anchor x="322" y="1290" name="top"/>
+  <anchor x="322" y="-447" name="bottom"/>
+  <anchor x="493" y="1290" name="top0315"/>
+  <anchor x="322" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="351" y="-416" type="line"/>
@@ -19,18 +23,6 @@
       <point x="297" y="941"/>
       <point x="297" y="754" type="curve" smooth="yes"/>
       <point x="297" y="-416" type="line"/>
-    </contour>
-    <contour>
-      <point x="322" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="322" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="493" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="322" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

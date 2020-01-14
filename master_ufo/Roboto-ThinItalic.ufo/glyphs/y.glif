@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="y" format="1">
-  <advance width="948.66"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="y" format="2">
+  <advance width="949"/>
   <unicode hex="0079"/>
+  <anchor x="623.1679700168402" y="1293" name="top"/>
+  <anchor x="564.5211958545963" y="-158" name="bottom"/>
+  <anchor x="623.1679700168402" y="1293" name="marktop"/>
+  <anchor x="1121.4420635163638" y="1600" name="top_dd"/>
+  <anchor x="774.6684620390216" y="-407" name="bottom_dd"/>
+  <anchor x="735.8602314298836" y="654" name="rhotichook"/>
+  <anchor x="1068.3979700168402" y="1293" name="top0315"/>
+  <anchor x="623.1679700168402" y="1293" name="parent_top"/>
   <outline>
     <contour>
       <point x="406.4198578602231" y="103.984391067596" type="line"/>
@@ -29,40 +37,11 @@
       <point x="410.8803861831693" y="8.872068349245938" type="line"/>
       <point x="403.1224654381111" y="63.74957222868066" type="line"/>
     </contour>
-    <contour>
-      <point x="623.1679700168402" y="1293" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="564.5211958545963" y="-158" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="623.1679700168402" y="1293" type="move" name="marktop"/>
-    </contour>
-    <contour>
-      <point x="1121.4420635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="774.6684620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="735.8602314298836" y="654" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="1068.3979700168402" y="1293" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="623.1679700168402" y="1293" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

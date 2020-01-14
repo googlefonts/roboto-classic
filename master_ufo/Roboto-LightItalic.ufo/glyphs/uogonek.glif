@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uogonek" format="1">
-  <advance width="1091.25"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uogonek" format="2">
+  <advance width="1091"/>
   <unicode hex="0173"/>
+  <anchor x="676.3451879533237" y="1292" name="parent_top"/>
+  <anchor x="1264.032063516364" y="1600" name="top_dd"/>
+  <anchor x="917.2584620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1210.8151879533239" y="1292" name="top0315"/>
+  <anchor x="440.5007618901817" y="0" name="bottom"/>
+  <anchor x="676.3451879533237" y="1292" name="top"/>
   <outline>
     <contour>
       <point x="763.7039841384172" y="255.06423800520628" type="line"/>
@@ -49,24 +55,6 @@
       <point x="636.7662081497155" y="-134.5174850538304"/>
       <point x="753.9254814981542" y="-59.08057353356249"/>
       <point x="832.9068414025978" y="-3.09403329583515" type="curve"/>
-    </contour>
-    <contour>
-      <point x="676.3451879533237" y="1292" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1264.032063516364" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="917.2584620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1210.8151879533239" y="1292" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="440.5007618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="676.3451879533237" y="1292" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

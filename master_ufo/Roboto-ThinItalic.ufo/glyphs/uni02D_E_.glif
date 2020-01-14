@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni02DE" format="1">
-  <advance width="406.43"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02DE" format="2">
+  <advance width="406"/>
   <unicode hex="02DE"/>
+  <anchor x="-169.56202507824725" y="646" name="_rhotichook"/>
   <outline>
     <contour>
       <point x="-175.2929634463905" y="619.5258647529878" type="line"/>
@@ -21,19 +22,11 @@
       <point x="138.34011830202013" y="740.5340959545136" type="curve"/>
       <point x="-168.08263134166353" y="672.0422773958659" type="line"/>
     </contour>
-    <contour>
-      <point x="-169.56202507824725" y="646" type="move" name="_rhotichook"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

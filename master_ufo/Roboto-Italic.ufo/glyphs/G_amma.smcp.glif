@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Gamma.smcp" format="1">
-  <advance width="914.7099999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gamma.smcp" format="2">
+  <advance width="915"/>
+  <anchor x="642.3830857317819" y="1320" name="top"/>
+  <anchor x="1039.113085731782" y="1320" name="top0315"/>
+  <anchor x="642.3830857317819" y="1320" name="parent_top"/>
   <outline>
     <contour>
       <point x="413.3900315227488" y="1164.941725191394" type="line"/>
@@ -14,25 +17,11 @@
       <point x="342.2750457319214" y="1012.08705608437" type="line"/>
       <point x="945.9748619181512" y="1012.0783528046024" type="line"/>
     </contour>
-    <contour>
-      <point x="642.3830857317819" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1039.113085731782" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="642.3830857317819" y="1320" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

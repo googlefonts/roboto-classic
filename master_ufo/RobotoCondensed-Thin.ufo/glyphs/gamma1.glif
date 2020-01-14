@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gamma1" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gamma1" format="2">
   <advance width="814"/>
+  <anchor x="408" y="1290" name="top"/>
+  <anchor x="408" y="-447" name="bottom"/>
+  <anchor x="796" y="1290" name="top0315"/>
+  <anchor x="408" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="407" y="-335" type="curve" smooth="yes"/>
@@ -37,18 +41,6 @@
       <point x="290" y="-175" type="curve" smooth="yes"/>
       <point x="290" y="-278"/>
       <point x="335" y="-335"/>
-    </contour>
-    <contour>
-      <point x="408" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="408" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="796" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="408" y="1290" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

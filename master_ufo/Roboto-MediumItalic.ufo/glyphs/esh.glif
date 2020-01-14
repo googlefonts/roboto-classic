@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="esh" format="1">
-  <advance width="818.68"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esh" format="2">
+  <advance width="819"/>
   <unicode hex="0283"/>
+  <guideline x="0.0" y="1557.0" angle="0.0" identifier="eD2iiawbnG"/>
+  <guideline x="0.0" y="-437.0" angle="0.0" identifier="opOishcXlo"/>
+  <anchor x="768.1802698680001" y="1700" name="top"/>
+  <anchor x="24.737179498367126" y="-447" name="bottom"/>
+  <anchor x="1008.740269868" y="1700" name="top0315"/>
+  <anchor x="768.1802698680001" y="1700" name="parent_top"/>
   <outline>
     <contour>
       <point x="424.5894398750522" y="0.0" type="line"/>
@@ -39,55 +45,15 @@
       <point x="417.84544927189836" y="-63.46750194423806" type="curve" smooth="yes"/>
       <point x="619.040596741538" y="1119.9257370657413" type="line"/>
     </contour>
-    <contour>
-      <point x="768.1802698680001" y="1700" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="24.737179498367126" y="-447" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1008.740269868" y="1700" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="768.1802698680001" y="1700" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1557.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>-437.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.eD2iiawbnG</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.opOishcXlo</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eta" format="1">
-  <advance width="1121.32"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eta" format="2">
+  <advance width="1121"/>
   <unicode hex="03B7"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="VzwLO0w962"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="EYE08VGIpP"/>
+  <anchor x="678.909623826291" y="1290" name="top"/>
+  <anchor x="143.46858252534537" y="10" name="bottom"/>
+  <anchor x="1240.539623826291" y="1290" name="top0315"/>
+  <anchor x="678.909623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="427.6768774898321" y="832.9109778323964" type="line"/>
@@ -28,48 +34,13 @@
       <point x="299.01872573224114" y="829.9821272297922"/>
       <point x="270.64083563854416" y="575.0523263873222" type="curve"/>
     </contour>
-    <contour>
-      <point x="678.909623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="143.46858252534537" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1240.539623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="678.909623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.EYE08VGIpP</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.VzwLO0w962</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

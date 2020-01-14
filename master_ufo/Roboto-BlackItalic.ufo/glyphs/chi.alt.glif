@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="chi.alt" format="1">
-  <advance width="1040.81"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chi.alt" format="2">
+  <advance width="1041"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="V9equ6Rkjb"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="LWKqZZqdbT"/>
   <outline>
     <contour>
       <point x="1164.8450959004783" y="1081.6294051660511" type="line"/>
@@ -41,40 +43,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.779</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.LWKqZZqdbT</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.V9equ6Rkjb</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>1,0.779,0.6,1</string>
     </dict>
   </lib>
 </glyph>

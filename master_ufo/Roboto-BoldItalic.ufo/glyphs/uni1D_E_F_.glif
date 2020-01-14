@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1DEF" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DEF" format="2">
   <unicode hex="1DEF"/>
+  <guideline x="0.0" y="958.0" angle="0.0" identifier="utzUw62Qki"/>
+  <anchor x="-503.85409840443634" y="940" name="_top"/>
   <outline>
     <contour>
       <point x="-382.83399201796135" y="1201.0607386971008" type="line"/>
@@ -39,34 +40,13 @@
       <point x="-382.4079760757715" y="1151.3608030230569" type="curve"/>
       <point x="-285.88447671158394" y="1759.8886376714818" type="line"/>
     </contour>
-    <contour>
-      <point x="-503.85409840443634" y="940" type="move" name="_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>958.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.utzUw62Qki</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

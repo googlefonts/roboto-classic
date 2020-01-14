@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Btopbar" format="1">
-  <advance width="1173.03"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Btopbar" format="2">
+  <advance width="1173"/>
   <unicode hex="0182"/>
   <outline>
     <component base="Gamma" xOffset="6.790000000000006"/>
@@ -8,13 +8,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

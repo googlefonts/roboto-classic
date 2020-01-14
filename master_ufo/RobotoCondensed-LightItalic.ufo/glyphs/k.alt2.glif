@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="k.alt2" format="1">
-  <advance width="847.78"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.alt2" format="2">
+  <advance width="848"/>
   <outline>
     <contour>
       <point x="423.54644734813894" y="1559.9301555254542" type="line"/>
@@ -25,13 +25,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.779</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.779,0.6,1</string>
     </dict>
   </lib>
 </glyph>

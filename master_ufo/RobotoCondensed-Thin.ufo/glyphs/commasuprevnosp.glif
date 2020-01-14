@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commasuprevnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commasuprevnosp" format="2">
+  <anchor x="-415" y="1154" name="_top"/>
+  <anchor x="-416" y="1684" name="top"/>
+  <anchor x="-425" y="1355" name="parent_top"/>
   <outline>
     <contour>
       <point x="-489" y="1578" type="line"/>
@@ -13,15 +15,6 @@
       <point x="-452" y="1199"/>
       <point x="-489" y="1288"/>
       <point x="-489" y="1412" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="-415" y="1154" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-416" y="1684" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-425" y="1355" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

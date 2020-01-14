@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Gcommaaccent.smcp" format="1">
-  <advance width="1155.27"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gcommaaccent.smcp" format="2">
+  <advance width="1155"/>
+  <anchor x="701.553085731782" y="1320" name="parent_top"/>
+  <anchor x="1328.052063516364" y="1600" name="top_dd"/>
+  <anchor x="981.2784620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1279.6730857317818" y="1320" name="top0315"/>
+  <anchor x="701.553085731782" y="1320" name="top"/>
+  <anchor x="394.3723241086617" y="-522" name="bottom"/>
   <outline>
     <component base="G.smcp"/>
     <component base="commaaccent" xOffset="287.5562006259781" yOffset="-368"/>
-    <contour>
-      <point x="701.553085731782" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1328.052063516364" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="981.2784620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1279.6730857317818" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="701.553085731782" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="394.3723241086617" y="-522" type="move" name="bottom"/>
-    </contour>
   </outline>
 </glyph>

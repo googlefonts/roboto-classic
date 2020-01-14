@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acutedotcomb.lc" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutedotcomb.lc" format="2">
+  <anchor x="-342.35745917619255" y="1841" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="-517.485433756946" y="1257.4980663826977" type="line"/>
@@ -22,19 +22,11 @@
       <point x="-409.6532436557436" y="1762.9345121581578"/>
       <point x="-446.40089177866236" y="1726.3684880304515"/>
     </contour>
-    <contour>
-      <point x="-342.35745917619255" y="1841" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

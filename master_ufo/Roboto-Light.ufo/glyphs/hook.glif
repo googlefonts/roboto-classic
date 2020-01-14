@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hook" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hook" format="2">
   <unicode hex="0309"/>
+  <anchor x="-582" y="1263" name="_top"/>
+  <anchor x="-582" y="1689" name="top"/>
+  <anchor x="-582" y="1689" name="mkmktop_acc"/>
+  <anchor x="-509" y="1430" name="parent_top"/>
   <outline>
     <contour>
       <point x="-535" y="1234" type="line"/>
@@ -20,18 +23,6 @@
       <point x="-510" y="1368"/>
       <point x="-626" y="1359" type="curve"/>
       <point x="-625" y="1234" type="line"/>
-    </contour>
-    <contour>
-      <point x="-582" y="1263" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-582" y="1689" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-582" y="1689" type="move" name="mkmktop_acc"/>
-    </contour>
-    <contour>
-      <point x="-509" y="1430" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,20 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1E2D.ccmp" format="1">
-  <advance width="522.83"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E2D.ccmp" format="2">
+  <advance width="523"/>
+  <anchor x="377.97014938167644" y="1283" name="parent_top"/>
+  <anchor x="640.8401493816765" y="1283" name="top0315"/>
+  <anchor x="377.97014938167644" y="1283" name="top"/>
+  <anchor x="78.7639490227599" y="-413" name="bottom"/>
   <outline>
     <component base="dotlessi"/>
     <component base="tildesubnosp" xOffset="822.3478206351635" yOffset="10"/>
-    <contour>
-      <point x="377.97014938167644" y="1283" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="640.8401493816765" y="1283" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="377.97014938167644" y="1283" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="78.7639490227599" y="-413" type="move" name="bottom"/>
-    </contour>
   </outline>
 </glyph>

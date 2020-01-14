@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1D0F" format="1">
-  <advance width="1131.99"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D0F" format="2">
+  <advance width="1132"/>
   <unicode hex="1D0F"/>
+  <anchor x="682.789623826291" y="1290" name="top"/>
+  <anchor x="459.9007618901817" y="0" name="bottom"/>
+  <anchor x="1251.2096238262911" y="1290" name="top0315"/>
+  <anchor x="682.789623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="1081.866841398205" y="626.240682679405" type="line" smooth="yes"/>
@@ -35,28 +39,11 @@
       <point x="762.9047693117465" y="730.6800565190902"/>
       <point x="752.2490182677066" y="630.2630847365508" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="682.789623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="459.9007618901817" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1251.2096238262911" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="682.789623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

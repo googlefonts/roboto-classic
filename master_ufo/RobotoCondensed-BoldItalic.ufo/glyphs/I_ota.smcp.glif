@@ -1,25 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Iota.smcp" format="1">
-  <advance width="479.18"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iota.smcp" format="2">
+  <advance width="479"/>
+  <anchor x="364.9630857317819" y="1320" name="parent_top"/>
+  <anchor x="137.34241569963262" y="-3" name="bottom"/>
+  <anchor x="632.5620635163638" y="1600" name="top_dd"/>
+  <anchor x="285.7884620390217" y="-407" name="bottom_dd"/>
+  <anchor x="584.1830857317818" y="1320" name="top0315"/>
+  <anchor x="364.9630857317819" y="1320" name="top"/>
   <outline>
     <component base="I.smcp"/>
-    <contour>
-      <point x="364.9630857317819" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="137.34241569963262" y="-3" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="632.5620635163638" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="285.7884620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="584.1830857317818" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="364.9630857317819" y="1320" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

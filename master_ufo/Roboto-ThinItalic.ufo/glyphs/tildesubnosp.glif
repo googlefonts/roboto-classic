@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildesubnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildesubnosp" format="2">
   <unicode hex="0330"/>
+  <anchor x="-647.8392381098182" y="0" name="_bottom"/>
+  <anchor x="-710.5591271662582" y="-363" name="bottom"/>
   <outline>
     <contour>
       <point x="-437.15840959226966" y="-138.5828782905769" type="line"/>
@@ -25,22 +26,11 @@
       <point x="-402.13383571999395" y="-236.13624375859058"/>
       <point x="-381.80531077645446" y="-138.8785350143878" type="curve"/>
     </contour>
-    <contour>
-      <point x="-647.8392381098182" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-710.5591271662582" y="-363" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

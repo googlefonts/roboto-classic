@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="anglesupnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anglesupnosp" format="2">
   <unicode hex="031A"/>
+  <anchor x="-361.71549188865083" y="1263" name="_top"/>
+  <anchor x="-290.87484584694164" y="1673" name="top"/>
+  <anchor x="-290.87484584694164" y="1673" name="parent_top"/>
   <outline>
     <contour>
       <point x="-615.5095358719483" y="1546.0795796036439" type="line"/>
@@ -15,25 +17,11 @@
       <point x="13.417641830286925" y="1631.8683426334708" type="line"/>
       <point x="-89.18492595098287" y="1631.8824050939465" type="line"/>
     </contour>
-    <contour>
-      <point x="-361.71549188865083" y="1263" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-290.87484584694164" y="1673" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-290.87484584694164" y="1673" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

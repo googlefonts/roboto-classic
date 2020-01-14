@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iota" format="1">
-  <advance width="595.5799999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
+  <advance width="596"/>
   <unicode hex="03B9"/>
+  <guideline x="0.0" y="659.0" angle="0.0" identifier="TKPl1Bbo0p"/>
+  <guideline x="0.0" y="1005.0" angle="0.0" identifier="Px9q9rzF4E"/>
+  <anchor x="390.10120049244733" y="1269" name="top"/>
+  <anchor x="691.7712004924473" y="1269" name="top0315"/>
+  <anchor x="390.10120049244733" y="1269" name="parent_top"/>
   <outline>
     <contour>
       <point x="265.77156344057283" y="1081.945175776746" type="line"/>
@@ -21,45 +26,13 @@
       <point x="301.9507352934632" y="273.9645881149264" type="curve"/>
       <point x="438.73134388255096" y="1081.9314687983633" type="line"/>
     </contour>
-    <contour>
-      <point x="390.10120049244733" y="1269" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="691.7712004924473" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="390.10120049244733" y="1269" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>659.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1005.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.Px9q9rzF4E</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.TKPl1Bbo0p</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

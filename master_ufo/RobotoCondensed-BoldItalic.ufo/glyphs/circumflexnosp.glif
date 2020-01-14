@@ -1,28 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexnosp" format="2">
   <unicode hex="0302"/>
+  <anchor x="-338.62037617370896" y="1290" name="_top"/>
+  <anchor x="-319.22938775855624" y="1391" name="parent_top"/>
+  <anchor x="-278.14665394298163" y="1640" name="top"/>
   <outline>
     <component base="circumflex" xOffset="-903.0699999999999"/>
-    <contour>
-      <point x="-338.62037617370896" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-319.22938775855624" y="1391" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="-278.14665394298163" y="1640" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

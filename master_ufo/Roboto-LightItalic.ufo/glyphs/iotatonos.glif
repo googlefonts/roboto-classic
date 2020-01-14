@@ -1,18 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iotatonos" format="1">
-  <advance width="596.55"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotatonos" format="2">
+  <advance width="597"/>
   <unicode hex="03AF"/>
+  <anchor x="353.2412004924474" y="1269" name="parent_top"/>
+  <anchor x="712.1412004924473" y="1269" name="top0315"/>
+  <anchor x="353.2412004924474" y="1269" name="top"/>
   <outline>
     <component base="iota"/>
     <component base="tonos" xOffset="-20.306398255596378" yOffset="-67"/>
-    <contour>
-      <point x="353.2412004924474" y="1269" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="712.1412004924473" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="353.2412004924474" y="1269" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

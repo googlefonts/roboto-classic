@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Delta" format="1">
-  <advance width="1368.67"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Delta" format="2">
+  <advance width="1369"/>
   <unicode hex="0394"/>
   <unicode hex="2206"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="CtgRmwRIIn"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="bHkNOr37KE"/>
   <outline>
     <contour>
       <point x="783.8404044776872" y="1325.2070704334735" type="line"/>
@@ -27,33 +29,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.CtgRmwRIIn</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.bHkNOr37KE</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

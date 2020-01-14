@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Theta.smcp" format="1">
-  <advance width="1179.52"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Theta.smcp" format="2">
+  <advance width="1180"/>
   <outline>
     <contour>
       <point x="767.6212336039463" y="698.9112740131167" type="line"/>
@@ -43,13 +43,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

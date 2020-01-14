@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="breve" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breve" format="2">
   <advance width="858"/>
   <unicode hex="02D8"/>
+  <anchor x="427" y="1512" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="647" y="1486" type="line"/>
@@ -18,9 +19,6 @@
       <point x="601" y="1238"/>
       <point x="705" y="1340"/>
       <point x="705" y="1486" type="curve"/>
-    </contour>
-    <contour>
-      <point x="427" y="1512" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
 </glyph>

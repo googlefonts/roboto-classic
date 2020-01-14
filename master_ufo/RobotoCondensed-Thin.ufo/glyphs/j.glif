@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="j" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j" format="2">
   <advance width="416"/>
   <unicode hex="006A"/>
+  <anchor x="208" y="1600" name="top"/>
+  <anchor x="181" y="-459" name="bottom"/>
+  <anchor x="397" y="1600" name="top_dd"/>
+  <anchor x="397" y="-407" name="bottom_dd"/>
+  <anchor x="397" y="1600" name="top0315"/>
+  <anchor x="208" y="1600" name="parent_top"/>
   <outline>
     <contour>
       <point x="173" y="1082" type="line"/>
@@ -34,24 +40,6 @@
       <point x="205" y="1476" type="curve" smooth="yes"/>
       <point x="176" y="1476"/>
       <point x="155" y="1453"/>
-    </contour>
-    <contour>
-      <point x="208" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="181" y="-459" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="397" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="397" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="397" y="1600" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="208" y="1600" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="linevertsubnosp_uni1ABD" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="linevertsubnosp_uni1ABD" format="2">
+  <anchor x="-555.6892381098182" y="0" name="_bottom"/>
+  <anchor x="-637.2696671693202" y="-489" name="bottom"/>
   <outline>
     <contour>
       <point x="-893.0094350506927" y="-487.5004602505566" type="curve"/>
@@ -39,12 +40,6 @@
       <point x="-611.1547165368886" y="-81.12893908792783" type="line"/>
       <point x="-685.11718224531" y="-488.8683920657776" type="line"/>
       <point x="-592.3112509969496" y="-488.8923412518482" type="line"/>
-    </contour>
-    <contour>
-      <point x="-555.6892381098182" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-637.2696671693202" y="-489" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

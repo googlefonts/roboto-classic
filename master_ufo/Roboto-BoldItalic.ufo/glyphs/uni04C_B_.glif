@@ -1,18 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04CB" format="1">
-  <advance width="1381.28"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04CB" format="2">
+  <advance width="1381"/>
   <unicode hex="04CB"/>
+  <anchor x="902.7404097069128" y="1603" name="parent_top"/>
+  <anchor x="1554.5804097069129" y="1603" name="top0315"/>
+  <anchor x="902.7404097069128" y="1603" name="top"/>
   <outline>
     <component base="uni0427"/>
     <component base="cyrillictic" xOffset="656.6899999999999"/>
-    <contour>
-      <point x="902.7404097069128" y="1603" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="1554.5804097069129" y="1603" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="902.7404097069128" y="1603" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

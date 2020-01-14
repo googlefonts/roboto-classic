@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ecaron.unic" format="1">
-  <advance width="1217.35"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecaron.unic" format="2">
+  <advance width="1217"/>
+  <anchor x="785.7038716124039" y="1633" name="parent_top"/>
+  <anchor x="542.1385825253453" y="10" name="bottom"/>
+  <anchor x="1370.7320635163637" y="1600" name="top_dd"/>
+  <anchor x="1023.9584620390217" y="-407" name="bottom_dd"/>
+  <anchor x="1376.433871612404" y="1633" name="top0315"/>
+  <anchor x="846.6500384381166" y="1989" name="top"/>
   <outline>
     <component base="E.unic"/>
     <component base="caron" xOffset="243.5642477861129" yOffset="343"/>
-    <contour>
-      <point x="785.7038716124039" y="1633" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="542.1385825253453" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1370.7320635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1023.9584620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1376.433871612404" y="1633" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="846.6500384381166" y="1989" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

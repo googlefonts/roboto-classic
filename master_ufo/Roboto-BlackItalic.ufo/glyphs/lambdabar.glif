@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lambdabar" format="1">
-  <advance width="1083.49"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lambdabar" format="2">
+  <advance width="1083"/>
   <unicode hex="019B"/>
+  <anchor x="1213.5920635163639" y="1600" name="top0315"/>
   <outline>
     <contour>
       <point x="901.6237861735924" y="1370.5803236044828" type="line"/>
@@ -47,19 +48,11 @@
       <point x="653.5217472909163" y="1498.056451831244"/>
       <point x="552.4098044240311" y="1552.1068462064284"/>
     </contour>
-    <contour>
-      <point x="1213.5920635163639" y="1600" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Oslash.smcp" format="1">
-  <advance width="1035.96"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslash.smcp" format="2">
+  <advance width="1036"/>
+  <anchor x="640.4430857317818" y="1320" name="top"/>
+  <anchor x="414.31076189018177" y="0" name="bottom"/>
+  <anchor x="1189.3420635163639" y="1600" name="top_dd"/>
+  <anchor x="842.5684620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1140.9630857317818" y="1320" name="top0315"/>
+  <anchor x="640.4430857317818" y="1320" name="parent_top"/>
   <outline>
     <contour>
       <point x="971.2216549433697" y="611.0015492320744" type="line" smooth="yes"/>
@@ -40,34 +46,11 @@
       <point x="-60.0041264967359" y="-54.63087579230614" type="line"/>
       <point x="112.26404947413126" y="-54.68617711444262" type="line"/>
     </contour>
-    <contour>
-      <point x="640.4430857317818" y="1320" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="414.31076189018177" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1189.3420635163639" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="842.5684620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1140.9630857317818" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="640.4430857317818" y="1320" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildemacroncomb.lc" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildemacroncomb.lc" format="2">
+  <anchor x="-335.98872726917074" y="1934" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="-199.95448644947112" y="1524.2642194565024" type="line"/>
@@ -30,19 +30,11 @@
       <point x="-716.6985521401508" y="1636.0900979051507" type="line"/>
       <point x="-49.62462908146583" y="1636.0793072336496" type="line"/>
     </contour>
-    <contour>
-      <point x="-335.98872726917074" y="1934" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

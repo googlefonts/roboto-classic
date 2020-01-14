@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Oslash" format="1">
-  <advance width="1171.76"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslash" format="2">
+  <advance width="1172"/>
   <unicode hex="00D8"/>
+  <anchor x="785.9979362165747" y="1674" name="top"/>
+  <anchor x="1325.1420635163636" y="1600" name="top_dd"/>
+  <anchor x="1337.9279362165746" y="1674" name="top0315"/>
+  <anchor x="785.9979362165747" y="1674" name="parent_top"/>
   <outline>
     <contour>
       <point x="1220.0680144260798" y="1504.5546990715457" type="line"/>
@@ -40,18 +44,6 @@
       <point x="996.7096037002134" y="1357.6280455295318"/>
       <point x="1002.2204573649178" y="1013.4529197418174"/>
       <point x="974.184970414618" y="808.997969258145" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="785.9979362165747" y="1674" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1325.1420635163636" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1337.9279362165746" y="1674" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="785.9979362165747" y="1674" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omega.smcp" format="1">
-  <advance width="1214.44"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omega.smcp" format="2">
+  <advance width="1214"/>
+  <anchor x="509.1585825253454" y="10" name="bottom"/>
   <outline>
     <contour>
       <point x="884.3194943930437" y="619.3245088970506" type="line" smooth="yes"/>
@@ -46,19 +47,11 @@
       <point x="486.30368138675544" y="195.90332159623975" type="line"/>
       <point x="34.57110148381331" y="195.91521982114025" type="line"/>
     </contour>
-    <contour>
-      <point x="509.1585825253454" y="10" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

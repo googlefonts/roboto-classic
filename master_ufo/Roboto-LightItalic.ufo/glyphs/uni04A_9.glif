@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04A9" format="1">
-  <advance width="1180.49"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04A9" format="2">
+  <advance width="1180"/>
   <unicode hex="04A9"/>
+  <guideline x="0.0" y="2079.0" angle="0.0" identifier="WGyl1II3cH"/>
+  <anchor x="679.879623826291" y="1290" name="top"/>
+  <anchor x="455.26294125501806" y="-10" name="bottom"/>
+  <anchor x="1299.7096238262911" y="1290" name="top0315"/>
+  <anchor x="679.879623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="1029.9575968664592" y="92.73114257500116" type="line"/>
@@ -49,36 +54,11 @@
       <point x="689.0602924670418" y="-2.530367265077661"/>
       <point x="1020.6544195665831" y="-12.186599900736846" type="curve"/>
     </contour>
-    <contour>
-      <point x="679.879623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="455.26294125501806" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1299.7096238262911" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="679.879623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>2079.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.WGyl1II3cH</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

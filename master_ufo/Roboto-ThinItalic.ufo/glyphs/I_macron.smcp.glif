@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Imacron.smcp" format="1">
-  <advance width="446.2"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Imacron.smcp" format="2">
+  <advance width="446"/>
+  <anchor x="347.5030857317819" y="1320" name="parent_top"/>
+  <anchor x="119.6035439536981" y="1" name="bottom"/>
+  <anchor x="618.9820635163637" y="1600" name="top_dd"/>
+  <anchor x="272.2084620390217" y="-407" name="bottom_dd"/>
+  <anchor x="570.6030857317819" y="1320" name="top0315"/>
+  <anchor x="388.0623094683218" y="1578" name="top"/>
   <outline>
     <component base="I.smcp"/>
     <component base="macron" xOffset="-159.36273879736223" yOffset="38"/>
-    <contour>
-      <point x="347.5030857317819" y="1320" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="119.6035439536981" y="1" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="618.9820635163637" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="272.2084620390217" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="570.6030857317819" y="1320" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="388.0623094683218" y="1578" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

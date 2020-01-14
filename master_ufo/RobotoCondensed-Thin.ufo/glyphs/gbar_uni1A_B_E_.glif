@@ -1,34 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gbar_uni1ABE" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gbar_uni1ABE" format="2">
   <advance width="1188"/>
+  <anchor x="566.0" y="-450.0" name="markbottom"/>
+  <anchor x="577.0" y="1290.0" name="top"/>
+  <anchor x="1144.0" y="1290.0" name="top0315"/>
+  <anchor x="566.0" y="-450.0" name="bottom"/>
+  <anchor x="577.0" y="1290.0" name="parent_top"/>
   <outline>
     <component base="gbar" xOffset="77"/>
     <component base="uni1ABE" xOffset="1014" yOffset="-708"/>
-    <contour>
-      <point x="566.0" y="-450.0" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="577.0" y="1290.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1144.0" y="1290.0" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="566.0" y="-450.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="577.0" y="1290.0" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

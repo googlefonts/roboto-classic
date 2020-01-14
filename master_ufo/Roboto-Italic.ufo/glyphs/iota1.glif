@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iota1" format="1">
-  <advance width="564.54"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota1" format="2">
+  <advance width="565"/>
   <unicode hex="0269"/>
+  <anchor x="342.31962382629104" y="1290" name="top"/>
+  <anchor x="119.43076189018173" y="0" name="bottom"/>
+  <anchor x="683.759623826291" y="1290" name="top0315"/>
+  <anchor x="245.53128254065456" y="640" name="rhotichook"/>
+  <anchor x="342.31962382629104" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="216.36124899611485" y="1081.9415330562797" type="line"/>
@@ -21,31 +26,11 @@
       <point x="262.240105642951" y="278.9328908112194" type="curve"/>
       <point x="396.36713261763566" y="1081.878411960948" type="line"/>
     </contour>
-    <contour>
-      <point x="342.31962382629104" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="119.43076189018173" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="683.759623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="245.53128254065456" y="640" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="342.31962382629104" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

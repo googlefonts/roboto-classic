@@ -1,7 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="q" format="1">
-  <advance width="1128.11"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="q" format="2">
+  <advance width="1128"/>
   <unicode hex="0071"/>
+  <anchor x="640.109623826291" y="1290" name="top"/>
+  <anchor x="706.7684620390216" y="-407" name="bottom"/>
+  <anchor x="640.109623826291" y="1290" name="marktop"/>
+  <anchor x="1300.8920635163636" y="1600" name="top_dd"/>
+  <anchor x="954.1184620390216" y="-407" name="bottom_dd"/>
+  <anchor x="1247.329623826291" y="1290" name="top0315"/>
+  <anchor x="640.109623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="583.657915455913" y="-415.93693400332967" type="line"/>
@@ -42,37 +49,11 @@
       <point x="288.00530978528866" y="386.0930840870658"/>
       <point x="303.28339741058636" y="523.2358314187065" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="640.109623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="706.7684620390216" y="-407" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="640.109623826291" y="1290" type="move" name="marktop"/>
-    </contour>
-    <contour>
-      <point x="1300.8920635163636" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="954.1184620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1247.329623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="640.109623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

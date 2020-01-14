@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0457" format="1">
-  <advance width="418.07"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0457" format="2">
+  <advance width="418"/>
   <unicode hex="0457"/>
+  <anchor x="327.809021127611" y="1279" name="parent_top"/>
+  <anchor x="107.57858252534534" y="10" name="bottom"/>
+  <anchor x="515.9890211276111" y="1279" name="top0315"/>
+  <anchor x="370.30251572353257" y="1546" name="top"/>
   <outline>
     <component base="dotlessi"/>
     <component base="dieresis" xOffset="-203.89480669374927" yOffset="-13"/>
-    <contour>
-      <point x="327.809021127611" y="1279" type="move" name="parent_top"/>
-    </contour>
-    <contour>
-      <point x="107.57858252534534" y="10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="515.9890211276111" y="1279" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="370.30251572353257" y="1546" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

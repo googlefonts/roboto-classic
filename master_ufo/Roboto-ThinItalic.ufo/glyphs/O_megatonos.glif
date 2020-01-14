@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omegatonos" format="1">
-  <advance width="1301.37"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegatonos" format="2">
+  <advance width="1301"/>
   <unicode hex="038F"/>
+  <anchor x="543.1085825253454" y="10" name="bottom"/>
   <outline>
     <component base="Omega" xOffset="20"/>
     <component base="tonos" xOffset="-144.27556412703268" yOffset="-2"/>
-    <contour>
-      <point x="543.1085825253454" y="10" type="move" name="bottom"/>
-    </contour>
   </outline>
 </glyph>

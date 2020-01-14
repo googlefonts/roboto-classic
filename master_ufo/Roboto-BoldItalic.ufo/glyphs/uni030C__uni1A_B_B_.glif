@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni030C_uni1ABB" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030C_uni1ABB" format="2">
+  <anchor x="-447.260376173709" y="1290" name="_top"/>
+  <anchor x="-392.8340261660544" y="1605" name="top"/>
+  <anchor x="-392.8340261660544" y="1605" name="parent_top"/>
   <outline>
     <contour>
       <point x="-885.8702709463519" y="1176.8350336126762" type="curve"/>
@@ -44,15 +46,6 @@
       <point x="-36.466439036429435" y="1528.3312679557414" type="line"/>
       <point x="-285.2620994169452" y="1524.210604238825" type="line"/>
       <point x="-437.70350197602676" y="1388.193080537785" type="line"/>
-    </contour>
-    <contour>
-      <point x="-447.260376173709" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-392.8340261660544" y="1605" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-392.8340261660544" y="1605" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

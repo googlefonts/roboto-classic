@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="k.alt" format="1">
-  <advance width="1063.12"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.alt" format="2">
+  <advance width="1063"/>
+  <anchor x="450.49482649435265" y="41" name="bottom"/>
+  <anchor x="804.7704097069129" y="1603" name="top"/>
+  <anchor x="1236.4204097069128" y="1603" name="top0315"/>
+  <anchor x="804.7704097069129" y="1603" name="parent_top"/>
   <outline>
     <contour>
       <point x="553.6356943256086" y="1535.930247925557" type="line"/>
@@ -21,18 +25,6 @@
       <point x="960.8884237198924" y="0.0" type="line"/>
       <point x="651.9642569212997" y="676.8566266197537" type="line"/>
       <point x="433.71125147288717" y="510.00779269034865" type="line"/>
-    </contour>
-    <contour>
-      <point x="450.49482649435265" y="41" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="804.7704097069129" y="1603" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1236.4204097069128" y="1603" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="804.7704097069129" y="1603" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

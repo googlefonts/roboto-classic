@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflex" format="1">
-  <advance width="772.12"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflex" format="2">
+  <advance width="772"/>
   <unicode hex="02C6"/>
+  <anchor x="563.7587558974619" y="1606" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="564.5304855786244" y="1516.9249958694888" type="line"/>
@@ -13,9 +14,6 @@
       <point x="688.1029864101254" y="1263.4164019076422" type="line"/>
       <point x="753.5111913030247" y="1263.5633025450124" type="line"/>
       <point x="754.597541140301" y="1274.179542657024" type="line"/>
-    </contour>
-    <contour>
-      <point x="563.7587558974619" y="1606" type="move" name="mkmktop_acc"/>
     </contour>
   </outline>
 </glyph>

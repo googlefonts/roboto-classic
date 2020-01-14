@@ -1,38 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bbar" format="1">
-  <advance width="1206.01"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bbar" format="2">
+  <advance width="1206"/>
   <unicode hex="0180"/>
+  <anchor x="474.66294125501804" y="-10" name="markbottom"/>
+  <anchor x="789.6626662150438" y="1611" name="top"/>
+  <anchor x="461.9357906520037" y="1303" name="parenthesses.w2"/>
+  <anchor x="1370.6926662150438" y="1611" name="top0315"/>
+  <anchor x="474.66294125501804" y="-10" name="bottom"/>
+  <anchor x="789.6626662150438" y="1611" name="parent_top"/>
   <outline>
     <component base="b" xOffset="80.50999999999999"/>
     <component base="crossbar" xOffset="-8.320313478090839" yOffset="575"/>
-    <contour>
-      <point x="474.66294125501804" y="-10" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="789.6626662150438" y="1611" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="461.9357906520037" y="1303" type="move" name="parenthesses.w2"/>
-    </contour>
-    <contour>
-      <point x="1370.6926662150438" y="1611" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="474.66294125501804" y="-10" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="789.6626662150438" y="1611" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

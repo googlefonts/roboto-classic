@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iotasubnosp_uni1ABD" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotasubnosp_uni1ABD" format="2">
+  <anchor x="-675.9692381098182" y="0" name="_bottom"/>
+  <anchor x="-766.8526035194255" y="-526" name="bottom"/>
   <outline>
     <contour>
       <point x="-1036.6669394880648" y="-519.8070812754394" type="curve"/>
@@ -51,12 +52,6 @@
       <point x="-654.8193599824317" y="-367.5490737873914"/>
       <point x="-652.4432985667027" y="-338.3530067093229" type="curve"/>
       <point x="-607.620244426442" y="-70.18146607347519" type="line"/>
-    </contour>
-    <contour>
-      <point x="-675.9692381098182" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-766.8526035194255" y="-526" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

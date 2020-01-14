@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni1FAE" format="1">
-  <advance width="1410.54"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FAE" format="2">
+  <advance width="1411"/>
   <unicode hex="1FAE"/>
+  <anchor x="562.5085825253453" y="10" name="bottom"/>
   <outline>
     <component base="Omega" xOffset="70"/>
     <component base="uni1FBE" xOffset="552.8478206351635" yOffset="10"/>
     <component base="uni1FCF" xOffset="-385.10278206351643" yOffset="-1"/>
-    <contour>
-      <point x="562.5085825253453" y="10" type="move" name="bottom"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni02D2" format="1">
-  <advance width="284.51"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02D2" format="2">
+  <advance width="285"/>
   <unicode hex="02D2"/>
   <outline>
     <component base="uni02BE" xOffset="-172.2637173258147" yOffset="-997"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

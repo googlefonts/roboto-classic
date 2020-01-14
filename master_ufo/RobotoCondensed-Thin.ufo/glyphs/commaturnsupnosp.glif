@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commaturnsupnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnsupnosp" format="2">
+  <anchor x="-460" y="1154" name="_top"/>
+  <anchor x="-460" y="1684" name="top"/>
+  <anchor x="-422" y="1355" name="parent_top"/>
   <outline>
     <contour>
       <point x="-486" y="1132" type="line"/>
@@ -13,15 +15,6 @@
       <point x="-450" y="1513"/>
       <point x="-486" y="1421"/>
       <point x="-486" y="1300" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="-460" y="1154" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-460" y="1684" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-422" y="1355" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

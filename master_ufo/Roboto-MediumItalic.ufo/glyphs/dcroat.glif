@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dcroat" format="1">
-  <advance width="1224.1399999999999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcroat" format="2">
+  <advance width="1224"/>
   <unicode hex="0111"/>
+  <anchor x="483.18076189018177" y="0" name="bottom"/>
+  <anchor x="683.2415379609783" y="1607" name="top"/>
+  <anchor x="1295.0720635163639" y="1600" name="top_dd"/>
+  <anchor x="948.2984620390216" y="-407" name="bottom_dd"/>
+  <anchor x="483.18076189018177" y="0" name="markbottom"/>
+  <anchor x="1398.1315379609782" y="1607" name="top0315"/>
+  <anchor x="965.7780471601345" y="1311" name="parenthesses.w2"/>
+  <anchor x="965.7780471601345" y="1311" name="markparenthesses.w2"/>
+  <anchor x="683.2415379609783" y="1607" name="parent_top"/>
   <outline>
     <contour>
       <point x="698.1211778887251" y="237.154344365089" type="line"/>
@@ -48,43 +57,11 @@
       <point x="624.2156457823414" y="1224.099661751136" type="line"/>
       <point x="1275.7666660103907" y="1224.0886740564465" type="line"/>
     </contour>
-    <contour>
-      <point x="483.18076189018177" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="683.2415379609783" y="1607" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1295.0720635163639" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="948.2984620390216" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="483.18076189018177" y="0" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="1398.1315379609782" y="1607" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="965.7780471601345" y="1311" type="move" name="parenthesses.w2"/>
-    </contour>
-    <contour>
-      <point x="965.7780471601345" y="1311" type="move" name="markparenthesses.w2"/>
-    </contour>
-    <contour>
-      <point x="683.2415379609783" y="1607" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.779</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.779,0.6,1</string>
     </dict>
   </lib>
 </glyph>

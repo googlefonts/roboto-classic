@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotbelow_uni1ABD" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotbelow_uni1ABD" format="2">
+  <anchor x="-562.4792381098183" y="0" name="_bottom"/>
+  <anchor x="-617.4239343080219" y="-318" name="bottom"/>
   <outline>
     <contour>
       <point x="-882.7638822474544" y="-467.5144268673472" type="curve"/>
@@ -47,12 +48,6 @@
       <point x="-603.0591159072698" y="-148.9821602029" type="curve" smooth="yes"/>
       <point x="-647.1916881068174" y="-150.02618444055315"/>
       <point x="-676.3657261380055" y="-191.37791959327237"/>
-    </contour>
-    <contour>
-      <point x="-562.4792381098183" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-617.4239343080219" y="-318" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

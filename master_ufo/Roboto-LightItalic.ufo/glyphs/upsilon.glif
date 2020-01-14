@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="upsilon" format="1">
-  <advance width="1063.12"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilon" format="2">
+  <advance width="1063"/>
   <unicode hex="03C5"/>
+  <anchor x="629.6912004924474" y="1269" name="top"/>
+  <anchor x="1178.7112004924472" y="1269" name="top0315"/>
+  <anchor x="629.6912004924474" y="1269" name="parent_top"/>
   <outline>
     <contour>
       <point x="234.06387113734962" y="1081.9331529380383" type="line"/>
@@ -26,15 +29,6 @@
       <point x="224.09690692490435" y="264.8580222387968"/>
       <point x="239.86355223870152" y="403.35815278349327" type="curve"/>
       <point x="353.3256898728514" y="1081.9262668482572" type="line"/>
-    </contour>
-    <contour>
-      <point x="629.6912004924474" y="1269" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1178.7112004924472" y="1269" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="629.6912004924474" y="1269" type="move" name="parent_top"/>
     </contour>
   </outline>
 </glyph>

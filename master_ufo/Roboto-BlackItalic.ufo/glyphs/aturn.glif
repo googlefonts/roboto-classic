@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="aturn" format="1">
-  <advance width="1055.36"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aturn" format="2">
+  <advance width="1055"/>
   <unicode hex="0250"/>
+  <anchor x="423.0407618901818" y="0" name="bottom"/>
+  <anchor x="645.929623826291" y="1290" name="top"/>
+  <anchor x="776.6517309527454" y="615" name="rhotichook"/>
+  <anchor x="1174.579623826291" y="1290" name="top0315"/>
+  <anchor x="645.929623826291" y="1290" name="parent_top"/>
   <outline>
     <contour>
       <point x="452.9312459584246" y="810.1905962196779" type="line" smooth="yes"/>
@@ -52,31 +57,11 @@
       <point x="505.5451690023651" y="599.7224958232017" type="curve" smooth="yes"/>
       <point x="375.22700761195057" y="600.7842563072203" type="line"/>
     </contour>
-    <contour>
-      <point x="423.0407618901818" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="645.929623826291" y="1290" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="776.6517309527454" y="615" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="1174.579623826291" y="1290" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="645.929623826291" y="1290" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

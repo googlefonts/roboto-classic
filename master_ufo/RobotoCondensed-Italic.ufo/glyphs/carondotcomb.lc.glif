@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="carondotcomb.lc" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="carondotcomb.lc" format="2">
+  <anchor x="-235.54827885707977" y="1909" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="-420.182260629204" y="1535.1916656126984" type="line"/>
@@ -27,19 +27,11 @@
       <point x="-327.60360983344736" y="1810.514916537107"/>
       <point x="-365.2574368400329" y="1761.1347197188595"/>
     </contour>
-    <contour>
-      <point x="-235.54827885707977" y="1909" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.798</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Euro.smcp" format="1">
-  <advance width="861.36"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Euro.smcp" format="2">
+  <advance width="861"/>
   <outline>
     <contour>
       <point x="510.30150669061175" y="137.80169952453915" type="curve" smooth="yes"/>
@@ -47,13 +47,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>

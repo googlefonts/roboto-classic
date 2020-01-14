@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commaturnsupnosp" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnsupnosp" format="2">
   <unicode hex="0312"/>
+  <anchor x="-470.2555834796218" y="1112" name="_top"/>
+  <anchor x="-371.42424314826167" y="1684" name="top"/>
+  <anchor x="-389.2452604587671" y="1317" name="parent_top"/>
   <outline>
     <contour>
       <point x="-537.8364511683765" y="1064.1129094676712" type="line"/>
@@ -15,25 +17,11 @@
       <point x="-488.7943782263956" y="1369.746937785065"/>
       <point x="-509.4647930507884" y="1238.1256891838639" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="-470.2555834796218" y="1112" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-371.42424314826167" y="1684" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-389.2452604587671" y="1317" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.967</real>
-        <real>0.6</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

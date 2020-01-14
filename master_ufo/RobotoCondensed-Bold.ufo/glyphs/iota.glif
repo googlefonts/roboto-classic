@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iota" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
   <advance width="640"/>
   <unicode hex="03B9"/>
+  <guideline x="0.0" y="659.0" angle="0.0" identifier="Xdy3qajk91"/>
+  <guideline x="0.0" y="1005.0" angle="0.0" identifier="yVhGlhHnTS"/>
+  <anchor x="286" y="1268" name="top"/>
+  <anchor x="620" y="1268" name="top0315"/>
+  <anchor x="286" y="1268" name="parent_top"/>
   <outline>
     <contour>
       <point x="130" y="1082" type="line"/>
@@ -21,45 +26,13 @@
       <point x="413" y="341" type="curve"/>
       <point x="414" y="1082" type="line"/>
     </contour>
-    <contour>
-      <point x="286" y="1268" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="620" y="1268" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="286" y="1268" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>659.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1005.0</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.Xdy3qajk91</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.yVhGlhHnTS</key>
+      <real>5.0</real>
     </dict>
   </lib>
 </glyph>

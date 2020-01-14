@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="glottalstoprevinv" format="1">
-  <advance width="1036.93"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstoprevinv" format="2">
+  <advance width="1037"/>
   <unicode hex="0295"/>
+  <anchor x="722.6538716124037" y="1633" name="top"/>
+  <anchor x="437.59076189018174" y="0" name="bottom"/>
+  <anchor x="1215.413871612404" y="1633" name="top0315"/>
+  <anchor x="722.6538716124037" y="1633" name="parent_top"/>
   <outline>
     <contour>
       <point x="520.9499747060283" y="562.9381443408208" type="line" smooth="yes"/>
@@ -35,28 +39,11 @@
       <point x="673.9571111294553" y="561.9273366641328" type="line"/>
       <point x="390.5698196069722" y="561.9441952465498" type="line"/>
     </contour>
-    <contour>
-      <point x="722.6538716124037" y="1633" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="437.59076189018174" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1215.413871612404" y="1633" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="722.6538716124037" y="1633" type="move" name="parent_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.939</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
     </dict>
   </lib>
 </glyph>
