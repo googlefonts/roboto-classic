@@ -52,8 +52,10 @@
         </dict>
       </dict>
     </dict>
+    <key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
+    <false/>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
-    <true/>
+    <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
     <false/>
     <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
@@ -61,9 +63,13 @@
     <key>com.typemytype.robofont.compileSettings.decompose</key>
     <false/>
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
-    <integer>0</integer>
+    <integer>1</integer>
+    <key>com.typemytype.robofont.compileSettings.layerName</key>
+    <string>foreground</string>
+    <key>com.typemytype.robofont.compileSettings.path</key>
+    <string>/Users/so/Desktop/Typemade/TypeDesign/FB/Roboto/Roboto-repo-TN/master_ttf_interpolatable/Roboto-Thin.ttf</string>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
-    <false/>
+    <integer>1</integer>
     <key>com.typemytype.robofont.foreground.layerStrokeColor</key>
     <array>
       <real>0.5</real>
