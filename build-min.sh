@@ -15,3 +15,7 @@ mv Hinted\ VTT/MD\ Hints/Sources/VTTSourceRoboto-min-VF_VTT_Hinting.ttx fonts/VT
 python -m vttLib mergefile fonts/VTTSourceRoboto-min-VF_VTT_Hinting.ttx fonts/Roboto-min-VF.ttf
 
 python -m vttLib compile fonts/Roboto-min-VF.ttf
+
+rm fonts/Roboto-min-VF.ttf
+
+mv fonts/Roboto-min-VF#1.ttf fonts/Roboto-min-VF.ttf
