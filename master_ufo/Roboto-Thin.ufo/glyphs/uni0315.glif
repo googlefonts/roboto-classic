@@ -3,7 +3,18 @@
   <unicode hex="0315"/>
   <anchor x="-144" y="1151" name="_top0315"/>
   <outline>
-    <component base="commaturnsupnosp" xScale="-1" yScale="-1" xOffset="-681" yOffset="2706"/>
+    <contour>
+      <point x="-90" y="1578" type="line"/>
+      <point x="-144" y="1578" type="line"/>
+      <point x="-144" y="1408" type="line" smooth="yes"/>
+      <point x="-144" y="1305"/>
+      <point x="-173" y="1238"/>
+      <point x="-233" y="1160" type="curve"/>
+      <point x="-196" y="1128" type="line"/>
+      <point x="-133" y="1195"/>
+      <point x="-90" y="1287"/>
+      <point x="-90" y="1410" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>

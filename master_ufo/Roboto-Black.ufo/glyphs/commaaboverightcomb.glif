@@ -1,7 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaaboverightcomb" format="2">
   <outline>
-    <component base="commaturnsupnosp" xScale="-1" yScale="-1" xOffset="-616" yOffset="2606"/>
+    <contour>
+      <point x="95" y="1600" type="line"/>
+      <point x="-173" y="1600" type="line"/>
+      <point x="-173" y="1399" type="line" smooth="yes"/>
+      <point x="-173" y="1260"/>
+      <point x="-205" y="1167"/>
+      <point x="-247" y="1086" type="curve"/>
+      <point x="-88" y="1006" type="line"/>
+      <point x="5" y="1094"/>
+      <point x="95" y="1257"/>
+      <point x="95" y="1398" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>

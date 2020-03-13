@@ -3,7 +3,31 @@
   <unicode hex="1DE0"/>
   <anchor x="-464" y="1170" name="_top"/>
   <outline>
-    <component base="uni0367" xScale="-1" yScale="-1" xOffset="-959" yOffset="2955"/>
+    <contour>
+      <point x="-612" y="1626" type="line"/>
+      <point x="-627" y="1753" type="line"/>
+      <point x="-687" y="1753" type="line"/>
+      <point x="-687" y="1201" type="line"/>
+      <point x="-612" y="1201" type="line"/>
+    </contour>
+    <contour>
+      <point x="-622" y="1510" type="line"/>
+      <point x="-622" y="1615"/>
+      <point x="-591" y="1693"/>
+      <point x="-493" y="1693" type="curve" smooth="yes"/>
+      <point x="-428" y="1693"/>
+      <point x="-395" y="1653"/>
+      <point x="-395" y="1523" type="curve" smooth="yes"/>
+      <point x="-395" y="1201" type="line"/>
+      <point x="-320" y="1201" type="line"/>
+      <point x="-320" y="1522" type="line" smooth="yes"/>
+      <point x="-320" y="1699"/>
+      <point x="-377" y="1764"/>
+      <point x="-477" y="1764" type="curve" smooth="yes"/>
+      <point x="-605" y="1764"/>
+      <point x="-657" y="1657"/>
+      <point x="-657" y="1512" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
