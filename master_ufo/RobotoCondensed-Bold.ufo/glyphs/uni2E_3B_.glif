@@ -3,9 +3,24 @@
   <advance width="3679"/>
   <unicode hex="2E3B"/>
   <outline>
-    <component base="minus" xScale="1.6" xOffset="-55"/>
-    <component base="minus" xScale="1.6" xOffset="2188"/>
-    <component base="minus" xScale="1.6" xOffset="1066"/>
+    <contour>
+      <point x="1338.6000000000001" y="833" type="line"/>
+      <point x="169.0" y="833" type="line"/>
+      <point x="169.0" y="595" type="line"/>
+      <point x="1338.6000000000001" y="595" type="line"/>
+    </contour>
+    <contour>
+      <point x="3581.6000000000004" y="833" type="line"/>
+      <point x="2412.0" y="833" type="line"/>
+      <point x="2412.0" y="595" type="line"/>
+      <point x="3581.6000000000004" y="595" type="line"/>
+    </contour>
+    <contour>
+      <point x="2459.6000000000004" y="833" type="line"/>
+      <point x="1290.0" y="833" type="line"/>
+      <point x="1290.0" y="595" type="line"/>
+      <point x="2459.6000000000004" y="595" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

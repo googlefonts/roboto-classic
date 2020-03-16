@@ -5,7 +5,18 @@
   <anchor x="-463" y="1315" name="parent_top"/>
   <anchor x="-479" y="1684" name="top"/>
   <outline>
-    <component base="commaturnsupnosp" xScale="-1" yScale="-1" xOffset="-930" yOffset="2630"/>
+    <contour>
+      <point x="-409" y="1569" type="line"/>
+      <point x="-519" y="1569" type="line"/>
+      <point x="-519" y="1391" type="line" smooth="yes"/>
+      <point x="-519" y="1282"/>
+      <point x="-546" y="1200"/>
+      <point x="-598" y="1114" type="curve"/>
+      <point x="-532" y="1061" type="line"/>
+      <point x="-455" y="1142"/>
+      <point x="-409" y="1268"/>
+      <point x="-409" y="1393" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>
