@@ -35,6 +35,16 @@ ttx fonts/maxp-fix.ttx
 rm fonts/maxp-fix.ttx
 mv fonts/maxp-fix.ttf fonts/Roboto[ital,wdth,wght].ttf
 
+#fix GASP
+ttx -m fonts/Roboto[ital,wdth,wght].ttf fonts/fixes/gasp-fix.ttx
+mv fonts/fixes/gasp-fix.ttf fonts/gasp-fix.ttf
+ttx fonts/gasp-fix.ttf
+rm fonts/gasp-fix.ttf
+rm fonts/Roboto[ital,wdth,wght].ttf
+ttx fonts/gasp-fix.ttx
+rm fonts/gasp-fix.ttx
+mv fonts/gasp-fix.ttf fonts/Roboto[ital,wdth,wght].ttf
+
 #fix STAT
 
 #remove TSI tables from VF
