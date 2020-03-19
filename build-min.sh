@@ -46,6 +46,7 @@ rm fonts/gasp-fix.ttx
 mv fonts/gasp-fix.ttf fonts/Roboto[ital,wdth,wght].ttf
 
 #fix STAT
+#statmake --designspace Roboto-min.designspace --stylespace Roboto-min.stylespace fonts/Roboto[ital,wdth,wght]-TEST.ttf
 
 #remove TSI tables from VF
 ttx -x TSI0 -x TSI1 -x TSI2 -x TSI3 -x TSI5 fonts/Roboto[ital,wdth,wght].ttf
