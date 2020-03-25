@@ -26,7 +26,8 @@ newRoot = newTree.getroot()
 
 # List of all TT instructions in {TTGlyph ID, talk, assembly}
 glyf = []
-index = 2281
+index = 0
+shift_index = 0
 
 def CompareGIDS(index):
     
@@ -57,72 +58,90 @@ def buildNewTTGlyph(arg_index):
 
     ET.dump(NewTTGlyph)
 
-# Loop for fullGlyphOrder
-#for glyph in fullGlyphOrder:
+
 
 def findNewTTGlyph(arg_index):
-    item = glyf[arg_index]
     
+    #item = glyf[arg_index]
+
     itemGlyphToFind = targetGlyphOrder[arg_index]
     
-    newIndex = itemGlyphToFind[0]
-    newUnicode = itemGlyphToFind[2]
-    
-    unicodeTest = item[3]
-    
-    print ( newIndex )
-    print ( hex(int(newUnicode)) )
-    print ( item )
-    
-    
-    #Look for target glyph on full list
-    
-    #Look by unicode
-    
-    #Copy hints from full list to target glyph
-    
-    # generate target glyph with new index and copied hints
-    
-    
-
-    
-    
-#Loop to store all GlyphIDs and its instructions in the full XML
-for child in root.iter("glyf"):
-    
-    for TTGlyphID in child:
-    
-        #print (TTGlyphID)
-        #print ("Current ID " + str(TTGlyphID.attrib))
-    
-        for TTGlyphInstructions in TTGlyphID:
+    for item_temp in fullGlyphOrder:
         
-            #print (TTGlyphInstructions[1])
-            #print (TTGlyphInstructions[1].text)
-        
-            talk_ToFind = TTGlyphInstructions[0].text
-            instructions_ToFind = TTGlyphInstructions[1].text
-            #print ("talk " + talk_ToFind )
-            #print ("assembly " + instructions_ToFind )
-            unico = targetGlyphOrder[index]
-            unicode_ToFind = unico[2]
+        if itemGlyphToFind[1] == item_temp[1]:
             
-            glyf.append( [TTGlyphID.attrib , talk_ToFind, instructions_ToFind, unicode_ToFind] )
-
-
-
-
-# Compare GIDS
-if CompareGIDS(index):
-    # MapNew GIDS
-    print("")
-    #buildNewTTGlyph(index)
-else:
-    # Update ID index
-    print( fullGlyphOrder[index] )
-    print( targetGlyphOrder[index] )
+            return item_temp
+            
     
-    findNewTTGlyph(index)
+    
+
+# Loop for fullGlyphOrder
+for glyph in fullGlyphOrder:
+
+
+    
+        #print ( newIndex )
+        #print ( hex(int(newUnicode)) )
+        #print ( item )
+    
+    
+        #Look for target glyph on full list
+    
+        #Look by unicode
+    
+        #Copy hints from full list to target glyph
+    
+        # generate target glyph with new index and copied hints
+    
+    
+
+    
+    
+    # #Loop to store all GlyphIDs and its instructions in the full XML
+    # for child in root.iter("glyf"):
+    
+    #     for TTGlyphID in child:
+    
+    #         #print (TTGlyphID)
+    #         #print ("Current ID " + str(TTGlyphID.attrib))
+    
+    #         for TTGlyphInstructions in TTGlyphID:
+        
+    #             #print (TTGlyphInstructions[1])
+    #             #print (TTGlyphInstructions[1].text)
+        
+    #             talk_ToFind = TTGlyphInstructions[0].text
+    #             instructions_ToFind = TTGlyphInstructions[1].text
+    #             #print ("talk " + talk_ToFind )
+    #             #print ("assembly " + instructions_ToFind )
+    #             unico = targetGlyphOrder[index]
+    #             unicode_ToFind = unico[2]
+            
+    #             glyf.append( [TTGlyphID.attrib , talk_ToFind, instructions_ToFind, unicode_ToFind] )
+
+
+
+
+    # Compare GIDS
+    if CompareGIDS(index):
+        # MapNew GIDS
+        print("")
+        #buildNewTTGlyph(index)
+    else:
+        print("nope ")
+        #look for new index
+        print( targetGlyphOrder[index] )
+        print( findNewTTGlyph(index) )
+        
+        shift_index +=1
+        
+        
+        
+        
+        
+        #findNewTTGlyph(index)
+    
+    index+=1
 
 
 
