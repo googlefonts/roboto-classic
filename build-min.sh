@@ -1,29 +1,18 @@
 
 #Make VF
-fontmake -o ttf-interpolatable -m Roboto-min.designspace --no-production-names
-fonttools varLib Roboto-min.designspace
-mv Roboto-min-VF.ttf fonts/Roboto-unhinted.ttf
+fontmake -m Roboto-min.designspace --output-path fonts/Roboto[ital,wdth,wght].ttf
 
 # Remove MVAR
-ttx -x MVAR fonts/Roboto-unhinted.ttf
-rm fonts/Roboto-unhinted.ttf
-ttx fonts/Roboto-unhinted.ttx
-rm fonts/Roboto-unhinted.ttx
+gftools fix-unwanted-tables -t "MVAR" fonts/Roboto-unhinted.ttf
 
 # Merge Hints from VTT source
 python -m vttLib dumpfile HintingSource/VTTSourceRoboto-min-VF.ttf
 
-mv HintingSource/VTTSourceRoboto-min-VF_VTT_Hinting.ttx fonts/VTTSourceRoboto-min-VF_VTT_Hinting.ttx
+mv HintingSource/VTTSourceRoboto-min-VF_VTT_Hinting.ttx fonts/vtt-hinting.ttx
+python -m vttLib mergefile fonts/vtt-hinting.ttx fonts/Roboto[ital,wdth,wght].ttf
 
-python -m vttLib mergefile fonts/VTTSourceRoboto-min-VF_VTT_Hinting.ttx fonts/Roboto-unhinted.ttf
-
-rm fonts/VTTSourceRoboto-min-VF_VTT_Hinting.ttx
-
-python -m vttLib compile fonts/Roboto-unhinted.ttf
-
-rm fonts/Roboto-unhinted.ttf
-
-mv fonts/Roboto-unhinted#1.ttf fonts/Roboto[ital,wdth,wght].ttf
+python -m vttLib mergefile sources/vtt-hinting.ttx fonts/Roboto[ital,wdth,wght].ttf
+python -m vttLib compile fonts/Roboto[ital,wdth,wght].ttf
 
 #fix maxp
 ttx -m fonts/Roboto[ital,wdth,wght].ttf fonts/fixes/maxp-fix.ttx
@@ -49,7 +38,4 @@ mv fonts/gasp-fix.ttf fonts/Roboto[ital,wdth,wght].ttf
 #statmake --designspace Roboto-min.designspace --stylespace Roboto-min.stylespace fonts/Roboto[ital,wdth,wght]-TEST.ttf
 
 #remove TSI tables from VF
-ttx -x TSI0 -x TSI1 -x TSI2 -x TSI3 -x TSI5 fonts/Roboto[ital,wdth,wght].ttf
-rm fonts/Roboto[ital,wdth,wght].ttf
-ttx fonts/Roboto[ital,wdth,wght].ttx
-rm fonts/Roboto[ital,wdth,wght].ttx
+python -m vttLib compile fonts/Roboto[ital,wdth,wght].ttf --ship
