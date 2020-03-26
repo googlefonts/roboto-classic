@@ -20,15 +20,32 @@ rootSmall = smallTree.getroot()
 newRoot = newTree.getroot()
 
 
-# print(root)
-# for child in root:
-#     print (child.tag, child.attrib)
+print(root)
+for child in root:
+    print (child.tag, child.attrib)
 
 # List of all TT instructions in {TTGlyph ID, talk, assembly}, from the full GlyphOrder
 glyf = []
 
-#Loop to store all GlyphIDs and hint instructions of the full Hinting source XML
+# remove glyf
+def removeGlyf():
+    
+    
+    for child in newRoot:
+        if child.tag != "glyf":
+            continue
+        if True:
+            newRoot.remove(child)
+    
+    # adding an element to the root node
+    attrib = {}
+    element = newRoot.makeelement('glyf', attrib)
+    newRoot.append(element)
+    
+    newTree.write('../HintingSource/RobotoNEW.xml')
 
+
+#Loop to store all GlyphIDs and hint instructions of the full Hinting source XML
 def storeAllThints():
     
     for child in root.iter("glyf"):
@@ -66,10 +83,19 @@ def validNone(str_arg):
         return ""
     else:
         return str_arg
-        
+    
+
+def writeNewTTGlyph(NewTTGlyph):
+    
+    #ET.dump(NewTTGlyph)
+    # adding an element to the root node
+    newRoot[3].append(NewTTGlyph)
+    print(newRoot[3])
+    newTree.write('../HintingSource/RobotoNEW.xml')
+    
 
 # Build new TTGlyph
-def buildNewTTGlyph(arg_index):
+def keepTTGlyph(arg_index):
     item = glyf[arg_index]
     #print ( item )
     NewTTGlyph = ET.Element("TTGlyph", attrib={'ID': "" + str(arg_index) + ""} )
@@ -78,7 +104,13 @@ def buildNewTTGlyph(arg_index):
     NewTalk.text =  validNone(str(item [1]))
     NewAssembly = ET.SubElement(NewInstuctions, "assembly")
     NewAssembly.text =  str(item [2])
-    ET.dump(NewTTGlyph)
+    
+    writeNewTTGlyph(NewTTGlyph)
+    #ET.dump(NewTTGlyph)
+    
+
+    
+    
 
 # Build new TTGlyph
 def buildNewTTGlyph(arg_index, arg_index_new):
@@ -90,8 +122,10 @@ def buildNewTTGlyph(arg_index, arg_index_new):
     NewTalk.text =  validNone(str(item [1]))
     NewAssembly = ET.SubElement(NewInstuctions, "assembly")
     NewAssembly.text =  str(item [2])
-    print("NEW INSTRUCTIONS")
-    ET.dump(NewTTGlyph)
+    
+    writeNewTTGlyph(NewTTGlyph)
+    #print("NEW INSTRUCTIONS")
+    #ET.dump(NewTTGlyph)
     
 def findNewTTGlyph(arg_index):
     
@@ -107,8 +141,12 @@ def findNewTTGlyph(arg_index):
             return item_temp
             
     
-    
+# sore all hints for lookup
 storeAllThints()
+
+removeGlyf()
+
+#buildNewTTGlyph(2281,2281)
 
 # Loop for targetGlyphOrder
 for glyph in targetGlyphOrder:
@@ -116,27 +154,26 @@ for glyph in targetGlyphOrder:
     index = int(list( glyph )[0])
     
     print("Current index " + str(index))
-    # Compare Glyph Indexes
+    # If glyphindex, name, and unocode are equql
     if CompareGIDS(index):
-        # MapNew GIDS
-        print("")
-        #buildNewTTGlyph(index)
+        # Keep glyph with current index
+        keepTTGlyph(index)
     else:
-        print("nope ")
-        
+        # If not, build new glyph with corrected index
+        #print("nope ")
         #This is the index of the glyph on the full GlyphOrder
         glyph_in_full_GlyphOrder = findNewTTGlyph(index)
         print( glyph_in_full_GlyphOrder )
         #print( list( glyph_in_full_GlyphOrder )[0] )
         
-        #This is the index of the glyph on the full GlyphOrder
+        #This is the index of the glyph on the target GlyphOrder
         glyph_in_target_GlyphOrder = targetGlyphOrder[index]
         print( glyph_in_target_GlyphOrder )
         #print( list( glyph_in_target_GlyphOrder )[0] )
         
         #Thsese are the hints for this glyph on the full GlyphOrder
-        print("OLD INSTRUCTIONS")
-        print( glyf[index] )
+        #print("OLD INSTRUCTIONS")
+        #print( glyf[index] )
         
         #Build new TTGlyph with instruction from first index, with the secon index
         buildNewTTGlyph(int(list( glyph_in_full_GlyphOrder )[0]), int(list( glyph_in_target_GlyphOrder )[0]))
