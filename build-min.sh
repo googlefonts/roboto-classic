@@ -1,6 +1,7 @@
 
 #Make VF
-fontmake -m Roboto-min.designspace --output-dir fonts/Roboto[ital,wdth,wght].ttf
+fontmake -m Roboto-min.designspace --output-dir fonts/Roboto[ital,wdth,wght]
+fontmake -m Roboto-min.designspace -o variable --output-path fonts/Roboto[ital,wdth,wght].ttf
 
 # Remove MVAR
 gftools fix-unwanted-tables -t "MVAR" fonts/Roboto-unhinted.ttf
