@@ -1,7 +1,7 @@
 
 #Make VF
-fontmake -m Roboto-min.designspace --output-dir fonts/Roboto[ital,wdth,wght]
 fontmake -m Roboto-min.designspace -o variable --output-path fonts/Roboto[ital,wdth,wght].ttf
+rm -rf fonts/Roboto[ital,wdth,wght]
 
 # Remove MVAR
 gftools fix-unwanted-tables -t "MVAR" fonts/Roboto-unhinted.ttf
@@ -36,7 +36,7 @@ rm fonts/gasp-fix.ttx
 mv fonts/gasp-fix.ttf fonts/Roboto[ital,wdth,wght].ttf
 
 #fix STAT
-#statmake --designspace Roboto-min.designspace --stylespace Roboto-min.stylespace fonts/Roboto[ital,wdth,wght]-TEST.ttf
+statmake --designspace Roboto-min.designspace --stylespace Roboto-min.stylespace fonts/Roboto[ital,wdth,wght].ttf
 
 #remove TSI tables from VF
 python -m vttLib compile fonts/Roboto[ital,wdth,wght].ttf --ship

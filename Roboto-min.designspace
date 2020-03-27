@@ -4,12 +4,13 @@
         <axis default="400" maximum="900" minimum="100" name="weight" tag="wght">
             <labelname xml:lang="en">Weight</labelname>
             <map input="100" output="-1" />
+            <map input="200" output="-0.825000" />
             <map input="300" output="-0.550000" />
             <map input="400" output="-0.100000" />
             <map input="500" output="0.350000" />
-<!--             <map input="600" output="0.540000" /> -->
+            <map input="600" output="0.540000" />
             <map input="700" output="0.730000" />
-<!--             <map input="800" output="0.9275" /> -->
+            <map input="800" output="0.9275" />
             <map input="900" output="1.125000" />
         </axis>
         <axis default="100" maximum="100" minimum="75" name="width" tag="wdth">
@@ -93,6 +94,15 @@
                 <dimension name="italic" xvalue="0" />
             </location>
         </source>
+<!--
+        <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Black.ufo" name="RobotoCondensed-Black.ufo" stylename="Condensed Black">
+            <location>
+                <dimension name="weight" xvalue="1.125000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="0" />
+            </location>
+        </source>
+-->
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-LightItalic.ufo" name="RobotoCondensed-LightItalic.ufo" stylename="Condensed Light Italic">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
@@ -127,6 +137,15 @@
             <kerning />
             <info />
         </instance>
+        <instance familyname="Roboto" stylename="ExtraLight">
+            <location>
+                <dimension name="weight" xvalue="-0.825000" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="italic" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
         <instance familyname="Roboto" stylename="Light" filename="Roboto-Light.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
@@ -154,8 +173,7 @@
             <kerning />
             <info />
         </instance>
-<!--
-        <instance familyname="Roboto" stylename="SemiBold" filename="Roboto-SemiBold.ufo">
+        <instance familyname="Roboto" stylename="SemiBold">
             <location>
                 <dimension name="weight" xvalue="0.540000" />
                 <dimension name="width" xvalue="100" />
@@ -164,10 +182,18 @@
             <kerning />
             <info />
         </instance>
--->
         <instance familyname="Roboto" stylename="Bold" filename="Roboto-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="0.730000" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="italic" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="ExtraBold">
+            <location>
+                <dimension name="weight" xvalue="0.9275" />
                 <dimension name="width" xvalue="100" />
                 <dimension name="italic" xvalue="0" />
             </location>
@@ -186,6 +212,15 @@
         <instance familyname="Roboto" stylename="Thin Italic" filename="Roboto-ThinItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="-1" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="italic" xvalue="1" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="ExtraLight Italic">
+            <location>
+                <dimension name="weight" xvalue="-0.825000" />
                 <dimension name="width" xvalue="100" />
                 <dimension name="italic" xvalue="1" />
             </location>
@@ -219,8 +254,7 @@
             <kerning />
             <info />
         </instance>
-<!--
-        <instance familyname="Roboto" stylename="SemiBold Italic" filename="Roboto-SemiBoldItalic.ufo">
+        <instance familyname="Roboto" stylename="SemiBold Italic">
             <location>
                 <dimension name="weight" xvalue="0.540000" />
                 <dimension name="width" xvalue="100" />
@@ -229,10 +263,18 @@
             <kerning />
             <info />
         </instance>
--->
         <instance familyname="Roboto" stylename="Bold Italic" filename="Roboto-BoldItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="0.730000" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="italic" xvalue="1" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="ExtraBold Italic">
+            <location>
+                <dimension name="weight" xvalue="0.9275" />
                 <dimension name="width" xvalue="100" />
                 <dimension name="italic" xvalue="1" />
             </location>
@@ -249,6 +291,24 @@
             <info />
         </instance>
         
+        <instance familyname="Roboto" stylename="Condensed Thin" filename="RobotoCondensed-Thin.ufo">
+            <location>
+                <dimension name="weight" xvalue="-1" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="Condensed ExtraLight">
+            <location>
+                <dimension name="weight" xvalue="-0.825000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
         <instance familyname="Roboto" stylename="Condensed Light" filename="RobotoCondensed-Light.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
@@ -276,8 +336,7 @@
             <kerning />
             <info />
         </instance>
-<!--
-        <instance familyname="Roboto" stylename="Condensed SemiBold" filename="RobotoCondensed-SemiBold.ufo">
+        <instance familyname="Roboto" stylename="Condensed SemiBold">
             <location>
                 <dimension name="weight" xvalue="0.540000" />
                 <dimension name="width" xvalue="75" />
@@ -286,12 +345,49 @@
             <kerning />
             <info />
         </instance>
--->
         <instance familyname="Roboto" stylename="Condensed Bold" filename="RobotoCondensed-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="0.730000" />
                 <dimension name="width" xvalue="75" />
                 <dimension name="italic" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="Condensed ExtraBold">
+            <location>
+                <dimension name="weight" xvalue="0.9275" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="Condensed Black">
+            <location>
+                <dimension name="weight" xvalue="1.125000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        
+        <instance familyname="Roboto" stylename="Condensed Thin Italic">
+            <location>
+                <dimension name="weight" xvalue="-1" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="1" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        
+        <instance familyname="Roboto" stylename="Condensed ExtraLight Italic">
+            <location>
+                <dimension name="weight" xvalue="-0.825000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="1" />
             </location>
             <kerning />
             <info />
@@ -325,8 +421,7 @@
             <info />
         </instance>
         
-<!--
-        <instance familyname="Roboto" stylename="Condensed SemiBold Italic" filename="RobotoCondensed-SemiBoldItalic.ufo">
+        <instance familyname="Roboto" stylename="Condensed SemiBold Italic">
             <location>
                 <dimension name="weight" xvalue="0.540000" />
                 <dimension name="width" xvalue="75" />
@@ -335,7 +430,6 @@
             <kerning />
             <info />
         </instance>
--->
         
         <instance familyname="Roboto" stylename="Condensed Bold Italic" filename="RobotoCondensed-BoldItalic.ufo">
             <location>
@@ -346,7 +440,40 @@
             <kerning />
             <info />
         </instance>
+        
+        <instance familyname="Roboto" stylename="Condensed ExtraBold Italic">
+            <location>
+                <dimension name="weight" xvalue="0.9275" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="1" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        
+        <instance familyname="Roboto" stylename="Condensed Black Italic">
+            <location>
+                <dimension name="weight" xvalue="1.125000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="italic" xvalue="1" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
 
 
     </instances>
+    
+    <lib>
+	    <dict>
+	      <key>org.statmake.stylespacePath</key>
+	      <string>Roboto-min.stylespace</string>
+	      <key>org.statmake.additionalLocations</key>
+	      <dict>
+	        <key>Italic</key>
+	        <integer>0</integer>
+	      </dict>
+	    </dict>
+	</lib>
+  
 </designspace>
