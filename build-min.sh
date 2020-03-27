@@ -1,7 +1,6 @@
 
 #Make VF
 fontmake -m Roboto-min.designspace -o variable --output-path fonts/Roboto[ital,wdth,wght].ttf
-rm -rf fonts/Roboto[ital,wdth,wght]
 
 # Remove MVAR
 gftools fix-unwanted-tables -t "MVAR" fonts/Roboto-unhinted.ttf
@@ -11,9 +10,9 @@ python -m vttLib dumpfile HintingSource/VTTSourceRoboto-min-VF.ttf
 
 mv HintingSource/VTTSourceRoboto-min-VF_VTT_Hinting.ttx fonts/vtt-hinting.ttx
 python -m vttLib mergefile fonts/vtt-hinting.ttx fonts/Roboto[ital,wdth,wght].ttf
-
-python -m vttLib mergefile sources/vtt-hinting.ttx fonts/Roboto[ital,wdth,wght].ttf
 python -m vttLib compile fonts/Roboto[ital,wdth,wght].ttf
+rm fonts/Roboto[ital,wdth,wght].ttf
+mv fonts/Roboto[ital,wdth,wght]#1.ttf fonts/Roboto[ital,wdth,wght].ttf
 
 #fix maxp
 ttx -m fonts/Roboto[ital,wdth,wght].ttf fonts/fixes/maxp-fix.ttx
@@ -40,3 +39,5 @@ statmake --designspace Roboto-min.designspace --stylespace Roboto-min.stylespace
 
 #remove TSI tables from VF
 python -m vttLib compile fonts/Roboto[ital,wdth,wght].ttf --ship
+rm fonts/Roboto[ital,wdth,wght].ttf
+mv fonts/Roboto[ital,wdth,wght]#1.ttf fonts/Roboto[ital,wdth,wght].ttf
