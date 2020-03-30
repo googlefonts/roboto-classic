@@ -28,7 +28,7 @@ Both fonts have named instances for all the styles in the v2.136 release.
 
 ## Generate
 
-    sh sources/build.sh
+    sh sources/build-min.sh
 
 # License
 
