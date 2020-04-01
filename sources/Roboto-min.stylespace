@@ -48,10 +48,6 @@
             <integer>100</integer>
             <key>linked_value</key>
             <integer>100</integer>
-	        <key>flags</key>
-	        <array>
-	          <string>ElidableAxisValueName</string>
-	        </array>
           </dict>
           
 
@@ -62,10 +58,6 @@
             <integer>200</integer>
             <key>linked_value</key>
             <integer>200</integer>
-	        <key>flags</key>
-	        <array>
-	          <string>ElidableAxisValueName</string>
-	        </array>
           </dict>
           
           <dict>
@@ -75,10 +67,6 @@
             <integer>300</integer>
             <key>linked_value</key>
             <integer>300</integer>
-	        <key>flags</key>
-	        <array>
-	          <string>ElidableAxisValueName</string>
-	        </array>
           </dict>
           
           <dict>
@@ -101,10 +89,6 @@
             <integer>500</integer>
             <key>linked_value</key>
             <integer>500</integer>
-	        <key>flags</key>
-	        <array>
-	          <string>ElidableAxisValueName</string>
-	        </array>
           </dict>
          
           <dict>
@@ -114,10 +98,6 @@
             <integer>600</integer>
             <key>linked_value</key>
             <integer>600</integer>
-	        <key>flags</key>
-	        <array>
-	          <string>ElidableAxisValueName</string>
-	        </array>
           </dict>
            
           <dict>
@@ -127,10 +107,6 @@
             <integer>700</integer>
             <key>linked_value</key>
             <integer>700</integer>
-	        <key>flags</key>
-	        <array>
-	          <string>ElidableAxisValueName</string>
-	        </array>
           </dict>
         
           <dict>
@@ -140,10 +116,6 @@
             <integer>800</integer>
             <key>linked_value</key>
             <integer>800</integer>
-	        <key>flags</key>
-	        <array>
-	          <string>ElidableAxisValueName</string>
-	        </array>
           </dict>
          
           <dict>
@@ -153,10 +125,6 @@
             <integer>900</integer>
             <key>linked_value</key>
             <integer>900</integer>
-	        <key>flags</key>
-	        <array>
-	          <string>ElidableAxisValueName</string>
-	        </array>
           </dict>
 
         </array>
@@ -183,16 +151,72 @@
           
           <dict>
             <key>name</key>
-            <string>Condensed</string>
+            <string>Condensed Thin</string>
+            <key>value</key>
+            <integer>100</integer>
+            <key>linked_value</key>
+            <integer>75</integer>
+          </dict>
+          
+
+          <dict>
+            <key>name</key>
+            <string>Condensed ExtraLight</string>
             <key>value</key>
             <integer>75</integer>
           </dict>
           
           <dict>
             <key>name</key>
-            <string>Normal</string>
+            <string>Condensed Light</string>
             <key>value</key>
-            <integer>100</integer>
+            <integer>75</integer>
+          </dict>
+          
+          <dict>
+            <key>name</key>
+            <string>Condensed Regular</string>
+            <key>value</key>
+            <integer>75</integer>
+	        <key>flags</key>
+	        <array>
+	          <string>ElidableAxisValueName</string>
+	        </array>
+          </dict>
+          
+          <dict>
+            <key>name</key>
+            <string>Condensed Medium</string>
+            <key>value</key>
+            <integer>75</integer>
+          </dict>
+         
+          <dict>
+            <key>name</key>
+            <string>Condensed SemiBold</string>
+            <key>value</key>
+            <integer>75</integer>
+          </dict>
+           
+          <dict>
+            <key>name</key>
+            <string>Condensed Bold</string>
+            <key>value</key>
+            <integer>75</integer>
+          </dict>
+        
+          <dict>
+            <key>name</key>
+            <string>Condensed ExtraBold</string>
+            <key>value</key>
+            <integer>75</integer>
+          </dict>
+         
+          <dict>
+            <key>name</key>
+            <string>Condensed Black</string>
+            <key>value</key>
+            <integer>75</integer>
           </dict>
 
         </array>
