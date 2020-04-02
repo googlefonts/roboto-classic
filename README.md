@@ -11,8 +11,6 @@ The Thin, Regular and Bold UFOs required some fixes for interpolation compatibil
 
 * [/fonts](fonts/) folder contains variation font TTFs
 
-  * **Roboto-VF.ttf** has deltas for min, default and max
-
   * **Roboto[ital,wdth,wght].ttf** has deltas min, default, max, and also intermediate instances
 
 Both fonts have named instances for all the styles in the v2.136 release.
