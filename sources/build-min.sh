@@ -11,7 +11,7 @@ python -m vttLib compile fonts/Roboto[ital,wdth,wght].ttf
 rm fonts/Roboto[ital,wdth,wght].ttf
 mv fonts/Roboto[ital,wdth,wght]#1.ttf fonts/Roboto[ital,wdth,wght].ttf
 
-#fix GASP
+# Fix GASP
 ttx -m fonts/Roboto[ital,wdth,wght].ttf sources/fixes/gasp-fix.ttx
 mv sources/fixes/gasp-fix.ttf fonts/gasp-fix.ttf
 ttx fonts/gasp-fix.ttf
@@ -21,10 +21,17 @@ ttx fonts/gasp-fix.ttx
 rm fonts/gasp-fix.ttx
 mv fonts/gasp-fix.ttf fonts/Roboto[ital,wdth,wght].ttf
 
-#fix STAT
+# Fix STAT
 statmake --designspace sources/Roboto-min.designspace --stylespace sources/Roboto-min.stylespace fonts/Roboto[ital,wdth,wght].ttf
 
-#remove TSI tables from VF
+# Compile hints
 python -m vttLib compile fonts/Roboto[ital,wdth,wght].ttf --ship
 rm fonts/Roboto[ital,wdth,wght].ttf
 mv fonts/Roboto[ital,wdth,wght]#1.ttf fonts/Roboto[ital,wdth,wght].ttf
+
+# Make web
+mkdir -p fonts/web
+python Scripts/subset_for_web.py fonts/Roboto[ital,wdth,wght].ttf fonts/web/Roboto[ital,wdth,wght].ttf
+# Can be removed once all browsers support slnt and ital axes properly
+python Scripts/split_slnt_vf.py fonts/web/Roboto[ital,wdth,wght].ttf
+
