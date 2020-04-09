@@ -1,9 +1,11 @@
+set -e
+
 
 #Make VF
 fontmake -m sources/Roboto-min.designspace -o variable --output-path fonts/Roboto[ital,wdth,wght].ttf
 
 # Remove MVAR
-gftools fix-unwanted-tables -t "MVAR" fonts/Roboto[ital,wdth,wght].ttf
+python Scripts/drop_mvar.py fonts/Roboto[ital,wdth,wght].ttf
 
 # Transfer Hints and compile them
 python -m vttLib mergefile sources/vtt-hinting.ttx fonts/Roboto[ital,wdth,wght].ttf
