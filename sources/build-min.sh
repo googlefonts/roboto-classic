@@ -13,7 +13,7 @@ python -m vttLib compile fonts/Roboto[ital,wdth,wght].ttf --ship
 mv fonts/Roboto[ital,wdth,wght]#1.ttf fonts/Roboto[ital,wdth,wght].ttf
 
 # Add gasp table
-python Scripts/fix_gasp.py fonts/Roboto[ital,wdth,wght].ttf
+python Scripts/fix_gasp.py fonts/Roboto[ital,wdth,wght].ttf "8=8,65535=15"
 
 # Fix STAT
 statmake --designspace sources/Roboto-min.designspace --stylespace sources/Roboto-min.stylespace fonts/Roboto[ital,wdth,wght].ttf
