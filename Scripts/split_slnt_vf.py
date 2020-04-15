@@ -11,7 +11,7 @@ from fontTools.varLib.instancer import (
 )
 
 
-def split_slnt(ttfont):
+def split_slnt(ttfont, out_dir):
     """Use varlib instance to split a variable font if it contains a
     slnt or ital axis."""
     sanityCheckVariableTables(ttfont)
@@ -25,12 +25,12 @@ def split_slnt(ttfont):
     _update_nametable(italic)
 
     roman_filename = os.path.join(
-        os.path.dirname(roman.reader.file.name),
+        out_dir,
         vf_filename(roman)
     )
     roman.save(roman_filename)
     italic_filename = os.path.join(
-        os.path.dirname(italic.reader.file.name),
+        out_dir,
         vf_filename(italic)
     )
     italic.save(italic_filename)
@@ -89,7 +89,7 @@ def _update_nametable(ttfont):
 
 def main():
     ttfont = TTFont(sys.argv[1])
-    split_slnt(ttfont)
+    split_slnt(ttfont, sys.argv[2])
 
 
 if __name__ == "__main__":

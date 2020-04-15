@@ -58,13 +58,6 @@ def touchup_for_web(ttfont):
     os2.usWinAscent = 1946
     os2.usWinDescent = 512
 
-    roman = instantiateVariableFont(ttfont, {"ital": 0.0})
-    italic = instantiateVariableFont(ttfont, {"ital": 1.0})
-    dir_name = os.path.dirname(ttfont.reader.file.name)
-    roman_filename = os.path.join(dir_name, "Roboto[wdth,wght].ttf")
-    italic_filename = os.path.join(dir_name, "Roboto-Italic[wdth,wght].ttf")
-    roman.save(roman_filename)
-    italic.save(italic_filename)
     ttfont.save(ttfont.reader.file.name)
 
 
