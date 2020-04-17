@@ -2,32 +2,60 @@ set -e
 
 mkdir -p fonts
 
+
 #Make unhinted VF
-fontmake -m sources/Roboto-min.designspace -o variable --output-path fonts/Roboto[ital,wdth,wght].ttf
+mkdir -p fonts/unhinted
+UNHINTED_VF_PATH=fonts/unhinted/Roboto[ital,wdth,wght].ttf
+
+fontmake -m sources/Roboto-min.designspace -o variable --output-path $UNHINTED_VF_PATH
 # Remove MVAR
-python Scripts/drop_mvar.py fonts/Roboto[ital,wdth,wght].ttf
+python Scripts/drop_mvar.py $UNHINTED_VF_PATH
 # Fix STAT
-statmake --designspace sources/Roboto-min.designspace --stylespace sources/Roboto-min.stylespace fonts/Roboto[ital,wdth,wght].ttf
+statmake --designspace sources/Roboto-min.designspace --stylespace sources/Roboto-min.stylespace $UNHINTED_VF_PATH
 # Add smooth gasp table
-python Scripts/fix_gasp.py fonts/Roboto[ital,wdth,wght].ttf "65535=15"
+python Scripts/fix_gasp.py $UNHINTED_VF_PATH "65535=15"
+# Create static instances
+python Scripts/instantiate_statics.py $UNHINTED_VF_PATH fonts/unhinted/static
+
+
+# Make Android
+mkdir -p fonts/android
+ANDROID_VF_PATH=fonts/android/Roboto[ital,wdth,wght].ttf
+cp $UNHINTED_VF_PATH $ANDROID_VF_PATH
+python Scripts/force_yminmax.py $ANDROID_VF_PATH $ANDROID_VF_PATH
+# Create static instances
+python Scripts/instantiate_statics.py $ANDROID_VF_PATH fonts/android/static
 
 
 # Make hinted
-# Transfer Hints and compile them
 mkdir -p fonts/hinted
-cp fonts/Roboto[ital,wdth,wght].ttf fonts/hinted/Roboto[ital,wdth,wght].ttf
-python -m vttLib mergefile sources/vtt-hinting.ttx fonts/hinted/Roboto[ital,wdth,wght].ttf
-python -m vttLib compile fonts/hinted/Roboto[ital,wdth,wght].ttf --ship
-mv fonts/hinted/Roboto[ital,wdth,wght]#1.ttf fonts/hinted/Roboto[ital,wdth,wght].ttf
+HINTED_VF_PATH=fonts/hinted/Roboto[ital,wdth,wght].ttf
+
+# Transfer Hints and compile them
+cp $UNHINTED_VF_PATH $HINTED_VF_PATH
+python -m vttLib mergefile sources/vtt-hinting.ttx $HINTED_VF_PATH
+python -m vttLib compile $HINTED_VF_PATH $HINTED_VF_PATH.fix --ship
+# TODO MF Clean up
+mv $HINTED_VF_PATH.fix $HINTED_VF_PATH
 # Add gasp table
-python Scripts/fix_gasp.py fonts/hinted/Roboto[ital,wdth,wght].ttf "8=8,65535=15"
+python Scripts/fix_gasp.py $HINTED_VF_PATH "8=8,65535=15"
+# Create static instances
+python Scripts/instantiate_statics.py $HINTED_VF_PATH fonts/hinted/static
 
 
 # Make web
 # TODO confirm we don't need to subset
 mkdir -p fonts/web
-python Scripts/subset_for_web.py fonts/hinted/Roboto[ital,wdth,wght].ttf fonts/web/Roboto[ital,wdth,wght].ttf
+WEB_VF_PATH=fonts/web/Roboto[ital,wdth,wght].ttf
+python Scripts/subset_for_web.py $HINTED_VF_PATH $WEB_VF_PATH
 # Can be removed once all browsers support slnt and ital axes properly
 mkdir -p fonts/web/split
-python Scripts/split_slnt_vf.py fonts/web/Roboto[ital,wdth,wght].ttf fonts/web/split
+python Scripts/split_slnt_vf.py $WEB_VF_PATH fonts/web/split
+# Create static instances
+python Scripts/instantiate_statics.py $WEB_VF_PATH fonts/web/static
+# Fix fsSelection for Thin
+python Scripts/touchup_for_web.py fonts/web/static/Roboto-Thin.ttf
+python Scripts/touchup_for_web.py fonts/web/static/Roboto-ThinItalic.ttf
 
+
+# Make ChromeOS TODO
