@@ -35,7 +35,6 @@ HINTED_VF_PATH=fonts/hinted/Roboto[ital,wdth,wght].ttf
 cp $UNHINTED_VF_PATH $HINTED_VF_PATH
 python -m vttLib mergefile sources/vtt-hinting.ttx $HINTED_VF_PATH
 python -m vttLib compile $HINTED_VF_PATH $HINTED_VF_PATH.fix --ship
-# TODO MF Clean up
 mv $HINTED_VF_PATH.fix $HINTED_VF_PATH
 # Add gasp table
 python Scripts/fix_gasp.py $HINTED_VF_PATH "8=8,65535=15"
@@ -58,4 +57,15 @@ python Scripts/touchup_for_web.py fonts/web/static/Roboto-Thin.ttf
 python Scripts/touchup_for_web.py fonts/web/static/Roboto-ThinItalic.ttf
 
 
-# Make ChromeOS TODO
+# Make ChromeOS
+mkdir -p fonts/chromeos
+CHROMEOS_VF_PATH=fonts/chromeos/Roboto[ital,wdth,wght].ttf
+cp $HINTED_VF_PATH $CHROMEOS_VF_PATH
+pyftsubset --unicodes="*" --name-IDs='*' --name-legacy --name-languages="*" \
+	   --recalc-bounds --recalc-timestamp --canonical-order \
+	   --layout-features="*" --notdef-outline $CHROMEOS_VF_PATH \
+	   --output-file=$CHROMEOS_VF_PATH.fix
+mv $CHROMEOS_VF_PATH.fix $CHROMEOS_VF_PATH
+# Create static instances
+python Scripts/instantiate_statics.py $CHROMEOS_VF_PATH fonts/chromeos/static
+
