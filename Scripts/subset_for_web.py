@@ -43,24 +43,6 @@ def read_charlist(filename):
         return charlist
 
 
-def touchup_for_web(ttfont):
-    """Apply fixes needed for web fonts."""
-
-    # set vertical metrics to old values
-    hhea = ttfont['hhea']
-    hhea.ascent = 1900
-    hhea.descent = -500
-
-    os2 = ttfont['OS/2']
-    os2.sTypoAscender = 1536
-    os2.sTypoDescender = -512
-    os2.sTypoLineGap = 102
-    os2.usWinAscent = 1946
-    os2.usWinDescent = 512
-
-    ttfont.save(ttfont.reader.file.name)
-
-
 def main(argv):
     """Subset the first argument to second, dropping unused parts of the font.
     """
@@ -81,7 +63,6 @@ def main(argv):
         options={'layout_features': features_to_keep})
     
     web_ttfont = TTFont(target_filename)
-    touchup_for_web(web_ttfont)
 
 
 if __name__ == '__main__':

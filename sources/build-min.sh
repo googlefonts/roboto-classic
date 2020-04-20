@@ -30,12 +30,12 @@ python Scripts/instantiate_statics.py $ANDROID_VF_PATH fonts/android/static
 # Make hinted
 mkdir -p fonts/hinted
 HINTED_VF_PATH=fonts/hinted/Roboto[ital,wdth,wght].ttf
-
 # Transfer Hints and compile them
 cp $UNHINTED_VF_PATH $HINTED_VF_PATH
 python -m vttLib mergefile sources/vtt-hinting.ttx $HINTED_VF_PATH
 python -m vttLib compile $HINTED_VF_PATH $HINTED_VF_PATH.fix --ship
 mv $HINTED_VF_PATH.fix $HINTED_VF_PATH
+python Scripts/touchup_for_web.py $HINTED_VF_PATH
 # Add gasp table
 python Scripts/fix_gasp.py $HINTED_VF_PATH "8=8,65535=15"
 # Create static instances
@@ -47,6 +47,7 @@ python Scripts/instantiate_statics.py $HINTED_VF_PATH fonts/hinted/static
 mkdir -p fonts/web
 WEB_VF_PATH=fonts/web/Roboto[ital,wdth,wght].ttf
 python Scripts/subset_for_web.py $HINTED_VF_PATH $WEB_VF_PATH
+python Scripts/touchup_for_web.py $WEB_VF_PATH
 # Can be removed once all browsers support slnt and ital axes properly
 mkdir -p fonts/web/split
 python Scripts/split_slnt_vf.py $WEB_VF_PATH fonts/web/split
