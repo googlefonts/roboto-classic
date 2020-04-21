@@ -43,7 +43,6 @@ python Scripts/instantiate_statics.py $HINTED_VF_PATH fonts/hinted/static
 
 
 # Make web
-# TODO confirm we don't need to subset
 mkdir -p fonts/web
 WEB_VF_PATH=fonts/web/Roboto[ital,wdth,wght].ttf
 python Scripts/subset_for_web.py $HINTED_VF_PATH $WEB_VF_PATH
