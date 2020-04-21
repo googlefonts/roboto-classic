@@ -6,15 +6,10 @@ mkdir -p fonts
 #Make unhinted VF
 mkdir -p fonts/unhinted
 UNHINTED_VF_PATH=fonts/unhinted/Roboto[ital,wdth,wght].ttf
-
 fontmake -m sources/Roboto.designspace -o variable --output-path $UNHINTED_VF_PATH
-# Remove MVAR
 python Scripts/drop_mvar.py $UNHINTED_VF_PATH
-# Fix STAT
 statmake --designspace sources/Roboto.designspace --stylespace sources/Roboto.stylespace $UNHINTED_VF_PATH
-# Add smooth gasp table
 python Scripts/fix_gasp.py $UNHINTED_VF_PATH "65535=15"
-# Create static instances
 python Scripts/instantiate_statics.py $UNHINTED_VF_PATH fonts/unhinted/static
 
 
@@ -23,7 +18,6 @@ mkdir -p fonts/android
 ANDROID_VF_PATH=fonts/android/Roboto[ital,wdth,wght].ttf
 cp $UNHINTED_VF_PATH $ANDROID_VF_PATH
 python Scripts/force_yminmax.py $ANDROID_VF_PATH $ANDROID_VF_PATH
-# Create static instances
 python Scripts/instantiate_statics.py $ANDROID_VF_PATH fonts/android/static
 
 
@@ -36,9 +30,7 @@ python -m vttLib mergefile sources/vtt-hinting.ttx $HINTED_VF_PATH
 python -m vttLib compile $HINTED_VF_PATH $HINTED_VF_PATH.fix --ship
 mv $HINTED_VF_PATH.fix $HINTED_VF_PATH
 python Scripts/touchup_for_web.py $HINTED_VF_PATH
-# Add gasp table
 python Scripts/fix_gasp.py $HINTED_VF_PATH "8=8,65535=15"
-# Create static instances
 python Scripts/instantiate_statics.py $HINTED_VF_PATH fonts/hinted/static
 
 
@@ -50,9 +42,7 @@ python Scripts/touchup_for_web.py $WEB_VF_PATH
 # Can be removed once all browsers support slnt and ital axes properly
 mkdir -p fonts/web/split
 python Scripts/split_slnt_vf.py $WEB_VF_PATH fonts/web/split
-# Create static instances
 python Scripts/instantiate_statics.py $WEB_VF_PATH fonts/web/static
-# Fix fsSelection for Thin
 python Scripts/touchup_for_web.py fonts/web/static/Roboto-Thin.ttf
 python Scripts/touchup_for_web.py fonts/web/static/Roboto-ThinItalic.ttf
 
@@ -66,6 +56,5 @@ pyftsubset --unicodes="*" --name-IDs='*' --name-legacy --name-languages="*" \
 	   --layout-features="*" --notdef-outline $CHROMEOS_VF_PATH \
 	   --output-file=$CHROMEOS_VF_PATH.fix
 mv $CHROMEOS_VF_PATH.fix $CHROMEOS_VF_PATH
-# Create static instances
 python Scripts/instantiate_statics.py $CHROMEOS_VF_PATH fonts/chromeos/static
 
