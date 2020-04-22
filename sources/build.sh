@@ -3,7 +3,7 @@ set -e
 mkdir -p fonts
 
 
-#Make unhinted VF
+#Make unhinted
 mkdir -p fonts/unhinted
 UNHINTED_VF_PATH=fonts/unhinted/Roboto[ital,wdth,wght].ttf
 fontmake -m sources/Roboto.designspace -o variable --output-path $UNHINTED_VF_PATH
@@ -17,8 +17,12 @@ python Scripts/instantiate_statics.py $UNHINTED_VF_PATH fonts/unhinted/static
 mkdir -p fonts/android
 ANDROID_VF_PATH=fonts/android/Roboto[ital,wdth,wght].ttf
 cp $UNHINTED_VF_PATH $ANDROID_VF_PATH
-python Scripts/force_yminmax.py $ANDROID_VF_PATH $ANDROID_VF_PATH
+python Scripts/touchup_for_android.py $ANDROID_VF_PATH
 python Scripts/instantiate_statics.py $ANDROID_VF_PATH fonts/android/static
+for font in $(ls fonts/android/static/*.ttf)
+do
+	python Scripts/touchup_for_android.py $font;
+done
 
 
 # Make hinted
@@ -43,8 +47,10 @@ python Scripts/touchup_for_web.py $WEB_VF_PATH
 mkdir -p fonts/web/split
 python Scripts/split_slnt_vf.py $WEB_VF_PATH fonts/web/split
 python Scripts/instantiate_statics.py $WEB_VF_PATH fonts/web/static
-python Scripts/touchup_for_web.py fonts/web/static/Roboto-Thin.ttf
-python Scripts/touchup_for_web.py fonts/web/static/Roboto-ThinItalic.ttf
+for font in $(ls fonts/web/static/*.ttf)
+do
+	python Scripts/touchup_for_web.py $font;
+done
 
 
 # Make ChromeOS

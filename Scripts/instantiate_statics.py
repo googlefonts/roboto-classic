@@ -214,7 +214,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 32, "macStyle": 1, "usWeightClass": 900},
+        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 900},
         "axes": {"ital": 0.0, "wdth": 100, "wght": 900},
         "filename": "Roboto-Black.ttf",
         "names": {
@@ -228,7 +228,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 545, "macStyle": 3, "usWeightClass": 900, "italicAngle": -12},
+        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 900, "italicAngle": -12},
         "axes": {"ital": 1.0, "wdth": 100, "wght": 900},
         "filename": "Roboto-BlackItalic.ttf",
         "names": {
@@ -272,6 +272,7 @@ vf = TTFont(sys.argv[1])
 out_dir = mkdir(sys.argv[2])
 
 for inst in instances:
+    print(f"Making {inst['filename']}")
     instance = instantiateVariableFont(vf, inst["axes"])
     update_attribs(instance, **inst["attribs"])
     update_names(instance, **inst["names"])
