@@ -43,7 +43,7 @@ mkdir -p fonts/web
 WEB_VF_PATH=fonts/web/Roboto[ital,wdth,wght].ttf
 python Scripts/subset_for_web.py $HINTED_VF_PATH $WEB_VF_PATH
 python Scripts/touchup_for_web.py $WEB_VF_PATH
-# Can be removed once all browsers support slnt and ital axes properly
+# Split fonts can be removed once all browsers support slnt and ital axes properly
 mkdir -p fonts/web/split
 python Scripts/split_slnt_vf.py $WEB_VF_PATH fonts/web/split
 python Scripts/instantiate_statics.py $WEB_VF_PATH fonts/web/static
