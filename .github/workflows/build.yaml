@@ -1,8 +1,10 @@
-name: Build Roboto
+name: Roboto
 on: [pull_request]
 
 jobs:
+
   build:
+    name: Build Roboto
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,3 +19,21 @@ jobs:
           pip install -r requirements.txt
       - name: Build fonts
         run: sh sources/build.sh
+      - name: Upload fonts
+        uses: actions/upload-artifact@v1
+        with:
+          name: fonts
+          path: fonts/
+
+  test:
+    name: Test Roboto
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download fonts
+        uses: actions/download-artifact@v1
+        with:
+          name: fonts
+      - name: Test fonts
+        run: fontbakery check-profile tests/test_general.py fonts/unhinted/Roboto[ital,wdth,wght].ttf
+
