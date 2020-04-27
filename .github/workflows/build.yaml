@@ -19,14 +19,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-              ${{ runner.os }}-pip-
-
       - name: Build fonts
         run: sh sources/build.sh
 
@@ -35,16 +27,6 @@ jobs:
         with:
           name: fonts
           path: fonts/
-
-  test:
-    name: Test Roboto
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download fonts
-        uses: actions/download-artifact@v1
-        with:
-          name: fonts
 
       - name: Test fonts
         run: fontbakery check-profile tests/test_general.py fonts/unhinted/Roboto[ital,wdth,wght].ttf
