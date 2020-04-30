@@ -3,6 +3,7 @@ from fontbakery.callable import condition
 from fontbakery.checkrunner import Section, PASS, FAIL, WARN
 from fontbakery.fonts_profile import profile_factory
 from fontbakery.profiles.universal import UNIVERSAL_PROFILE_CHECKS
+from nototools.unittests import layout
 
 
 # These checks fail in V2. If we try and make these checks pass, we
@@ -48,6 +49,14 @@ def is_vf(ttFont):
     return True if "fvar" in ttFont else False
 
 
+def font_style(ttFont):
+    subfamily_name = ttFont['name'].getName(2, 3, 1, 1033)
+    typo_subfamily_name = ttFont['name'].getName(17, 3, 1, 1033)
+    if typo_subfamily_name:
+        return typo_subfamily_name.toUnicode()
+    return subfamily_name.toUnicode()
+
+
 @check(
     id="com.roboto.fonts/check/italic_angle",
     conditions = ["is_italic"]
@@ -77,9 +86,35 @@ def com_roboto_fonts_check_meta_info(ttFont):
     else:
         yield PASS, "OS/2.achVendID is set corrrectly"
 
-# TODO TestNames
 
-# Test Digit Widths
+@check(
+    id="com/roboto.fonts/check/name_copyright",
+)
+def com_roboto_fonts_check_copyright(ttFont):
+    """Check font copyright is correct"""
+    expected_copyright = "Copyright 2011 Google Inc. All Rights Reserved."
+    copyright_record = ttFont['name'].getName(0, 3, 1, 1033).toUnicode()
+    if copyright_record == expected_copyright:
+        yield PASS, "Copyright is correct"
+    else:
+        yield FAIL, f"Copyright is incorrect. It should be {expected_copyright}"
+
+
+@check(
+    id="com/roboto.fonts/check/name_unique_id",
+)
+def com_roboto_fonts_check_name_unique_id(ttFont):
+    """Check font unique id is correct"""
+    style = font_style(ttFont)
+    expected = f"Google:Roboto {style}:2016"
+    font_unique_id = ttFont['name'].getName(3, 3, 1, 1033).toUnicode()
+    if font_unique_id == expected:
+        yield PASS, "Unique ID is correct"
+    else:
+        yield FAIL, f"Unique ID, '{font_unique_id}' is incorrect. It should be '{expected}'"
+
+
+
 @check(
     id="com.roboto.fonts/check/digit_widths",
 )
@@ -93,7 +128,19 @@ def com_roboto_fonts_check_digit_widths(ttFont):
     else:
         yield PASS, "Numerals 0-9 have the same width"
 
-    # TODO MF: Port https://github.com/googlefonts/nototools/blob/master/nototools/unittests/font_tests.py#L288-L297
+    # Tests that 'numr' features maps digits to Unicode superscripts.
+    ascii_digits = '0123456789'
+    superscript_digits = u'⁰¹²³⁴⁵⁶⁷⁸⁹'
+
+    numr_glyphs = layout.get_advances(
+        ascii_digits, ttFont.reader.file.name, '--features=numr')
+    superscript_glyphs = layout.get_advances(
+        superscript_digits, ttFont.reader.file.name)
+    if superscript_glyphs == numr_glyphs:
+        yield PASS, "'numr' feature mapped to unicode superscript glyphs"
+    else:
+        yield FAIL, "'numr' feature is not mapped to unicode superscript glyphs"
+
 
 
 @check(
@@ -162,11 +209,8 @@ def com_roboto_fonts_check_vertical_metrics(ttFont):
                 f"- {tbl}.{k} is {font_val} it should be {v}"
                 for tbl, k, v, font_val in failed
             ]
-        )
+    )
         yield FAIL, f"Fonts have incorrect vertical metrics:\n{msg}"
-
-
-# TODO TestGlyphBounds
 
 
 profile.auto_register(globals(), filter_func=filter_checks)
