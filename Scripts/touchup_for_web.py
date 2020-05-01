@@ -10,14 +10,11 @@ def set_vertical_metrics(ttfont):
     ttfont['hhea'].ascent = 1900
     ttfont['hhea'].descent = -500
 
-    ttfont['OS/2'].sTypoAscender = 1946
+    ttfont['OS/2'].sTypoAscender = 1536
     ttfont['OS/2'].sTypoDescender = -512
-    ttfont['OS/2'].sTypoLineGap = 0
+    ttfont['OS/2'].sTypoLineGap = 102
     ttfont['OS/2'].usWinAscent = 1946
     ttfont['OS/2'].usWinDescent = 512
-
-    # Enable fsSelection bit 7 (use typo metrics)
-    ttfont["OS/2"].fsSelection |= (1 << 7)
 
 
 def update_nametable(ttfont):
