@@ -29,10 +29,15 @@ ROBOTO_GENERAL_CHECKS = [c for c in UNIVERSAL_PROFILE_CHECKS
 
 ROBOTO_GENERAL_CHECKS += [
     "com.roboto.fonts/check/italic_angle",
-    "com.roboto.fonts/check/meta_info",
+    "com.roboto.fonts/check/fs_type",
+    "com.roboto.fonts/check/vendorid",
     "com.roboto.fonts/check/charset_coverage",
     "com.roboto.fonts/check/digit_widths",
+    "com.roboto.fonts/check/name_copyright",
+    "com.roboto.fonts/check/name_unique_id",
+    "com.roboto.fonts/check/vertical_metrics",
 ]
+
 profile_imports = ('fontbakery.profiles.universal',)
 profile = profile_factory(default_section=Section("Roboto v3 general"))
 
@@ -57,6 +62,14 @@ def font_style(ttFont):
     return subfamily_name.toUnicode()
 
 
+def font_family(ttFont):
+    family_name = ttFont['name'].gtName(1, 3, 1, 1033)
+    typo_family_name = ttFont['name'].getName(16, 3, 1, 1033)
+    if typo_family_name:
+        return typo_family_name.toUnicode()
+    return family_name.toUnicode()
+
+
 @check(
     id="com.roboto.fonts/check/italic_angle",
     conditions = ["is_italic"]
@@ -71,9 +84,9 @@ def com_roboto_fonts_check_italic_angle(ttFont):
 
 
 @check(
-    id="com.roboto.fonts/check/meta_info",
+    id="com.roboto.fonts/check/fs_type",
 )
-def com_roboto_fonts_check_meta_info(ttFont):
+def com_roboto_fonts_check_fs_type(ttFont):
     """Check metadata is correct"""
     failed = False
     if ttFont['OS/2'].fsType != 0:
@@ -81,6 +94,12 @@ def com_roboto_fonts_check_meta_info(ttFont):
     else:
         yield PASS, "OS/2.fsType is set correctly"
 
+
+@check(
+    id="com.roboto.fonts/check/vendorid",
+)
+def com_roboto_fonts_check_vendorid(ttFont):
+    """Check vendorID is correct"""
     if ttFont["OS/2"].achVendID != "GOOG":
         yield FAIL, "OS/2.achVendID must be set to 'GOOG'"
     else:
@@ -88,7 +107,7 @@ def com_roboto_fonts_check_meta_info(ttFont):
 
 
 @check(
-    id="com/roboto.fonts/check/name_copyright",
+    id="com.roboto.fonts/check/name_copyright",
 )
 def com_roboto_fonts_check_copyright(ttFont):
     """Check font copyright is correct"""
@@ -101,12 +120,13 @@ def com_roboto_fonts_check_copyright(ttFont):
 
 
 @check(
-    id="com/roboto.fonts/check/name_unique_id",
+    id="com.roboto.fonts/check/name_unique_id",
 )
 def com_roboto_fonts_check_name_unique_id(ttFont):
     """Check font unique id is correct"""
+    family_name = family_name(ttFont)
     style = font_style(ttFont)
-    expected = f"Google:Roboto {style}:2016"
+    expected = f"Google:{family_name} {style}:2016"
     font_unique_id = ttFont['name'].getName(3, 3, 1, 1033).toUnicode()
     if font_unique_id == expected:
         yield PASS, "Unique ID is correct"

@@ -2,21 +2,16 @@ from fontbakery.callable import check
 from fontbakery.callable import condition
 from fontbakery.checkrunner import Section, PASS, FAIL, WARN
 from fontbakery.fonts_profile import profile_factory
-from fontbakery.profiles.universal import UNIVERSAL_PROFILE_CHECKS
 
 # profile_imports = ('fontbakery.profiles.universal',)
-profile = profile_factory(default_section=Section("Roboto v3"))
+profile = profile_factory(default_section=Section("Roboto web v3"))
 
 ROBOTO_PROFILE_CHECKS = [
     "com.roboto.fonts/check/vertical_metrics",
-    "com.roboto.fonts/check/italic_angle",
-    "com.roboto.fonts/check/meta_info"
+    "com.roboto.fonts/check/oblique_bits_not_set",
+    "com.roboto.fonts/check/unique_id",
+    "com.roboto.fonts/check/hinting",
 ]
-
-
-@condition
-def is_italic(ttFont):
-    return True if "Italic" in ttFont.reader.file.name else False
 
 
 @check(
@@ -36,8 +31,8 @@ def com_roboto_fonts_check_vertical_metrics(ttFont):
         # test OS/2 vertical metrics to be equal to old OS/2 win values
         # since fsSelection bit 7 is now enabled
         ("OS/2", "sTypoDescender"): -512,
-        ("OS/2", "sTypoAscender"): 1946,
-        ("OS/2", "sTypoLineGap"): 0,
+        ("OS/2", "sTypoAscender"): 1536,
+        ("OS/2", "sTypoLineGap"): 102,
         ("OS/2", "usWinDescent"): 512,
         ("OS/2", "usWinAscent"): 1946,
     }
@@ -58,34 +53,41 @@ def com_roboto_fonts_check_vertical_metrics(ttFont):
 
 
 @check(
-    id="com.roboto.fonts/check/italic_angle",
-    conditions = ["is_italic"]
+    id="com.roboto.fonts/check/oblique_bits_not_set",
 )
-def com_roboto_fonts_check_italic_angle(ttFont):
-    """Check vertical metrics are correct"""
-    failed = False
-    if ttFont['post'].italicAngle != -12:
-        yield FAIL, "post.italicAngle must be set to -12"
+def com_roboto_fonts_check_oblique_bits_not_set(ttFont):
+    """Check oblique bits are not set in fonts"""
+    if ttFont['OS/2'].fsSelection & (1 << 9) != 0:
+        yield FAIL, "fsSelection bit 9 (Oblique) must not be enabled"
     else:
-        yield PASS, "post.italicAngle is set correctly"
-
-    if ttFont["OS/2"].achVendID != "GOOG":
-        yield FAIL, "OS/2.achVendID must be set to 'GOOG'"
-    else:
-        yield PASS, "OS/2.achVendID is set corrrectly"
+        yield PASS, "fsSelection bit 9 is disabled"
 
 
 @check(
-    id="com.roboto.fonts/check/meta_info",
+    id="com.roboto.fonts/check/unique_id",
 )
-def com_roboto_fonts_check_meta_info(ttFont):
-    """Check metadata is correct"""
-    failed = False
-    if ttFont['OS/2'].fsType != 0:
-        yield FAIL, "OS/2.fsType must be 0"
-    else:
-        yield PASS, "OS/2.fsType is set correctly"
+def com_roboto_fonts_check_unique_id(ttFont):
+    """Check uniqueid is correct"""
+    pass
+    # Should be <familyname> <style> or just <familyname> for Reg fonts
 
+
+@check(
+    id="com.roboto.fonts/check/hinting",
+)
+def com_roboto_fonts_check_hinting(ttFont):
+    """Check glyphs have hinting"""
+    missing_hints = []
+    for glyph_name in ttFont.getGlyphOrder():
+        glyph = ttFont['glyf'][glyph_name]
+        if glyph.numberOfContours <= 0:
+            continue
+        if len(glyph.program.bytecode) <= 0:
+            missing_hints.append(glyph_name)
+    if missing_hints:
+        yield FAIL, f"Following glyphs are missing hinting {missing_hints}"
+    else:
+        yield PASS, "All glyphs are hinted"
 
 profile.auto_register(globals())
 profile.test_expected_checks(ROBOTO_PROFILE_CHECKS, exclusive=True)
