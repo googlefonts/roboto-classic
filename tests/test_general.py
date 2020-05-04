@@ -3,6 +3,17 @@ from fontbakery.callable import condition
 from fontbakery.checkrunner import Section, PASS, FAIL, WARN
 from fontbakery.fonts_profile import profile_factory
 from fontbakery.profiles.universal import UNIVERSAL_PROFILE_CHECKS
+from fontbakery.profiles.googlefonts_conditions import (
+    style,
+    expected_style,
+    familyname_with_spaces,
+    familyname,
+)
+from fontbakery.profiles.googlefonts import (
+    com_google_fonts_check_usweightclass,
+    com_google_fonts_check_fsselection,
+    com_google_fonts_check_name_familyname,
+)
 from nototools.unittests import layout
 
 
@@ -23,8 +34,13 @@ def filter_checks(_, check_id, __):
         return False
     return True
 
+GOOGLEFONTS_PROFILE_CHECKS = [
+    'com.google.fonts/check/usweightclass',
+    'com.google.fonts/check/fsselection',
+    'com.google.fonts/check/name/familyname',
+]
 
-ROBOTO_GENERAL_CHECKS = [c for c in UNIVERSAL_PROFILE_CHECKS
+ROBOTO_GENERAL_CHECKS = [c for c in UNIVERSAL_PROFILE_CHECKS + GOOGLEFONTS_PROFILE_CHECKS
                          if c not in REMOVE_CHECKS]
 
 ROBOTO_GENERAL_CHECKS += [
@@ -36,6 +52,7 @@ ROBOTO_GENERAL_CHECKS += [
     "com.roboto.fonts/check/name_copyright",
     "com.roboto.fonts/check/name_unique_id",
     "com.roboto.fonts/check/vertical_metrics",
+    "com.roboto.fonts/check/cmap4",
 ]
 
 profile_imports = ('fontbakery.profiles.universal',)
@@ -63,7 +80,7 @@ def font_style(ttFont):
 
 
 def font_family(ttFont):
-    family_name = ttFont['name'].gtName(1, 3, 1, 1033)
+    family_name = ttFont['name'].getName(1, 3, 1, 1033)
     typo_family_name = ttFont['name'].getName(16, 3, 1, 1033)
     if typo_family_name:
         return typo_family_name.toUnicode()
@@ -124,7 +141,7 @@ def com_roboto_fonts_check_copyright(ttFont):
 )
 def com_roboto_fonts_check_name_unique_id(ttFont):
     """Check font unique id is correct"""
-    family_name = family_name(ttFont)
+    family_name = font_family(ttFont)
     style = font_style(ttFont)
     expected = f"Google:{family_name} {style}:2016"
     font_unique_id = ttFont['name'].getName(3, 3, 1, 1033).toUnicode()
@@ -231,6 +248,18 @@ def com_roboto_fonts_check_vertical_metrics(ttFont):
             ]
     )
         yield FAIL, f"Fonts have incorrect vertical metrics:\n{msg}"
+
+
+@check(
+    id="com.roboto.fonts/check/cmap4",
+)
+def com_roboto_fonts_check_cmap4(ttFont):
+    """Check fonts have cmap format 4"""
+    cmap_table = ttFont['cmap'].getcmap(3, 1)
+    if cmap_table and cmap_table.format == 4:
+        yield PASS, "Font contains a MS Unicode BMP encoded cmap"
+    else:
+        yield FAIL, "Font does not contain a MS Unicode BMP encoded cmap"
 
 
 profile.auto_register(globals(), filter_func=filter_checks)
