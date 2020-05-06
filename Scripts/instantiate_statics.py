@@ -97,7 +97,7 @@ instances = [
             "1,3,1,1033": "Roboto",
             "2,3,1,1033": "Regular",
             "3,3,1,1033": "Google:Roboto Regular:2016",
-            "4,3,1,1033": "Roboto",
+            "4,3,1,1033": "Roboto Regular",
             "6,3,1,1033": "Roboto-Regular",
         },
     },
