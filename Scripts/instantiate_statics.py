@@ -48,7 +48,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 300},
+        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 300, "usWidthClass": 5},
         "axes": {"ital": 0.0, "wdth": 75.0, "wght": 300},
         "filename": "RobotoCondensed-Light.ttf",
         "names": {
@@ -62,7 +62,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 300, "italicAngle": -12},
+        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 300, "italicAngle": -12, "usWidthClass": 5},
         "axes": {"ital": 1.0, "wdth": 75.0, "wght": 300},
         "filename": "RobotoCondensed-LightItalic.ttf",
         "names": {
@@ -102,7 +102,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 400},
+            "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 400, "usWidthClass": 5},
         "axes": {"ital": 0.0, "wdth": 75.0, "wght": 400},
         "filename": "RobotoCondensed-Regular.ttf",
         "names": {
@@ -114,7 +114,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 400, "italicAngle": -12},
+        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 400, "italicAngle": -12, "usWidthClass": 5},
         "axes": {"ital": 1.0, "wdth": 75.0, "wght": 400},
         "filename": "RobotoCondensed-Italic.ttf",
         "names": {
@@ -166,7 +166,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 32, "macStyle": 1, "usWeightClass": 700},
+        "attribs": {"fsSelection": 32, "macStyle": 1, "usWeightClass": 700, "usWidthClass": 5},
         "axes": {"ital": 0.0, "wdth": 75.0, "wght": 700},
         "filename": "RobotoCondensed-Bold.ttf",
         "names": {
@@ -190,7 +190,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 545, "macStyle": 3, "usWeightClass": 700, "italicAngle": -12},
+        "attribs": {"fsSelection": 545, "macStyle": 3, "usWeightClass": 700, "italicAngle": -12, "usWidthClass": 5},
         "axes": {"ital": 1.0, "wdth": 75.0, "wght": 700},
         "filename": "RobotoCondensed-BoldItalic.ttf",
         "names": {
