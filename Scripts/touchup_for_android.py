@@ -7,6 +7,19 @@ YMIN = -555
 YMAX = 2163
 
 
+def set_vertical_metrics(ttfont):
+    """Apply fixes needed for web fonts."""
+
+    # set vertical metrics to old values
+    ttfont['hhea'].ascent = 2146
+    ttfont['hhea'].descent = -555
+
+    ttfont['OS/2'].sTypoAscender = 2146
+    ttfont['OS/2'].sTypoDescender = -555
+    ttfont['OS/2'].sTypoLineGap = 0
+    ttfont['OS/2'].usWinAscent = 2146
+    ttfont['OS/2'].usWinDescent = 555
+
 
 def main(font_path):
     font = TTFont(font_path, recalcBBoxes=False)
@@ -22,6 +35,9 @@ def main(font_path):
         else:
             font["OS/2"].fsSelection ^= 64 | 32
         font["head"].macStyle |= 1
+    # Disable Oblique bits
+    if font['OS/2'].fsSelection & 512 == 512:
+        font['OS/2'].fsSelection ^= 512
 
     # turn off round-to-grid flags in certain problem components
     # https://github.com/google/roboto/issues/153
@@ -35,6 +51,7 @@ def main(font_path):
         0x2191, # UPWARDS ARROW
         0x2193, # DOWNWARDS ARROW
         ])
+    set_vertical_metrics(font)
     font.save(font_path)
 
 

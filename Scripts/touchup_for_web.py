@@ -1,4 +1,5 @@
 from fontTools.ttLib import TTFont
+from datetime import datetime as date
 import sys
 import os
 
@@ -29,6 +30,8 @@ def update_nametable(ttfont):
         full_name = "Roboto Condensed"
     ttfont['name'].setName(full_name, 3,3,1,1033)
     ttfont['name'].setName(full_name, 4,3,1,1033)
+    version_record = 'Version %s; %d' % (ttfont['head'].fontRevision, date.today().year)
+    ttfont['name'].setName(version_record, 5, 3, 1, 1033)
 
 
 def main(font_path):
@@ -37,7 +40,7 @@ def main(font_path):
     if "Thin" in filename and "fvar" not in font:
         font['OS/2'].usWeightClass = 250
     # Disable Oblique bits
-    if "BlackItalic" in filename and "fvar" not in font:
+    if font['OS/2'].fsSelection & 512 == 512:
         font['OS/2'].fsSelection ^= 512
     set_vertical_metrics(font)
     update_nametable(font)
