@@ -3,6 +3,12 @@ import shutil
 import os
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
+from scripts import (
+    update_names,
+    update_attribs,
+    mkdir
+)
+
 
 instances = [
     {
@@ -244,30 +250,6 @@ instances = [
 ]
 
 
-def mkdir(path):
-    if os.path.isdir(path):
-        shutil.rmtree(path)
-    os.mkdir(path)
-
-
-def update_attribs(font, **kwargs):
-    for table in font.keys():
-        for k in kwargs:
-            if hasattr(font[table], k):
-                print(f"Setting {k} to {kwargs[k]}")
-                setattr(font[table], k, kwargs[k])
-
-
-def update_names(font, **kwargs):
-    nametable = font["name"]
-    for k in kwargs:
-        print(f"Setting {k} to {kwargs[k]}")
-        nametable.setName(kwargs[k], *tuple(map(int, k.split(","))))
-
-    for name_id in range(256, 308):
-        font['name'].removeNames(name_id)
-
-
 vf = TTFont(sys.argv[1])
 out_dir = mkdir(sys.argv[2])
 
@@ -279,3 +261,4 @@ for inst in instances:
     del instance['STAT']
     out_path = os.path.join(sys.argv[2], inst["filename"])
     instance.save(out_path)
+

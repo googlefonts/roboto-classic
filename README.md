@@ -22,6 +22,7 @@ Both fonts have named instances for all the styles in the v2.136 release.
     # Activate env
     source env/bin/activate
     # Install dependencies
+    pip install .
     pip install -r requirements.txt
 
 ## Generate

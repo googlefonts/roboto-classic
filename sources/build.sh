@@ -9,14 +9,13 @@ UNHINTED_VF_PATH=fonts/unhinted/Roboto[ital,wdth,wght].ttf
 fontmake -m sources/Roboto.designspace -o variable --output-path $UNHINTED_VF_PATH
 python Scripts/drop_mvar.py $UNHINTED_VF_PATH
 statmake --designspace sources/Roboto.designspace --stylespace sources/Roboto.stylespace $UNHINTED_VF_PATH
-python Scripts/fix_gasp.py $UNHINTED_VF_PATH "65535=15"
 python Scripts/instantiate_statics.py $UNHINTED_VF_PATH fonts/unhinted/static
 
 
 # Make Android
 mkdir -p fonts/android
 ANDROID_VF_PATH=fonts/android/Roboto[ital,wdth,wght].ttf
-cp $UNHINTED_VF_PATH $ANDROID_VF_PATH
+subset.py $UNHINTED_VF_PATH $ANDROID_VF_PATH
 python Scripts/touchup_for_android.py $ANDROID_VF_PATH
 python Scripts/instantiate_statics.py $ANDROID_VF_PATH fonts/android/static
 for font in $(ls fonts/android/static/*.ttf)
@@ -34,8 +33,11 @@ python -m vttLib mergefile sources/vtt-hinting.ttx $HINTED_VF_PATH
 python -m vttLib compile $HINTED_VF_PATH $HINTED_VF_PATH.fix --ship
 mv $HINTED_VF_PATH.fix $HINTED_VF_PATH
 python Scripts/touchup_for_web.py $HINTED_VF_PATH
-python Scripts/fix_gasp.py $HINTED_VF_PATH "8=8,65535=15"
 python Scripts/instantiate_statics.py $HINTED_VF_PATH fonts/hinted/static
+for font in $(ls fonts/web/hinted/*.ttf)
+do
+	python Scripts/touchup_for_web.py $font;
+done
 
 
 # Make web
@@ -56,11 +58,11 @@ done
 # Make ChromeOS
 mkdir -p fonts/chromeos
 CHROMEOS_VF_PATH=fonts/chromeos/Roboto[ital,wdth,wght].ttf
-cp $HINTED_VF_PATH $CHROMEOS_VF_PATH
-pyftsubset --unicodes="*" --name-IDs='*' --name-legacy --name-languages="*" \
-	   --recalc-bounds --recalc-timestamp --canonical-order \
-	   --layout-features="*" --notdef-outline $CHROMEOS_VF_PATH \
-	   --output-file=$CHROMEOS_VF_PATH.fix
-mv $CHROMEOS_VF_PATH.fix $CHROMEOS_VF_PATH
-python Scripts/instantiate_statics.py $CHROMEOS_VF_PATH fonts/chromeos/static
+subset.py $HINTED_VF_PATH $CHROMEOS_VF_PATH
+python scripts/touchup_for_cros.py $CHROMEOS_VF_PATH
+python scripts/instantiate_statics.py $CHROMEOS_VF_PATH fonts/chromeos/static
+for font in $(ls fonts/chromeos/static/*.ttf)
+do
+	python Scripts/touchup_for_cros.py $font;
+done
 

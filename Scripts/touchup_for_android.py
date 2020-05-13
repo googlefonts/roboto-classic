@@ -1,44 +1,28 @@
 import sys
 from fontTools.ttLib import TTFont
 from nototools import font_data
+from scripts import *
 
 
-YMIN = -555
-YMAX = 2163
+def update_android_names(font):
+    """v2.138 Android fonts do not use typographic records (nameIDs 16, 17).
 
+    If a font contains typo records, replace nameIDs 1 and 2 with the typo
+    records."""
+    typo_family = font["name"].getName(16, 3, 1, 1033)
+    typo_style = font["name"].getName(17, 3, 1, 1033)
 
-def set_vertical_metrics(ttfont):
-    """Apply fixes needed for web fonts."""
+    family = font["name"].getName(1, 3, 1, 1033)
+    style = font["name"].getName(2, 3, 1, 1033)
 
-    # set vertical metrics to old values
-    ttfont['hhea'].ascent = 2146
-    ttfont['hhea'].descent = -555
-
-    ttfont['OS/2'].sTypoAscender = 2146
-    ttfont['OS/2'].sTypoDescender = -555
-    ttfont['OS/2'].sTypoLineGap = 0
-    ttfont['OS/2'].usWinAscent = 2146
-    ttfont['OS/2'].usWinDescent = 555
+    if typo_family:
+        font["name"].setName(typo_family.toUnicode(), 1, 3, 1, 1033)
+    if typo_style:
+        font["name"].setName(typo_style.toUnicode(), 2, 3, 1, 1033)
 
 
 def main(font_path):
     font = TTFont(font_path, recalcBBoxes=False)
-
-    # Force yMin and yMax
-    font['head'].yMin = YMIN
-    font['head'].yMax = YMAX
-
-    # Enable Bold bits for Black styles
-    if "Black" in font_path and "fvar" not in font:
-        if "Italic" in font_path:
-            font["OS/2"].fsSelection |= 32
-        else:
-            font["OS/2"].fsSelection ^= 64 | 32
-        font["head"].macStyle |= 1
-    # Disable Oblique bits
-    if font['OS/2'].fsSelection & 512 == 512:
-        font['OS/2'].fsSelection ^= 512
-
     # turn off round-to-grid flags in certain problem components
     # https://github.com/google/roboto/issues/153
     glyph_set = font.getGlyphSet()
@@ -51,7 +35,15 @@ def main(font_path):
         0x2191, # UPWARDS ARROW
         0x2193, # DOWNWARDS ARROW
         ])
-    set_vertical_metrics(font)
+    # Update vertical metrics to match v2.138
+    update_attribs(
+        font,
+        **android_and_cros_vert_metrics
+    )
+    update_android_names(font)
+    update_psname_and_fullname(font, include_year=True)
+    update_font_version(font)
+    disable_oblique_bits(font)
     font.save(font_path)
 
 
