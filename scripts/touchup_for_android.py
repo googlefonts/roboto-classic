@@ -40,7 +40,7 @@ def main(font_path):
         font,
         **android_and_cros_vert_metrics
     )
-    update_android_names(font)
+    #update_android_names(font)
     update_psname_and_fullname(font, include_year=True)
     update_font_version(font)
     disable_oblique_bits(font)
