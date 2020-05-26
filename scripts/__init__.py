@@ -79,8 +79,9 @@ def mkdir(path):
 
 
 android_and_cros_vert_metrics = {
-    "ascent": 2146,
-    "descent": -555,
+    "ascent": 1900,
+    "descent": -500,
+    "lineGap": 0,
     "sTypoAscender": 2146,
     "sTypoDescender": -555,
     "sTypoLineGap": 0,
