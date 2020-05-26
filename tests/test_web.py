@@ -2,8 +2,14 @@ from fontbakery.callable import check
 from fontbakery.callable import condition
 from fontbakery.checkrunner import Section, PASS, FAIL, WARN
 from fontbakery.fonts_profile import profile_factory
+from tests.test_general import (
+    is_italic,
+    com_roboto_fonts_check_italic_angle,
+    com_roboto_fonts_check_fs_type,
+    com_roboto_fonts_check_vendorid,
+    com_roboto_fonts_check_digit_widths,
+)
 
-# profile_imports = ('fontbakery.profiles.universal',)
 profile = profile_factory(default_section=Section("Roboto web v3"))
 
 ROBOTO_PROFILE_CHECKS = [
@@ -11,6 +17,10 @@ ROBOTO_PROFILE_CHECKS = [
     "com.roboto.fonts/check/oblique_bits_not_set",
     "com.roboto.fonts/check/unique_id",
     "com.roboto.fonts/check/hinting",
+    "com.roboto.fonts/check/italic_angle",
+    "com.roboto.fonts/check/fs_type",
+    "com.roboto.fonts/check/vendorid",
+    "com.roboto.fonts/check/digit_widths",
 ]
 
 
