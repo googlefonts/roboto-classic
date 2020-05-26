@@ -34,6 +34,7 @@ def filter_checks(_, check_id, __):
         return False
     return True
 
+
 GOOGLEFONTS_PROFILE_CHECKS = [
     'com.google.fonts/check/usweightclass',
     'com.google.fonts/check/fsselection',
@@ -179,31 +180,38 @@ def com_roboto_fonts_check_digit_widths(ttFont):
         yield FAIL, "'numr' feature is not mapped to unicode superscript glyphs"
 
 
+@condition
+def include_glyphs():
+    return frozenset([
+        0x2117,  # SOUND RECORDING COPYRIGHT
+        0xEE01, 0xEE02, 0xF6C3]
+    )  # legacy PUA
+
+
+@condition
+def exclude_glyphs():
+    return frozenset([
+        0x2072, 0x2073, 0x208F] +  # unassigned characters
+        list(range(0xE000, 0xF8FF + 1)) + list(range(0xF0000, 0x10FFFF + 1))  # other PUA
+    ) - include_glyphs()  # don't exclude legacy PUA
+
 
 @check(
     id="com.roboto.fonts/check/charset_coverage",
+    conditions = ["include_glyphs", "exclude_glyphs"]
 )
-def com_roboto_fonts_check_charset_coverage(ttFont):
+def com_roboto_fonts_check_charset_coverage(ttFont, include_glyphs, exclude_glyphs):
     """Check to make sure certain unicode encoded glyphs are included and excluded"""
-    include = frozenset([
-        0x2117,  # SOUND RECORDING COPYRIGHT
-        0xEE01, 0xEE02, 0xF6C3])  # legacy PUA
-
-    exclude = frozenset([
-        0x2072, 0x2073, 0x208F] +  # unassigned characters
-        list(range(0xE000, 0xF8FF + 1)) + list(range(0xF0000, 0x10FFFF + 1))  # other PUA
-        ) - include  # don't exclude legacy PUA
-
     font_unicodes = set(ttFont.getBestCmap().keys())
 
-    to_include = include - font_unicodes
+    to_include = include_glyphs - font_unicodes
     if to_include != set():
         yield FAIL, f"Font must include the following codepoints {list(map(hex, to_include))}"
     else:
         yield PASS, "Font includes correct encoded glyphs"
 
-    to_exclude = exclude - font_unicodes
-    if to_exclude != exclude:
+    to_exclude = exclude_glyphs - font_unicodes
+    if to_exclude != exclude_glyphs:
         yield FAIL, f"Font must exclude the following codepoints {list(map(hex, to_exclude))}"
     else:
         yield PASS, "Font excludes correct encoded glyphs"
