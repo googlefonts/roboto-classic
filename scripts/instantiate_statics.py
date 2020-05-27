@@ -144,6 +144,20 @@ instances = [
         },
     },
     {
+        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 500, "usWidthClass": 5},
+        "axes": {"ital": 0.0, "wdth": 75.0, "wght": 500},
+        "filename": "RobotoCondensed-Medium.ttf",
+        "names": {
+            "1,3,1,1033": "Roboto Condensed Medium",
+            "2,3,1,1033": "Regular",
+            "3,3,1,1033": "Google:Roboto Condensed Medium:2016",
+            "4,3,1,1033": "Roboto Condensed Medium",
+            "6,3,1,1033": "RobotoCondensed-Medium",
+            "16,3,1,1033": "Roboto Condensed",
+            "17,3,1,1033": "Medium",
+        },
+    },
+    {
         "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 500},
         "axes": {"ital": 0.0, "wdth": 100, "wght": 500},
         "filename": "Roboto-Medium.ttf",
@@ -155,6 +169,20 @@ instances = [
             "3,3,1,1033": "Google:Roboto Medium:2016",
             "4,3,1,1033": "Roboto Medium",
             "6,3,1,1033": "Roboto-Medium",
+        },
+    },
+    {
+        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 500, "italicAngle": -12, "usWidthClass": 5, "caretSlopeRise": 2048, "caretSlopeRun": 435},
+        "axes": {"ital": 1.0, "wdth": 75.0, "wght": 500},
+        "filename": "RobotoCondensed-MediumItalic.ttf",
+        "names": {
+            "1,3,1,1033": "Roboto Condensed Medium",
+            "2,3,1,1033": "Italic",
+            "3,3,1,1033": "Google:Roboto Condensed Medium Italic:2016",
+            "4,3,1,1033": "Roboto Condensed Medium Italic",
+            "6,3,1,1033": "RobotoCondensed-MediumItalic",
+            "16,3,1,1033": "Roboto Condensed",
+            "17,3,1,1033": "Medium Italic",
         },
     },
     {
