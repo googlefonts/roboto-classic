@@ -3,6 +3,8 @@ from fontbakery.callable import condition
 from fontbakery.checkrunner import Section, PASS, FAIL, WARN
 from fontbakery.fonts_profile import profile_factory
 from tests.test_general import (
+    font_family,
+    font_style,
     is_italic,
     com_roboto_fonts_check_italic_angle,
     com_roboto_fonts_check_fs_type,
@@ -77,9 +79,19 @@ def com_roboto_fonts_check_oblique_bits_not_set(ttFont):
     id="com.roboto.fonts/check/unique_id",
 )
 def com_roboto_fonts_check_unique_id(ttFont):
-    """Check uniqueid is correct"""
-    pass
-    # Should be <familyname> <style> or just <familyname> for Reg fonts
+    """Check font unique id is correct"""
+    family_name = font_family(ttFont)
+    style = font_style(ttFont)
+    if style != "Regular":
+        expected = f"{family_name} {style}"
+    else:
+        expected = f"{family_name}"
+    font_unique_id = ttFont['name'].getName(3, 3, 1, 1033).toUnicode()
+    if font_unique_id == expected:
+        yield PASS, "Unique ID is correct"
+    else:
+        yield FAIL, f"Unique ID, '{font_unique_id}' is incorrect. It should be '{expected}'"
+
 
 
 @check(
@@ -98,6 +110,7 @@ def com_roboto_fonts_check_hinting(ttFont):
         yield FAIL, f"Following glyphs are missing hinting {missing_hints}"
     else:
         yield PASS, "All glyphs are hinted"
+
 
 profile.auto_register(globals())
 profile.test_expected_checks(ROBOTO_PROFILE_CHECKS, exclusive=True)
