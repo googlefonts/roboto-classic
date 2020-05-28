@@ -50,6 +50,7 @@ ROBOTO_GENERAL_CHECKS += [
     "com.roboto.fonts/check/vendorid",
     "com.roboto.fonts/check/charset_coverage",
     "com.roboto.fonts/check/digit_widths",
+    "com.roboto.fonts/check/numr_mapped_to_supr",
     "com.roboto.fonts/check/name_copyright",
     "com.roboto.fonts/check/name_unique_id",
     "com.roboto.fonts/check/vertical_metrics",
@@ -166,7 +167,12 @@ def com_roboto_fonts_check_digit_widths(ttFont):
     else:
         yield PASS, "Numerals 0-9 have the same width"
 
-    # Tests that 'numr' features maps digits to Unicode superscripts.
+
+@check(
+    id="com.roboto.fonts/check/numr_mapped_to_supr",
+)
+def com_roboto_fonts_check_numr_mapped_to_supr(ttFont):
+    """Check that 'numr' features maps digits to Unicode superscripts."""
     ascii_digits = '0123456789'
     superscript_digits = u'⁰¹²³⁴⁵⁶⁷⁸⁹'
 
