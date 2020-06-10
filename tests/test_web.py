@@ -100,11 +100,14 @@ def com_roboto_fonts_check_unique_id(ttFont):
 def com_roboto_fonts_check_hinting(ttFont):
     """Check glyphs have hinting"""
     missing_hints = []
+    # we can ignore these according to Mike D
+    # https://github.com/TypeNetwork/Roboto/issues/70#issuecomment-641221200
+    ignore = ['.notdef', 'uni0488', 'uni0489', 'uniFFFC', 'uniFFFD']
     for glyph_name in ttFont.getGlyphOrder():
         glyph = ttFont['glyf'][glyph_name]
         if glyph.numberOfContours <= 0:
             continue
-        if len(glyph.program.bytecode) <= 0:
+        if len(glyph.program.bytecode) <= 0 and glyph_name not in ignore:
             missing_hints.append(glyph_name)
     if missing_hints:
         yield FAIL, f"Following glyphs are missing hinting {missing_hints}"

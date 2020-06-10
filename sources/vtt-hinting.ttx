@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.4">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.10">
 
   <TSI1>
 
@@ -10889,6 +10889,22 @@ IUP[X]
 
     <glyphProgram name="greaterequal">
 /* VTT 6.32 compiler */
+SVTCA[Y]
+MDAP[R], 12
+SHP[1], 13
+RUTG[]
+SRP0[], 13
+MDRP[m&gt;RWh], 9
+MDAP[R], 9
+SHP[2], 5
+SHP[2], 2
+RTG[]
+MDAP[R], 2
+SHP[1], 1
+SLOOP[], 6
+IP[], 3, 7, 6, 0, 4, 8
+IUP[Y]
+IUP[X]
 
     </glyphProgram>
 
@@ -11881,6 +11897,22 @@ IUP[X]
 
     <glyphProgram name="lessequal">
 /* VTT 6.32 compiler */
+SVTCA[Y]
+MDAP[R], 12
+SHP[1], 13
+RUTG[]
+SRP0[], 13
+MDRP[m&gt;RWh], 2
+MDAP[R], 2
+SHP[2], 1
+SHP[2], 9
+RTG[]
+MDAP[R], 9
+SHP[1], 5
+SLOOP[], 6
+IP[], 3, 7, 6, 0, 4, 8
+IUP[Y]
+IUP[X]
 
     </glyphProgram>
 
@@ -62362,6 +62394,25 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="greaterequal">
+/* Y direction */
+YAnchor(12)
+YShift(12,13)
+YUpToGrid(9)
+YDist(13,9,&gt;=)
+YAnchor(9)
+
+YShift(9,5)
+YShift(9,2)
+YAnchor(2)
+YShift(2,1)
+YInterpolate(2,3,7,6,0,4,8,9)
+
+
+Smooth()
+
+    </glyphProgram>
+
     <glyphProgram name="guilsinglleft">
 /* Y direction */
 YAnchor(0)
@@ -63056,6 +63107,26 @@ Smooth()
 YAnchor(2)
 YAnchor(9)
 YInterpolate(2,1,3,7,6,0,4,8,5,9)
+
+/* X direction */
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="lessequal">
+/* Y direction */
+YAnchor(12)
+YShift(12,13)
+YUpToGrid(2)
+YDist(13,2,&gt;=)
+YAnchor(2)
+
+YShift(2,1)
+YShift(2,9)
+YAnchor(9)
+YShift(9,5)
+YInterpolate(2,3,7,6,0,4,8,9)
 
 /* X direction */
 
@@ -91574,7 +91645,7 @@ Smooth()
     <glyphgroup name="graveleftnosp" value="1"/>
     <glyphgroup name="gravesubnosp" value="1"/>
     <glyphgroup name="greater" value="1"/>
-    <glyphgroup name="greaterequal" value="1"/>
+    <glyphgroup name="greaterequal" value="4"/>
     <glyphgroup name="guillemotleft" value="1"/>
     <glyphgroup name="guillemotright" value="1"/>
     <glyphgroup name="guilsinglleft" value="1"/>
@@ -91649,7 +91720,7 @@ Smooth()
     <glyphgroup name="lcommaaccent" value="1"/>
     <glyphgroup name="ldot" value="1"/>
     <glyphgroup name="less" value="1"/>
-    <glyphgroup name="lessequal" value="1"/>
+    <glyphgroup name="lessequal" value="4"/>
     <glyphgroup name="linevert" value="1"/>
     <glyphgroup name="linevertdblnosp" value="1"/>
     <glyphgroup name="linevertnosp" value="1"/>
