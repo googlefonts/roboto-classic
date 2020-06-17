@@ -1,0 +1,38 @@
+name: Roboto
+on: [pull_request]
+
+jobs:
+
+  build:
+    name: Build Roboto
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v1
+        with:
+          # TODO use build matrix?
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          sudo apt install libharfbuzz-dev libharfbuzz-bin
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install .
+
+      - name: Build fonts
+        run: sh sources/build.sh
+
+      - name: Upload fonts
+        uses: actions/upload-artifact@v1
+        with:
+          name: fonts
+          path: fonts/
+
+      - name: Test fonts
+        run: |
+          fontbakery check-profile tests/test_general.py fonts/unhinted/Roboto[ital,wdth,wght].ttf
+          fontbakery check-profile tests/test_android.py fonts/android/Roboto[ital,wdth,wght].ttf
+          fontbakery check-profile tests/test_web.py fonts/web/Roboto[ital,wdth,wght].ttf
+

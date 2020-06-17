@@ -179,9 +179,9 @@
     <key>openTypeNameSampleText</key>
     <string></string>
     <key>openTypeNameUniqueID</key>
-    <string>Google:Roboto Thin Italic:2017</string>
+    <string>Google:Roboto Thin Italic:2016</string>
     <key>openTypeNameVersion</key>
-    <string>Version 2.136</string>
+    <string>Version 3.0</string>
     <key>openTypeOS2CodePageRanges</key>
     <array>
       <integer>0</integer>
@@ -237,8 +237,12 @@
     <integer>1331</integer>
     <key>openTypeOS2Type</key>
     <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>2146</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-555</integer>
     <key>openTypeOS2TypoLineGap</key>
-    <integer>102</integer>
+    <integer>0</integer>
     <key>openTypeOS2UnicodeRanges</key>
     <array>
       <integer>0</integer>
@@ -275,9 +279,9 @@
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>1946</integer>
+    <integer>2146</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>512</integer>
+    <integer>555</integer>
     <key>postscriptBlueFuzz</key>
     <integer>1</integer>
     <key>postscriptBlueScale</key>
@@ -335,9 +339,9 @@
     <key>unitsPerEm</key>
     <integer>2048</integer>
     <key>versionMajor</key>
-    <integer>2</integer>
+    <integer>3</integer>
     <key>versionMinor</key>
-    <integer>136</integer>
+    <integer>0</integer>
     <key>xHeight</key>
     <integer>1082</integer>
     <key>year</key>
