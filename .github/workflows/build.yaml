@@ -31,5 +31,8 @@ jobs:
           path: fonts/
 
       - name: Test fonts
-        run: fontbakery check-profile tests/test_general.py fonts/unhinted/Roboto[ital,wdth,wght].ttf
+        run: |
+          fontbakery check-profile tests/test_general.py fonts/unhinted/Roboto[ital,wdth,wght].ttf
+          fontbakery check-profile tests/test_android.py fonts/android/Roboto[ital,wdth,wght].ttf
+          fontbakery check-profile tests/test_web.py fonts/web/Roboto[ital,wdth,wght].ttf
 
