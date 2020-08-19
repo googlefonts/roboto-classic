@@ -6,6 +6,7 @@ import sys
 import os
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables import otTables as ot
+from fontTools.otlLib.builder import buildStatTable, _addName
 from fontTools.varLib.instancer import (
     instantiateVariableFont,
     sanityCheckVariableTables
@@ -25,6 +26,9 @@ def split_slnt(ttfont, out_dir):
     _update_bits(italic)
     _update_nametable(italic)
 
+    _update_fvar(roman)
+    _update_fvar(italic)
+
     _update_roman_stat(roman)
     _update_italic_stat(italic)
 
@@ -38,6 +42,23 @@ def split_slnt(ttfont, out_dir):
         vf_filename(italic)
     )
     italic.save(italic_filename)
+
+
+def _update_fvar(ttfont):
+    fvar = ttfont['fvar']
+    nametable = ttfont['name']
+    family_name = nametable.getName(16, 3, 1, 1033) or nametable.getName(1, 3, 1, 1033)
+    family_name = family_name.toUnicode()
+    font_style = "Italic" if "Italic" in nametable.getName(2, 3, 1, 1033).toUnicode() else "Roman"
+    ps_family_name = f"{family_name.replace(' ', '')}{font_style}"
+    nametable.setName(ps_family_name, 25, 3, 1, 1033)
+    for instance in fvar.instances:
+        instance_style = nametable.getName(instance.subfamilyNameID, 3, 1, 1033).toUnicode()
+        instance_style = instance_style.replace("Italic", "").strip().replace(" ", "")
+        if instance_style == "":
+            instance_style = "Regular"
+        ps_name = f"{ps_family_name}-{instance_style}"
+        instance.postscriptNameID = _addName(nametable, ps_name, 256)
 
 
 def _update_roman_stat(ttfont):
@@ -99,13 +120,10 @@ def _update_nametable(ttfont):
     if not dflt_nameid:
         raise ValueError("Cannot name font. Default axis locations are not represented by an instance.")
     dflt_name = nametable.getName(dflt_nameid, 3, 1, 1033).toUnicode()
+    familyname = nametable.getName(1, 3, 1, 1033).toUnicode()
 
     # Update subfamily name
     nametable.setName(dflt_name, 2, 3, 1, 1033)
-    # Update unique font identifier
-    version = "{:.3f}".format(ttfont['head'].fontRevision)
-    vendor = ttfont['OS/2'].achVendID
-    familyname = nametable.getName(1, 3, 1, 1033).toUnicode()
     # Update full font name and uniqueID
     full_font_name = f"{familyname} {dflt_name}"
     nametable.setName(full_font_name, 3, 3, 1, 1033)
