@@ -62,7 +62,7 @@ def enable_bold_bits(font):
 
 
 def update_font_version(font):
-    version_record = 'Version %s; %d' % (font['head'].fontRevision, date.today().year)
+    version_record = 'Version %s; %d' % (round(font['head'].fontRevision, 3), date.today().year)
     font['name'].setName(version_record, 5, 3, 1, 1033)
 
 
