@@ -40,7 +40,6 @@ AXES = [
     ),
 ]
 
-# Refactor this
 def update_fvar(ttfont):
     fvar = ttfont['fvar']
     nametable = ttfont['name']
