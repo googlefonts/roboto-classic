@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibar" format="2">
+  <advance width="604"/>
+  <guideline x="341.0" y="0.0" angle="90.0" identifier="TUcFmv8Lse"/>
+  <anchor x="301.0" y="1600.0" name="top"/>
+  <anchor x="585.0" y="1600.0" name="top0315"/>
+  <anchor x="301.0" y="0.0" name="bottom"/>
+  <anchor x="301.0" y="1600.0" name="parent_top"/>
+  <outline>
+    <component base="i" xOffset="100"/>
+    <component base="crossbar" xOffset="-62" yOffset="-132"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.TUcFmv8Lse</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>

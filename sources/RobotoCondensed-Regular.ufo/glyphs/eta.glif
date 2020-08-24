@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eta" format="2">
+  <advance width="1021"/>
+  <unicode hex="03B7"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="bp3LtDfRKH"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="RfN4cTuyfZ"/>
+  <anchor x="506" y="1290" name="top"/>
+  <anchor x="227" y="10" name="bottom"/>
+  <anchor x="1001" y="1290" name="top0315"/>
+  <anchor x="506" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="315" y="851" type="line"/>
+      <point x="296" y="1082" type="line"/>
+      <point x="138" y="1082" type="line"/>
+      <point x="138" y="0" type="line"/>
+      <point x="315" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="278" y="576" type="line"/>
+      <point x="278" y="779"/>
+      <point x="350" y="950"/>
+      <point x="511" y="950" type="curve" smooth="yes"/>
+      <point x="636" y="950"/>
+      <point x="700" y="889"/>
+      <point x="700" y="691" type="curve"/>
+      <point x="700" y="-415" type="line"/>
+      <point x="876" y="-415" type="line"/>
+      <point x="876" y="694" type="line"/>
+      <point x="876" y="1006"/>
+      <point x="755" y="1102"/>
+      <point x="567" y="1102" type="curve" smooth="yes"/>
+      <point x="346" y="1102"/>
+      <point x="207" y="880"/>
+      <point x="207" y="574" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.RfN4cTuyfZ</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.bp3LtDfRKH</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

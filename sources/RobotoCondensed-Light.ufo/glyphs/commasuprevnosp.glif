@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commasuprevnosp" format="2">
+  <unicode hex="0314"/>
+  <anchor x="-431" y="1111" name="_top"/>
+  <anchor x="-431" y="1684" name="top"/>
+  <anchor x="-447" y="1315" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="-541" y="1569" type="line"/>
+      <point x="-431" y="1569" type="line"/>
+      <point x="-431" y="1391" type="line" smooth="yes"/>
+      <point x="-431" y="1282"/>
+      <point x="-404" y="1200"/>
+      <point x="-353" y="1114" type="curve"/>
+      <point x="-418" y="1061" type="line"/>
+      <point x="-495" y="1143"/>
+      <point x="-541" y="1268"/>
+      <point x="-541" y="1394" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>
