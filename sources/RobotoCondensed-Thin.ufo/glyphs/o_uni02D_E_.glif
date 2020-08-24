@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="o_uni02DE" format="2">
+  <advance width="1353"/>
+  <anchor x="1334.0" y="1290.0" name="top0315"/>
+  <anchor x="500.0" y="1290.0" name="top"/>
+  <anchor x="502.0" y="-9.0" name="bottom"/>
+  <anchor x="502.0" y="-9.0" name="markbottom"/>
+  <anchor x="977.0" y="1600.0" name="top_dd"/>
+  <anchor x="977.0" y="-407.0" name="bottom_dd"/>
+  <outline>
+    <component base="o"/>
+    <component base="uni02DE" xOffset="1007"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
+    </dict>
+  </lib>
+</glyph>

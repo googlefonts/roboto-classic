@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eogonek" format="2">
+  <advance width="1018"/>
+  <unicode hex="0118"/>
+  <anchor x="540" y="1612" name="parent_top"/>
+  <anchor x="540" y="10" name="bottom"/>
+  <anchor x="998" y="1600" name="top_dd"/>
+  <anchor x="998" y="-407" name="bottom_dd"/>
+  <anchor x="998" y="1612" name="top0315"/>
+  <anchor x="540" y="1612" name="top"/>
+  <outline>
+    <contour>
+      <point x="940" y="157" type="line"/>
+      <point x="308" y="157" type="line"/>
+      <point x="308" y="0" type="line"/>
+      <point x="940" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="341" y="1456" type="line"/>
+      <point x="157" y="1456" type="line"/>
+      <point x="157" y="0" type="line"/>
+      <point x="341" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="855" y="830" type="line"/>
+      <point x="308" y="830" type="line"/>
+      <point x="308" y="673" type="line"/>
+      <point x="855" y="673" type="line"/>
+    </contour>
+    <contour>
+      <point x="930" y="1456" type="line"/>
+      <point x="308" y="1456" type="line"/>
+      <point x="308" y="1298" type="line"/>
+      <point x="930" y="1298" type="line"/>
+    </contour>
+    <contour>
+      <point x="810" y="57" type="line"/>
+      <point x="644" y="-27"/>
+      <point x="584" y="-136"/>
+      <point x="584" y="-243" type="curve" smooth="yes"/>
+      <point x="584" y="-368"/>
+      <point x="659" y="-434"/>
+      <point x="752" y="-434" type="curve" smooth="yes"/>
+      <point x="822" y="-434"/>
+      <point x="864" y="-410"/>
+      <point x="892" y="-390" type="curve"/>
+      <point x="882" y="-268" type="line"/>
+      <point x="865" y="-279"/>
+      <point x="835" y="-295"/>
+      <point x="799" y="-295" type="curve" smooth="yes"/>
+      <point x="753" y="-295"/>
+      <point x="736" y="-266"/>
+      <point x="736" y="-222" type="curve" smooth="yes"/>
+      <point x="736" y="-135"/>
+      <point x="806" y="-64"/>
+      <point x="877" y="0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
