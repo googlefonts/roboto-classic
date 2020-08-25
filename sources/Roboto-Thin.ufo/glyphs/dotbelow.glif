@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotbelow" format="2">
+  <unicode hex="0323"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="CmtJUYT6zB"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="t65drvTYZB"/>
+  <anchor x="-572" y="0" name="_bottom"/>
+  <anchor x="-572" y="-280" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-632" y="-218" type="curve" smooth="yes"/>
+      <point x="-632" y="-249"/>
+      <point x="-608" y="-273"/>
+      <point x="-577" y="-273" type="curve" smooth="yes"/>
+      <point x="-546" y="-273"/>
+      <point x="-521" y="-249"/>
+      <point x="-521" y="-218" type="curve" smooth="yes"/>
+      <point x="-521" y="-187"/>
+      <point x="-546" y="-162"/>
+      <point x="-577" y="-162" type="curve" smooth="yes"/>
+      <point x="-608" y="-162"/>
+      <point x="-632" y="-187"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.CmtJUYT6zB</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.t65drvTYZB</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>
