@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="534"/>
+  <unicode hex="0021"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="VsWtU5hyuN"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="6CuneA3Rt6"/>
+  <outline>
+    <contour>
+      <point x="425" y="1456" type="line"/>
+      <point x="124" y="1456" type="line"/>
+      <point x="158" y="449" type="line"/>
+      <point x="392" y="449" type="line"/>
+    </contour>
+    <contour>
+      <point x="119" y="138" type="curve" smooth="yes"/>
+      <point x="119" y="50"/>
+      <point x="179" y="-17"/>
+      <point x="274" y="-17" type="curve" smooth="yes"/>
+      <point x="368" y="-17"/>
+      <point x="428" y="50"/>
+      <point x="428" y="138" type="curve" smooth="yes"/>
+      <point x="428" y="225"/>
+      <point x="368" y="292"/>
+      <point x="274" y="292" type="curve" smooth="yes"/>
+      <point x="179" y="292"/>
+      <point x="119" y="225"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.6CuneA3Rt6</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.VsWtU5hyuN</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a_uni02DE" format="2">
+  <advance width="1247"/>
+  <anchor x="449.0" y="0.0" name="bottom"/>
+  <anchor x="509.0" y="1292.0" name="top"/>
+  <anchor x="1228.0" y="1292.0" name="top0315"/>
+  <anchor x="449.0" y="0.0" name="markbottom"/>
+  <anchor x="939.0" y="1600.0" name="top_dd"/>
+  <anchor x="939.0" y="-407.0" name="bottom_dd"/>
+  <anchor x="509.0" y="1292.0" name="parent_top"/>
+  <outline>
+    <component base="a"/>
+    <component base="uni02DE" xOffset="902"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rcommaaccent.smcp" format="2">
+  <advance width="1007"/>
+  <anchor x="460.0" y="1320.0" name="parent_top"/>
+  <anchor x="988.0" y="1600.0" name="top_dd"/>
+  <anchor x="988.0" y="-407.0" name="bottom_dd"/>
+  <anchor x="988.0" y="1320.0" name="top0315"/>
+  <anchor x="460.0" y="1320.0" name="top"/>
+  <anchor x="461.0" y="-418.0" name="bottom"/>
+  <outline>
+    <component base="R.smcp"/>
+    <component base="commaaccent" xOffset="232" yOffset="-218"/>
+  </outline>
+</glyph>

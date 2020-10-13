@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zbar" format="2">
+  <advance width="889"/>
+  <unicode hex="01B6"/>
+  <anchor x="443" y="1292" name="top"/>
+  <anchor x="458" y="10" name="bottom"/>
+  <anchor x="869" y="1292" name="top0315"/>
+  <anchor x="443" y="1292" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="730" y="603" type="line"/>
+      <point x="156" y="603" type="line"/>
+      <point x="156" y="499" type="line"/>
+      <point x="730" y="499" type="line"/>
+    </contour>
+    <contour>
+      <point x="815" y="104" type="line"/>
+      <point x="139" y="104" type="line"/>
+      <point x="139" y="0" type="line"/>
+      <point x="815" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="780" y="992" type="line"/>
+      <point x="780" y="1082" type="line"/>
+      <point x="710" y="1082" type="line"/>
+      <point x="99" y="91" type="line"/>
+      <point x="99" y="0" type="line"/>
+      <point x="167" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="731" y="1082" type="line"/>
+      <point x="114" y="1082" type="line"/>
+      <point x="114" y="977" type="line"/>
+      <point x="731" y="977" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

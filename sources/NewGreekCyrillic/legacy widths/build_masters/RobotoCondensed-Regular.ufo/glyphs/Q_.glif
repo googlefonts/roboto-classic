@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q" format="2">
+  <advance width="1231"/>
+  <unicode hex="0051"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="pEDiz2Ae3h"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="cYtVp2R6kE"/>
+  <anchor x="608" y="1600" name="top"/>
+  <anchor x="606" y="-10" name="bottom"/>
+  <anchor x="1211" y="1600" name="top_dd"/>
+  <anchor x="1211" y="-407" name="bottom_dd"/>
+  <anchor x="1211" y="1600" name="top0315"/>
+  <anchor x="608" y="1600" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="793" y="167" type="line"/>
+      <point x="675" y="43" type="line"/>
+      <point x="991" y="-246" type="line"/>
+      <point x="1116" y="-126" type="line"/>
+    </contour>
+    <contour>
+      <point x="1096" y="854" type="line"/>
+      <point x="1096" y="1266"/>
+      <point x="908" y="1476"/>
+      <point x="606" y="1476" type="curve" smooth="yes"/>
+      <point x="314" y="1476"/>
+      <point x="117" y="1266"/>
+      <point x="117" y="854" type="curve"/>
+      <point x="117" y="602" type="line"/>
+      <point x="117" y="189"/>
+      <point x="316" y="-20"/>
+      <point x="607" y="-20" type="curve" smooth="yes"/>
+      <point x="909" y="-20"/>
+      <point x="1096" y="189"/>
+      <point x="1096" y="602" type="curve"/>
+    </contour>
+    <contour>
+      <point x="914" y="602" type="line"/>
+      <point x="914" y="279"/>
+      <point x="808" y="143"/>
+      <point x="607" y="143" type="curve" smooth="yes"/>
+      <point x="420" y="143"/>
+      <point x="300" y="279"/>
+      <point x="300" y="602" type="curve" smooth="yes"/>
+      <point x="300" y="856" type="line" smooth="yes"/>
+      <point x="300" y="1176"/>
+      <point x="418" y="1312"/>
+      <point x="606" y="1312" type="curve" smooth="yes"/>
+      <point x="805" y="1312"/>
+      <point x="914" y="1176"/>
+      <point x="914" y="856" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.cYtVp2R6kE</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.pEDiz2Ae3h</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
+    </dict>
+  </lib>
+</glyph>

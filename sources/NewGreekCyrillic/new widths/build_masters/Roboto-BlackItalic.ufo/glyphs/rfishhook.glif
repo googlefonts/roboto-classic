@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rfishhook" format="2">
+  <advance width="693.55"/>
+  <unicode hex="027E"/>
+  <anchor x="381.119623826291" y="1290" name="top"/>
+  <anchor x="158.23076189018172" y="0" name="bottom"/>
+  <anchor x="812.769623826291" y="1290" name="top0315"/>
+  <anchor x="381.119623826291" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="320.0914284038958" y="0.0" type="line"/>
+      <point x="447.8772560826578" y="742.9340037836557" type="line" smooth="yes"/>
+      <point x="469.3893486482318" y="841.8653869039669"/>
+      <point x="557.6049800164466" y="883.1500966200259"/>
+      <point x="652.7234187463685" y="880.6762532059316" type="curve" smooth="yes"/>
+      <point x="678.8322937918864" y="879.9972127439224"/>
+      <point x="704.587063864395" y="875.681037926957"/>
+      <point x="730.2139183657941" y="871.0177530712541" type="curve"/>
+      <point x="750.9674435772843" y="1087.7592643489552" type="line"/>
+      <point x="689.0402165552692" y="1097.973758334834"/>
+      <point x="627.2550802793123" y="1103.1711255476077"/>
+      <point x="564.4726830175962" y="1103.9865399393732" type="curve" smooth="yes"/>
+      <point x="316.7555745517244" y="1107.203876392576"/>
+      <point x="143.34818648420608" y="1002.5314706790593"/>
+      <point x="112.96384832094638" y="742.6482902865466" type="curve" smooth="yes"/>
+      <point x="-9.869316355970497" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

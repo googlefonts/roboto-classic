@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sterling.smcp" format="2">
+  <advance width="913"/>
+  <outline>
+    <contour>
+      <point x="840" y="0" type="line"/>
+      <point x="840" y="104" type="line"/>
+      <point x="104" y="104" type="line"/>
+      <point x="104" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="666" y="621" type="line"/>
+      <point x="56" y="621" type="line"/>
+      <point x="56" y="533" type="line"/>
+      <point x="666" y="533" type="line"/>
+    </contour>
+    <contour>
+      <point x="317" y="744" type="line"/>
+      <point x="310" y="961"/>
+      <point x="380" y="1075"/>
+      <point x="507" y="1075" type="curve" smooth="yes"/>
+      <point x="621" y="1075"/>
+      <point x="697" y="1001"/>
+      <point x="697" y="794" type="curve"/>
+      <point x="808" y="794" type="line"/>
+      <point x="808" y="1025"/>
+      <point x="719" y="1181"/>
+      <point x="507" y="1181" type="curve" smooth="yes"/>
+      <point x="314" y="1181"/>
+      <point x="197" y="1018"/>
+      <point x="206" y="744" type="curve" smooth="yes"/>
+      <point x="214" y="466" type="line" smooth="yes"/>
+      <point x="218" y="336"/>
+      <point x="195" y="136"/>
+      <point x="112" y="104" type="curve"/>
+      <point x="219" y="54" type="line"/>
+      <point x="305" y="132"/>
+      <point x="329" y="297"/>
+      <point x="325" y="466" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

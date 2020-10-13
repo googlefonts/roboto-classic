@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aogonek.smcp" format="2">
+  <advance width="1068"/>
+  <anchor x="536" y="1320" name="parent_top"/>
+  <anchor x="535" y="0" name="bottom"/>
+  <anchor x="1048" y="1600" name="top_dd"/>
+  <anchor x="1048" y="-407" name="bottom_dd"/>
+  <anchor x="1048" y="1320" name="top0315"/>
+  <anchor x="536" y="1320" name="top"/>
+  <outline>
+    <contour>
+      <point x="542" y="847" type="line"/>
+      <point x="591" y="1165" type="line"/>
+      <point x="400" y="1165" type="line"/>
+      <point x="14" y="0" type="line"/>
+      <point x="298" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="769" y="0" type="line"/>
+      <point x="1054" y="0" type="line"/>
+      <point x="665" y="1165" type="line"/>
+      <point x="470" y="1165" type="line"/>
+      <point x="520" y="846" type="line"/>
+    </contour>
+    <contour>
+      <point x="788" y="434" type="line"/>
+      <point x="240" y="434" type="line"/>
+      <point x="240" y="222" type="line"/>
+      <point x="788" y="222" type="line"/>
+    </contour>
+    <contour>
+      <point x="846" y="60" type="line"/>
+      <point x="691" y="-16"/>
+      <point x="656" y="-113"/>
+      <point x="656" y="-213" type="curve" smooth="yes"/>
+      <point x="656" y="-350"/>
+      <point x="748" y="-422"/>
+      <point x="860" y="-422" type="curve" smooth="yes"/>
+      <point x="931" y="-422"/>
+      <point x="976" y="-398"/>
+      <point x="1005" y="-378" type="curve"/>
+      <point x="978" y="-220" type="line"/>
+      <point x="964" y="-229"/>
+      <point x="945" y="-240"/>
+      <point x="916" y="-240" type="curve" smooth="yes"/>
+      <point x="880" y="-240"/>
+      <point x="866" y="-213"/>
+      <point x="866" y="-176" type="curve" smooth="yes"/>
+      <point x="866" y="-105"/>
+      <point x="905" y="-56"/>
+      <point x="989" y="0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

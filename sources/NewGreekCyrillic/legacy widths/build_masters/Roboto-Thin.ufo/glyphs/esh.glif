@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esh" format="2">
+  <advance width="828"/>
+  <unicode hex="0283"/>
+  <guideline x="0.0" y="1557.0" angle="0.0" identifier="sjE87ZovEb"/>
+  <guideline x="0.0" y="-437.0" angle="0.0" identifier="u5DlUT4UrE"/>
+  <anchor x="590" y="1700" name="top"/>
+  <anchor x="225" y="-447" name="bottom"/>
+  <anchor x="828" y="1700" name="top0315"/>
+  <anchor x="590" y="1700" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="441" y="0" type="line"/>
+      <point x="441" y="1236" type="line" smooth="yes"/>
+      <point x="441" y="1405"/>
+      <point x="529" y="1503"/>
+      <point x="671" y="1503" type="curve" smooth="yes"/>
+      <point x="725" y="1503"/>
+      <point x="752" y="1498"/>
+      <point x="790" y="1488" type="curve"/>
+      <point x="798" y="1540" type="line"/>
+      <point x="756" y="1553"/>
+      <point x="711" y="1557"/>
+      <point x="670" y="1557" type="curve" smooth="yes"/>
+      <point x="494" y="1557"/>
+      <point x="387" y="1443"/>
+      <point x="387" y="1236" type="curve" smooth="yes"/>
+      <point x="387" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="387" y="1120" type="line"/>
+      <point x="387" y="-116" type="line" smooth="yes"/>
+      <point x="387" y="-285"/>
+      <point x="299" y="-383"/>
+      <point x="157" y="-383" type="curve" smooth="yes"/>
+      <point x="103" y="-383"/>
+      <point x="76" y="-378"/>
+      <point x="38" y="-368" type="curve"/>
+      <point x="30" y="-420" type="line"/>
+      <point x="72" y="-433"/>
+      <point x="117" y="-437"/>
+      <point x="158" y="-437" type="curve" smooth="yes"/>
+      <point x="334" y="-437"/>
+      <point x="441" y="-323"/>
+      <point x="441" y="-116" type="curve" smooth="yes"/>
+      <point x="441" y="1120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.sjE87ZovEb</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.u5DlUT4UrE</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

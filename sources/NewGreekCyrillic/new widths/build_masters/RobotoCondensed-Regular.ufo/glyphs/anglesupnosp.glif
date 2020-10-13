@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anglesupnosp" format="2">
+  <unicode hex="031A"/>
+  <anchor x="-306" y="1263" name="_top"/>
+  <anchor x="-306" y="1696" name="top"/>
+  <anchor x="-306" y="1696" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="-596" y="1538" type="line"/>
+      <point x="-135" y="1538" type="line"/>
+      <point x="-135" y="1655" type="line"/>
+      <point x="-596" y="1655" type="line"/>
+    </contour>
+    <contour>
+      <point x="-151" y="1283" type="line"/>
+      <point x="-18" y="1283" type="line"/>
+      <point x="-18" y="1655" type="line"/>
+      <point x="-151" y="1655" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>

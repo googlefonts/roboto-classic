@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0423" format="2">
+  <advance width="1128"/>
+  <unicode hex="0423"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="SUMMaqiuIE"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="4j9XRbcmqT"/>
+  <anchor x="586" y="1603" name="top"/>
+  <anchor x="1108" y="1603" name="top0315"/>
+  <anchor x="586" y="1603" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="494" y="532" type="line"/>
+      <point x="447" y="360" type="line"/>
+      <point x="427" y="274"/>
+      <point x="406" y="223"/>
+      <point x="313" y="223" type="curve" smooth="yes"/>
+      <point x="302" y="223"/>
+      <point x="262" y="224"/>
+      <point x="249" y="227" type="curve"/>
+      <point x="254" y="-18" type="line"/>
+      <point x="276" y="-20"/>
+      <point x="319" y="-21"/>
+      <point x="345" y="-21" type="curve" smooth="yes"/>
+      <point x="546" y="-21"/>
+      <point x="627" y="123"/>
+      <point x="690" y="286" type="curve"/>
+      <point x="1090" y="1456" type="line"/>
+      <point x="773" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="1456" type="line"/>
+      <point x="45" y="1456" type="line"/>
+      <point x="466" y="404" type="line"/>
+      <point x="685" y="407" type="line"/>
+      <point x="596" y="758" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.4j9XRbcmqT</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.SUMMaqiuIE</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
+    </dict>
+  </lib>
+</glyph>

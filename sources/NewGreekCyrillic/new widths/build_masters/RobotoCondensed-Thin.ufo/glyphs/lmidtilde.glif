@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lmidtilde" format="2">
+  <advance width="649"/>
+  <anchor x="327.0" y="1600.0" name="top"/>
+  <anchor x="327.0" y="797.0" name="parenthesses.w2"/>
+  <anchor x="630.0" y="1600.0" name="top0315"/>
+  <anchor x="327.0" y="0.0" name="bottom"/>
+  <anchor x="327.0" y="1600.0" name="parent_top"/>
+  <outline>
+    <component base="l" xOffset="125"/>
+    <component base="tilde" xOffset="-50" yOffset="-572"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

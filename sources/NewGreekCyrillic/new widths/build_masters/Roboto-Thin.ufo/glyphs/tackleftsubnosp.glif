@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tackleftsubnosp" format="2">
+  <unicode hex="0318"/>
+  <guideline x="0.0" y="-223.0" angle="0.0" identifier="ZWnMS1mMKS"/>
+  <anchor x="-536" y="0" name="_bottom"/>
+  <anchor x="-536" y="-446" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-412" y="-60" type="line"/>
+      <point x="-465" y="-60" type="line"/>
+      <point x="-465" y="-446" type="line"/>
+      <point x="-412" y="-446" type="line"/>
+    </contour>
+    <contour>
+      <point x="-713" y="-227" type="line"/>
+      <point x="-713" y="-280" type="line"/>
+      <point x="-422" y="-280" type="line"/>
+      <point x="-422" y="-227" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.ZWnMS1mMKS</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>

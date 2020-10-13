@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright" format="2">
+  <advance width="663"/>
+  <unicode hex="0029"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="L0DxFTiIsG"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="eN2h4RLGzR"/>
+  <outline>
+    <contour>
+      <point x="557" y="592" type="line"/>
+      <point x="557" y="1135"/>
+      <point x="308" y="1515"/>
+      <point x="109" y="1616" type="curve"/>
+      <point x="56" y="1462" type="line"/>
+      <point x="169" y="1350"/>
+      <point x="304" y="1082"/>
+      <point x="304" y="594" type="curve" smooth="yes"/>
+      <point x="304" y="567" type="line"/>
+      <point x="304" y="79"/>
+      <point x="173" y="-189"/>
+      <point x="56" y="-301" type="curve"/>
+      <point x="109" y="-455" type="line"/>
+      <point x="308" y="-355"/>
+      <point x="557" y="26"/>
+      <point x="557" y="569" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.L0DxFTiIsG</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.eN2h4RLGzR</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>
