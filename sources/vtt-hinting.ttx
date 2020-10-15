@@ -15615,20 +15615,6 @@ IUP[X]
     </glyphProgram>
 
     <glyphProgram name="theta">
-/* VTT 6.32 compiler */
-SVTCA[Y]
-CALL[], 11, 11, 114
-CALL[], 24, 3, 114
-SHP[2], 37
-SRP1[], 11
-IP[], 2
-MDAP[R], 2
-SHP[1], 3
-SRP1[], 11
-SHP[1], 49
-IUP[Y]
-IUP[X]
-
     </glyphProgram>
 
     <glyphProgram name="thook">
@@ -24782,37 +24768,9 @@ OFFSET[R], 588, 0, 0
     </glyphProgram>
 
     <glyphProgram name="uni0472">
-/* VTT 6.32 compiler */
-SVTCA[Y]
-CALL[], 10, 9, 114
-CALL[], 22, 3, 114
-SHP[2], 35
-SRP1[], 10
-IP[], 2
-MDAP[R], 2
-SHP[1], 3
-SRP1[], 10
-SHP[1], 47
-IUP[Y]
-IUP[X]
-
     </glyphProgram>
 
     <glyphProgram name="uni0473">
-/* VTT 6.32 compiler */
-SVTCA[Y]
-CALL[], 21, 11, 114
-CALL[], 10, 7, 114
-SHP[2], 43
-SRP1[], 21
-IP[], 2
-MDAP[R], 2
-SHP[1], 3
-SRP1[], 21
-SHP[1], 32
-IUP[Y]
-IUP[X]
-
     </glyphProgram>
 
     <glyphProgram name="uni0474">
@@ -66304,36 +66262,6 @@ Smooth()
 
     <glyphProgram name="theta">
 /* VTTTalk Unicode 0x3b8 */
-/* ACT generated Thu Dec  5 13:36:29 2019 */
-
-/* Auto-Hinting Light */
-
-/* ***Settings*** */
-/* ModeHinting = LightLatin */
-/* ToAnchorBottom = true */
-
-
-/* CVT 11 11 */
-/* Min and Max */
-ResYAnchor(11,11)	/* min, CVT */
-ResYAnchor(24,3)	/* max */
-
-/* CVTs - beginning */
-/* CVTs - end */
-
-
-/* YDir: Stroke #0 */
-YShift(24,37) /*perpendicular to the stroke*/
-
-/* YDir: Stroke #1 */
-YInterpolate(24,2,11)
-YAnchor(2)
-YShift(2,3) /*perpendicular to the stroke*/
-
-/* YDir: Stroke #2 */
-YShift(11,49) /*perpendicular to the stroke*/
-
-Smooth()
 
     </glyphProgram>
 
@@ -75072,74 +75000,10 @@ Smooth()
 
     <glyphProgram name="uni0472">
 /* VTTTalk Unicode 0x472 */
-/* ACT generated Thu Dec  5 13:36:29 2019 */
-
-/* Auto-Hinting Light */
-
-/* ***Settings*** */
-/* ModeHinting = LightLatin */
-/* ToAnchorBottom = true */
-
-
-/* CVT 10 9 */
-/* CVT 22 3 */
-/* Min and Max */
-ResYAnchor(10,9)	/* min, CVT */
-ResYAnchor(22,3)	/* max, CVT */
-
-/* CVTs - beginning */
-/* CVTs - end */
-
-
-/* YDir: Stroke #0 */
-YShift(22,35) /*perpendicular to the stroke*/
-
-/* YDir: Stroke #1 */
-YInterpolate(22,2,10)
-YAnchor(2)
-YShift(2,3) /*perpendicular to the stroke*/
-
-/* YDir: Stroke #2 */
-YShift(10,47) /*perpendicular to the stroke*/
-
-Smooth()
-
     </glyphProgram>
 
     <glyphProgram name="uni0473">
 /* VTTTalk Unicode 0x473 */
-/* ACT generated Thu Dec  5 13:36:29 2019 */
-
-/* Auto-Hinting Light */
-
-/* ***Settings*** */
-/* ModeHinting = LightLatin */
-/* ToAnchorBottom = true */
-
-
-/* CVT 10 7 */
-/* CVT 21 11 */
-/* Min and Max */
-ResYAnchor(21,11)	/* min, CVT */
-ResYAnchor(10,7)	/* max, CVT */
-
-/* CVTs - beginning */
-/* CVTs - end */
-
-
-/* YDir: Stroke #0 */
-YShift(10,43) /*perpendicular to the stroke*/
-
-/* YDir: Stroke #1 */
-YInterpolate(10,2,21)
-YAnchor(2)
-YShift(2,3) /*perpendicular to the stroke*/
-
-/* YDir: Stroke #2 */
-YShift(21,32) /*perpendicular to the stroke*/
-
-Smooth()
-
     </glyphProgram>
 
     <glyphProgram name="uni0474">

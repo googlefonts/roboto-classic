@@ -1,5 +1,8 @@
 {
 .appVersion = "1286";
+DisplayStrings = (
+"/uni0472"
+);
 customParameters = (
 {
 name = Axes;
@@ -164,9 +167,8 @@ xHeight = 500;
 );
 glyphs = (
 {
-color = 0;
-glyphname = "uni0472";
-lastChange = "2020-10-15 15:02:49 +0000";
+glyphname = uni0472;
+lastChange = "2020-10-15 16:05:22 +0000";
 layers = (
 {
 anchors = (
@@ -1359,15 +1361,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1168 755 LINE",
-"210 755 LINE",
-"225 839 LINE SMOOTH",
-"279 1134 OFFCURVE",
-"481 1422 OFFCURVE",
-"808 1422 CURVE SMOOTH",
 "1138 1422 OFFCURVE",
 "1230 1117 OFFCURVE",
-"1183 839 CURVE SMOOTH"
+"1183 839 CURVE",
+"1178 811 OFFCURVE",
+"1173 783 OFFCURVE",
+"1168 755 CURVE",
+"210 755 LINE",
+"215 783 OFFCURVE",
+"220 811 OFFCURVE",
+"225 839 CURVE SMOOTH",
+"279 1134 OFFCURVE",
+"481 1422 OFFCURVE",
+"808 1422 CURVE SMOOTH"
 );
 },
 {
@@ -1376,9 +1382,13 @@ nodes = (
 "230 34 OFFCURVE",
 "140 341 OFFCURVE",
 "187 619 CURVE SMOOTH",
-"201 701 LINE",
+"192 646 OFFCURVE",
+"196 674 OFFCURVE",
+"201 701 CURVE",
 "1159 701 LINE",
-"1144 619 LINE SMOOTH",
+"1154 674 OFFCURVE",
+"1149 646 OFFCURVE",
+"1144 619 CURVE SMOOTH",
 "1090 323 OFFCURVE",
 "889 34 OFFCURVE",
 "560 34 CURVE SMOOTH"
@@ -1786,9 +1796,13 @@ nodes = (
 "989 1357 OFFCURVE",
 "994 1012 OFFCURVE",
 "966 809 CURVE SMOOTH",
-"961 775 LINE",
+"964 798 OFFCURVE",
+"963 786 OFFCURVE",
+"961 775 CURVE",
 "255 775 LINE",
-"260 807 LINE SMOOTH",
+"257 786 OFFCURVE",
+"258 796 OFFCURVE",
+"260 807 CURVE SMOOTH",
 "296 1043 OFFCURVE",
 "419 1377 OFFCURVE",
 "711 1367 CURVE SMOOTH"
@@ -1800,9 +1814,13 @@ nodes = (
 "215 99 OFFCURVE",
 "209 449 OFFCURVE",
 "237 650 CURVE SMOOTH",
-"240 671 LINE",
+"238 657 OFFCURVE",
+"239 664 OFFCURVE",
+"240 671 CURVE",
 "945 671 LINE",
-"942 651 LINE SMOOTH",
+"944 664 OFFCURVE",
+"943 658 OFFCURVE",
+"942 651 CURVE SMOOTH",
 "906 412 OFFCURVE",
 "788 79 OFFCURVE",
 "491 89 CURVE SMOOTH"
@@ -1922,9 +1940,13 @@ nodes = (
 "861 1425 OFFCURVE",
 "1013 1182 OFFCURVE",
 "1013 841 CURVE SMOOTH",
-"1013 752 LINE",
+"1013 811 OFFCURVE",
+"1013 782 OFFCURVE",
+"1013 752 CURVE",
 "184 752 LINE",
-"184 841 LINE SMOOTH",
+"184 782 OFFCURVE",
+"184 811 OFFCURVE",
+"184 841 CURVE SMOOTH",
 "184 1182 OFFCURVE",
 "335 1425 OFFCURVE",
 "598 1425 CURVE SMOOTH"
@@ -1936,9 +1958,13 @@ nodes = (
 "337 31 OFFCURVE",
 "184 273 OFFCURVE",
 "184 617 CURVE SMOOTH",
-"184 703 LINE",
+"184 646 OFFCURVE",
+"184 674 OFFCURVE",
+"184 703 CURVE",
 "1013 703 LINE",
-"1013 617 LINE SMOOTH",
+"1013 674 OFFCURVE",
+"1013 646 OFFCURVE",
+"1013 617 CURVE SMOOTH",
 "1013 273 OFFCURVE",
 "863 31 OFFCURVE",
 "598 31 CURVE SMOOTH"
@@ -2021,9 +2047,8 @@ leftKerningGroup = C_UC;
 unicode = 0472;
 },
 {
-color = 0;
-glyphname = "uni0473";
-lastChange = "2020-10-15 15:02:49 +0000";
+glyphname = uni0473;
+lastChange = "2020-10-15 16:00:20 +0000";
 layers = (
 {
 anchors = (
@@ -3747,9 +3772,8 @@ rightKerningGroup = o_LC;
 unicode = 0473;
 },
 {
-color = 0;
 glyphname = theta;
-lastChange = "2020-10-15 15:02:49 +0000";
+lastChange = "2020-10-15 16:00:20 +0000";
 layers = (
 {
 layerId = "9A647144-507C-4879-A7C4-676BBD720CC2";
@@ -5161,21 +5185,26 @@ unicode = 03B8;
 );
 instances = (
 {
-interpolationWeight = 500;
 instanceInterpolations = {
-"4884DA86-3360-41D6-AD5C-73AD69B08746" = 0.8;
-"9A647144-507C-4879-A7C4-676BBD720CC2" = 0.2;
+"1DCB692C-3A3C-4136-91E4-096E1B920A89" = 1;
 };
-name = Regular;
+name = Thin;
 },
 {
 interpolationCustom = 1;
-interpolationWeight = 300;
-interpolationWidth = 75;
 instanceInterpolations = {
-"DFB249A5-8F52-43CA-BE36-4E39726195E1" = 1;
+"85227FBE-C6DC-406C-9EE8-822E92EE624F" = 1;
 };
-name = Regular2;
+name = "Thin Italic";
+},
+{
+interpolationCustom = 1;
+interpolationWeight = 200;
+instanceInterpolations = {
+"427AC813-2669-48AE-A5CD-A50009D5892E" = 0.33333;
+"85227FBE-C6DC-406C-9EE8-822E92EE624F" = 0.66667;
+};
+name = "ExtraLight Italic";
 }
 );
 unitsPerEm = 2048;

@@ -17,7 +17,7 @@ for glyph in ["uni0472.glif", "uni0473.glif","theta.glif"]:
     for k in new_paths:
         new_path = os.path.join(new_paths[k], "glyphs", glyph)
         cur_path = os.path.join(srcs[k], "glyphs", glyph)
-
+        shutil.move(new_path, cur_path)
 
         print(new_path)
         print(cur_path)
