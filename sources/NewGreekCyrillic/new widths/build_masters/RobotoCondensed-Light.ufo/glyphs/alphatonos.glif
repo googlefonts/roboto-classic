@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alphatonos" format="2">
-  <advance width="1010"/>
+  <advance width="1103"/>
   <unicode hex="03AC"/>
-  <anchor x="545" y="1290" name="parent_top"/>
-  <anchor x="478" y="-10" name="bottom"/>
-  <anchor x="990" y="1290" name="top0315"/>
-  <anchor x="545" y="1290" name="top"/>
   <outline>
     <component base="alpha"/>
-    <component base="tonos" xOffset="291" yOffset="-44"/>
+    <component base="tonoscomb" xOffset="325"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

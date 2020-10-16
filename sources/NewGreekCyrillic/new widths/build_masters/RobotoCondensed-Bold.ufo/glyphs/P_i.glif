@@ -1,23 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pi" format="2">
-  <advance width="1259"/>
+  <advance width="1237"/>
   <unicode hex="03A0"/>
   <outline>
     <contour>
-      <point x="1139" y="1456" type="line"/>
-      <point x="119" y="1456" type="line"/>
-      <point x="119" y="0" type="line"/>
-      <point x="414" y="0" type="line"/>
-      <point x="414" y="1211" type="line"/>
-      <point x="845" y="1211" type="line"/>
-      <point x="845" y="0" type="line"/>
-      <point x="1139" y="0" type="line"/>
+      <point x="117" y="0" type="line"/>
+      <point x="412" y="0" type="line"/>
+      <point x="412" y="1212" type="line"/>
+      <point x="825" y="1212" type="line"/>
+      <point x="825" y="0" type="line"/>
+      <point x="1118" y="0" type="line"/>
+      <point x="1118" y="1456" type="line"/>
+      <point x="117" y="1456" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.6,0.609,1,1</string>
-    </dict>
-  </lib>
 </glyph>

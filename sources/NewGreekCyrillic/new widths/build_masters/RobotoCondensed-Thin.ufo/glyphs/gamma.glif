@@ -1,27 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gamma" format="2">
-  <advance width="871"/>
+  <advance width="869"/>
   <unicode hex="03B3"/>
   <outline>
     <contour>
-      <point x="462" y="67" type="line"/>
-      <point x="411" y="67" type="line"/>
-      <point x="411" y="-415" type="line"/>
-      <point x="462" y="-415" type="line"/>
-    </contour>
-    <contour>
-      <point x="479" y="227" type="line"/>
-      <point x="413" y="0" type="line"/>
-      <point x="458" y="0" type="line"/>
+      <point x="408" y="-366" type="line"/>
+      <point x="461" y="-366" type="line"/>
+      <point x="461" y="1" type="line"/>
       <point x="815" y="1082" type="line"/>
-      <point x="759" y="1082" type="line"/>
-    </contour>
-    <contour>
-      <point x="110" y="1082" type="line"/>
-      <point x="56" y="1082" type="line"/>
-      <point x="412" y="0" type="line"/>
-      <point x="458" y="0" type="line"/>
-      <point x="393" y="229" type="line"/>
+      <point x="760" y="1082" type="line"/>
+      <point x="436" y="89" type="line"/>
+      <point x="111" y="1082" type="line"/>
+      <point x="55" y="1082" type="line"/>
+      <point x="408" y="1" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

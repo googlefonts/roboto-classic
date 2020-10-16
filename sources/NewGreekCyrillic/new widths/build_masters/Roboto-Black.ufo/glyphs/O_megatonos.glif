@@ -1,10 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omegatonos" format="2">
-  <advance width="1402"/>
+  <advance width="1803"/>
   <unicode hex="038F"/>
-  <anchor x="685" y="10" name="bottom"/>
   <outline>
-    <component base="Omega" xOffset="20"/>
-    <component base="tonos" xOffset="-402" yOffset="-1"/>
+    <component base="Omega" xOffset="319"/>
+    <component base="tonos.case" xOffset="-100"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

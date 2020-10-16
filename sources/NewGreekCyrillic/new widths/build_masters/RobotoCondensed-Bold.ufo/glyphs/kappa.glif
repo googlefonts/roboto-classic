@@ -1,12 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kappa" format="2">
-  <advance width="1077"/>
+  <advance width="980"/>
   <unicode hex="03BA"/>
-  <anchor x="529" y="1290" name="parent_top"/>
-  <anchor x="529" y="10" name="bottom"/>
-  <anchor x="1057" y="1290" name="top0315"/>
-  <anchor x="529" y="1290" name="top"/>
   <outline>
-    <component base="kgreenlandic"/>
+    <contour>
+      <point x="103" y="0" type="line"/>
+      <point x="386" y="0" type="line"/>
+      <point x="386" y="439" type="line"/>
+      <point x="441" y="439" type="line"/>
+      <point x="666" y="0" type="line"/>
+      <point x="984" y="0" type="line"/>
+      <point x="680" y="564" type="line"/>
+      <point x="953" y="1082" type="line"/>
+      <point x="647" y="1082" type="line"/>
+      <point x="446" y="664" type="line"/>
+      <point x="386" y="664" type="line"/>
+      <point x="386" y="1082" type="line"/>
+      <point x="103" y="1082" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

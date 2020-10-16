@@ -1,12 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iotatonos" format="2">
-  <advance width="614"/>
+  <advance width="548"/>
   <unicode hex="03AF"/>
-  <anchor x="283" y="1269" name="parent_top"/>
-  <anchor x="594" y="1269" name="top0315"/>
-  <anchor x="283" y="1269" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="tonos" xOffset="31" yOffset="-28"/>
+    <component base="tonoscomb" xOffset="9"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

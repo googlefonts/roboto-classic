@@ -2,14 +2,14 @@
 <glyph name="Alphatonos" format="2">
   <advance width="1336"/>
   <unicode hex="0386"/>
-  <anchor x="672" y="1601" name="parent_top"/>
-  <anchor x="686" y="0" name="bottom"/>
-  <anchor x="1336" y="1600" name="top_dd"/>
-  <anchor x="1336" y="-407" name="bottom_dd"/>
-  <anchor x="1336" y="1601" name="top0315"/>
-  <anchor x="672" y="1601" name="top"/>
   <outline>
-    <component base="A"/>
-    <component base="tonos" xOffset="3" yOffset="-1"/>
+    <component base="Alpha"/>
+    <component base="tonos.case" xOffset="-45"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

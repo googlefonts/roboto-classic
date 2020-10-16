@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="etatonos" format="2">
-  <advance width="1152"/>
+  <advance width="1158"/>
   <unicode hex="03AE"/>
-  <anchor x="577" y="1290" name="parent_top"/>
-  <anchor x="259" y="10" name="bottom"/>
-  <anchor x="1152" y="1290" name="top0315"/>
-  <anchor x="577" y="1290" name="top"/>
   <outline>
     <component base="eta"/>
-    <component base="tonos" xOffset="214"/>
+    <component base="tonoscomb" xOffset="299"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>
