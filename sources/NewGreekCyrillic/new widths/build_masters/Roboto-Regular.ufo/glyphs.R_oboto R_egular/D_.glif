@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="D" format="2">
+  <advance width="1344"/>
+  <unicode hex="0044"/>
+  <guideline x="0" y="901.0" angle="0" identifier="g8wo7CWiKs"/>
+  <guideline x="0" y="555.0" angle="0" identifier="1pq46ybwTv"/>
+  <anchor x="609" y="1612" name="top"/>
+  <anchor x="613" y="10" name="bottom"/>
+  <anchor x="1344" y="1600" name="top_dd"/>
+  <anchor x="1344" y="-407" name="bottom_dd"/>
+  <anchor x="1344" y="1612" name="top0315"/>
+  <anchor x="609" y="1612" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="563" y="0" type="line"/>
+      <point x="967" y="0"/>
+      <point x="1223" y="263"/>
+      <point x="1223" y="684" type="curve"/>
+      <point x="1223" y="771" type="line"/>
+      <point x="1223" y="1192"/>
+      <point x="963" y="1456"/>
+      <point x="581" y="1456" type="curve"/>
+      <point x="253" y="1456" type="line"/>
+      <point x="253" y="1298" type="line"/>
+      <point x="581" y="1298" type="line"/>
+      <point x="868" y="1298"/>
+      <point x="1032" y="1107"/>
+      <point x="1032" y="773" type="curve"/>
+      <point x="1032" y="684" type="line" smooth="yes"/>
+      <point x="1032" y="365"/>
+      <point x="874" y="157"/>
+      <point x="563" y="157" type="curve"/>
+      <point x="261" y="157" type="line"/>
+      <point x="259" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="362" y="1456" type="line"/>
+      <point x="169" y="1456" type="line"/>
+      <point x="169" y="0" type="line"/>
+      <point x="362" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.1pq46ybwTv</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.g8wo7CWiKs</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
+    </dict>
+  </lib>
+</glyph>

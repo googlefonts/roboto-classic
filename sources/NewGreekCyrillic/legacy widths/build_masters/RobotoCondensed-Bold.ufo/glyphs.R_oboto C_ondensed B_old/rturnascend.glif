@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rturnascend" format="2">
+  <advance width="679"/>
+  <unicode hex="027A"/>
+  <anchor x="209" y="1600" name="top"/>
+  <anchor x="209" y="0" name="bottom"/>
+  <anchor x="659" y="1600" name="top0315"/>
+  <anchor x="209" y="1600" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="293" y="243" type="line"/>
+      <point x="310" y="0" type="line"/>
+      <point x="576" y="0" type="line"/>
+      <point x="576" y="1536" type="line"/>
+      <point x="293" y="1536" type="line"/>
+    </contour>
+    <contour>
+      <point x="39" y="-8" type="line"/>
+      <point x="58" y="-15"/>
+      <point x="92" y="-20"/>
+      <point x="117" y="-20" type="curve"/>
+      <point x="277" y="-20"/>
+      <point x="368" y="185"/>
+      <point x="368" y="466" type="curve"/>
+      <point x="315" y="488" type="line"/>
+      <point x="310" y="344"/>
+      <point x="257" y="265"/>
+      <point x="136" y="265" type="curve"/>
+      <point x="108" y="265"/>
+      <point x="68" y="269"/>
+      <point x="42" y="273" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

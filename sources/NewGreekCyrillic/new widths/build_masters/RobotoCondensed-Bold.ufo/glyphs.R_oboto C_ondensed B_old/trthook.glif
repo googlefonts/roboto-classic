@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="trthook" format="2">
+  <advance width="669"/>
+  <unicode hex="0288"/>
+  <anchor x="295" y="1600" name="top"/>
+  <anchor x="437" y="-447" name="bottom"/>
+  <anchor x="649" y="1600" name="top0315"/>
+  <anchor x="295" y="1600" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="577" y="1082" type="line"/>
+      <point x="24" y="1082" type="line"/>
+      <point x="24" y="869" type="line"/>
+      <point x="577" y="869" type="line"/>
+    </contour>
+    <contour>
+      <point x="150" y="1349" type="line"/>
+      <point x="150" y="-93" type="line" smooth="yes"/>
+      <point x="150" y="-382"/>
+      <point x="345" y="-436"/>
+      <point x="488" y="-436" type="curve" smooth="yes"/>
+      <point x="545" y="-436"/>
+      <point x="587" y="-431"/>
+      <point x="623" y="-422" type="curve"/>
+      <point x="625" y="-227" type="line"/>
+      <point x="603" y="-231"/>
+      <point x="586" y="-233"/>
+      <point x="567" y="-233" type="curve" smooth="yes"/>
+      <point x="510" y="-233"/>
+      <point x="432" y="-204"/>
+      <point x="432" y="-93" type="curve" smooth="yes"/>
+      <point x="432" y="1349" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

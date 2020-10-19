@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Fturn" format="2">
+  <advance width="1024"/>
+  <unicode hex="2132"/>
+  <outline>
+    <contour>
+      <point x="737" y="0" type="line"/>
+      <point x="851" y="0" type="line"/>
+      <point x="851" y="1456" type="line"/>
+      <point x="737" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="178" y="669" type="line"/>
+      <point x="771" y="669" type="line"/>
+      <point x="771" y="777" type="line"/>
+      <point x="178" y="777" type="line"/>
+    </contour>
+    <contour>
+      <point x="94" y="0" type="line"/>
+      <point x="771" y="0" type="line"/>
+      <point x="771" y="107" type="line"/>
+      <point x="94" y="107" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Amacron.smcp" format="2">
+  <advance width="979"/>
+  <anchor x="491" y="1320" name="parent_top"/>
+  <anchor x="503" y="0" name="bottom"/>
+  <anchor x="959" y="1600" name="top_dd"/>
+  <anchor x="959" y="-407" name="bottom_dd"/>
+  <anchor x="959" y="1320" name="top0315"/>
+  <anchor x="491" y="1597" name="top"/>
+  <outline>
+    <component base="A.smcp"/>
+    <component base="macron" xOffset="94" yOffset="38"/>
+  </outline>
+</glyph>

@@ -406,6 +406,8 @@
     <string>K_.alt2.glif</string>
     <key>K.smcp</key>
     <string>K_.smcp.glif</string>
+    <key>Kaisymbol</key>
+    <string>K_aisymbol.glif</string>
     <key>Kappa</key>
     <string>K_appa.glif</string>
     <key>Kappa.smcp</key>
@@ -1186,8 +1188,6 @@
     <string>deltaturn.glif</string>
     <key>dhook</key>
     <string>dhook.glif</string>
-    <key>diaeresistonosnosp</key>
-    <string>diaeresistonosnosp.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
     <key>dieresisacutecomb</key>
@@ -1198,6 +1198,8 @@
     <string>dieresiscaroncomb.glif</string>
     <key>dieresiscaroncomb.lc</key>
     <string>dieresiscaroncomb.lc.glif</string>
+    <key>dieresiscomb</key>
+    <string>dieresiscomb.glif</string>
     <key>dieresisgravecomb</key>
     <string>dieresisgravecomb.glif</string>
     <key>dieresisgravecomb.lc</key>
@@ -1212,6 +1214,8 @@
     <string>dieresisnosp_uni1A_B_B_.glif</string>
     <key>dieresistonos</key>
     <string>dieresistonos.glif</string>
+    <key>dieresistonoscomb</key>
+    <string>dieresistonoscomb.glif</string>
     <key>digamma</key>
     <string>digamma.glif</string>
     <key>divide</key>
@@ -1370,6 +1374,8 @@
     <string>finalmem.glif</string>
     <key>finalnun</key>
     <string>finalnun.glif</string>
+    <key>finalsigma</key>
+    <string>finalsigma.glif</string>
     <key>finaltsadi</key>
     <string>finaltsadi.glif</string>
     <key>five</key>
@@ -1460,6 +1466,8 @@
     <string>glottalstopinv.glif</string>
     <key>glottalstoprevinv</key>
     <string>glottalstoprevinv.glif</string>
+    <key>gr:question</key>
+    <string>gr_question.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
     <key>gravecomb</key>
@@ -1538,6 +1546,8 @@
     <string>ij.glif</string>
     <key>imacron</key>
     <string>imacron.glif</string>
+    <key>increment</key>
+    <string>increment.glif</string>
     <key>infinity</key>
     <string>infinity.glif</string>
     <key>integral</key>
@@ -1582,6 +1592,8 @@
     <string>k.alt.glif</string>
     <key>k.alt2</key>
     <string>k.alt2.glif</string>
+    <key>kaisymbol</key>
+    <string>kaisymbol.glif</string>
     <key>kappa</key>
     <string>kappa.glif</string>
     <key>kappa1</key>
@@ -1648,6 +1660,8 @@
     <string>longs.glif</string>
     <key>longst</key>
     <string>longst.glif</string>
+    <key>lownumeralsign</key>
+    <string>lownumeralsign.glif</string>
     <key>lozenge</key>
     <string>lozenge.glif</string>
     <key>lrthook</key>
@@ -1754,10 +1768,8 @@
     <string>nu.glif</string>
     <key>numbersign</key>
     <string>numbersign.glif</string>
-    <key>numeralgreek</key>
-    <string>numeralgreek.glif</string>
-    <key>numeralgreeksub</key>
-    <string>numeralgreeksub.glif</string>
+    <key>numeralsign</key>
+    <string>numeralsign.glif</string>
     <key>o</key>
     <string>o.glif</string>
     <key>o.ss06</key>
@@ -1784,6 +1796,8 @@
     <string>ogoneknosp.glif</string>
     <key>ograve</key>
     <string>ograve.glif</string>
+    <key>ohm</key>
+    <string>ohm.glif</string>
     <key>ohorn</key>
     <string>ohorn.glif</string>
     <key>ohungarumlaut</key>
@@ -1938,8 +1952,6 @@
     <string>question.glif</string>
     <key>questiondown</key>
     <string>questiondown.glif</string>
-    <key>questiongreek</key>
-    <string>questiongreek.glif</string>
     <key>quotedbl</key>
     <string>quotedbl.glif</string>
     <key>quotedblbase</key>
@@ -2104,8 +2116,6 @@
     <string>shindagesh.glif</string>
     <key>sigma</key>
     <string>sigma.glif</string>
-    <key>sigma1</key>
-    <string>sigma1.glif</string>
     <key>six</key>
     <string>six.glif</string>
     <key>six.alt</key>
@@ -2234,6 +2244,10 @@
     <string>tonetwo.glif</string>
     <key>tonos</key>
     <string>tonos.glif</string>
+    <key>tonos.case</key>
+    <string>tonos.case.glif</string>
+    <key>tonoscomb</key>
+    <string>tonoscomb.glif</string>
     <key>tpalatalhook</key>
     <string>tpalatalhook.glif</string>
     <key>trademark</key>
@@ -3092,10 +3106,6 @@
     <string>uni037F_.glif</string>
     <key>uni037F.smcp</key>
     <string>uni037F_.smcp.glif</string>
-    <key>uni03BC</key>
-    <string>uni03B_C_.glif</string>
-    <key>uni03CF</key>
-    <string>uni03C_F_.glif</string>
     <key>uni03D1</key>
     <string>uni03D_1.glif</string>
     <key>uni03D2</key>
@@ -3106,8 +3116,6 @@
     <string>uni03D_4.glif</string>
     <key>uni03D6</key>
     <string>uni03D_6.glif</string>
-    <key>uni03D7</key>
-    <string>uni03D_7.glif</string>
     <key>uni03D8</key>
     <string>uni03D_8.glif</string>
     <key>uni03D9</key>

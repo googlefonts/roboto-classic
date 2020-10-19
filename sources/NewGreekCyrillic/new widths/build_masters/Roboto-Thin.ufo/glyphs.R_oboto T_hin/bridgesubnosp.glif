@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bridgesubnosp" format="2">
+  <unicode hex="032A"/>
+  <anchor x="-553" y="0" name="_bottom"/>
+  <anchor x="-553" y="-455" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-292" y="-173" type="line"/>
+      <point x="-838" y="-173" type="line"/>
+      <point x="-838" y="-119" type="line"/>
+      <point x="-292" y="-119" type="line"/>
+    </contour>
+    <contour>
+      <point x="-819" y="-455" type="line"/>
+      <point x="-874" y="-455" type="line"/>
+      <point x="-874" y="-119" type="line"/>
+      <point x="-819" y="-119" type="line"/>
+    </contour>
+    <contour>
+      <point x="-253" y="-455" type="line"/>
+      <point x="-307" y="-455" type="line"/>
+      <point x="-307" y="-119" type="line"/>
+      <point x="-253" y="-119" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

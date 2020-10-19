@@ -1,12 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilontonos" format="2">
-  <advance width="1073"/>
+  <advance width="1120"/>
   <unicode hex="03CD"/>
-  <anchor x="516" y="1269" name="parent_top"/>
-  <anchor x="1073" y="1269" name="top0315"/>
-  <anchor x="516" y="1269" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="tonos" xOffset="261" yOffset="-104"/>
+    <component base="tonoscomb" xOffset="411"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

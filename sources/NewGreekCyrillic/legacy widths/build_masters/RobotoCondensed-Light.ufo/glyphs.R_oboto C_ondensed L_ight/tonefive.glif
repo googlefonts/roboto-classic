@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonefive" format="2">
+  <advance width="905"/>
+  <unicode hex="01BD"/>
+  <outline>
+    <contour>
+      <point x="249" y="490" type="line" name="hr00"/>
+      <point x="283" y="571"/>
+      <point x="348" y="631"/>
+      <point x="474" y="631" type="curve" smooth="yes"/>
+      <point x="617" y="631"/>
+      <point x="693" y="526"/>
+      <point x="693" y="364" type="curve" smooth="yes"/>
+      <point x="693" y="191"/>
+      <point x="624" y="87"/>
+      <point x="461" y="87" type="curve" smooth="yes"/>
+      <point x="329" y="87"/>
+      <point x="238" y="169"/>
+      <point x="238" y="315" type="curve"/>
+      <point x="130" y="306" type="line"/>
+      <point x="130" y="83"/>
+      <point x="303" y="-17"/>
+      <point x="461" y="-17" type="curve" smooth="yes"/>
+      <point x="706" y="-17"/>
+      <point x="804" y="148"/>
+      <point x="804" y="366" type="curve" smooth="yes"/>
+      <point x="804" y="600"/>
+      <point x="681" y="739"/>
+      <point x="491" y="735" type="curve"/>
+      <point x="385" y="732"/>
+      <point x="319" y="693"/>
+      <point x="274" y="652" type="curve"/>
+      <point x="307" y="972" type="line"/>
+      <point x="761" y="972" type="line"/>
+      <point x="761" y="1082" type="line"/>
+      <point x="215" y="1082" type="line"/>
+      <point x="156" y="503" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="1082" type="line"/>
+      <point x="58" y="1082" type="line"/>
+      <point x="58" y="972" type="line"/>
+      <point x="270" y="972" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

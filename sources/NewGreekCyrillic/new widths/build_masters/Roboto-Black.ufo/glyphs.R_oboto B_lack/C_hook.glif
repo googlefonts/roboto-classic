@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chook" format="2">
+  <advance width="1492"/>
+  <unicode hex="0187"/>
+  <outline>
+    <contour>
+      <point x="1291" y="953" type="line" name="hr00"/>
+      <point x="1291" y="1180" type="line" smooth="yes"/>
+      <point x="1291" y="1309"/>
+      <point x="1409" y="1325"/>
+      <point x="1495" y="1325" type="curve" smooth="yes"/>
+      <point x="1530" y="1325"/>
+      <point x="1558" y="1321"/>
+      <point x="1593" y="1316" type="curve"/>
+      <point x="1593" y="1585" type="line"/>
+      <point x="1535" y="1598"/>
+      <point x="1491" y="1602"/>
+      <point x="1433" y="1602" type="curve" smooth="yes"/>
+      <point x="1177" y="1602"/>
+      <point x="1007" y="1453"/>
+      <point x="1007" y="1180" type="curve" smooth="yes"/>
+      <point x="1007" y="953" type="line"/>
+    </contour>
+    <contour>
+      <point x="939" y="493" type="line"/>
+      <point x="934" y="329"/>
+      <point x="846" y="255"/>
+      <point x="687" y="255" type="curve" smooth="yes"/>
+      <point x="496" y="255"/>
+      <point x="426" y="379"/>
+      <point x="426" y="688" type="curve" smooth="yes"/>
+      <point x="426" y="769" type="line" smooth="yes"/>
+      <point x="426" y="1079"/>
+      <point x="509" y="1202"/>
+      <point x="682" y="1202" type="curve" smooth="yes"/>
+      <point x="868" y="1202"/>
+      <point x="936" y="1117"/>
+      <point x="941" y="953" type="curve"/>
+      <point x="1291" y="953" type="line"/>
+      <point x="1264" y="1255"/>
+      <point x="1062" y="1477"/>
+      <point x="682" y="1477" type="curve" smooth="yes"/>
+      <point x="313" y="1477"/>
+      <point x="70" y="1205"/>
+      <point x="70" y="767" type="curve"/>
+      <point x="70" y="688" type="line"/>
+      <point x="70" y="250"/>
+      <point x="298" y="-20"/>
+      <point x="687" y="-20" type="curve" smooth="yes"/>
+      <point x="1046" y="-20"/>
+      <point x="1275" y="188"/>
+      <point x="1289" y="493" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

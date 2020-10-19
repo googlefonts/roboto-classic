@@ -30,15 +30,11 @@
       <string>Acircumflex</string>
       <string>Adieresis</string>
       <string>Agrave</string>
-      <string>Alpha</string>
-      <string>Alphatonos</string>
       <string>Amacron</string>
       <string>Aogonek</string>
       <string>Aring</string>
       <string>Aringacute</string>
       <string>Atilde</string>
-      <string>Delta</string>
-      <string>Lambda</string>
       <string>uni01DE</string>
       <string>uni01E0</string>
       <string>uni0200</string>
@@ -90,7 +86,6 @@
     <key>public.kern1.B_UC</key>
     <array>
       <string>B</string>
-      <string>Beta</string>
       <string>uni0243</string>
       <string>uni0412</string>
       <string>uni1E02</string>
@@ -116,7 +111,6 @@
     </array>
     <key>public.kern1.Chi</key>
     <array>
-      <string>Chi</string>
       <string>X</string>
       <string>uni0416</string>
       <string>uni0425</string>
@@ -170,13 +164,10 @@
       <string>Ograve</string>
       <string>Ohungarumlaut</string>
       <string>Omacron</string>
-      <string>Omicron</string>
-      <string>Omicrontonos</string>
       <string>Oogonek</string>
       <string>Oopen</string>
       <string>Otilde</string>
       <string>Schwa</string>
-      <string>Theta</string>
       <string>uni01EC</string>
       <string>uni020C</string>
       <string>uni020E</string>
@@ -228,8 +219,6 @@
     <key>public.kern1.Dtopbar</key>
     <array>
       <string>Dtopbar</string>
-      <string>Eta</string>
-      <string>Etatonos</string>
       <string>Eturn</string>
       <string>H</string>
       <string>Hcircumflex</string>
@@ -243,20 +232,15 @@
       <string>Igrave</string>
       <string>Imacron</string>
       <string>Iogonek</string>
-      <string>Iota</string>
       <string>Iota1</string>
-      <string>Iotadieresis</string>
-      <string>Iotatonos</string>
       <string>Itilde</string>
       <string>M</string>
-      <string>Mu</string>
       <string>N</string>
       <string>Nacute</string>
       <string>Ncaron</string>
       <string>Ncommaaccent</string>
       <string>Nhook</string>
       <string>Ntilde</string>
-      <string>Nu</string>
       <string>OI</string>
       <string>mcapturn</string>
       <string>uni01F8</string>
@@ -336,8 +320,6 @@
       <string>Egrave</string>
       <string>Emacron</string>
       <string>Eogonek</string>
-      <string>Epsilon</string>
-      <string>Epsilontonos</string>
       <string>uni0204</string>
       <string>uni0206</string>
       <string>uni0228</string>
@@ -370,7 +352,6 @@
     </array>
     <key>public.kern1.Gamma</key>
     <array>
-      <string>Gamma</string>
       <string>uni0403</string>
       <string>uni0413</string>
       <string>uni0490</string>
@@ -421,10 +402,8 @@
     <key>public.kern1.K_UC</key>
     <array>
       <string>K</string>
-      <string>Kappa</string>
       <string>Kcommaaccent</string>
       <string>Khook</string>
-      <string>uni03CF</string>
       <string>uni040C</string>
       <string>uni041A</string>
       <string>uni049A</string>
@@ -467,7 +446,6 @@
     <array>
       <string>P</string>
       <string>Phook</string>
-      <string>Rho</string>
       <string>uni0420</string>
       <string>uni1E54</string>
       <string>uni1E56</string>
@@ -488,7 +466,6 @@
     <key>public.kern1.T_UC</key>
     <array>
       <string>T</string>
-      <string>Tau</string>
       <string>Tbar</string>
       <string>Tcaron</string>
       <string>Trthook</string>
@@ -507,9 +484,6 @@
     </array>
     <key>public.kern1.Upsilon</key>
     <array>
-      <string>Upsilon</string>
-      <string>Upsilondieresis</string>
-      <string>Upsilontonos</string>
       <string>Y</string>
       <string>Yacute</string>
       <string>Ycircumflex</string>
@@ -555,7 +529,6 @@
       <string>Zacute</string>
       <string>Zcaron</string>
       <string>Zdotaccent</string>
-      <string>Zeta</string>
       <string>uni01C4</string>
       <string>uni01F1</string>
       <string>uni1E90</string>
@@ -643,7 +616,6 @@
       <string>bbar</string>
       <string>btopbar</string>
       <string>p</string>
-      <string>rho</string>
       <string>rho1</string>
       <string>thorn</string>
       <string>tonesix</string>
@@ -698,8 +670,6 @@
     </array>
     <key>public.kern1.eta</key>
     <array>
-      <string>eta</string>
-      <string>etatonos</string>
       <string>h</string>
       <string>hcircumflex</string>
       <string>m</string>
@@ -744,8 +714,6 @@
     </array>
     <key>public.kern1.gamma</key>
     <array>
-      <string>gamma</string>
-      <string>nu</string>
       <string>uni0233</string>
       <string>uni0443</string>
       <string>uni045E</string>
@@ -799,8 +767,6 @@
       <string>ograve</string>
       <string>ohungarumlaut</string>
       <string>omacron</string>
-      <string>omicron</string>
-      <string>omicrontonos</string>
       <string>oogonek</string>
       <string>otilde</string>
       <string>uni01ED</string>
@@ -957,15 +923,11 @@
       <string>Acircumflex</string>
       <string>Adieresis</string>
       <string>Agrave</string>
-      <string>Alpha</string>
-      <string>Alphatonos</string>
       <string>Amacron</string>
       <string>Aogonek</string>
       <string>Aring</string>
       <string>Aringacute</string>
       <string>Atilde</string>
-      <string>Delta</string>
-      <string>Lambda</string>
       <string>uni01DE</string>
       <string>uni01E0</string>
       <string>uni0200</string>
@@ -1061,8 +1023,6 @@
       <string>Ohorn</string>
       <string>Ohungarumlaut</string>
       <string>Omacron</string>
-      <string>Omicron</string>
-      <string>Omicrontonos</string>
       <string>Oogonek</string>
       <string>Oslash</string>
       <string>Oslashacute</string>
@@ -1070,7 +1030,6 @@
       <string>Q</string>
       <string>Q.ss06</string>
       <string>Stigma</string>
-      <string>Theta</string>
       <string>uni010A</string>
       <string>uni0120</string>
       <string>uni01EC</string>
@@ -1134,7 +1093,6 @@
     </array>
     <key>public.kern2.Chi</key>
     <array>
-      <string>Chi</string>
       <string>X</string>
       <string>uni0416</string>
       <string>uni0425</string>
@@ -1258,9 +1216,6 @@
     </array>
     <key>public.kern2.Upsilon</key>
     <array>
-      <string>Upsilon</string>
-      <string>Upsilondieresis</string>
-      <string>Upsilontonos</string>
       <string>Y</string>
       <string>Yacute</string>
       <string>Ycircumflex</string>
@@ -1320,7 +1275,6 @@
       <string>Zacute</string>
       <string>Zcaron</string>
       <string>Zdotaccent</string>
-      <string>Zeta</string>
       <string>uni1E90</string>
       <string>uni1E92</string>
       <string>uni1E94</string>
@@ -1375,8 +1329,6 @@
     </array>
     <key>public.kern2.alpha</key>
     <array>
-      <string>alpha</string>
-      <string>alphatonos</string>
       <string>c</string>
       <string>cacute</string>
       <string>ccaron</string>
@@ -1405,8 +1357,6 @@
       <string>oe</string>
       <string>ohorn</string>
       <string>q</string>
-      <string>sigma</string>
-      <string>sigma1</string>
       <string>stigma</string>
       <string>uni010B</string>
       <string>uni0121</string>
@@ -1512,8 +1462,6 @@
     </array>
     <key>public.kern2.eta</key>
     <array>
-      <string>eta</string>
-      <string>etatonos</string>
       <string>m</string>
       <string>n</string>
       <string>nacute</string>
@@ -1578,8 +1526,6 @@
     </array>
     <key>public.kern2.gamma</key>
     <array>
-      <string>gamma</string>
-      <string>nu</string>
       <string>uni0233</string>
       <string>uni0443</string>
       <string>uni045E</string>
@@ -1629,8 +1575,6 @@
       <string>ograve</string>
       <string>ohungarumlaut</string>
       <string>omacron</string>
-      <string>omicron</string>
-      <string>omicrontonos</string>
       <string>oogonek</string>
       <string>otilde</string>
       <string>uni01ED</string>
@@ -1736,10 +1680,6 @@
       <string>uni1FE2</string>
       <string>uni1FE3</string>
       <string>uogonek</string>
-      <string>upsilon</string>
-      <string>upsilondieresis</string>
-      <string>upsilondieresistonos</string>
-      <string>upsilontonos</string>
       <string>uring</string>
       <string>utilde</string>
     </array>

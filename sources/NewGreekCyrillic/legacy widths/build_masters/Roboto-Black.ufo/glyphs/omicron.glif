@@ -2,13 +2,14 @@
 <glyph name="omicron" format="2">
   <advance width="1151"/>
   <unicode hex="03BF"/>
-  <anchor x="576" y="1290" name="parent_top"/>
-  <anchor x="575" y="-10" name="bottom"/>
-  <anchor x="1151" y="1600" name="top_dd"/>
-  <anchor x="1151" y="-407" name="bottom_dd"/>
-  <anchor x="1151" y="1290" name="top0315"/>
-  <anchor x="576" y="1290" name="top"/>
+  <anchor x="576.0" y="1082" name="GRK_top"/>
   <outline>
-    <component base="o"/>
+    <component base="o" xOffset="1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

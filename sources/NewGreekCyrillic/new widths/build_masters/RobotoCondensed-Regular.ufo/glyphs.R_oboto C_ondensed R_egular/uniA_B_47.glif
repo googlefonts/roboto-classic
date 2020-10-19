@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB47" format="2">
+  <advance width="479"/>
+  <unicode hex="AB47"/>
+  <outline>
+    <contour>
+      <point x="310" y="912" type="line"/>
+      <point x="304" y="1082" type="line"/>
+      <point x="133" y="1082" type="line"/>
+      <point x="133" y="0" type="line"/>
+      <point x="310" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="410" y="1075" type="line"/>
+      <point x="290" y="1010"/>
+      <point x="237" y="830"/>
+      <point x="237" y="624" type="curve"/>
+      <point x="284" y="654" type="line"/>
+      <point x="295" y="769"/>
+      <point x="336" y="860"/>
+      <point x="410" y="900" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,68 +1,58 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilon" format="2">
-  <advance width="1122"/>
+  <advance width="1038"/>
   <unicode hex="03B5"/>
-  <guideline x="0.0" y="1326.0" angle="0.0" identifier="UCkyvYEAFg"/>
-  <guideline x="0.0" y="444.0" angle="0.0" identifier="S0gDFnwrgi"/>
-  <anchor x="551" y="1289" name="top"/>
-  <anchor x="1122" y="1289" name="top0315"/>
-  <anchor x="551" y="1289" name="parent_top"/>
+  <anchor x="523" y="1082" name="GRK_top"/>
   <outline>
     <contour>
-      <point x="550" y="572" type="line"/>
-      <point x="260" y="572"/>
-      <point x="116" y="471"/>
-      <point x="116" y="290" type="curve" smooth="yes"/>
-      <point x="116" y="96"/>
-      <point x="298" y="-20"/>
-      <point x="550" y="-20" type="curve" smooth="yes"/>
-      <point x="769" y="-20"/>
-      <point x="997" y="83"/>
-      <point x="997" y="301" type="curve"/>
-      <point x="942" y="301" type="line"/>
-      <point x="942" y="149"/>
-      <point x="785" y="35"/>
-      <point x="550" y="35" type="curve" smooth="yes"/>
-      <point x="307" y="35"/>
-      <point x="170" y="132"/>
-      <point x="170" y="287" type="curve" smooth="yes"/>
-      <point x="170" y="455"/>
-      <point x="306" y="525"/>
-      <point x="553" y="525" type="curve" smooth="yes"/>
-      <point x="718" y="525" type="line"/>
-      <point x="718" y="572" type="line"/>
-    </contour>
-    <contour>
-      <point x="718" y="531" type="line"/>
-      <point x="718" y="580" type="line"/>
-      <point x="553" y="580" type="line" smooth="yes"/>
-      <point x="296" y="580"/>
-      <point x="191" y="668"/>
-      <point x="191" y="805" type="curve"/>
-      <point x="191" y="942"/>
-      <point x="299" y="1048"/>
-      <point x="550" y="1048" type="curve" smooth="yes"/>
-      <point x="758" y="1048"/>
-      <point x="925" y="950"/>
-      <point x="925" y="799" type="curve"/>
-      <point x="979" y="799" type="line"/>
-      <point x="979" y="984"/>
-      <point x="783" y="1102"/>
-      <point x="550" y="1102" type="curve" smooth="yes"/>
-      <point x="298" y="1102"/>
-      <point x="135" y="995"/>
-      <point x="135" y="802" type="curve"/>
-      <point x="135" y="653"/>
-      <point x="283" y="531"/>
-      <point x="550" y="531" type="curve"/>
+      <point x="484" y="-20" type="curve"/>
+      <point x="797" y="-20"/>
+      <point x="927" y="136"/>
+      <point x="929" y="328" type="curve"/>
+      <point x="875" y="328" type="line"/>
+      <point x="871" y="140"/>
+      <point x="738" y="34"/>
+      <point x="480" y="34" type="curve"/>
+      <point x="245" y="34"/>
+      <point x="141" y="124"/>
+      <point x="141" y="279" type="curve"/>
+      <point x="141" y="428"/>
+      <point x="227" y="514"/>
+      <point x="404" y="514" type="curve"/>
+      <point x="660" y="514" type="line"/>
+      <point x="660" y="572" type="line"/>
+      <point x="404" y="572" type="line"/>
+      <point x="269" y="572"/>
+      <point x="176" y="654"/>
+      <point x="176" y="789" type="curve" smooth="yes"/>
+      <point x="176" y="913"/>
+      <point x="240" y="1048"/>
+      <point x="524" y="1048" type="curve" smooth="yes"/>
+      <point x="781" y="1048"/>
+      <point x="878" y="916"/>
+      <point x="875" y="725" type="curve"/>
+      <point x="929" y="725" type="line"/>
+      <point x="929" y="949"/>
+      <point x="811" y="1102"/>
+      <point x="524" y="1102" type="curve" smooth="yes"/>
+      <point x="276" y="1102"/>
+      <point x="124" y="994"/>
+      <point x="124" y="787" type="curve" smooth="yes"/>
+      <point x="124" y="654"/>
+      <point x="205" y="549"/>
+      <point x="347" y="535" type="curve"/>
+      <point x="347" y="552" type="line"/>
+      <point x="176" y="535"/>
+      <point x="87" y="435"/>
+      <point x="87" y="280" type="curve"/>
+      <point x="87" y="99"/>
+      <point x="215" y="-20"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guideline.magnetic.S0gDFnwrgi</key>
-      <real>5.0</real>
-      <key>com.typemytype.robofont.guideline.magnetic.UCkyvYEAFg</key>
-      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

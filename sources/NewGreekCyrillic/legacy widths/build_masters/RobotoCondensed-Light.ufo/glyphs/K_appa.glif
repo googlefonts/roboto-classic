@@ -2,13 +2,13 @@
 <glyph name="Kappa" format="2">
   <advance width="1124"/>
   <unicode hex="039A"/>
-  <anchor x="562" y="100" name="bottom"/>
-  <anchor x="527" y="1560" name="parent_top"/>
-  <anchor x="1104" y="1600" name="top_dd"/>
-  <anchor x="1104" y="-407" name="bottom_dd"/>
-  <anchor x="1104" y="1560" name="top0315"/>
-  <anchor x="527" y="1560" name="top"/>
   <outline>
     <component base="K"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

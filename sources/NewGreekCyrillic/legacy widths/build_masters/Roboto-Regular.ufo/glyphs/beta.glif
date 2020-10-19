@@ -1,63 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="beta" format="2">
-  <advance width="1213"/>
+  <advance width="1190"/>
   <unicode hex="03B2"/>
   <outline>
     <contour>
-      <point x="517" y="824" type="line" name="hr00"/>
-      <point x="517" y="706" type="line"/>
-      <point x="660" y="706" type="line" smooth="yes"/>
-      <point x="826" y="706"/>
-      <point x="916" y="561"/>
-      <point x="916" y="421" type="curve" smooth="yes"/>
-      <point x="916" y="252"/>
-      <point x="812" y="131"/>
-      <point x="629" y="131" type="curve" smooth="yes"/>
-      <point x="427" y="131"/>
-      <point x="289" y="252"/>
-      <point x="289" y="399" type="curve"/>
-      <point x="216" y="358" type="line"/>
-      <point x="216" y="93"/>
-      <point x="440" y="-20"/>
-      <point x="648" y="-20" type="curve" smooth="yes"/>
-      <point x="911" y="-20"/>
-      <point x="1102" y="141"/>
-      <point x="1102" y="425" type="curve" smooth="yes"/>
-      <point x="1102" y="653"/>
-      <point x="941" y="824"/>
-      <point x="664" y="824" type="curve" smooth="yes"/>
+      <point x="148" y="-416" type="line"/>
+      <point x="334" y="-416" type="line"/>
+      <point x="334" y="124" type="line"/>
+      <point x="395" y="36"/>
+      <point x="500" y="-20"/>
+      <point x="646" y="-20" type="curve" smooth="yes"/>
+      <point x="899" y="-20"/>
+      <point x="1102" y="167"/>
+      <point x="1102" y="468" type="curve" smooth="yes"/>
+      <point x="1102" y="678"/>
+      <point x="986" y="818"/>
+      <point x="760" y="855" type="curve"/>
+      <point x="760" y="829" type="line"/>
+      <point x="948" y="887"/>
+      <point x="1014" y="1029"/>
+      <point x="1014" y="1164" type="curve" smooth="yes"/>
+      <point x="1014" y="1419"/>
+      <point x="856" y="1557"/>
+      <point x="595" y="1557" type="curve" smooth="yes"/>
+      <point x="330" y="1557"/>
+      <point x="148" y="1398"/>
+      <point x="148" y="1059" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="606" y="1476" type="curve" smooth="yes"/>
-      <point x="364" y="1476"/>
-      <point x="161" y="1295"/>
-      <point x="161" y="1073" type="curve"/>
-      <point x="161" y="-384" type="line"/>
-      <point x="346" y="-384" type="line"/>
-      <point x="346" y="1073" type="line" smooth="yes"/>
-      <point x="346" y="1217"/>
-      <point x="460" y="1324"/>
-      <point x="606" y="1324" type="curve" smooth="yes"/>
-      <point x="767" y="1324"/>
-      <point x="848" y="1207"/>
-      <point x="848" y="1088" type="curve" smooth="yes"/>
-      <point x="848" y="953"/>
-      <point x="778" y="858"/>
-      <point x="602" y="858" type="curve" smooth="yes"/>
-      <point x="517" y="858" type="line"/>
-      <point x="517" y="738" type="line"/>
-      <point x="606" y="738" type="line" smooth="yes"/>
-      <point x="864" y="738"/>
-      <point x="1033" y="894"/>
-      <point x="1033" y="1084" type="curve" smooth="yes"/>
-      <point x="1033" y="1314"/>
-      <point x="866" y="1476"/>
+      <point x="625" y="132" type="curve" smooth="yes"/>
+      <point x="480" y="132"/>
+      <point x="388" y="199"/>
+      <point x="334" y="311" type="curve"/>
+      <point x="334" y="1066" type="line" smooth="yes"/>
+      <point x="334" y="1295"/>
+      <point x="416" y="1405"/>
+      <point x="595" y="1405" type="curve" smooth="yes"/>
+      <point x="754" y="1405"/>
+      <point x="834" y="1313"/>
+      <point x="834" y="1163" type="curve" smooth="yes"/>
+      <point x="834" y="1023"/>
+      <point x="760" y="912"/>
+      <point x="571" y="912" type="curve" smooth="yes"/>
+      <point x="478" y="912" type="line"/>
+      <point x="478" y="750" type="line"/>
+      <point x="570" y="750" type="line" smooth="yes"/>
+      <point x="818" y="750"/>
+      <point x="916" y="650"/>
+      <point x="916" y="453" type="curve" smooth="yes"/>
+      <point x="916" y="265"/>
+      <point x="814" y="132"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

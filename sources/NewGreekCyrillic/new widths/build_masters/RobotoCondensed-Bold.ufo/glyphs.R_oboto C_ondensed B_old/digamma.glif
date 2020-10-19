@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="digamma" format="2">
+  <advance width="941"/>
+  <unicode hex="03DD"/>
+  <outline>
+    <contour>
+      <point x="390" y="1082" type="line"/>
+      <point x="107" y="1082" type="line"/>
+      <point x="107" y="-417" type="line"/>
+      <point x="390" y="-417" type="line"/>
+    </contour>
+    <contour>
+      <point x="785" y="574" type="line"/>
+      <point x="314" y="574" type="line"/>
+      <point x="314" y="340" type="line"/>
+      <point x="785" y="340" type="line"/>
+    </contour>
+    <contour>
+      <point x="858" y="1082" type="line"/>
+      <point x="314" y="1082" type="line"/>
+      <point x="314" y="849" type="line"/>
+      <point x="858" y="849" type="line"/>
+    </contour>
+    <contour>
+      <point x="785" y="147" type="line"/>
+      <point x="785" y="574" type="line"/>
+      <point x="560" y="574" type="line"/>
+      <point x="560" y="147" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>
