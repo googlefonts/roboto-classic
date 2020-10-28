@@ -26935,18 +26935,6 @@ OFFSET[R], 685, 0, 0
 
     <glyphProgram name="uni04E8.smcp">
 /* VTT 6.32 compiler */
-SVTCA[Y]
-MIAP[R], 10, 11
-SHP[1], 43
-MIAP[R], 21, 126
-SHP[1], 32
-SRP2[], 10
-IP[], 2
-MDAP[R], 2
-SHP[1], 3
-IUP[Y]
-IUP[X]
-
     </glyphProgram>
 
     <glyphProgram name="uni04E9">
@@ -76354,17 +76342,6 @@ Smooth()
     </glyphProgram>
 
     <glyphProgram name="uni04E8.smcp">
-/* Y direction */
-YAnchor(10,11)
-YShift(10,43)
-YAnchor(21,126)
-YShift(21,32)
-YIPAnchor(10,2,21)
-YShift(2,3)
-
-/* X direction */
-
-Smooth()
 
     </glyphProgram>
 
