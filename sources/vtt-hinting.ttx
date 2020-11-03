@@ -15615,6 +15615,19 @@ IUP[X]
     </glyphProgram>
 
     <glyphProgram name="theta">
+/* VTT 6.31 compiler */
+SVTCA[Y]
+CALL[], 13, 11, 114
+MDAP[R], 0
+CALL[], 0, 26, 106
+SRP2[], 13
+IP[], 48
+MDAP[R], 48
+CALL[], 48, 32, 106
+CALL[], 13, 40, 106
+IUP[Y]
+IUP[X]
+
     </glyphProgram>
 
     <glyphProgram name="thook">
@@ -24768,9 +24781,35 @@ OFFSET[R], 588, 0, 0
     </glyphProgram>
 
     <glyphProgram name="uni0472">
+/* VTT 6.31 compiler */
+SVTCA[Y]
+CALL[], 12, 9, 114
+CALL[], 0, 3, 114
+CALL[], 0, 24, 106
+SRP2[], 12
+IP[], 50
+MDAP[R], 50
+CALL[], 50, 32, 106
+CALL[], 12, 41, 106
+IUP[Y]
+IUP[X]
+
     </glyphProgram>
 
     <glyphProgram name="uni0473">
+/* VTT 6.31 compiler */
+SVTCA[Y]
+CALL[], 11, 11, 114
+CALL[], 0, 7, 114
+CALL[], 0, 22, 106
+SRP2[], 11
+IP[], 39
+MDAP[R], 39
+CALL[], 39, 27, 106
+CALL[], 11, 33, 106
+IUP[Y]
+IUP[X]
+
     </glyphProgram>
 
     <glyphProgram name="uni0474">
@@ -26934,7 +26973,19 @@ OFFSET[R], 685, 0, 0
     </glyphProgram>
 
     <glyphProgram name="uni04E8.smcp">
-/* VTT 6.32 compiler */
+/* VTT 6.31 compiler */
+SVTCA[Y]
+MDAP[R], 11
+MDAP[R], 0
+CALL[], 0, 22, 106
+SRP2[], 11
+IP[], 45
+MDAP[R], 45
+CALL[], 45, 29, 106
+CALL[], 11, 37, 106
+IUP[Y]
+IUP[X]
+
     </glyphProgram>
 
     <glyphProgram name="uni04E9">
@@ -66250,6 +66301,36 @@ Smooth()
 
     <glyphProgram name="theta">
 /* VTTTalk Unicode 0x3b8 */
+/* ACT generated Tue Nov  3 08:51:00 2020 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 13 11 */
+/* Min and Max */
+ResYAnchor(13,11)	/* min, CVT */
+YAnchor(0)	/* max */
+
+/* CVTs - beginning */
+/* CVTs - end */
+
+
+/* YDir: Stroke #0 */
+ResYDist(0,26) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(0,48,13)
+YAnchor(48)
+ResYDist(48,32) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(13,40) /*perpendicular to the stroke*/
+
+Smooth()
 
     </glyphProgram>
 
@@ -74988,10 +75069,74 @@ Smooth()
 
     <glyphProgram name="uni0472">
 /* VTTTalk Unicode 0x472 */
+/* ACT generated Tue Nov  3 08:51:00 2020 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 3 */
+/* CVT 12 9 */
+/* Min and Max */
+ResYAnchor(12,9)	/* min, CVT */
+ResYAnchor(0,3)	/* max, CVT */
+
+/* CVTs - beginning */
+/* CVTs - end */
+
+
+/* YDir: Stroke #0 */
+ResYDist(0,24) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(0,50,12)
+YAnchor(50)
+ResYDist(50,32) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(12,41) /*perpendicular to the stroke*/
+
+Smooth()
+
     </glyphProgram>
 
     <glyphProgram name="uni0473">
 /* VTTTalk Unicode 0x473 */
+/* ACT generated Tue Nov  3 08:51:00 2020 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 7 */
+/* CVT 11 11 */
+/* Min and Max */
+ResYAnchor(11,11)	/* min, CVT */
+ResYAnchor(0,7)	/* max, CVT */
+
+/* CVTs - beginning */
+/* CVTs - end */
+
+
+/* YDir: Stroke #0 */
+ResYDist(0,22) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(0,39,11)
+YAnchor(39)
+ResYDist(39,27) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(11,33) /*perpendicular to the stroke*/
+
+Smooth()
+
     </glyphProgram>
 
     <glyphProgram name="uni0474">
@@ -76342,6 +76487,33 @@ Smooth()
     </glyphProgram>
 
     <glyphProgram name="uni04E8.smcp">
+/* VTTTalk Unicode 0xffff */
+/* ACT generated Tue Nov  3 08:51:00 2020 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 11 19  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(11)	/* min */
+YAnchor(0)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(0,22) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(0,45,11)
+YAnchor(45)
+ResYDist(45,29) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(11,37) /*perpendicular to the stroke*/
+
+Smooth()
 
     </glyphProgram>
 
