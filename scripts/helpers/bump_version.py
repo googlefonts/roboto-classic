@@ -2,7 +2,7 @@ import defcon
 from glob import glob
 
 VERSION_MAJOR = 3
-VERSION_MINOR = 0
+VERSION_MINOR = 3
 
 sources = glob("sources/*.ufo")
 
