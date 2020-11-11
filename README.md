@@ -7,11 +7,9 @@ The Roboto family of instances contained 6 weights and two widths of normal, alo
 The project began by taking UFO instances generated during the build process of the Roboto v2.136 release, which have quadratic outlines. 
 The Thin, Regular and Bold UFOs required some fixes for interpolation compatibility, and a build script was written that preserves outline overlaps.
 
-* [/sources](sources/) contains new source UFOs
+* [/sources](sources/) contains 'new' source UFOs (compared to the 'old' UFOs used in the static-only era of the project).
 
-* [/fonts](fonts/) folder contains variation font TTFs
-
-  * **Roboto[ital,wdth,wght].ttf** has deltas min, default, max, and also intermediate instances
+* [github.com/TypeNetwork/Roboto/releases](https://github.com/TypeNetwork/Roboto/releases) contains variation font TTFs.
 
 Both fonts have named instances for all the styles in the v2.136 release.
 
@@ -28,7 +26,6 @@ Both fonts have named instances for all the styles in the v2.136 release.
 ## Generate
 
     sh sources/build.sh
-
 
 ## Font hinting
 
