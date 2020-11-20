@@ -1,3 +1,4 @@
+#!/bin/sh
 # Regression test generated fonts against last tagged release
 set -e
 
