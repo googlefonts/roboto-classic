@@ -16,7 +16,8 @@ unzip -po Roboto_*.zip "hinted/Roboto\[ital\,wdth\,wght\].ttf" > $OLD_FONT
 
 
 # Diff old hinted variable font against current
-function diff {
+diff ()
+{
     diffenator $OLD_FONT $GENNED_FONT -i "$2" \
         -html > $1/index.html \
         -rd -r ./img/
