@@ -20,7 +20,8 @@ diff ()
 {
     diffenator $OLD_FONT $GENNED_FONT -i "$2" \
         -html > $1/index.html \
-        -rd -r ./img/
+        -rd -r ./img/ \
+        --ft-hinting normal
     mv img/ $1
 }
 
