@@ -44000,19 +44000,19 @@ IUP[X]
     <glyphProgram name="uniA675">
 /* VTT 6.33 compiler */
 SVTCA[Y]
+MDAP[R], 7
+SHP[1], 5
 MDAP[R], 5
-SHP[1], 9
-MDAP[R], 9
-SRP1[], 5
 SHP[1], 0
 SHP[1], 3
-SRP0[], 5
-MDRP[m&gt;RBl], 6
-SLOOP[], 4
-SHP[2], 11, 10, 2, 1
+SHP[1], 9
+SRP1[], 7
+SHP[1], 11
+SRP1[], 11
+SHP[1], 1
+SHP[1], 2
 IUP[Y]
 IUP[X]
-
     </glyphProgram>
 
     <glyphProgram name="uniA676">
@@ -85946,15 +85946,18 @@ Smooth()
     </glyphProgram>
 
     <glyphProgram name="uniA675">
-/* Y direction */
-YAnchor(5)
-YShift(5,9)
-YAnchor(9)
-YShift(5,0)
-YShift(5,3)
+/* VTTTalk glyph 1553, char 0xa675 /
+/ GUI generated Mon Nov 23 16:26:43 2020 */
 
-YDist(5,6)
-YShift(6,11,10,2,1)
+/* Y direction */
+YAnchor(7)
+YShift(7,5)
+YAnchor(5)
+YShift(5,0,3)
+YShift(5,9)
+YShift(7,11)
+YShift(11,1)
+YShift(11,2)
 
 /* X direction */
 
