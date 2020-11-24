@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ubar" format="2">
+  <advance width="1295"/>
+  <unicode hex="0289"/>
+  <anchor x="639" y="1290" name="top"/>
+  <anchor x="639" y="0" name="bottom"/>
+  <anchor x="1295" y="1290" name="top0315"/>
+  <anchor x="639" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="1273" y="645" type="line"/>
+      <point x="22" y="645" type="line"/>
+      <point x="22" y="493" type="line"/>
+      <point x="1273" y="493" type="line"/>
+    </contour>
+    <contour>
+      <point x="888" y="250" type="line"/>
+      <point x="897" y="0" type="line"/>
+      <point x="1073" y="0" type="line"/>
+      <point x="1073" y="1082" type="line"/>
+      <point x="888" y="1082" type="line"/>
+    </contour>
+    <contour>
+      <point x="922" y="478" type="line"/>
+      <point x="922" y="288"/>
+      <point x="841" y="137"/>
+      <point x="606" y="137" type="curve" smooth="yes"/>
+      <point x="505" y="137"/>
+      <point x="406" y="187"/>
+      <point x="406" y="382" type="curve"/>
+      <point x="406" y="1082" type="line"/>
+      <point x="221" y="1082" type="line"/>
+      <point x="221" y="384" type="line"/>
+      <point x="221" y="96"/>
+      <point x="364" y="-20"/>
+      <point x="576" y="-20" type="curve" smooth="yes"/>
+      <point x="887" y="-20"/>
+      <point x="1000" y="192"/>
+      <point x="1000" y="480" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibar" format="2">
+  <advance width="681"/>
+  <unicode hex="0268"/>
+  <guideline x="341.0" y="0.0" angle="90.0" identifier="Dljz5HQRWI"/>
+  <anchor x="340" y="1600" name="top"/>
+  <anchor x="681" y="1600" name="top0315"/>
+  <anchor x="340" y="0" name="bottom"/>
+  <anchor x="340" y="1600" name="parent_top"/>
+  <outline>
+    <component base="i" xOffset="90"/>
+    <component base="crossbar" xOffset="-121" yOffset="-121"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.Dljz5HQRWI</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>

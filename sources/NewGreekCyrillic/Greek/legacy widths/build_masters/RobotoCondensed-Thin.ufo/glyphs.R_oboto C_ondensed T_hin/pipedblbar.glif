@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pipedblbar" format="2">
+  <advance width="604"/>
+  <outline>
+    <component base="pipe" xOffset="57"/>
+    <component base="crossbar" xOffset="-62" yOffset="304"/>
+    <component base="crossbar" xOffset="-62" yOffset="-288"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>

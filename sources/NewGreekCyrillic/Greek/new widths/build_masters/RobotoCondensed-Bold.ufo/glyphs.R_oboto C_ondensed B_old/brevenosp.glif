@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevenosp" format="2">
+  <unicode hex="0306"/>
+  <anchor x="-465" y="1194" name="_top"/>
+  <anchor x="-465" y="1627" name="top"/>
+  <anchor x="-469" y="1378" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="-366" y="1528" type="line"/>
+      <point x="-366" y="1459"/>
+      <point x="-393" y="1396"/>
+      <point x="-469" y="1396" type="curve" smooth="yes"/>
+      <point x="-546" y="1396"/>
+      <point x="-574" y="1459"/>
+      <point x="-574" y="1528" type="curve"/>
+      <point x="-772" y="1528" type="line"/>
+      <point x="-772" y="1352"/>
+      <point x="-655" y="1230"/>
+      <point x="-469" y="1230" type="curve" smooth="yes"/>
+      <point x="-284" y="1230"/>
+      <point x="-167" y="1352"/>
+      <point x="-167" y="1528" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

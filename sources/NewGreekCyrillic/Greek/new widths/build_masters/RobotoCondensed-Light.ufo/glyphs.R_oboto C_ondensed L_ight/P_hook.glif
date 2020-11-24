@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Phook" format="2">
+  <advance width="1263"/>
+  <unicode hex="01A4"/>
+  <outline>
+    <contour>
+      <point x="423" y="1349" type="line"/>
+      <point x="423" y="1456" type="line"/>
+      <point x="334" y="1456" type="line" smooth="yes"/>
+      <point x="145" y="1456"/>
+      <point x="41" y="1357"/>
+      <point x="41" y="1172" type="curve" smooth="yes"/>
+      <point x="41" y="1134"/>
+      <point x="47" y="1093"/>
+      <point x="57" y="1058" type="curve"/>
+      <point x="149" y="1065" type="line"/>
+      <point x="143" y="1085"/>
+      <point x="138" y="1120"/>
+      <point x="138" y="1148" type="curve" smooth="yes"/>
+      <point x="138" y="1278"/>
+      <point x="202" y="1349"/>
+      <point x="334" y="1349" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="755" y="592" type="line"/>
+      <point x="1026" y="592"/>
+      <point x="1170" y="752"/>
+      <point x="1170" y="1021" type="curve"/>
+      <point x="1170" y="1279"/>
+      <point x="1025" y="1456"/>
+      <point x="755" y="1456" type="curve"/>
+      <point x="332" y="1456" type="line"/>
+      <point x="332" y="0" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="446" y="1349" type="line"/>
+      <point x="755" y="1349" type="line"/>
+      <point x="968" y="1349"/>
+      <point x="1055" y="1196"/>
+      <point x="1055" y="1019" type="curve"/>
+      <point x="1055" y="838"/>
+      <point x="968" y="699"/>
+      <point x="755" y="699" type="curve"/>
+      <point x="410" y="699" type="line"/>
+      <point x="410" y="592" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

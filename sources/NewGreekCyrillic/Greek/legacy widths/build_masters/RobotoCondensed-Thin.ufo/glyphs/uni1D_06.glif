@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D06" format="2">
+  <advance width="1043"/>
+  <unicode hex="1D06"/>
+  <anchor x="575.0" y="1290.0" name="top"/>
+  <anchor x="1024.0" y="1290.0" name="top0315"/>
+  <anchor x="575.0" y="0.0" name="bottom"/>
+  <anchor x="575.0" y="1290.0" name="parent_top"/>
+  <outline>
+    <component base="uni1D05" xOffset="69"/>
+    <component base="crossbar" xOffset="-59" yOffset="-200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

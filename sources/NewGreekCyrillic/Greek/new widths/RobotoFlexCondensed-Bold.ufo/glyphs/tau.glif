@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tau" format="2">
+  <advance width="761"/>
+  <unicode hex="03C4"/>
+  <outline>
+    <contour>
+      <point x="32.0" y="848" type="line"/>
+      <point x="32.0" y="1080" type="line"/>
+      <point x="752" y="1080" type="line"/>
+      <point x="752" y="848" type="line"/>
+    </contour>
+    <contour>
+      <point x="519" y="-29" type="curve" smooth="yes"/>
+      <point x="338" y="-29"/>
+      <point x="243" y="61"/>
+      <point x="243" y="299.0" type="curve" smooth="yes"/>
+      <point x="243" y="960" type="line"/>
+      <point x="531" y="960" type="line"/>
+      <point x="531" y="313" type="line" smooth="yes"/>
+      <point x="531" y="208"/>
+      <point x="559" y="189"/>
+      <point x="607" y="189" type="curve" smooth="yes"/>
+      <point x="631" y="189"/>
+      <point x="654" y="195"/>
+      <point x="676" y="203" type="curve"/>
+      <point x="676" y="1.0" type="line"/>
+      <point x="650" y="-15"/>
+      <point x="575" y="-29"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
+</glyph>

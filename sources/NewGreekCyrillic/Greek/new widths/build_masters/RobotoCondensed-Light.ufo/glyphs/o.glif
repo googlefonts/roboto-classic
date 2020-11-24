@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="o" format="2">
+  <advance width="1005"/>
+  <unicode hex="006F"/>
+  <guideline x="0.0" y="2079.0" angle="0.0" identifier="IqanKtUj1j"/>
+  <anchor x="500" y="1290" name="top"/>
+  <anchor x="505" y="-5" name="bottom"/>
+  <anchor x="987" y="1600" name="top_dd"/>
+  <anchor x="987" y="-407" name="bottom_dd"/>
+  <anchor x="858" y="654" name="rhotichook"/>
+  <anchor x="987" y="1290" name="top0315"/>
+  <anchor x="500" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="107" y="485" type="line"/>
+      <point x="107" y="158"/>
+      <point x="268" y="-21"/>
+      <point x="503" y="-21" type="curve" smooth="yes"/>
+      <point x="738" y="-21"/>
+      <point x="898" y="158"/>
+      <point x="898" y="485" type="curve"/>
+      <point x="898" y="597" type="line"/>
+      <point x="898" y="924"/>
+      <point x="738" y="1102"/>
+      <point x="502" y="1102" type="curve" smooth="yes"/>
+      <point x="268" y="1102"/>
+      <point x="107" y="924"/>
+      <point x="107" y="597" type="curve"/>
+    </contour>
+    <contour>
+      <point x="218" y="597" type="line"/>
+      <point x="218" y="840"/>
+      <point x="322" y="998"/>
+      <point x="502" y="998" type="curve" smooth="yes"/>
+      <point x="682" y="998"/>
+      <point x="787" y="840"/>
+      <point x="787" y="597" type="curve"/>
+      <point x="787" y="485" type="line"/>
+      <point x="787" y="238"/>
+      <point x="695" y="83"/>
+      <point x="503" y="83" type="curve" smooth="yes"/>
+      <point x="322" y="83"/>
+      <point x="218" y="238"/>
+      <point x="218" y="485" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.IqanKtUj1j</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

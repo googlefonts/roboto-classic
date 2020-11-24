@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="470"/>
+  <unicode hex="006C"/>
+  <anchor x="235" y="1697" name="top"/>
+  <anchor x="235" y="10" name="bottom"/>
+  <anchor x="507" y="1540" name="marktop"/>
+  <anchor x="450" y="1600" name="top_dd"/>
+  <anchor x="450" y="-407" name="bottom_dd"/>
+  <anchor x="450" y="1697" name="top0315"/>
+  <anchor x="235" y="1697" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="323" y="1536" type="line"/>
+      <point x="147" y="1536" type="line"/>
+      <point x="147" y="0" type="line"/>
+      <point x="323" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota1" format="2">
+  <advance width="637"/>
+  <unicode hex="0269"/>
+  <anchor x="238" y="1290" name="top"/>
+  <anchor x="238" y="0" name="bottom"/>
+  <anchor x="617" y="1290" name="top0315"/>
+  <anchor x="256" y="648" name="rhotichook"/>
+  <anchor x="238" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="97" y="1082" type="line"/>
+      <point x="97" y="324" type="line" smooth="yes"/>
+      <point x="97" y="34"/>
+      <point x="294" y="-20"/>
+      <point x="436" y="-20" type="curve" smooth="yes"/>
+      <point x="493" y="-20"/>
+      <point x="535" y="-15"/>
+      <point x="571" y="-6" type="curve"/>
+      <point x="573" y="190" type="line"/>
+      <point x="551" y="186"/>
+      <point x="534" y="183"/>
+      <point x="515" y="183" type="curve" smooth="yes"/>
+      <point x="459" y="183"/>
+      <point x="380" y="212"/>
+      <point x="380" y="324" type="curve" smooth="yes"/>
+      <point x="380" y="1082" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

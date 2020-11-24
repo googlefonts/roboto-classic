@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
+  <advance width="517"/>
+  <unicode hex="0069"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="h2VbtRu0ED"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="XjaoXzqHe3"/>
+  <anchor x="258" y="10" name="bottom"/>
+  <anchor x="257" y="1600" name="top"/>
+  <anchor x="497" y="1600" name="top_dd"/>
+  <anchor x="497" y="-407" name="bottom_dd"/>
+  <anchor x="321" y="654" name="rhotichook"/>
+  <anchor x="497" y="1600" name="top0315"/>
+  <anchor x="257" y="1600" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="400" y="1082" type="line"/>
+      <point x="116" y="1082" type="line"/>
+      <point x="116" y="0" type="line"/>
+      <point x="400" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="103" y="1362" type="curve" smooth="yes"/>
+      <point x="103" y="1275"/>
+      <point x="163" y="1212"/>
+      <point x="258" y="1212" type="curve"/>
+      <point x="352" y="1212"/>
+      <point x="412" y="1275"/>
+      <point x="412" y="1362" type="curve"/>
+      <point x="412" y="1450"/>
+      <point x="352" y="1513"/>
+      <point x="258" y="1513" type="curve"/>
+      <point x="163" y="1513"/>
+      <point x="103" y="1450"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.XjaoXzqHe3</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.h2VbtRu0ED</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>
