@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="755"/>
+  <unicode hex="02C7"/>
+  <anchor x="380" y="1585" name="mkmktop_acc"/>
+  <outline>
+    <contour>
+      <point x="238" y="1521" type="line"/>
+      <point x="140" y="1521" type="line"/>
+      <point x="140" y="1511" type="line"/>
+      <point x="340" y="1247" type="line"/>
+      <point x="418" y="1247" type="line"/>
+      <point x="619" y="1509" type="line"/>
+      <point x="619" y="1521" type="line"/>
+      <point x="521" y="1521" type="line"/>
+      <point x="379" y="1328" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

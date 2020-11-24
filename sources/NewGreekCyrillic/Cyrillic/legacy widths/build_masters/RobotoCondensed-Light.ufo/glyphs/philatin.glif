@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="philatin" format="2">
+  <advance width="1007"/>
+  <unicode hex="0278"/>
+  <guideline x="586.0" y="0.0" angle="90.0" identifier="CouYLxoFng"/>
+  <anchor x="504" y="1600" name="top"/>
+  <anchor x="504" y="-447" name="bottom"/>
+  <anchor x="987" y="1600" name="top0315"/>
+  <anchor x="504" y="1600" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="97" y="525" type="line"/>
+      <point x="97" y="210"/>
+      <point x="257" y="-21"/>
+      <point x="504" y="-21" type="curve" smooth="yes"/>
+      <point x="752" y="-21"/>
+      <point x="911" y="210"/>
+      <point x="911" y="525" type="curve" smooth="yes"/>
+      <point x="911" y="557" type="line" smooth="yes"/>
+      <point x="911" y="872"/>
+      <point x="752" y="1102"/>
+      <point x="503" y="1102" type="curve" smooth="yes"/>
+      <point x="257" y="1102"/>
+      <point x="97" y="872"/>
+      <point x="97" y="557" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="208" y="557" type="line"/>
+      <point x="208" y="789"/>
+      <point x="311" y="998"/>
+      <point x="503" y="998" type="curve" smooth="yes"/>
+      <point x="696" y="998"/>
+      <point x="800" y="789"/>
+      <point x="800" y="557" type="curve" smooth="yes"/>
+      <point x="800" y="525" type="line" smooth="yes"/>
+      <point x="800" y="288"/>
+      <point x="696" y="83"/>
+      <point x="504" y="83" type="curve" smooth="yes"/>
+      <point x="311" y="83"/>
+      <point x="208" y="288"/>
+      <point x="208" y="525" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="448" y="-416" type="line"/>
+      <point x="559" y="-416" type="line"/>
+      <point x="559" y="1536" type="line"/>
+      <point x="448" y="1536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.CouYLxoFng</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

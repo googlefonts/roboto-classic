@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r" format="2">
+  <advance width="620"/>
+  <unicode hex="0072"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="CSGP96Pqxg"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="CKmGkIBSIz"/>
+  <anchor x="364" y="1290" name="top"/>
+  <anchor x="211" y="15" name="bottom"/>
+  <anchor x="600" y="1600" name="top_dd"/>
+  <anchor x="600" y="-407" name="bottom_dd"/>
+  <anchor x="600" y="1290" name="top0315"/>
+  <anchor x="364" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="260" y="903" type="line"/>
+      <point x="257" y="1082" type="line"/>
+      <point x="149" y="1082" type="line"/>
+      <point x="149" y="0" type="line"/>
+      <point x="260" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="575" y="1090" type="line"/>
+      <point x="562" y="1096"/>
+      <point x="532" y="1102"/>
+      <point x="508" y="1102" type="curve"/>
+      <point x="299" y="1102"/>
+      <point x="204" y="882"/>
+      <point x="204" y="601" type="curve"/>
+      <point x="242" y="618" type="line"/>
+      <point x="250" y="823"/>
+      <point x="335" y="985"/>
+      <point x="503" y="985" type="curve"/>
+      <point x="529" y="985"/>
+      <point x="549" y="983"/>
+      <point x="572" y="978" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.CKmGkIBSIz</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.CSGP96Pqxg</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

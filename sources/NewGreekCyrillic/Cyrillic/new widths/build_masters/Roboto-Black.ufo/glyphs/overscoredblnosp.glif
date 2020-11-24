@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overscoredblnosp" format="2">
+  <unicode hex="033F"/>
+  <anchor x="-588" y="1480" name="_top"/>
+  <anchor x="-588" y="2077" name="top"/>
+  <anchor x="-588" y="2077" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="-124" y="1660" type="line"/>
+      <point x="-1028" y="1660" type="line"/>
+      <point x="-1028" y="1509" type="line"/>
+      <point x="-124" y="1509" type="line"/>
+    </contour>
+    <contour>
+      <point x="-124" y="1956" type="line"/>
+      <point x="-1028" y="1956" type="line"/>
+      <point x="-1028" y="1805" type="line"/>
+      <point x="-124" y="1805" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

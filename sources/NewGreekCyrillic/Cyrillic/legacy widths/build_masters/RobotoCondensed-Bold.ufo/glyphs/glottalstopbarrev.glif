@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstopbarrev" format="2">
+  <advance width="943"/>
+  <unicode hex="02A2"/>
+  <anchor x="494" y="1633" name="top"/>
+  <anchor x="923" y="1633" name="top0315"/>
+  <anchor x="494" y="0" name="bottom"/>
+  <anchor x="494" y="1633" name="parent_top"/>
+  <outline>
+    <component base="glottalstoprevinv"/>
+    <component base="crossbar" xOffset="40" yOffset="-515"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

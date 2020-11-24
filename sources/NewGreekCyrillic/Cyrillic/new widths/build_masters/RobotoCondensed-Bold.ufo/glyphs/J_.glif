@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J" format="2">
+  <advance width="1005"/>
+  <unicode hex="004A"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="hpD3ILm32O"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="eWK1IfYdb7"/>
+  <anchor x="731" y="1600" name="top"/>
+  <anchor x="450" y="-10" name="bottom"/>
+  <anchor x="985" y="1600" name="top_dd"/>
+  <anchor x="985" y="-407" name="bottom_dd"/>
+  <anchor x="985" y="1600" name="top0315"/>
+  <anchor x="731" y="1600" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="596" y="449" type="line"/>
+      <point x="596" y="306"/>
+      <point x="550" y="224"/>
+      <point x="469" y="224" type="curve" smooth="yes"/>
+      <point x="394" y="224"/>
+      <point x="342" y="275"/>
+      <point x="342" y="431" type="curve"/>
+      <point x="46" y="431" type="line"/>
+      <point x="46" y="122"/>
+      <point x="225" y="-20"/>
+      <point x="469" y="-20" type="curve" smooth="yes"/>
+      <point x="708" y="-20"/>
+      <point x="890" y="158"/>
+      <point x="890" y="449" type="curve"/>
+      <point x="890" y="1456" type="line"/>
+      <point x="596" y="1456" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.eWK1IfYdb7</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.hpD3ILm32O</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
+    </dict>
+  </lib>
+</glyph>

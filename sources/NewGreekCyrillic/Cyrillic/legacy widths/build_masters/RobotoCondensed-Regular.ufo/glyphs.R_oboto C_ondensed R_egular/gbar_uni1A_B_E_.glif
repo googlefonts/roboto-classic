@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gbar_uni1ABE" format="2">
+  <advance width="1269"/>
+  <anchor x="627" y="-484" name="markbottom"/>
+  <anchor x="627" y="1290" name="top"/>
+  <anchor x="1228" y="1290" name="top0315"/>
+  <anchor x="627" y="-484" name="bottom"/>
+  <anchor x="627" y="1290" name="parent_top"/>
+  <outline>
+    <component base="gbar" xOffset="129"/>
+    <component base="uni1ABE" xOffset="1104" yOffset="-706"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

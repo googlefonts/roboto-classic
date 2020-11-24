@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildesubnosp" format="2">
+  <unicode hex="0330"/>
+  <anchor x="-575" y="0" name="_bottom"/>
+  <anchor x="-575" y="-407" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-373.0" y="-117.0" type="line"/>
+      <point x="-373.0" y="-178.0"/>
+      <point x="-409.0" y="-207.0"/>
+      <point x="-452.0" y="-207.0" type="curve" smooth="yes"/>
+      <point x="-549.0" y="-207.0"/>
+      <point x="-626.0" y="-124.0"/>
+      <point x="-730.0" y="-124.0" type="curve" smooth="yes"/>
+      <point x="-866.0" y="-124.0"/>
+      <point x="-961.0" y="-255.0"/>
+      <point x="-961.0" y="-397.0" type="curve"/>
+      <point x="-773.0" y="-407.0" type="line"/>
+      <point x="-773.0" y="-346.0"/>
+      <point x="-739.0" y="-317.0"/>
+      <point x="-697.0" y="-317.0" type="curve" smooth="yes"/>
+      <point x="-595.0" y="-317.0"/>
+      <point x="-542.0" y="-401.0"/>
+      <point x="-418.0" y="-401.0" type="curve" smooth="yes"/>
+      <point x="-282.0" y="-401.0"/>
+      <point x="-187.0" y="-274.0"/>
+      <point x="-187.0" y="-128.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

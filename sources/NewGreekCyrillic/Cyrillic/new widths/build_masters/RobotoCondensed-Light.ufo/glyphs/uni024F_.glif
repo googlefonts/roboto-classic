@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni024F" format="2">
+  <advance width="920"/>
+  <unicode hex="024F"/>
+  <anchor x="451" y="1292" name="top"/>
+  <anchor x="620" y="-158" name="bottom"/>
+  <anchor x="900" y="1292" name="top0315"/>
+  <anchor x="451" y="1292" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="871" y="700" type="line"/>
+      <point x="49" y="700" type="line"/>
+      <point x="49" y="615" type="line"/>
+      <point x="871" y="615" type="line"/>
+    </contour>
+    <contour>
+      <point x="449" y="108" type="line"/>
+      <point x="376" y="-133" type="line" smooth="yes"/>
+      <point x="338" y="-263"/>
+      <point x="286" y="-329"/>
+      <point x="177" y="-329" type="curve" smooth="yes"/>
+      <point x="168" y="-329"/>
+      <point x="140" y="-325"/>
+      <point x="128" y="-322" type="curve"/>
+      <point x="128" y="-424" type="line"/>
+      <point x="143" y="-430"/>
+      <point x="185" y="-437"/>
+      <point x="208" y="-437" type="curve" smooth="yes"/>
+      <point x="373" y="-437"/>
+      <point x="433" y="-272"/>
+      <point x="465" y="-173" type="curve" smooth="yes"/>
+      <point x="846" y="1082" type="line"/>
+      <point x="726" y="1082" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="1082" type="line"/>
+      <point x="78" y="1082" type="line"/>
+      <point x="428" y="-21" type="line"/>
+      <point x="509" y="29" type="line"/>
+      <point x="479" y="155" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

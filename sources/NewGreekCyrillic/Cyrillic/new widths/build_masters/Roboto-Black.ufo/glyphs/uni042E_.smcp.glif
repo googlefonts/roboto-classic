@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni042E.smcp" format="2">
+  <advance width="1720"/>
+  <anchor x="825" y="1320" name="top"/>
+  <anchor x="1720" y="1320" name="top0315"/>
+  <anchor x="825" y="1320" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="703" y="698" type="line"/>
+      <point x="375" y="698" type="line"/>
+      <point x="375" y="438" type="line"/>
+      <point x="703" y="438" type="line"/>
+    </contour>
+    <contour>
+      <point x="418" y="1165" type="line"/>
+      <point x="81" y="1165" type="line"/>
+      <point x="81" y="0" type="line"/>
+      <point x="418" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1671" y="602" type="line"/>
+      <point x="1671" y="958"/>
+      <point x="1435" y="1181"/>
+      <point x="1111" y="1181" type="curve" smooth="yes"/>
+      <point x="781" y="1181"/>
+      <point x="552" y="958"/>
+      <point x="552" y="602" type="curve"/>
+      <point x="552" y="562" type="line"/>
+      <point x="552" y="206"/>
+      <point x="783" y="-16"/>
+      <point x="1113" y="-16" type="curve" smooth="yes"/>
+      <point x="1437" y="-16"/>
+      <point x="1671" y="206"/>
+      <point x="1671" y="562" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1332" y="562" type="line"/>
+      <point x="1332" y="362"/>
+      <point x="1249" y="240"/>
+      <point x="1113" y="240" type="curve" smooth="yes"/>
+      <point x="965" y="240"/>
+      <point x="892" y="362"/>
+      <point x="892" y="562" type="curve" smooth="yes"/>
+      <point x="892" y="603" type="line" smooth="yes"/>
+      <point x="892" y="807"/>
+      <point x="963" y="924"/>
+      <point x="1111" y="924" type="curve" smooth="yes"/>
+      <point x="1249" y="924"/>
+      <point x="1332" y="807"/>
+      <point x="1332" y="603" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

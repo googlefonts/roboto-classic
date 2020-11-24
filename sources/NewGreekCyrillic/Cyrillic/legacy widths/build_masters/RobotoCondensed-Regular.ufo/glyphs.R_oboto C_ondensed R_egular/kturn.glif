@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kturn" format="2">
+  <advance width="923"/>
+  <unicode hex="029E"/>
+  <anchor x="439" y="1290" name="top"/>
+  <anchor x="439" y="-447" name="bottom"/>
+  <anchor x="903" y="1290" name="top0315"/>
+  <anchor x="439" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="613" y="-416" type="line"/>
+      <point x="789" y="-416" type="line"/>
+      <point x="789" y="1082" type="line"/>
+      <point x="613" y="1082" type="line"/>
+    </contour>
+    <contour>
+      <point x="63" y="0" type="line"/>
+      <point x="276" y="0" type="line"/>
+      <point x="534" y="356" type="line"/>
+      <point x="698" y="582" type="line"/>
+      <point x="686" y="779" type="line"/>
+      <point x="448" y="505" type="line"/>
+    </contour>
+    <contour>
+      <point x="225" y="1082" type="line"/>
+      <point x="19" y="1082" type="line"/>
+      <point x="439" y="401" type="line"/>
+      <point x="529" y="566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

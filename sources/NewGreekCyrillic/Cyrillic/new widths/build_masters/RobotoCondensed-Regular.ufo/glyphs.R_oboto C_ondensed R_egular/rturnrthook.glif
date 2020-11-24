@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rturnrthook" format="2">
+  <advance width="671"/>
+  <unicode hex="027B"/>
+  <anchor x="215" y="1290" name="top"/>
+  <anchor x="215" y="-447" name="bottom"/>
+  <anchor x="651" y="1290" name="top0315"/>
+  <anchor x="215" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="315" y="246" type="line"/>
+      <point x="315" y="-135" type="line" smooth="yes"/>
+      <point x="315" y="-330"/>
+      <point x="439" y="-437"/>
+      <point x="575" y="-437" type="curve" smooth="yes"/>
+      <point x="602" y="-437"/>
+      <point x="637" y="-432"/>
+      <point x="658" y="-424" type="curve"/>
+      <point x="659" y="-297" type="line"/>
+      <point x="646" y="-301"/>
+      <point x="626" y="-304"/>
+      <point x="615" y="-304" type="curve" smooth="yes"/>
+      <point x="541" y="-304"/>
+      <point x="491" y="-257"/>
+      <point x="491" y="-135" type="curve" smooth="yes"/>
+      <point x="491" y="246" type="line"/>
+    </contour>
+    <contour>
+      <point x="315" y="170" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="491" y="0" type="line"/>
+      <point x="491" y="1082" type="line"/>
+      <point x="315" y="1082" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="-6" type="line"/>
+      <point x="56" y="-12"/>
+      <point x="95" y="-20"/>
+      <point x="115" y="-20" type="curve"/>
+      <point x="306" y="-20"/>
+      <point x="387" y="198"/>
+      <point x="387" y="458" type="curve"/>
+      <point x="341" y="428" type="line"/>
+      <point x="325" y="271"/>
+      <point x="257" y="158"/>
+      <point x="124" y="158" type="curve"/>
+      <point x="93" y="158"/>
+      <point x="73" y="160"/>
+      <point x="45" y="166" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

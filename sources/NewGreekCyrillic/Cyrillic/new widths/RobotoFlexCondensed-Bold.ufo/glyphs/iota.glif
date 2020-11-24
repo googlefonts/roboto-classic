@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
+  <advance width="584"/>
+  <unicode hex="03B9"/>
+  <anchor x="267.73333333333335" y="1083.9" name="GRK_top"/>
+  <outline>
+    <contour>
+      <point x="414.4" y="-29.516666666666666" type="curve" smooth="yes"/>
+      <point x="469.4963333333333" y="-29.516666666666666"/>
+      <point x="518.6613333333333" y="-15.113333333333335"/>
+      <point x="543.1833333333334" y="0.9666666666666667" type="curve"/>
+      <point x="543.1833333333334" y="199.93333333333334" type="line"/>
+      <point x="522.123" y="191.69233333333332"/>
+      <point x="500.2366666666666" y="185.86666666666667"/>
+      <point x="477.23333333333335" y="185.86666666666667" type="curve" smooth="yes"/>
+      <point x="430.71299999999997" y="185.86666666666667"/>
+      <point x="403.33333333333337" y="204.20899999999997"/>
+      <point x="403.33333333333337" y="309.6" type="curve" smooth="yes"/>
+      <point x="403.33333333333337" y="1083.9" type="line"/>
+      <point x="121.56666666666666" y="1083.9" type="line"/>
+      <point x="120.6" y="312.2" type="line" smooth="yes"/>
+      <point x="120.6" y="75.57833333333335"/>
+      <point x="237.16266666666667" y="-29.516666666666666"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
+</glyph>

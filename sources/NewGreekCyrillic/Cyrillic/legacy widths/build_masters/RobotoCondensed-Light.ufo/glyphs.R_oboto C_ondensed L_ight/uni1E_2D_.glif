@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E2D" format="2">
+  <advance width="619"/>
+  <unicode hex="1E2D"/>
+  <anchor x="316" y="10" name="bottom"/>
+  <anchor x="331" y="654" name="rhotichook"/>
+  <anchor x="316" y="-385" name="bottom"/>
+  <anchor x="320" y="1600" name="top"/>
+  <anchor x="513" y="1600" name="top0315"/>
+  <anchor x="513" y="1600" name="top_dd"/>
+  <anchor x="513" y="-407" name="bottom_dd"/>
+  <anchor x="320" y="1600" name="parent_top"/>
+  <outline>
+    <component base="i" xOffset="100"/>
+    <component base="tilde" xOffset="-88" yOffset="-1605"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

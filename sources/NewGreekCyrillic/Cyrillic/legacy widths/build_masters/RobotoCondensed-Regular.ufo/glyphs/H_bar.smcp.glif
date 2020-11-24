@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbar.smcp" format="2">
+  <advance width="1093"/>
+  <anchor x="537" y="1320" name="top"/>
+  <anchor x="537" y="10" name="bottom"/>
+  <anchor x="1073" y="1600" name="top_dd"/>
+  <anchor x="1073" y="-407" name="bottom_dd"/>
+  <anchor x="1073" y="1320" name="top0315"/>
+  <anchor x="537" y="1320" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="815" y="651" type="line"/>
+      <point x="274" y="651" type="line"/>
+      <point x="274" y="498" type="line"/>
+      <point x="815" y="498" type="line"/>
+    </contour>
+    <contour>
+      <point x="308" y="1165" type="line"/>
+      <point x="131" y="1165" type="line"/>
+      <point x="131" y="0" type="line"/>
+      <point x="308" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="962" y="1165" type="line"/>
+      <point x="785" y="1165" type="line"/>
+      <point x="785" y="0" type="line"/>
+      <point x="962" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1038" y="999" type="line"/>
+      <point x="56" y="999" type="line"/>
+      <point x="56" y="847" type="line"/>
+      <point x="1038" y="847" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

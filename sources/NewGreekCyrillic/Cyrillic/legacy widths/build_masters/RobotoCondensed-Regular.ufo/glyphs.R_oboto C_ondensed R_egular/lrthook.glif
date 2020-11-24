@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lrthook" format="2">
+  <advance width="608"/>
+  <unicode hex="026D"/>
+  <anchor x="296" y="1600" name="top"/>
+  <anchor x="296" y="-447" name="bottom"/>
+  <anchor x="588" y="1600" name="top0315"/>
+  <anchor x="296" y="1600" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="207" y="1536" type="line"/>
+      <point x="207" y="-135" type="line" smooth="yes"/>
+      <point x="207" y="-330"/>
+      <point x="331" y="-437"/>
+      <point x="468" y="-437" type="curve" smooth="yes"/>
+      <point x="494" y="-437"/>
+      <point x="529" y="-432"/>
+      <point x="550" y="-424" type="curve"/>
+      <point x="551" y="-297" type="line"/>
+      <point x="539" y="-301"/>
+      <point x="518" y="-304"/>
+      <point x="507" y="-304" type="curve" smooth="yes"/>
+      <point x="433" y="-304"/>
+      <point x="384" y="-257"/>
+      <point x="384" y="-135" type="curve" smooth="yes"/>
+      <point x="384" y="1536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

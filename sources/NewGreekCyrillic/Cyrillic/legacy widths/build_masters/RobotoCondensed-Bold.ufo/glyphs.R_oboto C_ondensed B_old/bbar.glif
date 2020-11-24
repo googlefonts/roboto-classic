@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bbar" format="2">
+  <advance width="1097"/>
+  <unicode hex="0180"/>
+  <anchor x="587" y="-10" name="markbottom"/>
+  <anchor x="595" y="1603" name="top"/>
+  <anchor x="341" y="1302" name="parenthesses.w2"/>
+  <anchor x="1077" y="1603" name="top0315"/>
+  <anchor x="587" y="-10" name="bottom"/>
+  <anchor x="595" y="1603" name="parent_top"/>
+  <outline>
+    <component base="b" xOffset="84"/>
+    <component base="crossbar" xOffset="-109" yOffset="561"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

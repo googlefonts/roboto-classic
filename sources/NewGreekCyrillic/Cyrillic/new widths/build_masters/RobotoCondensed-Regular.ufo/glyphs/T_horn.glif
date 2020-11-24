@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thorn" format="2">
+  <advance width="1055"/>
+  <unicode hex="00DE"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="zZDClAVePc"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="nnhesA2tYv"/>
+  <outline>
+    <contour>
+      <point x="155" y="1456" type="line"/>
+      <point x="155" y="0" type="line"/>
+      <point x="331" y="0" type="line"/>
+      <point x="331" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="245" y="1163" type="line"/>
+      <point x="333" y="1012" type="line"/>
+      <point x="550" y="1012" type="line" smooth="yes"/>
+      <point x="720" y="1012"/>
+      <point x="789" y="876"/>
+      <point x="789" y="736" type="curve" smooth="yes"/>
+      <point x="789" y="600"/>
+      <point x="720" y="465"/>
+      <point x="550" y="465" type="curve" smooth="yes"/>
+      <point x="297" y="465" type="line"/>
+      <point x="297" y="314" type="line"/>
+      <point x="550" y="314" type="line" smooth="yes"/>
+      <point x="818" y="314"/>
+      <point x="965" y="494"/>
+      <point x="965" y="738" type="curve" smooth="yes"/>
+      <point x="965" y="983"/>
+      <point x="818" y="1163"/>
+      <point x="550" y="1163" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.nnhesA2tYv</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.zZDClAVePc</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

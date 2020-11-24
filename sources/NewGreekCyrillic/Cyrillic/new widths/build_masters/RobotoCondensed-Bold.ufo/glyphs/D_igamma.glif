@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Digamma" format="2">
+  <advance width="975"/>
+  <unicode hex="03DC"/>
+  <outline>
+    <contour>
+      <point x="868" y="838" type="line" name="hr00"/>
+      <point x="633" y="838" type="line"/>
+      <point x="633" y="379" type="line"/>
+      <point x="868" y="379" type="line"/>
+    </contour>
+    <contour>
+      <point x="412" y="1456" type="line"/>
+      <point x="117" y="1456" type="line"/>
+      <point x="117" y="0" type="line"/>
+      <point x="412" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="868" y="838" type="line"/>
+      <point x="338" y="838" type="line"/>
+      <point x="338" y="594" type="line"/>
+      <point x="868" y="594" type="line"/>
+    </contour>
+    <contour>
+      <point x="923" y="1456" type="line"/>
+      <point x="338" y="1456" type="line"/>
+      <point x="338" y="1211" type="line"/>
+      <point x="923" y="1211" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data></data>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

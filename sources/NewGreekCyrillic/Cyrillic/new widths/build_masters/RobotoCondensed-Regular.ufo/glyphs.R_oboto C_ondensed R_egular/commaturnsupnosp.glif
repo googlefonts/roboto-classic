@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnsupnosp" format="2">
+  <unicode hex="0312"/>
+  <anchor x="-477" y="1072" name="_top"/>
+  <anchor x="-477" y="1684" name="top"/>
+  <anchor x="-437" y="1278" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="-566" y="997" type="line"/>
+      <point x="-391" y="997" type="line"/>
+      <point x="-391" y="1183" type="line" smooth="yes"/>
+      <point x="-391" y="1298"/>
+      <point x="-362" y="1394"/>
+      <point x="-309" y="1488" type="curve"/>
+      <point x="-408" y="1561" type="line"/>
+      <point x="-509" y="1465"/>
+      <point x="-566" y="1308"/>
+      <point x="-566" y="1180" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.967,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>

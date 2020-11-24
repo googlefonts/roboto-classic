@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rfishhookrev" format="2">
+  <advance width="617"/>
+  <unicode hex="027F"/>
+  <anchor x="376" y="1290" name="top"/>
+  <anchor x="376" y="-447" name="bottom"/>
+  <anchor x="597" y="1290" name="top0315"/>
+  <anchor x="376" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="513" y="-416" type="line"/>
+      <point x="513" y="758" type="line" smooth="yes"/>
+      <point x="513" y="1048"/>
+      <point x="316" y="1102"/>
+      <point x="174" y="1102" type="curve" smooth="yes"/>
+      <point x="117" y="1102"/>
+      <point x="75" y="1097"/>
+      <point x="39" y="1088" type="curve"/>
+      <point x="37" y="892" type="line"/>
+      <point x="59" y="896"/>
+      <point x="76" y="899"/>
+      <point x="95" y="899" type="curve" smooth="yes"/>
+      <point x="151" y="899"/>
+      <point x="229" y="870"/>
+      <point x="229" y="758" type="curve" smooth="yes"/>
+      <point x="229" y="-416" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

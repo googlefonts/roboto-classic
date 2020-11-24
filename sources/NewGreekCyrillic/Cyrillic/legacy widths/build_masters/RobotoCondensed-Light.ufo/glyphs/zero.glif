@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero" format="2">
+  <advance width="996"/>
+  <unicode hex="0030"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="sMlFySxAOI"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="XAeyZNGyug"/>
+  <outline>
+    <contour>
+      <point x="876" y="853" type="line"/>
+      <point x="876" y="1282"/>
+      <point x="734" y="1477"/>
+      <point x="498" y="1477" type="curve" smooth="yes"/>
+      <point x="263" y="1477"/>
+      <point x="120" y="1282"/>
+      <point x="120" y="853" type="curve"/>
+      <point x="120" y="608" type="line"/>
+      <point x="120" y="179"/>
+      <point x="265" y="-20"/>
+      <point x="499" y="-20" type="curve" smooth="yes"/>
+      <point x="736" y="-20"/>
+      <point x="876" y="179"/>
+      <point x="876" y="608" type="curve"/>
+    </contour>
+    <contour>
+      <point x="765" y="594" type="line"/>
+      <point x="765" y="267"/>
+      <point x="677" y="84"/>
+      <point x="499" y="84" type="curve" smooth="yes"/>
+      <point x="323" y="84"/>
+      <point x="231" y="267"/>
+      <point x="231" y="594" type="curve" smooth="yes"/>
+      <point x="231" y="869" type="line" smooth="yes"/>
+      <point x="231" y="1200"/>
+      <point x="322" y="1373"/>
+      <point x="498" y="1373" type="curve" smooth="yes"/>
+      <point x="675" y="1373"/>
+      <point x="765" y="1200"/>
+      <point x="765" y="869" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.XAeyZNGyug</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.sMlFySxAOI</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

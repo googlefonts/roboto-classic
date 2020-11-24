@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rsmallcap" format="2">
+  <advance width="1022"/>
+  <unicode hex="0280"/>
+  <anchor x="494" y="1290" name="top"/>
+  <anchor x="494" y="0" name="bottom"/>
+  <anchor x="1002" y="1290" name="top0315"/>
+  <anchor x="494" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="419" y="543" type="line"/>
+      <point x="675" y="0" type="line"/>
+      <point x="960" y="0" type="line"/>
+      <point x="704" y="543" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="1082" type="line"/>
+      <point x="113" y="0" type="line"/>
+      <point x="395" y="0" type="line"/>
+      <point x="395" y="849" type="line"/>
+      <point x="525" y="849" type="line" smooth="yes"/>
+      <point x="607" y="849"/>
+      <point x="647" y="782"/>
+      <point x="647" y="710" type="curve" smooth="yes"/>
+      <point x="647" y="641"/>
+      <point x="606" y="576"/>
+      <point x="524" y="576" type="curve" smooth="yes"/>
+      <point x="294" y="576" type="line"/>
+      <point x="294" y="373" type="line"/>
+      <point x="524" y="373" type="line" smooth="yes"/>
+      <point x="774" y="373"/>
+      <point x="930" y="520"/>
+      <point x="930" y="720" type="curve" smooth="yes"/>
+      <point x="930" y="929"/>
+      <point x="775" y="1082"/>
+      <point x="525" y="1082" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.779,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

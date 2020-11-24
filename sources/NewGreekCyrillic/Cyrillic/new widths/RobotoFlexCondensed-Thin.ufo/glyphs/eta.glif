@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eta" format="2">
+  <advance width="962"/>
+  <unicode hex="03B7"/>
+  <anchor x="258.0" y="1081.0" name="GRK_top"/>
+  <outline>
+    <contour>
+      <point x="777.3666666666667" y="-416.0" type="line"/>
+      <point x="824.4" y="-416.0" type="line"/>
+      <point x="824.4" y="748.3333333333334" type="line" smooth="yes"/>
+      <point x="824.4" y="1004.6753333333334"/>
+      <point x="715.9633333333334" y="1101.0"/>
+      <point x="535.7333333333333" y="1101.0" type="curve" smooth="yes"/>
+      <point x="385.2066666666666" y="1101.0"/>
+      <point x="273.30533333333335" y="1043.3966666666668"/>
+      <point x="189.6" y="919.0" type="curve"/>
+      <point x="192.9" y="919.0" type="line"/>
+      <point x="193.13333333333333" y="1081.0" type="line"/>
+      <point x="148.0" y="1081.0" type="line"/>
+      <point x="148.0" y="0.0" type="line"/>
+      <point x="193.6" y="0.0" type="line"/>
+      <point x="193.6" y="853.7333333333333" type="line"/>
+      <point x="252.38133333333334" y="952.938"/>
+      <point x="357.23400000000004" y="1049.2333333333333"/>
+      <point x="511.2" y="1049.2333333333333" type="curve" smooth="yes"/>
+      <point x="690.626" y="1049.2333333333333"/>
+      <point x="777.3666666666667" y="962.6700000000001"/>
+      <point x="777.3666666666667" y="761.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
+</glyph>
