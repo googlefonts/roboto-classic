@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotnosp" format="2">
+  <unicode hex="0307"/>
+  <anchor x="-575" y="1290" name="_top"/>
+  <anchor x="-575" y="1640" name="top"/>
+  <anchor x="-575" y="1361" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="-762" y="1361" type="curve" smooth="yes"/>
+      <point x="-762" y="1265"/>
+      <point x="-685" y="1197"/>
+      <point x="-575" y="1197" type="curve" smooth="yes"/>
+      <point x="-464" y="1197"/>
+      <point x="-388" y="1265"/>
+      <point x="-388" y="1361" type="curve" smooth="yes"/>
+      <point x="-388" y="1457"/>
+      <point x="-464" y="1525"/>
+      <point x="-575" y="1525" type="curve" smooth="yes"/>
+      <point x="-685" y="1525"/>
+      <point x="-762" y="1457"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.798,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

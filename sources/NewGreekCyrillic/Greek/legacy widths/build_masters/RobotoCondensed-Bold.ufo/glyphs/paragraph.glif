@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="paragraph" format="2">
+  <advance width="892"/>
+  <unicode hex="00B6"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="YNrtcmBWe5"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="GCBBRNt2sz"/>
+  <outline>
+    <contour>
+      <point x="768" y="0" type="line"/>
+      <point x="768" y="1456" type="line"/>
+      <point x="493" y="1456" type="line" smooth="yes"/>
+      <point x="226" y="1456"/>
+      <point x="80" y="1256"/>
+      <point x="80" y="988" type="curve" smooth="yes"/>
+      <point x="80" y="718"/>
+      <point x="226" y="520"/>
+      <point x="493" y="520" type="curve" smooth="yes"/>
+      <point x="556" y="520" type="line"/>
+      <point x="556" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.GCBBRNt2sz</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.YNrtcmBWe5</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
+    </dict>
+  </lib>
+</glyph>

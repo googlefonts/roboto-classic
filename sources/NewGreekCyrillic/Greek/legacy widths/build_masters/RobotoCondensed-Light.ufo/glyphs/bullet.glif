@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet" format="2">
+  <advance width="663"/>
+  <unicode hex="2022"/>
+  <guideline x="0.0" y="1975.0" angle="0.0" identifier="QyWsZlFAFF"/>
+  <outline>
+    <contour>
+      <point x="147" y="718" type="line"/>
+      <point x="147" y="615"/>
+      <point x="218" y="540"/>
+      <point x="332" y="540" type="curve" smooth="yes"/>
+      <point x="447" y="540"/>
+      <point x="518" y="615"/>
+      <point x="518" y="718" type="curve"/>
+      <point x="518" y="753" type="line"/>
+      <point x="518" y="856"/>
+      <point x="447" y="933"/>
+      <point x="331" y="933" type="curve" smooth="yes"/>
+      <point x="218" y="933"/>
+      <point x="147" y="857"/>
+      <point x="147" y="753" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.QyWsZlFAFF</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

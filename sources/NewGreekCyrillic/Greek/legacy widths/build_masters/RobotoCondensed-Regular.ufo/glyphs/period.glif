@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="540"/>
+  <unicode hex="002E"/>
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="NbUdRpxGTq"/>
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="Ke52LIOnjG"/>
+  <outline>
+    <contour>
+      <point x="144" y="98" type="curve" smooth="yes"/>
+      <point x="144" y="36"/>
+      <point x="184" y="-12"/>
+      <point x="259" y="-12" type="curve" smooth="yes"/>
+      <point x="334" y="-12"/>
+      <point x="374" y="36"/>
+      <point x="374" y="98" type="curve" smooth="yes"/>
+      <point x="374" y="161"/>
+      <point x="334" y="210"/>
+      <point x="259" y="210" type="curve" smooth="yes"/>
+      <point x="184" y="210"/>
+      <point x="144" y="161"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.Ke52LIOnjG</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.NbUdRpxGTq</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

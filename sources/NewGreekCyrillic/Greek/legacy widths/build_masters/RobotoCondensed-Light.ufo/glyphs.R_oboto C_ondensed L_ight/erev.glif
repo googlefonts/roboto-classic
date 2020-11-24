@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="erev" format="2">
+  <advance width="934"/>
+  <unicode hex="0258"/>
+  <anchor x="765" y="654" name="rhotichook"/>
+  <anchor x="446" y="1290" name="top"/>
+  <anchor x="428" y="0" name="bottom"/>
+  <anchor x="914" y="1290" name="top0315"/>
+  <anchor x="446" y="1290" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="428" y="-20" type="curve" smooth="yes"/>
+      <point x="669" y="-20"/>
+      <point x="838" y="201"/>
+      <point x="838" y="510" type="curve" smooth="yes"/>
+      <point x="838" y="554" type="line" smooth="yes"/>
+      <point x="838" y="888"/>
+      <point x="654" y="1102"/>
+      <point x="447" y="1102" type="curve" smooth="yes"/>
+      <point x="210" y="1102"/>
+      <point x="85" y="894"/>
+      <point x="85" y="605" type="curve" smooth="yes"/>
+      <point x="85" y="532" type="line"/>
+      <point x="771" y="532" type="line"/>
+      <point x="771" y="636" type="line"/>
+      <point x="196" y="636" type="line"/>
+      <point x="196" y="649" type="line"/>
+      <point x="200" y="829"/>
+      <point x="279" y="998"/>
+      <point x="447" y="998" type="curve" smooth="yes"/>
+      <point x="613" y="998"/>
+      <point x="727" y="817"/>
+      <point x="727" y="554" type="curve" smooth="yes"/>
+      <point x="727" y="510" type="line" smooth="yes"/>
+      <point x="727" y="273"/>
+      <point x="605" y="83"/>
+      <point x="423" y="83" type="curve" smooth="yes"/>
+      <point x="316" y="83"/>
+      <point x="236" y="129"/>
+      <point x="172" y="231" type="curve"/>
+      <point x="102" y="172" type="line"/>
+      <point x="162" y="68"/>
+      <point x="262" y="-20"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

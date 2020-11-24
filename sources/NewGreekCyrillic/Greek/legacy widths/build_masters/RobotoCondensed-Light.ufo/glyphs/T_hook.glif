@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thook" format="2">
+  <advance width="1095"/>
+  <unicode hex="01AC"/>
+  <outline>
+    <contour>
+      <point x="618" y="1456" type="line"/>
+      <point x="505" y="1456" type="line"/>
+      <point x="505" y="0" type="line"/>
+      <point x="618" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1033" y="1456" type="line"/>
+      <point x="351" y="1456" type="line"/>
+      <point x="351" y="1349" type="line"/>
+      <point x="1033" y="1349" type="line"/>
+    </contour>
+    <contour>
+      <point x="423" y="1349" type="line"/>
+      <point x="423" y="1456" type="line"/>
+      <point x="334" y="1456" type="line" smooth="yes"/>
+      <point x="145" y="1456"/>
+      <point x="41" y="1357"/>
+      <point x="41" y="1172" type="curve" smooth="yes"/>
+      <point x="41" y="1134"/>
+      <point x="47" y="1093"/>
+      <point x="57" y="1058" type="curve"/>
+      <point x="149" y="1065" type="line"/>
+      <point x="143" y="1085"/>
+      <point x="138" y="1120"/>
+      <point x="138" y="1148" type="curve" smooth="yes"/>
+      <point x="138" y="1278"/>
+      <point x="202" y="1349"/>
+      <point x="334" y="1349" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

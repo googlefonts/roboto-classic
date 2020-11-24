@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D7C" format="2">
+  <advance width="633"/>
+  <unicode hex="1D7C"/>
+  <anchor x="303" y="1290" name="top"/>
+  <anchor x="613" y="1290" name="top0315"/>
+  <anchor x="303" y="0" name="bottom"/>
+  <anchor x="303" y="1290" name="parent_top"/>
+  <outline>
+    <component base="iota" xOffset="69"/>
+    <component base="crossbar" xOffset="-84" yOffset="-143"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

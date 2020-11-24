@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omega" format="2">
+  <advance width="1287"/>
+  <unicode hex="03A9"/>
+  <anchor x="131" y="1456.0" name="GRK_topleft"/>
+  <outline>
+    <contour>
+      <point x="126" y="0" type="line"/>
+      <point x="560" y="0" type="line"/>
+      <point x="560" y="434" type="line"/>
+      <point x="380" y="476"/>
+      <point x="308" y="639"/>
+      <point x="308" y="841" type="curve"/>
+      <point x="308" y="897" type="line"/>
+      <point x="308" y="1168"/>
+      <point x="415" y="1312"/>
+      <point x="643" y="1312" type="curve"/>
+      <point x="870" y="1312"/>
+      <point x="978" y="1168"/>
+      <point x="978" y="897" type="curve"/>
+      <point x="978" y="841" type="line"/>
+      <point x="978" y="639"/>
+      <point x="904" y="476"/>
+      <point x="725" y="434" type="curve"/>
+      <point x="725" y="0" type="line"/>
+      <point x="1160" y="0" type="line"/>
+      <point x="1160" y="152" type="line"/>
+      <point x="887" y="152" type="line"/>
+      <point x="887" y="322" type="line"/>
+      <point x="1067" y="405"/>
+      <point x="1160" y="563"/>
+      <point x="1160" y="841" type="curve"/>
+      <point x="1160" y="897" type="line"/>
+      <point x="1160" y="1269"/>
+      <point x="966" y="1476"/>
+      <point x="643" y="1476" type="curve"/>
+      <point x="322" y="1476"/>
+      <point x="126" y="1269"/>
+      <point x="126" y="897" type="curve"/>
+      <point x="126" y="841" type="line"/>
+      <point x="126" y="563"/>
+      <point x="219" y="405"/>
+      <point x="398" y="322" type="curve"/>
+      <point x="398" y="152" type="line"/>
+      <point x="126" y="152" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
+</glyph>

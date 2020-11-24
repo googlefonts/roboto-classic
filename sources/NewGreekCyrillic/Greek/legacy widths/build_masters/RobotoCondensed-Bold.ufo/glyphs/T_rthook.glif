@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Trthook" format="2">
+  <advance width="1113"/>
+  <unicode hex="01AE"/>
+  <outline>
+    <contour>
+      <point x="1061" y="1456" type="line"/>
+      <point x="52" y="1456" type="line"/>
+      <point x="52" y="1211" type="line"/>
+      <point x="1061" y="1211" type="line"/>
+    </contour>
+    <contour>
+      <point x="869" y="-420" type="curve"/>
+      <point x="857" y="-177" type="line"/>
+      <point x="831" y="-184"/>
+      <point x="806" y="-189"/>
+      <point x="774" y="-189" type="curve" smooth="yes"/>
+      <point x="725" y="-189"/>
+      <point x="700" y="-143"/>
+      <point x="700" y="-34" type="curve" smooth="yes"/>
+      <point x="700" y="1456" type="line"/>
+      <point x="406" y="1456" type="line"/>
+      <point x="406" y="-34" type="line" smooth="yes"/>
+      <point x="406" y="-295"/>
+      <point x="534" y="-437"/>
+      <point x="743" y="-437" type="curve" smooth="yes"/>
+      <point x="788" y="-437"/>
+      <point x="825" y="-433"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

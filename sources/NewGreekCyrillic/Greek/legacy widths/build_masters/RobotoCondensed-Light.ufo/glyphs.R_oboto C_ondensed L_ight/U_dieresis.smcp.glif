@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresis.smcp" format="2">
+  <advance width="1012"/>
+  <anchor x="511" y="1320" name="parent_top"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="992" y="1600" name="top_dd"/>
+  <anchor x="992" y="-407" name="bottom_dd"/>
+  <anchor x="992" y="1320" name="top0315"/>
+  <anchor x="511" y="1587" name="top"/>
+  <outline>
+    <component base="U.smcp"/>
+    <component base="dieresis" xOffset="74" yOffset="28"/>
+  </outline>
+</glyph>

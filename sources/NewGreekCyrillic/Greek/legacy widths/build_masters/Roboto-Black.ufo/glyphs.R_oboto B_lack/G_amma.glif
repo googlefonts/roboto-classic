@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gamma" format="2">
+  <advance width="1142"/>
+  <unicode hex="0393"/>
+  <anchor x="610" y="1600" name="top"/>
+  <anchor x="1142" y="1600" name="top0315"/>
+  <anchor x="610" y="1600" name="parent_top"/>
+  <outline>
+    <contour>
+      <point x="1092" y="1456" type="line"/>
+      <point x="109" y="1456" type="line"/>
+      <point x="109" y="0" type="line"/>
+      <point x="459" y="0" type="line"/>
+      <point x="459" y="1185" type="line"/>
+      <point x="1092" y="1185" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.6,0.609,1,1</string>
+    </dict>
+  </lib>
+</glyph>

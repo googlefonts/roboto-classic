@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jhookdblbar" format="2">
+  <advance width="825.77"/>
+  <unicode hex="0284"/>
+  <anchor x="749.750269868" y="1700" name="top"/>
+  <anchor x="1005.8302698680002" y="1700" name="top0315"/>
+  <anchor x="29.587179498367092" y="-447" name="bottom"/>
+  <anchor x="749.750269868" y="1700" name="parent_top"/>
+  <outline>
+    <component base="esh"/>
+    <component base="crossbar" xOffset="-150.48390541266917" yOffset="-652"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>

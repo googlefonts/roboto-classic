@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="degreefarenheit" format="2">
+  <advance width="1415"/>
+  <unicode hex="2109"/>
+  <outline>
+    <contour>
+      <point x="69" y="1226" type="curve"/>
+      <point x="69" y="1088"/>
+      <point x="163" y="979"/>
+      <point x="277" y="979" type="curve" smooth="yes"/>
+      <point x="389" y="979"/>
+      <point x="481" y="1088"/>
+      <point x="481" y="1226" type="curve" smooth="yes"/>
+      <point x="481" y="1363"/>
+      <point x="389" y="1476"/>
+      <point x="277" y="1476" type="curve" smooth="yes"/>
+      <point x="163" y="1476"/>
+      <point x="69" y="1363"/>
+    </contour>
+    <contour>
+      <point x="150" y="1226" type="curve"/>
+      <point x="150" y="1317"/>
+      <point x="206" y="1384"/>
+      <point x="277" y="1384" type="curve" smooth="yes"/>
+      <point x="348" y="1384"/>
+      <point x="400" y="1317"/>
+      <point x="400" y="1226" type="curve" smooth="yes"/>
+      <point x="400" y="1137"/>
+      <point x="348" y="1072"/>
+      <point x="277" y="1072" type="curve" smooth="yes"/>
+      <point x="206" y="1072"/>
+      <point x="150" y="1137"/>
+    </contour>
+    <contour>
+      <point x="695" y="1456" type="line"/>
+      <point x="580" y="1456" type="line"/>
+      <point x="580" y="0" type="line"/>
+      <point x="695" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1254" y="787" type="line"/>
+      <point x="661" y="787" type="line"/>
+      <point x="661" y="679" type="line"/>
+      <point x="1254" y="679" type="line"/>
+    </contour>
+    <contour>
+      <point x="1338" y="1456" type="line"/>
+      <point x="661" y="1456" type="line"/>
+      <point x="661" y="1349" type="line"/>
+      <point x="1338" y="1349" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.939,1,0.6,1</string>
+    </dict>
+  </lib>
+</glyph>
