@@ -16582,6 +16582,11 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="uni000A">
+/* VTT 6.33 compiler */
+
+    </glyphProgram>
+
     <glyphProgram name="uni0069.ccmp">
 /* VTTTalk Unicode 0xffff */
 /* ACT generated Thu Dec  5 13:36:29 2019 */
@@ -67082,6 +67087,21 @@ Smooth()
 /*Auto-Hinting Light is not applied: Empty glyph or glyph with one point*/
 
     </glyphProgram>
+    
+    <glyphProgram name="uni000A">
+/* VTTTalk Unicode 0x9 */
+/* ACT generated Thu Dec  5 13:36:29 2019 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/*Auto-Hinting Light is not applied: Empty glyph or glyph with one point*/
+
+    </glyphProgram>
 
     <glyphProgram name="uni01B7">
 /* Y direction */
@@ -92111,6 +92131,7 @@ Smooth()
     <glyphgroup name="undertie" value="1"/>
     <glyphgroup name="uni0002" value="1"/>
     <glyphgroup name="uni0009" value="1"/>
+    <glyphgroup name="uni000A" value="1"/>
     <glyphgroup name="uni0069.ccmp" value="1"/>
     <glyphgroup name="uni006A.ccmp" value="1"/>
     <glyphgroup name="uni00AD" value="1"/>
@@ -94354,7 +94375,7 @@ Smooth()
   <maxp>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="0x10000"/>
-    <numGlyphs value="3387"/>
+    <numGlyphs value="3388"/>
     <maxPoints value="336"/>
     <maxContours value="21"/>
     <maxCompositePoints value="118"/>
