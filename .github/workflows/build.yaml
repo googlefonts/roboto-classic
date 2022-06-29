@@ -24,18 +24,9 @@ jobs:
       - name: Build fonts
         run: sh sources/build.sh
 
-      - name: Test fonts
-        run: |
-          fontbakery check-profile tests/test_general.py fonts/unhinted/Roboto[ital,wdth,wght].ttf
-          fontbakery check-profile tests/test_android.py fonts/android/Roboto[ital,wdth,wght].ttf
-          fontbakery check-profile tests/test_web.py fonts/web/Roboto[ital,wdth,wght].ttf
-          sh scripts/regression_test.sh
-
       - name: Upload
         uses: actions/upload-artifact@v2
         with:
           name: roboto_files
           path: |
             fonts/
-            diffs/
-
