@@ -30,7 +30,8 @@ ROBOTO_PROFILE_CHECKS = [
 def include_glyphs():
     return frozenset([
         0x2117,  # SOUND RECORDING COPYRIGHT
-        0xEE01, 0xEE02, 0xF6C3]
+        0xEE01, 0xEE02, 0xF6C3] +
+        list(range(0x0000, 0x0020)) # First 32 control characters
     )  # legacy PUA
 
 
