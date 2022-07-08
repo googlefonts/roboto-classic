@@ -13,6 +13,16 @@ def main(font_path):
     for component in ellipsis.components:
         component.flags &= ~(1 << 2)
 
+    # Add first 32 control chars to font.
+    # Has been specifically requested by Android team. They are
+    # seeing tofus in Android's layout libs. This should be fixed in
+    # the libs but it is easier for us to tweak the fonts.
+    for table in font["cmap"].tables:
+        for uni in range(32):
+            if uni in table.cmap:
+                continue
+            table.cmap[uni] = "uni0002"
+
     font_data.delete_from_cmap(font, [
         0x20E3, # COMBINING ENCLOSING KEYCAP
         0x2191, # UPWARDS ARROW
