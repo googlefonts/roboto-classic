@@ -26,6 +26,7 @@ REMOVE_CHECKS = [
     "com.google.fonts/check/os2_metrics_match_hhea",
     "com.google.fonts/check/ftxvalidator_is_available",
     "com.google.fonts/check/dsig",
+    "com.google.fonts/check/fontbakery_version",
 ]
 
 

@@ -7,8 +7,8 @@ mkdir -p prev_release
 OLD_FONT=prev_release/Roboto\[ital\,wdth\,wght\].ttf
 GENNED_FONT=fonts/hinted/Roboto\[ital\,wdth\,wght\].ttf
 
-curl -s https://api.github.com/repos/TypeNetwork/Roboto/releases/latest \
-| grep "https://github.com/TypeNetwork/Roboto/releases/download/*" \
+curl -s https://api.github.com/repos/googlefonts/roboto-classic/releases/latest \
+| grep "https://github.com/googlefonts/roboto-classic/releases/download/*" \
 | cut -d ":" -f 2,3 \
 | tr -d \"\, \
 | wget -i -
