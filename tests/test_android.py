@@ -4,16 +4,20 @@ from fontbakery.checkrunner import Section, PASS, FAIL, WARN
 from fontbakery.fonts_profile import profile_factory
 from tests.test_general import (
     is_italic,
+    include_features,
+    font_features,
     com_roboto_fonts_check_italic_angle,
     com_roboto_fonts_check_fs_type,
     com_roboto_fonts_check_vendorid,
     com_roboto_fonts_check_digit_widths,
     com_roboto_fonts_check_charset_coverage,
+    com_roboto_fonts_check_features,
 )
 
 profile = profile_factory(default_section=Section("Roboto android v3"))
 
 exclude_glyphs = frozenset([0x00A0])
+
 
 ROBOTO_PROFILE_CHECKS = [
     "com.roboto.fonts/check/vertical_metrics",
@@ -23,6 +27,7 @@ ROBOTO_PROFILE_CHECKS = [
     "com.roboto.fonts/check/digit_widths",
     "com.roboto.fonts/check/glyph_dont_round_to_grid",
     "com.roboto.fonts/check/charset_coverage",
+    "com.roboto.fonts/check/features",
 ]
 
 

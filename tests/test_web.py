@@ -6,11 +6,20 @@ from tests.test_general import (
     font_family,
     font_style,
     is_italic,
+    font_features,
     com_roboto_fonts_check_italic_angle,
     com_roboto_fonts_check_fs_type,
     com_roboto_fonts_check_vendorid,
     com_roboto_fonts_check_digit_widths,
+    com_roboto_fonts_check_features,
 )
+
+@condition
+def include_features():
+    return set([
+        'c2sc', 'ccmp', 'cpsp', 'dlig', 'dnom', 'frac', 'kern', 'liga', 'lnum',
+        'locl', 'numr', 'onum', 'pnum', 'smcp', 'ss01', 'ss02', 'ss03', 'ss04',
+        'ss05', 'ss06', 'ss07', 'tnum', 'sups', 'subs'])
 
 profile = profile_factory(default_section=Section("Roboto web v3"))
 
@@ -23,6 +32,7 @@ ROBOTO_PROFILE_CHECKS = [
     "com.roboto.fonts/check/fs_type",
     "com.roboto.fonts/check/vendorid",
     "com.roboto.fonts/check/digit_widths",
+    "com.roboto.fonts/check/features",
 ]
 
 
