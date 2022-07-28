@@ -56,6 +56,7 @@ ROBOTO_GENERAL_CHECKS += [
     "com.roboto.fonts/check/name_unique_id",
     "com.roboto.fonts/check/vertical_metrics",
     "com.roboto.fonts/check/cmap4",
+    "com.roboto.fonts/check/features",
 ]
 
 profile_imports = ('fontbakery.profiles.universal',)
@@ -72,6 +73,49 @@ def is_italic(ttFont):
 @condition
 def is_vf(ttFont):
     return True if "fvar" in ttFont else False
+
+
+@condition
+def font_features(ttFont):
+    if "GSUB" not in ttFont:
+        return []
+    gsub = set(f.FeatureTag for f in ttFont["GSUB"].table.FeatureList.FeatureRecord)
+    if "GPOS" not in ttFont:
+        return gsub
+    gpos = set(f.FeatureTag for f in ttFont["GPOS"].table.FeatureList.FeatureRecord)
+    return gsub | gpos
+
+
+@condition
+def include_features():
+    return frozenset(
+        [
+            'frac',
+            'subs',
+            'salt',
+            'numr',
+            'sups',
+            'unic',
+            'ccmp',
+            'c2sc',
+            'smcp',
+            'dnom',
+            'dlig',
+            'onum',
+            'lnum',
+            'tnum',
+            'ss06',
+            'ss07',
+            'ss02',
+            'ss01',
+            'ss04',
+            'liga',
+            'locl',
+            'ss05',
+            'pnum',
+            'ss03'
+        ]
+    )
 
 
 def font_style(ttFont):
@@ -275,6 +319,19 @@ def com_roboto_fonts_check_cmap4(ttFont):
         yield PASS, "Font contains a MS Unicode BMP encoded cmap"
     else:
         yield FAIL, "Font does not contain a MS Unicode BMP encoded cmap"
+
+
+@check(
+    id="com.roboto.fonts/check/features",
+)
+def com_roboto_fonts_check_features(font_features, include_features):
+    """Check font has correct features.
+    https://github.com/googlefonts/roboto-classic/issues/97"""
+    missing = include_features - font_features
+    if missing:
+        yield FAIL, f"Font is missing features {missing}"
+    else:
+        yield PASS, "Font has correct features"
 
 
 profile.auto_register(globals(), filter_func=filter_checks)
