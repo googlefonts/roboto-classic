@@ -6,10 +6,10 @@ from scripts import *
 
 def main(font_path):
     font = TTFont(font_path, recalcBBoxes=False)
+    glyf = font["glyf"]
     # turn off round-to-grid flags in certain problem components
     # https://github.com/google/roboto/issues/153
-    glyph_set = font.getGlyphSet()
-    ellipsis = glyph_set['ellipsis']._glyph
+    ellipsis = glyf['ellipsis']
     for component in ellipsis.components:
         component.flags &= ~(1 << 2)
 
