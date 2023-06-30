@@ -36,12 +36,14 @@ def update_attribs(font, **kwargs):
                 setattr(font[table], k, kwargs[k])
 
 
-def update_names(font, **kwargs):
+def update_names(font, rm_private=True, **kwargs):
     nametable = font["name"]
     for k in kwargs:
         print(f"Setting {k} to {kwargs[k]}")
         nametable.setName(kwargs[k], *tuple(map(int, k.split(","))))
 
+    if not rm_private:
+        return
     for name_id in range(256, 400):
         font['name'].removeNames(name_id)
 
