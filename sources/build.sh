@@ -49,6 +49,10 @@ python scripts/touchup_for_web.py $WEB_VF_PATH
 mkdir -p fonts/web/split
 python scripts/split_slnt_vf.py $WEB_VF_PATH fonts/web/split
 python scripts/instantiate_statics.py $WEB_VF_PATH fonts/web/static
+python scripts/instantiate_condensed.py \
+	fonts/web/split/Roboto[wdth,wght].ttf \
+	fonts/web/split/Roboto-Italic[wdth,wght].ttf \
+	fonts/web/condensed
 for font in $(ls fonts/web/static/*.ttf)
 do
 	python scripts/touchup_for_web.py $font;
