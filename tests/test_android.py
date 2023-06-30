@@ -58,9 +58,8 @@ def exclude_glyphs():
 def com_roboto_fonts_check_glyph_dont_round_to_grid(ttFont):
     """Test certain glyphs don't round to grid"""
     failed = False
-    glyphset = ttFont.getGlyphSet()
     for name in ["ellipsis"]:
-        glyph = glyphset[name]._glyph
+        glyph = ttFont["glyf"][name]
         for component in glyph.components:
             if component.flags & (1 << 2):
                 failed = True
