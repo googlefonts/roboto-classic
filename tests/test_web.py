@@ -5,7 +5,6 @@ from fontbakery.fonts_profile import profile_factory
 from tests.test_general import (
     font_family,
     font_style,
-    is_italic,
     font_features,
     com_roboto_fonts_check_italic_angle,
     com_roboto_fonts_check_fs_type,
@@ -13,6 +12,7 @@ from tests.test_general import (
     com_roboto_fonts_check_digit_widths,
     com_roboto_fonts_check_features,
 )
+from fontbakery.profiles.shared_conditions import is_italic
 
 @condition
 def include_features():
