@@ -3,7 +3,6 @@ from fontbakery.callable import condition
 from fontbakery.checkrunner import Section, PASS, FAIL, WARN
 from fontbakery.fonts_profile import profile_factory
 from tests.test_general import (
-    is_italic,
     include_features,
     font_features,
     com_roboto_fonts_check_italic_angle,
@@ -13,6 +12,8 @@ from tests.test_general import (
     com_roboto_fonts_check_charset_coverage,
     com_roboto_fonts_check_features,
 )
+from fontbakery.profiles.shared_conditions import is_italic
+
 
 profile = profile_factory(default_section=Section("Roboto android v3"))
 
@@ -57,9 +58,8 @@ def exclude_glyphs():
 def com_roboto_fonts_check_glyph_dont_round_to_grid(ttFont):
     """Test certain glyphs don't round to grid"""
     failed = False
-    glyphset = ttFont.getGlyphSet()
     for name in ["ellipsis"]:
-        glyph = glyphset[name]._glyph
+        glyph = ttFont["glyf"][name]
         for component in glyph.components:
             if component.flags & (1 << 2):
                 failed = True

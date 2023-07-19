@@ -9,8 +9,8 @@ AXES = [
         name="Width",
         ordering=0,
         values=[
-            dict(nominalValue=75, rangeMinValue=75, rangeMaxValue=87, name="Condensed"),
-            dict(nominalValue=100, rangeMinValue=87, rangeMaxValue=100, name="Normal", flags=0x2),
+            dict(value=75, name="Condensed"),
+            dict(value=100, name="Normal", flags=0x2),
         ],
     ),
     dict(
@@ -18,15 +18,15 @@ AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(nominalValue=100, rangeMinValue=100, rangeMaxValue=150, name="Thin"),
-            dict(nominalValue=200, rangeMinValue=150, rangeMaxValue=250, name="ExtraLight"),
-            dict(nominalValue=300, rangeMinValue=250, rangeMaxValue=350, name="Light"),
-            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450, name="Regular", flags=0x2),
-            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=650, name="Medium"),
-            dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=750, name="Bold"),
-            dict(nominalValue=800, rangeMinValue=750, rangeMaxValue=850, name="ExtraBold"),
-            dict(nominalValue=900, rangeMinValue=850, rangeMaxValue=900, name="Black"),
-            dict(value=400, name="Regular", flags=0x2, linkedValue=700),  # Regular
+            dict(value=100, name="Thin"),
+            dict(value=200, name="ExtraLight"),
+            dict(value=300, name="Light"),
+            dict(value=400, name="Regular", flags=0x2, linkedValue=700),
+            dict(value=500, name="Medium"),
+            dict(value=600, name="SemiBold"),
+            dict(value=700, name="Bold"),
+            dict(value=800, name="ExtraBold"),
+            dict(value=900, name="Black"),
         ],
     ),
     dict(
@@ -34,8 +34,8 @@ AXES = [
         name="Italic",
         ordering=2,
         values=[
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="Roman", flags=0x2),
-            dict(nominalValue=1, rangeMinValue=0.1, rangeMaxValue=1, name="Italic"),
+            dict(value=0, name="Roman", flags=0x2),
+            dict(value=1, name="Italic"),
         ],
     ),
 ]

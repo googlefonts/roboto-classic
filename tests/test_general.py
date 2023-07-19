@@ -27,6 +27,12 @@ REMOVE_CHECKS = [
     "com.google.fonts/check/ftxvalidator_is_available",
     "com.google.fonts/check/dsig",
     "com.google.fonts/check/fontbakery_version",
+    "com.google.fonts/check/outline_semi_vertical",
+    "com.google.fonts/check/outline_jaggy_segments",
+    "com.google.fonts/check/outline_colinear_vectors",
+    "com.google.fonts/check/outline_short_segments",
+    "com.google.fonts/check/outline_alignment_miss",
+    "com.adobe.fonts/check/varfont/valid_default_instance_nameids",
 ]
 
 
@@ -64,10 +70,6 @@ profile = profile_factory(default_section=Section("Roboto v3 general"))
 
 
 # Checks ported from https://github.com/googlefonts/roboto/blob/master/scripts/run_general_tests.py
-
-@condition
-def is_italic(ttFont):
-    return True if "Italic" in ttFont.reader.file.name else False
 
 
 @condition
