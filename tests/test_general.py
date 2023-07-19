@@ -237,8 +237,26 @@ def com_roboto_fonts_check_numr_mapped_to_supr(ttFont):
 def include_glyphs():
     return frozenset([
         0x2117,  # SOUND RECORDING COPYRIGHT
-        0xEE01, 0xEE02, 0xF6C3]
-    )  # legacy PUA
+        0xEE01, 0xEE02, 0xF6C3, # legacy PUA
+        # superior and inferior glyphs
+        0x2070,
+        0x2074,
+        0x2075,
+        0x2076,
+        0x2077,
+        0x2078,
+        0x2079,
+        0x2080,
+        0x2081,
+        0x2082,
+        0x2083,
+        0x2084,
+        0x2085,
+        0x2086,
+        0x2087,
+        0x2088,
+        0x2089,
+    ])
 
 
 @condition

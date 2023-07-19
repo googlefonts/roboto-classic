@@ -11,8 +11,35 @@ from tests.test_general import (
     com_roboto_fonts_check_vendorid,
     com_roboto_fonts_check_digit_widths,
     com_roboto_fonts_check_features,
+    com_roboto_fonts_check_charset_coverage,
+    exclude_glyphs,
 )
 from fontbakery.profiles.shared_conditions import is_italic
+
+
+@condition
+def include_glyphs():
+    # Ensure superior and inferior figures are included
+    # https://github.com/googlefonts/roboto-classic/issues/97
+    return frozenset([
+        0x2070,
+        0x2074,
+        0x2075,
+        0x2076,
+        0x2077,
+        0x2078,
+        0x2079,
+        0x2080,
+        0x2081,
+        0x2082,
+        0x2083,
+        0x2084,
+        0x2085,
+        0x2086,
+        0x2087,
+        0x2088,
+        0x2089,
+    ])
 
 @condition
 def include_features():
@@ -33,6 +60,7 @@ ROBOTO_PROFILE_CHECKS = [
     "com.roboto.fonts/check/vendorid",
     "com.roboto.fonts/check/digit_widths",
     "com.roboto.fonts/check/features",
+    "com.roboto.fonts/check/charset_coverage",
 ]
 
 
