@@ -177,7 +177,7 @@ def com_roboto_fonts_check_vendorid(ttFont):
 )
 def com_roboto_fonts_check_copyright(ttFont):
     """Check font copyright is correct"""
-    expected_copyright = "Copyright 2011 Google Inc. All Rights Reserved."
+    expected_copyright = "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)"
     copyright_record = ttFont['name'].getName(0, 3, 1, 1033).toUnicode()
     if copyright_record == expected_copyright:
         yield PASS, "Copyright is correct"
