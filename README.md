@@ -44,4 +44,4 @@ Warning: vttLib doesn't support transformed composites. Please ensure source fil
 
 # License
 
-Both fonts and software found in this repo are all available under the Apache License v2.0
+Both fonts and software found in this repo are all available under the OFL License v1.1
